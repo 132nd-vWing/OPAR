@@ -10604,7 +10604,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 81.093405930026,
+                                            ["ETA"] = 124.13497708905,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -10624,8 +10624,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 131518.92127223,
-                                            ["y"] = -524150.5817733,
+                                            ["x"] = 124294.18760424,
+                                            ["y"] = -521497.95788506,
                                         }, -- end of [2]
                                         [3] =
                                         {
@@ -10695,7 +10695,7 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 107,
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 1.915063195185,
+                                        ["heading"] = 2.2646705451082,
                                         ["livery_id"] = "t-10k-1 test paint scheme",
                                         ["name"] = "DictKey_UnitName_734",
                                         ["onboard_num"] = "016",
@@ -10759,7 +10759,7 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.915063195185,
+                                        ["psi"] = -2.2646705451082,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
@@ -10920,7 +10920,7 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 107,
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 1.9152636186395,
+                                        ["heading"] = 1.9152636186391,
                                         ["livery_id"] = "t-10k-1 test paint scheme",
                                         ["name"] = "DictKey_UnitName_742",
                                         ["onboard_num"] = "016",
@@ -10984,7 +10984,7 @@ mission =
                                                 }, -- end of [12]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.9152636186395,
+                                        ["psi"] = -1.9152636186391,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Su-33",
@@ -14004,7 +14004,7 @@ mission =
             [18] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 10327,
+    ["currentKey"] = 11397,
     ["date"] =
     {
         ["Day"] = 21,
@@ -14057,9 +14057,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 135253.48634961,
-        ["centerY"] = -534780.29209899,
-        ["zoom"] = 774.0464213714,
+        ["centerX"] = 117146.69736019,
+        ["centerY"] = -498948.12950948,
+        ["zoom"] = 704682.13673677,
     }, -- end of ["map"]
     ["maxDictId"] = 746,
     ["pictureFileNameB"] =
