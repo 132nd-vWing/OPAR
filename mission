@@ -1605,6 +1605,2406 @@ mission =
                                 ["x"] = -157948.08537638,
                                 ["y"] = 55283.505869285,
                             }, -- end of [10]
+                            [11] =
+                            {
+                                ["groupId"] = 98,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_456",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 356,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_458",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 5,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 148604.91986303,
+                                            ["y"] = 311730.33268986,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 148604.91986303,
+                                                ["y"] = 311730.33268986,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 148482.79604419,
+                                                ["y"] = 311672.28280288,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 3.5853153635167,
+                                        ["name"] = "DictKey_UnitName_457",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "InsurgentPickUp",
+                                        ["unitId"] = 134,
+                                        ["x"] = 148604.91986303,
+                                        ["y"] = 311730.33268986,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 148604.91986303,
+                                ["y"] = 311730.33268986,
+                            }, -- end of [11]
+                            [12] =
+                            {
+                                ["groupId"] = 117,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_514",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 636,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_516",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 2,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -166703.0023202,
+                                            ["y"] = 41909.4304808,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_515",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "InsurgentPickUp",
+                                        ["unitId"] = 153,
+                                        ["x"] = -166703.0023202,
+                                        ["y"] = 41909.4304808,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -166703.0023202,
+                                ["y"] = 41909.4304808,
+                            }, -- end of [12]
+                            [13] =
+                            {
+                                ["groupId"] = 118,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_517",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 752,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_519",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 3,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -162766.73833604,
+                                            ["y"] = 35330.728716603,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_518",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "InsurgentPickUp",
+                                        ["unitId"] = 154,
+                                        ["x"] = -162766.73833604,
+                                        ["y"] = 35330.728716603,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -162766.73833604,
+                                ["y"] = 35330.728716603,
+                            }, -- end of [13]
+                            [14] =
+                            {
+                                ["groupId"] = 130,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_555",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 234,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_557",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 4,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 85279.806849115,
+                                            ["y"] = 38750.09086368,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_556",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 166,
+                                        ["wagons"] =
+                                        {
+                                        }, -- end of ["wagons"]
+                                        ["x"] = 85279.806849115,
+                                        ["y"] = 38750.09086368,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 85279.806849115,
+                                ["y"] = 38750.09086368,
+                            }, -- end of [14]
+                            [15] =
+                            {
+                                ["groupId"] = 131,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_558",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 234,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_560",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 6,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 85807.12371227,
+                                            ["y"] = 38595.917713011,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_559",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 167,
+                                        ["wagons"] =
+                                        {
+                                        }, -- end of ["wagons"]
+                                        ["x"] = 85807.12371227,
+                                        ["y"] = 38595.917713011,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 85807.12371227,
+                                ["y"] = 38595.917713011,
+                            }, -- end of [15]
+                            [16] =
+                            {
+                                ["groupId"] = 136,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_576",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 490,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_578",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 19,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -39041.540603558,
+                                            ["y"] = 69734.074367226,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_577",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 172,
+                                        ["x"] = -39041.540603558,
+                                        ["y"] = 69734.074367226,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -39041.540603558,
+                                ["y"] = 69734.074367226,
+                            }, -- end of [16]
+                            [17] =
+                            {
+                                ["groupId"] = 137,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_579",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "On Railroads",
+                                            ["alt"] = 498,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_581",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "On Railroads",
+                                            ["x"] = -38541.928013652,
+                                            ["y"] = 70112.260934149,
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 8876.3873160434,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "On Railroads",
+                                            ["alt"] = 304,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_582",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "On Railroads",
+                                            ["x"] = 10437.736249806,
+                                            ["y"] = 75534.204509295,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = -38543.265924173,
+                                                ["y"] = 70113.814179364,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = -37622.19908372,
+                                                ["y"] = 70906.166492269,
+                                            }, -- end of [2]
+                                            [3] =
+                                            {
+                                                ["x"] = -37614.035343389,
+                                                ["y"] = 70911.934863263,
+                                            }, -- end of [3]
+                                            [4] =
+                                            {
+                                                ["x"] = -37605.428172611,
+                                                ["y"] = 70917.017980369,
+                                            }, -- end of [4]
+                                            [5] =
+                                            {
+                                                ["x"] = -37596.423276107,
+                                                ["y"] = 70921.36254954,
+                                            }, -- end of [5]
+                                            [6] =
+                                            {
+                                                ["x"] = -37587.115027105,
+                                                ["y"] = 70925.009677283,
+                                            }, -- end of [6]
+                                            [7] =
+                                            {
+                                                ["x"] = -37563.444660574,
+                                                ["y"] = 70933.01954823,
+                                            }, -- end of [7]
+                                            [8] =
+                                            {
+                                                ["x"] = -37558.97944017,
+                                                ["y"] = 70935.261610737,
+                                            }, -- end of [8]
+                                            [9] =
+                                            {
+                                                ["x"] = -37554.7002928,
+                                                ["y"] = 70937.844218399,
+                                            }, -- end of [9]
+                                            [10] =
+                                            {
+                                                ["x"] = -37541.947728452,
+                                                ["y"] = 70945.742793366,
+                                            }, -- end of [10]
+                                            [11] =
+                                            {
+                                                ["x"] = -37533.047229516,
+                                                ["y"] = 70950.292014459,
+                                            }, -- end of [11]
+                                            [12] =
+                                            {
+                                                ["x"] = -37519.240607898,
+                                                ["y"] = 70956.149689766,
+                                            }, -- end of [12]
+                                            [13] =
+                                            {
+                                                ["x"] = -37500.424961053,
+                                                ["y"] = 70962.923575699,
+                                            }, -- end of [13]
+                                            [14] =
+                                            {
+                                                ["x"] = -37476.521109725,
+                                                ["y"] = 70970.237166477,
+                                            }, -- end of [14]
+                                            [15] =
+                                            {
+                                                ["x"] = -37452.301273074,
+                                                ["y"] = 70976.422831223,
+                                            }, -- end of [15]
+                                            [16] =
+                                            {
+                                                ["x"] = -37442.498152677,
+                                                ["y"] = 70978.391443793,
+                                            }, -- end of [16]
+                                            [17] =
+                                            {
+                                                ["x"] = -37432.58249474,
+                                                ["y"] = 70979.655890318,
+                                            }, -- end of [17]
+                                            [18] =
+                                            {
+                                                ["x"] = -37387.65057086,
+                                                ["y"] = 70982.087312045,
+                                            }, -- end of [18]
+                                            [19] =
+                                            {
+                                                ["x"] = -37372.65315281,
+                                                ["y"] = 70982.013723879,
+                                            }, -- end of [19]
+                                            [20] =
+                                            {
+                                                ["x"] = -37352.696086638,
+                                                ["y"] = 70980.74382786,
+                                            }, -- end of [20]
+                                            [21] =
+                                            {
+                                                ["x"] = -37327.871788522,
+                                                ["y"] = 70977.810414081,
+                                            }, -- end of [21]
+                                            [22] =
+                                            {
+                                                ["x"] = -37303.23663895,
+                                                ["y"] = 70973.57212217,
+                                            }, -- end of [22]
+                                            [23] =
+                                            {
+                                                ["x"] = -37283.723666857,
+                                                ["y"] = 70969.193693054,
+                                            }, -- end of [23]
+                                            [24] =
+                                            {
+                                                ["x"] = -37264.464937025,
+                                                ["y"] = 70963.809612094,
+                                            }, -- end of [24]
+                                            [25] =
+                                            {
+                                                ["x"] = -37245.524059595,
+                                                ["y"] = 70957.394274225,
+                                            }, -- end of [25]
+                                            [26] =
+                                            {
+                                                ["x"] = -37226.926965384,
+                                                ["y"] = 70950.041018983,
+                                            }, -- end of [26]
+                                            [27] =
+                                            {
+                                                ["x"] = -37208.709745475,
+                                                ["y"] = 70941.791615995,
+                                            }, -- end of [27]
+                                            [28] =
+                                            {
+                                                ["x"] = -37190.944469707,
+                                                ["y"] = 70932.610544638,
+                                            }, -- end of [28]
+                                            [29] =
+                                            {
+                                                ["x"] = -37177.999322497,
+                                                ["y"] = 70925.035617386,
+                                            }, -- end of [29]
+                                            [30] =
+                                            {
+                                                ["x"] = -37165.460730244,
+                                                ["y"] = 70916.805900917,
+                                            }, -- end of [30]
+                                            [31] =
+                                            {
+                                                ["x"] = -37153.416950197,
+                                                ["y"] = 70907.868387128,
+                                            }, -- end of [31]
+                                            [32] =
+                                            {
+                                                ["x"] = -37145.750969172,
+                                                ["y"] = 70901.448970198,
+                                            }, -- end of [32]
+                                            [33] =
+                                            {
+                                                ["x"] = -37123.442139223,
+                                                ["y"] = 70881.401836407,
+                                            }, -- end of [33]
+                                            [34] =
+                                            {
+                                                ["x"] = -37119.387605002,
+                                                ["y"] = 70878.479224577,
+                                            }, -- end of [34]
+                                            [35] =
+                                            {
+                                                ["x"] = -37115.176570095,
+                                                ["y"] = 70875.782541373,
+                                            }, -- end of [35]
+                                            [36] =
+                                            {
+                                                ["x"] = -37089.625562642,
+                                                ["y"] = 70860.094982741,
+                                            }, -- end of [36]
+                                            [37] =
+                                            {
+                                                ["x"] = -37081.78842175,
+                                                ["y"] = 70853.886683882,
+                                            }, -- end of [37]
+                                            [38] =
+                                            {
+                                                ["x"] = -37074.500501137,
+                                                ["y"] = 70847.045111159,
+                                            }, -- end of [38]
+                                            [39] =
+                                            {
+                                                ["x"] = -37067.722106938,
+                                                ["y"] = 70839.696894638,
+                                            }, -- end of [39]
+                                            [40] =
+                                            {
+                                                ["x"] = -37058.167805914,
+                                                ["y"] = 70828.133609026,
+                                            }, -- end of [40]
+                                            [41] =
+                                            {
+                                                ["x"] = -36570.207881845,
+                                                ["y"] = 70200.551117785,
+                                            }, -- end of [41]
+                                            [42] =
+                                            {
+                                                ["x"] = -36564.747105561,
+                                                ["y"] = 70192.17614542,
+                                            }, -- end of [42]
+                                            [43] =
+                                            {
+                                                ["x"] = -36530.46658891,
+                                                ["y"] = 70136.959829537,
+                                            }, -- end of [43]
+                                            [44] =
+                                            {
+                                                ["x"] = -36499.129367679,
+                                                ["y"] = 70091.783873173,
+                                            }, -- end of [44]
+                                            [45] =
+                                            {
+                                                ["x"] = -36491.85464466,
+                                                ["y"] = 70078.668970014,
+                                            }, -- end of [45]
+                                            [46] =
+                                            {
+                                                ["x"] = -36483.247534025,
+                                                ["y"] = 70060.618577047,
+                                            }, -- end of [46]
+                                            [47] =
+                                            {
+                                                ["x"] = -36464.43616328,
+                                                ["y"] = 70014.296907123,
+                                            }, -- end of [47]
+                                            [48] =
+                                            {
+                                                ["x"] = -36420.791327764,
+                                                ["y"] = 69897.174941757,
+                                            }, -- end of [48]
+                                            [49] =
+                                            {
+                                                ["x"] = -36407.639663794,
+                                                ["y"] = 69854.144864879,
+                                            }, -- end of [49]
+                                            [50] =
+                                            {
+                                                ["x"] = -36395.529799461,
+                                                ["y"] = 69805.638678061,
+                                            }, -- end of [50]
+                                            [51] =
+                                            {
+                                                ["x"] = -36382.502246319,
+                                                ["y"] = 69741.964734017,
+                                            }, -- end of [51]
+                                            [52] =
+                                            {
+                                                ["x"] = -36372.013193021,
+                                                ["y"] = 69672.761630547,
+                                            }, -- end of [52]
+                                            [53] =
+                                            {
+                                                ["x"] = -36365.419932283,
+                                                ["y"] = 69608.103876225,
+                                            }, -- end of [53]
+                                            [54] =
+                                            {
+                                                ["x"] = -36277.514245595,
+                                                ["y"] = 68110.715548499,
+                                            }, -- end of [54]
+                                            [55] =
+                                            {
+                                                ["x"] = -36275.84222602,
+                                                ["y"] = 68100.859322975,
+                                            }, -- end of [55]
+                                            [56] =
+                                            {
+                                                ["x"] = -36273.435104447,
+                                                ["y"] = 68091.15762036,
+                                            }, -- end of [56]
+                                            [57] =
+                                            {
+                                                ["x"] = -36270.198572216,
+                                                ["y"] = 68081.698055828,
+                                            }, -- end of [57]
+                                            [58] =
+                                            {
+                                                ["x"] = -36266.237982344,
+                                                ["y"] = 68072.518464107,
+                                            }, -- end of [58]
+                                            [59] =
+                                            {
+                                                ["x"] = -36255.447277972,
+                                                ["y"] = 68049.976829206,
+                                            }, -- end of [59]
+                                            [60] =
+                                            {
+                                                ["x"] = -36251.918589845,
+                                                ["y"] = 68040.620581489,
+                                            }, -- end of [60]
+                                            [61] =
+                                            {
+                                                ["x"] = -36248.869577843,
+                                                ["y"] = 68031.098275987,
+                                            }, -- end of [61]
+                                            [62] =
+                                            {
+                                                ["x"] = -36241.333801083,
+                                                ["y"] = 68007.26629131,
+                                            }, -- end of [62]
+                                            [63] =
+                                            {
+                                                ["x"] = -36237.664657824,
+                                                ["y"] = 67997.965137555,
+                                            }, -- end of [63]
+                                            [64] =
+                                            {
+                                                ["x"] = -36233.533228206,
+                                                ["y"] = 67988.859401036,
+                                            }, -- end of [64]
+                                            [65] =
+                                            {
+                                                ["x"] = -36228.950772616,
+                                                ["y"] = 67979.972668065,
+                                            }, -- end of [65]
+                                            [66] =
+                                            {
+                                                ["x"] = -36221.367903405,
+                                                ["y"] = 67967.032785784,
+                                            }, -- end of [66]
+                                            [67] =
+                                            {
+                                                ["x"] = -36210.282599469,
+                                                ["y"] = 67950.389402298,
+                                            }, -- end of [67]
+                                            [68] =
+                                            {
+                                                ["x"] = -36198.308787726,
+                                                ["y"] = 67934.372506076,
+                                            }, -- end of [68]
+                                            [69] =
+                                            {
+                                                ["x"] = -36185.522343858,
+                                                ["y"] = 67918.996656142,
+                                            }, -- end of [69]
+                                            [70] =
+                                            {
+                                                ["x"] = -36171.880013691,
+                                                ["y"] = 67904.376410571,
+                                            }, -- end of [70]
+                                            [71] =
+                                            {
+                                                ["x"] = -36161.035886968,
+                                                ["y"] = 67894.015063708,
+                                            }, -- end of [71]
+                                            [72] =
+                                            {
+                                                ["x"] = -36149.671175439,
+                                                ["y"] = 67884.227798674,
+                                            }, -- end of [72]
+                                            [73] =
+                                            {
+                                                ["x"] = -36137.812708616,
+                                                ["y"] = 67875.0449047,
+                                            }, -- end of [73]
+                                            [74] =
+                                            {
+                                                ["x"] = -36125.505216993,
+                                                ["y"] = 67866.472741927,
+                                            }, -- end of [74]
+                                            [75] =
+                                            {
+                                                ["x"] = -36108.501084143,
+                                                ["y"] = 67855.949085834,
+                                            }, -- end of [75]
+                                            [76] =
+                                            {
+                                                ["x"] = -36090.94399119,
+                                                ["y"] = 67846.375393143,
+                                            }, -- end of [76]
+                                            [77] =
+                                            {
+                                                ["x"] = -36072.90873098,
+                                                ["y"] = 67837.73612006,
+                                            }, -- end of [77]
+                                            [78] =
+                                            {
+                                                ["x"] = -36054.427387645,
+                                                ["y"] = 67830.098801253,
+                                            }, -- end of [78]
+                                            [79] =
+                                            {
+                                                ["x"] = -36040.271269898,
+                                                ["y"] = 67825.143852873,
+                                            }, -- end of [79]
+                                            [80] =
+                                            {
+                                                ["x"] = -36025.868089121,
+                                                ["y"] = 67820.961798477,
+                                            }, -- end of [80]
+                                            [81] =
+                                            {
+                                                ["x"] = -35991.700906022,
+                                                ["y"] = 67813.385539938,
+                                            }, -- end of [81]
+                                            [82] =
+                                            {
+                                                ["x"] = -35957.269013787,
+                                                ["y"] = 67807.131157554,
+                                            }, -- end of [82]
+                                            [83] =
+                                            {
+                                                ["x"] = -35937.410330916,
+                                                ["y"] = 67804.786824423,
+                                            }, -- end of [83]
+                                            [84] =
+                                            {
+                                                ["x"] = -35902.477604918,
+                                                ["y"] = 67802.674647276,
+                                            }, -- end of [84]
+                                            [85] =
+                                            {
+                                                ["x"] = -35817.525922879,
+                                                ["y"] = 67800.110129965,
+                                            }, -- end of [85]
+                                            [86] =
+                                            {
+                                                ["x"] = -35712.864092481,
+                                                ["y"] = 67808.470935987,
+                                            }, -- end of [86]
+                                            [87] =
+                                            {
+                                                ["x"] = -35618.472983434,
+                                                ["y"] = 67819.112871977,
+                                            }, -- end of [87]
+                                            [88] =
+                                            {
+                                                ["x"] = -34283.944063728,
+                                                ["y"] = 67986.310393568,
+                                            }, -- end of [88]
+                                            [89] =
+                                            {
+                                                ["x"] = -34229.075406836,
+                                                ["y"] = 67990.017759398,
+                                            }, -- end of [89]
+                                            [90] =
+                                            {
+                                                ["x"] = -34139.114187668,
+                                                ["y"] = 67992.370286812,
+                                            }, -- end of [90]
+                                            [91] =
+                                            {
+                                                ["x"] = -34029.168261397,
+                                                ["y"] = 67989.130718319,
+                                            }, -- end of [91]
+                                            [92] =
+                                            {
+                                                ["x"] = -34019.22833963,
+                                                ["y"] = 67988.046091959,
+                                            }, -- end of [92]
+                                            [93] =
+                                            {
+                                                ["x"] = -33979.779844814,
+                                                ["y"] = 67981.446047627,
+                                            }, -- end of [93]
+                                            [94] =
+                                            {
+                                                ["x"] = -33901.298618618,
+                                                ["y"] = 67965.98166002,
+                                            }, -- end of [94]
+                                            [95] =
+                                            {
+                                                ["x"] = -33819.179676025,
+                                                ["y"] = 67944.059557815,
+                                            }, -- end of [95]
+                                            [96] =
+                                            {
+                                                ["x"] = -33785.794465234,
+                                                ["y"] = 67933.563915935,
+                                            }, -- end of [96]
+                                            [97] =
+                                            {
+                                                ["x"] = -33720.056577711,
+                                                ["y"] = 67909.527405346,
+                                            }, -- end of [97]
+                                            [98] =
+                                            {
+                                                ["x"] = -33651.162857374,
+                                                ["y"] = 67879.903238446,
+                                            }, -- end of [98]
+                                            [99] =
+                                            {
+                                                ["x"] = -33610.631939962,
+                                                ["y"] = 67860.363646311,
+                                            }, -- end of [99]
+                                            [100] =
+                                            {
+                                                ["x"] = -30674.563761295,
+                                                ["y"] = 66196.188737898,
+                                            }, -- end of [100]
+                                            [101] =
+                                            {
+                                                ["x"] = -30637.785664191,
+                                                ["y"] = 66180.472078228,
+                                            }, -- end of [101]
+                                            [102] =
+                                            {
+                                                ["x"] = -30567.262000669,
+                                                ["y"] = 66154.971210692,
+                                            }, -- end of [102]
+                                            [103] =
+                                            {
+                                                ["x"] = -30529.155190828,
+                                                ["y"] = 66142.82720497,
+                                            }, -- end of [103]
+                                            [104] =
+                                            {
+                                                ["x"] = -30504.937286546,
+                                                ["y"] = 66136.632809015,
+                                            }, -- end of [104]
+                                            [105] =
+                                            {
+                                                ["x"] = -30446.216619339,
+                                                ["y"] = 66124.326421803,
+                                            }, -- end of [105]
+                                            [106] =
+                                            {
+                                                ["x"] = -30426.456033209,
+                                                ["y"] = 66121.257420549,
+                                            }, -- end of [106]
+                                            [107] =
+                                            {
+                                                ["x"] = -30406.548684808,
+                                                ["y"] = 66119.367296512,
+                                            }, -- end of [107]
+                                            [108] =
+                                            {
+                                                ["x"] = -30341.595682365,
+                                                ["y"] = 66116.996416656,
+                                            }, -- end of [108]
+                                            [109] =
+                                            {
+                                                ["x"] = -30291.60114067,
+                                                ["y"] = 66117.095967737,
+                                            }, -- end of [109]
+                                            [110] =
+                                            {
+                                                ["x"] = -30256.656279497,
+                                                ["y"] = 66118.989184864,
+                                            }, -- end of [110]
+                                            [111] =
+                                            {
+                                                ["x"] = -30221.856220054,
+                                                ["y"] = 66122.692975582,
+                                            }, -- end of [111]
+                                            [112] =
+                                            {
+                                                ["x"] = -30182.316731697,
+                                                ["y"] = 66128.72614257,
+                                            }, -- end of [112]
+                                            [113] =
+                                            {
+                                                ["x"] = -30138.260465621,
+                                                ["y"] = 66137.86914242,
+                                            }, -- end of [113]
+                                            [114] =
+                                            {
+                                                ["x"] = -25851.304248274,
+                                                ["y"] = 67233.846721837,
+                                            }, -- end of [114]
+                                            [115] =
+                                            {
+                                                ["x"] = -25806.828952598,
+                                                ["y"] = 67240.664267538,
+                                            }, -- end of [115]
+                                            [116] =
+                                            {
+                                                ["x"] = -25747.126263829,
+                                                ["y"] = 67246.567985377,
+                                            }, -- end of [116]
+                                            [117] =
+                                            {
+                                                ["x"] = -25692.210608911,
+                                                ["y"] = 67249.497596364,
+                                            }, -- end of [117]
+                                            [118] =
+                                            {
+                                                ["x"] = -25627.216623656,
+                                                ["y"] = 67249.476365458,
+                                            }, -- end of [118]
+                                            [119] =
+                                            {
+                                                ["x"] = -25567.296719741,
+                                                ["y"] = 67246.511395043,
+                                            }, -- end of [119]
+                                            [120] =
+                                            {
+                                                ["x"] = -25527.48805764,
+                                                ["y"] = 67242.656207055,
+                                            }, -- end of [120]
+                                            [121] =
+                                            {
+                                                ["x"] = -25404.105170821,
+                                                ["y"] = 67222.67747698,
+                                            }, -- end of [121]
+                                            [122] =
+                                            {
+                                                ["x"] = -23498.805472062,
+                                                ["y"] = 66915.467287565,
+                                            }, -- end of [122]
+                                            [123] =
+                                            {
+                                                ["x"] = -23389.407688249,
+                                                ["y"] = 66904.081590591,
+                                            }, -- end of [123]
+                                            [124] =
+                                            {
+                                                ["x"] = -17684.937010163,
+                                                ["y"] = 66654.117347348,
+                                            }, -- end of [124]
+                                            [125] =
+                                            {
+                                                ["x"] = -17644.943265243,
+                                                ["y"] = 66653.891213537,
+                                            }, -- end of [125]
+                                            [126] =
+                                            {
+                                                ["x"] = -17604.997938638,
+                                                ["y"] = 66655.896640572,
+                                            }, -- end of [126]
+                                            [127] =
+                                            {
+                                                ["x"] = -17545.291661422,
+                                                ["y"] = 66661.776183292,
+                                            }, -- end of [127]
+                                            [128] =
+                                            {
+                                                ["x"] = -17500.780780975,
+                                                ["y"] = 66668.355071534,
+                                            }, -- end of [128]
+                                            [129] =
+                                            {
+                                                ["x"] = -17471.387384578,
+                                                ["y"] = 66674.342101967,
+                                            }, -- end of [129]
+                                            [130] =
+                                            {
+                                                ["x"] = -17437.500126442,
+                                                ["y"] = 66683.081353111,
+                                            }, -- end of [130]
+                                            [131] =
+                                            {
+                                                ["x"] = -17370.779428945,
+                                                ["y"] = 66704.23335148,
+                                            }, -- end of [131]
+                                            [132] =
+                                            {
+                                                ["x"] = -17248.20564363,
+                                                ["y"] = 66747.51444234,
+                                            }, -- end of [132]
+                                            [133] =
+                                            {
+                                                ["x"] = -17220.577618153,
+                                                ["y"] = 66759.197002706,
+                                            }, -- end of [133]
+                                            [134] =
+                                            {
+                                                ["x"] = -17184.594448258,
+                                                ["y"] = 66776.658730371,
+                                            }, -- end of [134]
+                                            [135] =
+                                            {
+                                                ["x"] = -16824.406448721,
+                                                ["y"] = 66972.256497796,
+                                            }, -- end of [135]
+                                            [136] =
+                                            {
+                                                ["x"] = -16700.452345839,
+                                                ["y"] = 67025.716699479,
+                                            }, -- end of [136]
+                                            [137] =
+                                            {
+                                                ["x"] = -16658.169997055,
+                                                ["y"] = 67041.104354623,
+                                            }, -- end of [137]
+                                            [138] =
+                                            {
+                                                ["x"] = -16605.675205921,
+                                                ["y"] = 67057.49854065,
+                                            }, -- end of [138]
+                                            [139] =
+                                            {
+                                                ["x"] = -16566.954693845,
+                                                ["y"] = 67067.516945154,
+                                            }, -- end of [139]
+                                            [140] =
+                                            {
+                                                ["x"] = -16513.051888678,
+                                                ["y"] = 67078.420338621,
+                                            }, -- end of [140]
+                                            [141] =
+                                            {
+                                                ["x"] = -16384.691211156,
+                                                ["y"] = 67098.960000097,
+                                            }, -- end of [141]
+                                            [142] =
+                                            {
+                                                ["x"] = -16339.941849423,
+                                                ["y"] = 67103.660534045,
+                                            }, -- end of [142]
+                                            [143] =
+                                            {
+                                                ["x"] = -16220.112417217,
+                                                ["y"] = 67109.850879359,
+                                            }, -- end of [143]
+                                            [144] =
+                                            {
+                                                ["x"] = -15440.5316904,
+                                                ["y"] = 67134.243560008,
+                                            }, -- end of [144]
+                                            [145] =
+                                            {
+                                                ["x"] = -15390.844076831,
+                                                ["y"] = 67139.778157525,
+                                            }, -- end of [145]
+                                            [146] =
+                                            {
+                                                ["x"] = -15341.474625977,
+                                                ["y"] = 67147.664746964,
+                                            }, -- end of [146]
+                                            [147] =
+                                            {
+                                                ["x"] = -15282.795298697,
+                                                ["y"] = 67160.155085162,
+                                            }, -- end of [147]
+                                            [148] =
+                                            {
+                                                ["x"] = -15219.75772512,
+                                                ["y"] = 67175.98117939,
+                                            }, -- end of [148]
+                                            [149] =
+                                            {
+                                                ["x"] = -15191.170324668,
+                                                ["y"] = 67185.068628502,
+                                            }, -- end of [149]
+                                            [150] =
+                                            {
+                                                ["x"] = -15144.371914919,
+                                                ["y"] = 67202.657182838,
+                                            }, -- end of [150]
+                                            [151] =
+                                            {
+                                                ["x"] = -15075.39380749,
+                                                ["y"] = 67232.08182931,
+                                            }, -- end of [151]
+                                            [152] =
+                                            {
+                                                ["x"] = -15008.081356719,
+                                                ["y"] = 67265.14133009,
+                                            }, -- end of [152]
+                                            [153] =
+                                            {
+                                                ["x"] = -14946.703682499,
+                                                ["y"] = 67298.784122872,
+                                            }, -- end of [153]
+                                            [154] =
+                                            {
+                                                ["x"] = -14904.160328211,
+                                                ["y"] = 67325.042900763,
+                                            }, -- end of [154]
+                                            [155] =
+                                            {
+                                                ["x"] = -14871.059228364,
+                                                ["y"] = 67347.492415712,
+                                            }, -- end of [155]
+                                            [156] =
+                                            {
+                                                ["x"] = -14835.375133924,
+                                                ["y"] = 67374.901312269,
+                                            }, -- end of [156]
+                                            [157] =
+                                            {
+                                                ["x"] = -14560.90085274,
+                                                ["y"] = 67599.966670669,
+                                            }, -- end of [157]
+                                            [158] =
+                                            {
+                                                ["x"] = -14536.197393594,
+                                                ["y"] = 67616.983367968,
+                                            }, -- end of [158]
+                                            [159] =
+                                            {
+                                                ["x"] = -14506.320528482,
+                                                ["y"] = 67635.207168,
+                                            }, -- end of [159]
+                                            [160] =
+                                            {
+                                                ["x"] = -14467.023809333,
+                                                ["y"] = 67657.122085718,
+                                            }, -- end of [160]
+                                            [161] =
+                                            {
+                                                ["x"] = -14444.486110177,
+                                                ["y"] = 67667.935118839,
+                                            }, -- end of [161]
+                                            [162] =
+                                            {
+                                                ["x"] = -14426.039370793,
+                                                ["y"] = 67675.657944873,
+                                            }, -- end of [162]
+                                            [163] =
+                                            {
+                                                ["x"] = -14407.219959724,
+                                                ["y"] = 67682.421197312,
+                                            }, -- end of [163]
+                                            [164] =
+                                            {
+                                                ["x"] = -14364.195083809,
+                                                ["y"] = 67695.590660847,
+                                            }, -- end of [164]
+                                            [165] =
+                                            {
+                                                ["x"] = -14310.881639708,
+                                                ["y"] = 67709.085534304,
+                                            }, -- end of [165]
+                                            [166] =
+                                            {
+                                                ["x"] = -14276.576600402,
+                                                ["y"] = 67716.004268003,
+                                            }, -- end of [166]
+                                            [167] =
+                                            {
+                                                ["x"] = -14251.826675366,
+                                                ["y"] = 67719.505738838,
+                                            }, -- end of [167]
+                                            [168] =
+                                            {
+                                                ["x"] = -14231.896711204,
+                                                ["y"] = 67721.144827063,
+                                            }, -- end of [168]
+                                            [169] =
+                                            {
+                                                ["x"] = -14206.908316916,
+                                                ["y"] = 67721.822223171,
+                                            }, -- end of [169]
+                                            [170] =
+                                            {
+                                                ["x"] = -14181.914710089,
+                                                ["y"] = 67721.397660159,
+                                            }, -- end of [170]
+                                            [171] =
+                                            {
+                                                ["x"] = -14161.961408004,
+                                                ["y"] = 67720.058660112,
+                                            }, -- end of [171]
+                                            [172] =
+                                            {
+                                                ["x"] = -14142.112261223,
+                                                ["y"] = 67717.633204389,
+                                            }, -- end of [172]
+                                            [173] =
+                                            {
+                                                ["x"] = -14127.371387408,
+                                                ["y"] = 67714.872063131,
+                                            }, -- end of [173]
+                                            [174] =
+                                            {
+                                                ["x"] = -14112.83450235,
+                                                ["y"] = 67711.182246956,
+                                            }, -- end of [174]
+                                            [175] =
+                                            {
+                                                ["x"] = -14098.546236823,
+                                                ["y"] = 67706.62303053,
+                                            }, -- end of [175]
+                                            [176] =
+                                            {
+                                                ["x"] = -13860.441153738,
+                                                ["y"] = 67615.366768991,
+                                            }, -- end of [176]
+                                            [177] =
+                                            {
+                                                ["x"] = -13796.077768327,
+                                                ["y"] = 67587.868257453,
+                                            }, -- end of [177]
+                                            [178] =
+                                            {
+                                                ["x"] = -13547.411114038,
+                                                ["y"] = 67470.596289119,
+                                            }, -- end of [178]
+                                            [179] =
+                                            {
+                                                ["x"] = -13392.661751589,
+                                                ["y"] = 67413.388929532,
+                                            }, -- end of [179]
+                                            [180] =
+                                            {
+                                                ["x"] = -13145.719345402,
+                                                ["y"] = 67332.092758334,
+                                            }, -- end of [180]
+                                            [181] =
+                                            {
+                                                ["x"] = -13097.489984523,
+                                                ["y"] = 67318.923206108,
+                                            }, -- end of [181]
+                                            [182] =
+                                            {
+                                                ["x"] = -13073.072361709,
+                                                ["y"] = 67313.569799294,
+                                            }, -- end of [182]
+                                            [183] =
+                                            {
+                                                ["x"] = -13023.735918604,
+                                                ["y"] = 67305.473780965,
+                                            }, -- end of [183]
+                                            [184] =
+                                            {
+                                                ["x"] = -12924.360168752,
+                                                ["y"] = 67294.397839548,
+                                            }, -- end of [184]
+                                            [185] =
+                                            {
+                                                ["x"] = -12869.538384399,
+                                                ["y"] = 67290.052514906,
+                                            }, -- end of [185]
+                                            [186] =
+                                            {
+                                                ["x"] = -12849.543383384,
+                                                ["y"] = 67289.706531241,
+                                            }, -- end of [186]
+                                            [187] =
+                                            {
+                                                ["x"] = -12824.560751889,
+                                                ["y"] = 67290.562718153,
+                                            }, -- end of [187]
+                                            [188] =
+                                            {
+                                                ["x"] = -12670.096522764,
+                                                ["y"] = 67303.378842511,
+                                            }, -- end of [188]
+                                            [189] =
+                                            {
+                                                ["x"] = -12635.404690882,
+                                                ["y"] = 67307.984248531,
+                                            }, -- end of [189]
+                                            [190] =
+                                            {
+                                                ["x"] = -12591.192300508,
+                                                ["y"] = 67316.342384753,
+                                            }, -- end of [190]
+                                            [191] =
+                                            {
+                                                ["x"] = -4908.3777197835,
+                                                ["y"] = 69066.972875342,
+                                            }, -- end of [191]
+                                            [192] =
+                                            {
+                                                ["x"] = -1780.715748674,
+                                                ["y"] = 69440.387044433,
+                                            }, -- end of [192]
+                                            [193] =
+                                            {
+                                                ["x"] = -1746.6928960714,
+                                                ["y"] = 69448.584049373,
+                                            }, -- end of [193]
+                                            [194] =
+                                            {
+                                                ["x"] = -1688.9716830375,
+                                                ["y"] = 69464.950166825,
+                                            }, -- end of [194]
+                                            [195] =
+                                            {
+                                                ["x"] = -1674.7937621509,
+                                                ["y"] = 69469.842841105,
+                                            }, -- end of [195]
+                                            [196] =
+                                            {
+                                                ["x"] = -1660.9209776228,
+                                                ["y"] = 69475.540464035,
+                                            }, -- end of [196]
+                                            [197] =
+                                            {
+                                                ["x"] = -1647.4189051901,
+                                                ["y"] = 69482.070154524,
+                                            }, -- end of [197]
+                                            [198] =
+                                            {
+                                                ["x"] = -1603.8747194454,
+                                                ["y"] = 69506.63766219,
+                                            }, -- end of [198]
+                                            [199] =
+                                            {
+                                                ["x"] = -1569.8044984447,
+                                                ["y"] = 69527.587419635,
+                                            }, -- end of [199]
+                                            [200] =
+                                            {
+                                                ["x"] = -1516.502061708,
+                                                ["y"] = 69564.776772155,
+                                            }, -- end of [200]
+                                            [201] =
+                                            {
+                                                ["x"] = -1316.6471691956,
+                                                ["y"] = 69706.460343282,
+                                            }, -- end of [201]
+                                            [202] =
+                                            {
+                                                ["x"] = -1286.9422835524,
+                                                ["y"] = 69724.964088025,
+                                            }, -- end of [202]
+                                            [203] =
+                                            {
+                                                ["x"] = -1265.0534802796,
+                                                ["y"] = 69737.034958831,
+                                            }, -- end of [203]
+                                            [204] =
+                                            {
+                                                ["x"] = -1246.9914602451,
+                                                ["y"] = 69745.616591251,
+                                            }, -- end of [204]
+                                            [205] =
+                                            {
+                                                ["x"] = -1200.5858913437,
+                                                ["y"] = 69764.222511355,
+                                            }, -- end of [205]
+                                            [206] =
+                                            {
+                                                ["x"] = -1181.7263280304,
+                                                ["y"] = 69770.87236449,
+                                            }, -- end of [206]
+                                            [207] =
+                                            {
+                                                ["x"] = -1167.3452668456,
+                                                ["y"] = 69775.131656971,
+                                            }, -- end of [207]
+                                            [208] =
+                                            {
+                                                ["x"] = -1147.8902446888,
+                                                ["y"] = 69779.75838679,
+                                            }, -- end of [208]
+                                            [209] =
+                                            {
+                                                ["x"] = -850.06202596509,
+                                                ["y"] = 69845.327181691,
+                                            }, -- end of [209]
+                                            [210] =
+                                            {
+                                                ["x"] = -816.42325139624,
+                                                ["y"] = 69854.981177396,
+                                            }, -- end of [210]
+                                            [211] =
+                                            {
+                                                ["x"] = -797.53257634859,
+                                                ["y"] = 69861.53990908,
+                                            }, -- end of [211]
+                                            [212] =
+                                            {
+                                                ["x"] = -783.70118411498,
+                                                ["y"] = 69867.338477517,
+                                            }, -- end of [212]
+                                            [213] =
+                                            {
+                                                ["x"] = -752.17037529688,
+                                                ["y"] = 69882.524900556,
+                                            }, -- end of [213]
+                                            [214] =
+                                            {
+                                                ["x"] = -743.43162058235,
+                                                ["y"] = 69887.383868915,
+                                            }, -- end of [214]
+                                            [215] =
+                                            {
+                                                ["x"] = -734.96160410619,
+                                                ["y"] = 69892.697783288,
+                                            }, -- end of [215]
+                                            [216] =
+                                            {
+                                                ["x"] = -726.79057743199,
+                                                ["y"] = 69898.460225293,
+                                            }, -- end of [216]
+                                            [217] =
+                                            {
+                                                ["x"] = -715.04270573473,
+                                                ["y"] = 69907.783649458,
+                                            }, -- end of [217]
+                                            [218] =
+                                            {
+                                                ["x"] = -677.93996896424,
+                                                ["y"] = 69941.29572086,
+                                            }, -- end of [218]
+                                            [219] =
+                                            {
+                                                ["x"] = -642.08639779839,
+                                                ["y"] = 69976.138271936,
+                                            }, -- end of [219]
+                                            [220] =
+                                            {
+                                                ["x"] = -625.04427148435,
+                                                ["y"] = 69994.424752427,
+                                            }, -- end of [220]
+                                            [221] =
+                                            {
+                                                ["x"] = -609.02342073949,
+                                                ["y"] = 70013.613539787,
+                                            }, -- end of [221]
+                                            [222] =
+                                            {
+                                                ["x"] = -581.97726380789,
+                                                ["y"] = 70049.573210603,
+                                            }, -- end of [222]
+                                            [223] =
+                                            {
+                                                ["x"] = -82.181823684728,
+                                                ["y"] = 70785.893278694,
+                                            }, -- end of [223]
+                                            [224] =
+                                            {
+                                                ["x"] = -72.366990813842,
+                                                ["y"] = 70797.233160937,
+                                            }, -- end of [224]
+                                            [225] =
+                                            {
+                                                ["x"] = -65.363848340186,
+                                                ["y"] = 70804.369260612,
+                                            }, -- end of [225]
+                                            [226] =
+                                            {
+                                                ["x"] = -43.196596647861,
+                                                ["y"] = 70824.579610863,
+                                            }, -- end of [226]
+                                            [227] =
+                                            {
+                                                ["x"] = -20.002849003053,
+                                                ["y"] = 70843.601078051,
+                                            }, -- end of [227]
+                                            [228] =
+                                            {
+                                                ["x"] = 4.1772579932848,
+                                                ["y"] = 70861.352833515,
+                                            }, -- end of [228]
+                                            [229] =
+                                            {
+                                                ["x"] = 37.576128881309,
+                                                ["y"] = 70883.35773778,
+                                            }, -- end of [229]
+                                            [230] =
+                                            {
+                                                ["x"] = 67.647064134604,
+                                                ["y"] = 70901.258668092,
+                                            }, -- end of [230]
+                                            [231] =
+                                            {
+                                                ["x"] = 94.168433827707,
+                                                ["y"] = 70915.274452511,
+                                            }, -- end of [231]
+                                            [232] =
+                                            {
+                                                ["x"] = 107.83817794885,
+                                                ["y"] = 70921.444356162,
+                                            }, -- end of [232]
+                                            [233] =
+                                            {
+                                                ["x"] = 126.50574223586,
+                                                ["y"] = 70928.615707111,
+                                            }, -- end of [233]
+                                            [234] =
+                                            {
+                                                ["x"] = 169.29768828951,
+                                                ["y"] = 70942.524676973,
+                                            }, -- end of [234]
+                                            [235] =
+                                            {
+                                                ["x"] = 653.90376301719,
+                                                ["y"] = 71084.403685661,
+                                            }, -- end of [235]
+                                            [236] =
+                                            {
+                                                ["x"] = 681.81436266335,
+                                                ["y"] = 71095.391650186,
+                                            }, -- end of [236]
+                                            [237] =
+                                            {
+                                                ["x"] = 704.48762076824,
+                                                ["y"] = 71105.917445197,
+                                            }, -- end of [237]
+                                            [238] =
+                                            {
+                                                ["x"] = 749.05305167699,
+                                                ["y"] = 71128.577584799,
+                                            }, -- end of [238]
+                                            [239] =
+                                            {
+                                                ["x"] = 766.33359543871,
+                                                ["y"] = 71138.64051164,
+                                            }, -- end of [239]
+                                            [240] =
+                                            {
+                                                ["x"] = 787.20745267994,
+                                                ["y"] = 71152.393304704,
+                                            }, -- end of [240]
+                                            [241] =
+                                            {
+                                                ["x"] = 843.64666902163,
+                                                ["y"] = 71193.793844421,
+                                            }, -- end of [241]
+                                            [242] =
+                                            {
+                                                ["x"] = 866.92606006688,
+                                                ["y"] = 71212.710553104,
+                                            }, -- end of [242]
+                                            [243] =
+                                            {
+                                                ["x"] = 889.07174362157,
+                                                ["y"] = 71232.943240679,
+                                            }, -- end of [243]
+                                            [244] =
+                                            {
+                                                ["x"] = 1270.2902677191,
+                                                ["y"] = 71615.330816239,
+                                            }, -- end of [244]
+                                            [245] =
+                                            {
+                                                ["x"] = 1285.7233417658,
+                                                ["y"] = 71628.04854608,
+                                            }, -- end of [245]
+                                            [246] =
+                                            {
+                                                ["x"] = 1309.8154358086,
+                                                ["y"] = 71645.919918611,
+                                            }, -- end of [246]
+                                            [247] =
+                                            {
+                                                ["x"] = 1334.7580277299,
+                                                ["y"] = 71662.584020244,
+                                            }, -- end of [247]
+                                            [248] =
+                                            {
+                                                ["x"] = 1360.5236950896,
+                                                ["y"] = 71677.943398096,
+                                            }, -- end of [248]
+                                            [249] =
+                                            {
+                                                ["x"] = 1386.9861548827,
+                                                ["y"] = 71692.068123782,
+                                            }, -- end of [249]
+                                            [250] =
+                                            {
+                                                ["x"] = 1405.1486976734,
+                                                ["y"] = 71700.437871685,
+                                            }, -- end of [250]
+                                            [251] =
+                                            {
+                                                ["x"] = 1428.374662912,
+                                                ["y"] = 71709.678133892,
+                                            }, -- end of [251]
+                                            [252] =
+                                            {
+                                                ["x"] = 1452.1104800909,
+                                                ["y"] = 71717.519242136,
+                                            }, -- end of [252]
+                                            [253] =
+                                            {
+                                                ["x"] = 1480.9783543645,
+                                                ["y"] = 71725.671556001,
+                                            }, -- end of [253]
+                                            [254] =
+                                            {
+                                                ["x"] = 1510.2398616211,
+                                                ["y"] = 71732.26979953,
+                                            }, -- end of [254]
+                                            [255] =
+                                            {
+                                                ["x"] = 1539.8054565468,
+                                                ["y"] = 71737.3383416,
+                                            }, -- end of [255]
+                                            [256] =
+                                            {
+                                                ["x"] = 1574.5599731544,
+                                                ["y"] = 71741.438838016,
+                                            }, -- end of [256]
+                                            [257] =
+                                            {
+                                                ["x"] = 1624.446519806,
+                                                ["y"] = 71744.738141456,
+                                            }, -- end of [257]
+                                            [258] =
+                                            {
+                                                ["x"] = 1679.4256030059,
+                                                ["y"] = 71746.061595591,
+                                            }, -- end of [258]
+                                            [259] =
+                                            {
+                                                ["x"] = 1704.4088026205,
+                                                ["y"] = 71745.217645749,
+                                            }, -- end of [259]
+                                            [260] =
+                                            {
+                                                ["x"] = 1724.3413527742,
+                                                ["y"] = 71743.597087006,
+                                            }, -- end of [260]
+                                            [261] =
+                                            {
+                                                ["x"] = 1744.154794686,
+                                                ["y"] = 71740.893473699,
+                                            }, -- end of [261]
+                                            [262] =
+                                            {
+                                                ["x"] = 1763.7793455166,
+                                                ["y"] = 71737.050276223,
+                                            }, -- end of [262]
+                                            [263] =
+                                            {
+                                                ["x"] = 1788.007450825,
+                                                ["y"] = 71730.898643369,
+                                            }, -- end of [263]
+                                            [264] =
+                                            {
+                                                ["x"] = 1821.4117831089,
+                                                ["y"] = 71720.464653213,
+                                            }, -- end of [264]
+                                            [265] =
+                                            {
+                                                ["x"] = 1887.0415778061,
+                                                ["y"] = 71696.137164963,
+                                            }, -- end of [265]
+                                            [266] =
+                                            {
+                                                ["x"] = 2225.450240785,
+                                                ["y"] = 71559.442427649,
+                                            }, -- end of [266]
+                                            [267] =
+                                            {
+                                                ["x"] = 2235.0157734335,
+                                                ["y"] = 71556.537429288,
+                                            }, -- end of [267]
+                                            [268] =
+                                            {
+                                                ["x"] = 2269.1155344592,
+                                                ["y"] = 71548.648990232,
+                                            }, -- end of [268]
+                                            [269] =
+                                            {
+                                                ["x"] = 2288.7848203075,
+                                                ["y"] = 71545.040596019,
+                                            }, -- end of [269]
+                                            [270] =
+                                            {
+                                                ["x"] = 2328.4438130464,
+                                                ["y"] = 71539.861155468,
+                                            }, -- end of [270]
+                                            [271] =
+                                            {
+                                                ["x"] = 2368.3072218226,
+                                                ["y"] = 71536.610948928,
+                                            }, -- end of [271]
+                                            [272] =
+                                            {
+                                                ["x"] = 2413.2844220425,
+                                                ["y"] = 71535.336718239,
+                                            }, -- end of [272]
+                                            [273] =
+                                            {
+                                                ["x"] = 2453.2730336881,
+                                                ["y"] = 71536.105226982,
+                                            }, -- end of [273]
+                                            [274] =
+                                            {
+                                                ["x"] = 2473.2052524098,
+                                                ["y"] = 71537.696030789,
+                                            }, -- end of [274]
+                                            [275] =
+                                            {
+                                                ["x"] = 2483.0970688389,
+                                                ["y"] = 71539.153513379,
+                                            }, -- end of [275]
+                                            [276] =
+                                            {
+                                                ["x"] = 2492.8823108946,
+                                                ["y"] = 71541.206798291,
+                                            }, -- end of [276]
+                                            [277] =
+                                            {
+                                                ["x"] = 2502.5334890413,
+                                                ["y"] = 71543.818144599,
+                                            }, -- end of [277]
+                                            [278] =
+                                            {
+                                                ["x"] = 2516.7954041708,
+                                                ["y"] = 71548.462606521,
+                                            }, -- end of [278]
+                                            [279] =
+                                            {
+                                                ["x"] = 2629.4016245066,
+                                                ["y"] = 71589.91575133,
+                                            }, -- end of [279]
+                                            [280] =
+                                            {
+                                                ["x"] = 2652.2804305972,
+                                                ["y"] = 71599.985570166,
+                                            }, -- end of [280]
+                                            [281] =
+                                            {
+                                                ["x"] = 2674.557121564,
+                                                ["y"] = 71611.325109542,
+                                            }, -- end of [281]
+                                            [282] =
+                                            {
+                                                ["x"] = 2696.1859197165,
+                                                ["y"] = 71623.85649048,
+                                            }, -- end of [282]
+                                            [283] =
+                                            {
+                                                ["x"] = 2717.0542203591,
+                                                ["y"] = 71637.617096912,
+                                            }, -- end of [283]
+                                            [284] =
+                                            {
+                                                ["x"] = 2749.1898372391,
+                                                ["y"] = 71661.427717011,
+                                            }, -- end of [284]
+                                            [285] =
+                                            {
+                                                ["x"] = 2799.5405824136,
+                                                ["y"] = 71702.525763964,
+                                            }, -- end of [285]
+                                            [286] =
+                                            {
+                                                ["x"] = 3901.5129993352,
+                                                ["y"] = 72705.38476745,
+                                            }, -- end of [286]
+                                            [287] =
+                                            {
+                                                ["x"] = 4308.3005319112,
+                                                ["y"] = 73104.652051885,
+                                            }, -- end of [287]
+                                            [288] =
+                                            {
+                                                ["x"] = 6824.9710803865,
+                                                ["y"] = 75945.062635043,
+                                            }, -- end of [288]
+                                            [289] =
+                                            {
+                                                ["x"] = 6836.1367046723,
+                                                ["y"] = 75955.074795731,
+                                            }, -- end of [289]
+                                            [290] =
+                                            {
+                                                ["x"] = 6859.5399045869,
+                                                ["y"] = 75973.840579384,
+                                            }, -- end of [290]
+                                            [291] =
+                                            {
+                                                ["x"] = 6923.0820060608,
+                                                ["y"] = 76022.425517821,
+                                            }, -- end of [291]
+                                            [292] =
+                                            {
+                                                ["x"] = 7709.6854672942,
+                                                ["y"] = 76537.057170598,
+                                            }, -- end of [292]
+                                            [293] =
+                                            {
+                                                ["x"] = 7722.5713885931,
+                                                ["y"] = 76544.731637809,
+                                            }, -- end of [293]
+                                            [294] =
+                                            {
+                                                ["x"] = 7735.9117451319,
+                                                ["y"] = 76551.5853009,
+                                            }, -- end of [294]
+                                            [295] =
+                                            {
+                                                ["x"] = 7754.2085542693,
+                                                ["y"] = 76559.655169931,
+                                            }, -- end of [295]
+                                            [296] =
+                                            {
+                                                ["x"] = 7791.6403420018,
+                                                ["y"] = 76573.745264825,
+                                            }, -- end of [296]
+                                            [297] =
+                                            {
+                                                ["x"] = 7815.3521260061,
+                                                ["y"] = 76581.658792186,
+                                            }, -- end of [297]
+                                            [298] =
+                                            {
+                                                ["x"] = 7824.9926701057,
+                                                ["y"] = 76584.311257221,
+                                            }, -- end of [298]
+                                            [299] =
+                                            {
+                                                ["x"] = 7878.6815273122,
+                                                ["y"] = 76596.231045831,
+                                            }, -- end of [299]
+                                            [300] =
+                                            {
+                                                ["x"] = 7923.0602719186,
+                                                ["y"] = 76603.656022504,
+                                            }, -- end of [300]
+                                            [301] =
+                                            {
+                                                ["x"] = 7967.7237527568,
+                                                ["y"] = 76609.114136662,
+                                            }, -- end of [301]
+                                            [302] =
+                                            {
+                                                ["x"] = 8007.6202996056,
+                                                ["y"] = 76611.935106091,
+                                            }, -- end of [302]
+                                            [303] =
+                                            {
+                                                ["x"] = 8042.6062488676,
+                                                ["y"] = 76612.761559803,
+                                            }, -- end of [303]
+                                            [304] =
+                                            {
+                                                ["x"] = 8077.5842778843,
+                                                ["y"] = 76611.636271422,
+                                            }, -- end of [304]
+                                            [305] =
+                                            {
+                                                ["x"] = 8172.3127544987,
+                                                ["y"] = 76604.535564518,
+                                            }, -- end of [305]
+                                            [306] =
+                                            {
+                                                ["x"] = 8192.1495755876,
+                                                ["y"] = 76602.006539251,
+                                            }, -- end of [306]
+                                            [307] =
+                                            {
+                                                ["x"] = 8206.9092676205,
+                                                ["y"] = 76599.340125681,
+                                            }, -- end of [307]
+                                            [308] =
+                                            {
+                                                ["x"] = 8221.5130746117,
+                                                ["y"] = 76595.923511217,
+                                            }, -- end of [308]
+                                            [309] =
+                                            {
+                                                ["x"] = 8240.7132417739,
+                                                ["y"] = 76590.333303322,
+                                            }, -- end of [309]
+                                            [310] =
+                                            {
+                                                ["x"] = 8330.2297424288,
+                                                ["y"] = 76558.53555502,
+                                            }, -- end of [310]
+                                            [311] =
+                                            {
+                                                ["x"] = 8358.043648905,
+                                                ["y"] = 76547.304932159,
+                                            }, -- end of [311]
+                                            [312] =
+                                            {
+                                                ["x"] = 9448.9615120052,
+                                                ["y"] = 76023.871728984,
+                                            }, -- end of [312]
+                                            [313] =
+                                            {
+                                                ["x"] = 10437.371372008,
+                                                ["y"] = 75536.60302285,
+                                            }, -- end of [313]
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 11155.919292579,
+                                                ["y"] = 75184.780500065,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 11155.919292579,
+                                                ["y"] = 75184.780500065,
+                                            }, -- end of [2]
+                                        }, -- end of [2]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0.11024898229543,
+                                        ["name"] = "DictKey_UnitName_580",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Train",
+                                        ["unitId"] = 173,
+                                        ["wagons"] =
+                                        {
+                                            [1] = "Locomotive",
+                                            [2] = "Tankcartrinity",
+                                            [3] = "Tankcartrinity",
+                                            [4] = "Wellcarnsc",
+                                            [5] = "Wellcarnsc",
+                                            [6] = "Coach cargo",
+                                            [7] = "Coach cargo",
+                                            [8] = "Locomotive",
+                                        }, -- end of ["wagons"]
+                                        ["x"] = -38541.928013652,
+                                        ["y"] = 70112.260934149,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -38541.928013652,
+                                ["y"] = 70112.260934149,
+                            }, -- end of [17]
+                            [18] =
+                            {
+                                ["groupId"] = 138,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_583",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 985,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_585",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 20,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -171092.72586199,
+                                            ["y"] = 12787.264301081,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_584",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 174,
+                                        ["x"] = -171092.72586199,
+                                        ["y"] = 12787.264301081,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -171092.72586199,
+                                ["y"] = 12787.264301081,
+                            }, -- end of [18]
+                            [19] =
+                            {
+                                ["groupId"] = 139,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_586",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 718,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_588",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 21,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -173700.28142893,
+                                            ["y"] = 23601.834109438,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_587",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Vulcan",
+                                        ["unitId"] = 175,
+                                        ["x"] = -173700.28142893,
+                                        ["y"] = 23601.834109438,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -173700.28142893,
+                                ["y"] = 23601.834109438,
+                            }, -- end of [19]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [27]
@@ -2770,6 +5170,7 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 100,
                                         ["heading"] = 1.4378639872051,
+                                        ["livery_id"] = "388 Camouflage",
                                         ["name"] = "DictKey_UnitName_204",
                                         ["onboard_num"] = "010",
                                         ["payload"] =
@@ -3264,6 +5665,7 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 101,
                                         ["heading"] = 0.048265068153102,
+                                        ["livery_id"] = "388 Camouflage",
                                         ["name"] = "DictKey_UnitName_239",
                                         ["onboard_num"] = "011",
                                         ["payload"] =
@@ -3508,6 +5910,7 @@ mission =
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 102,
                                         ["heading"] = 2.8607549289686,
+                                        ["livery_id"] = "388 Camouflage",
                                         ["name"] = "DictKey_UnitName_257",
                                         ["onboard_num"] = "012",
                                         ["payload"] =
@@ -3727,7 +6130,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 8603,
+    ["currentKey"] = 14211,
     ["date"] =
     {
         ["Day"] = 21,
@@ -3780,11 +6183,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 2642.1225670209,
-        ["centerY"] = 29990.869634351,
-        ["zoom"] = 2058857.7072511,
+        ["centerX"] = -11732.292205299,
+        ["centerY"] = 197248.81983341,
+        ["zoom"] = 1303914.233392,
     }, -- end of ["map"]
-    ["maxDictId"] = 443,
+    ["maxDictId"] = 613,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -3796,6 +6199,7 @@ mission =
     }, -- end of ["pictureFileNameR"]
     ["requiredModules"] =
     {
+        ["Insurgent_PickUp"] = "Insurgent_PickUp",
     }, -- end of ["requiredModules"]
     ["result"] =
     {
@@ -4726,6 +7130,443 @@ mission =
                 ["y"] = 72795.973528304,
                 ["zoneId"] = 803,
             }, -- end of [45]
+            [46] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_022_FACTORY_VEHICLES",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 100478.9147387,
+                ["y"] = 284003.65048237,
+                ["zoneId"] = 862,
+            }, -- end of [46]
+            [47] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_011_FACTORY_ROCKETS",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 97428.697260077,
+                ["y"] = 283552.39062965,
+                ["zoneId"] = 863,
+            }, -- end of [47]
+            [48] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_088_SYR_INTELLIGENCE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 131507.2247384,
+                ["y"] = 214824.99859155,
+                ["zoneId"] = 922,
+            }, -- end of [48]
+            [49] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_060_CHEMICAL PRODUCTION",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 56356.482922373,
+                ["y"] = 231189.32225877,
+                ["zoneId"] = 923,
+            }, -- end of [49]
+            [50] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_090_POWER PLANT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -8946.765000582,
+                ["y"] = 69296.833531915,
+                ["zoneId"] = 924,
+            }, -- end of [50]
+            [51] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_025_FACTORY_VEHICLE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -16654.939942143,
+                ["y"] = -1023.8661470069,
+                ["zoneId"] = 925,
+            }, -- end of [51]
+            [52] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_021_FACTORY_VEHICLE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -19096.266342394,
+                ["y"] = 120.64473483436,
+                ["zoneId"] = 926,
+            }, -- end of [52]
+            [53] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_008_FACTORY_LARGE_SHELLS",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -12054.882563902,
+                ["y"] = -119.75919605591,
+                ["zoneId"] = 927,
+            }, -- end of [53]
+            [54] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_089_OIL STORAGE_LARGE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 21422.857705347,
+                ["y"] = 6692.9404425355,
+                ["zoneId"] = 928,
+            }, -- end of [54]
+            [55] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_091_SYR_INTELLIGENCE_NE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -30208.336925258,
+                ["y"] = 35318.217739221,
+                ["zoneId"] = 987,
+            }, -- end of [55]
+            [56] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "OIL WELL-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -41028.126594299,
+                ["y"] = 167391.15368618,
+                ["zoneId"] = 1046,
+            }, -- end of [56]
+            [57] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_014_Factory_Missiles",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -175837.77077736,
+                ["y"] = 40659.565530925,
+                ["zoneId"] = 1047,
+            }, -- end of [57]
+            [58] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_009_Factory_Shells1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -162753.86608054,
+                ["y"] = 35257.367567925,
+                ["zoneId"] = 1048,
+            }, -- end of [58]
+            [59] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -164250.53090067,
+                ["y"] = 27240.599727132,
+                ["zoneId"] = 1107,
+            }, -- end of [59]
+            [60] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_027_Factory_Vehicles_important",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -166063.10988811,
+                ["y"] = 27426.492826228,
+                ["zoneId"] = 1108,
+            }, -- end of [60]
+            [61] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_092_POWER DISTRIBUTION",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 115070.23845564,
+                ["y"] = 194133.25239191,
+                ["zoneId"] = 1109,
+            }, -- end of [61]
+            [62] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_012_Factory_Rockets",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 112953.10660859,
+                ["y"] = 184503.10278987,
+                ["zoneId"] = 1110,
+            }, -- end of [62]
+            [63] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_017_Factory_bombs",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 107162.21746764,
+                ["y"] = 189994.88012154,
+                ["zoneId"] = 1169,
+            }, -- end of [63]
+            [64] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_023_FACTORY VEHICLE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 128742.14924644,
+                ["y"] = 118293.39275199,
+                ["zoneId"] = 1228,
+            }, -- end of [64]
+            [65] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "New Trigger Zone-1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 85373.043251272,
+                ["y"] = 38641.075725702,
+                ["zoneId"] = 1287,
+            }, -- end of [65]
+            [66] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_093_RAIL BRIDGE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -178439.10100135,
+                ["y"] = 42722.268529064,
+                ["zoneId"] = 1406,
+            }, -- end of [66]
+            [67] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_059_CW RESEARCH",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = -93626.89509374,
+                ["y"] = 193247.86205032,
+                ["zoneId"] = 1407,
+            }, -- end of [67]
+            [68] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "OIL WELLS",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 46529.296032671,
+                ["y"] = 278798.17480805,
+                ["zoneId"] = 1408,
+            }, -- end of [68]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
