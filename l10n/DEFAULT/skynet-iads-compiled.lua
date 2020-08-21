@@ -1,4 +1,4 @@
--- BUILD Timestamp: 02.05.2020 13:40:18.84  
+env.info("--- SKYNET VERSION: 1.1.1 | BUILD TIME: 31.07.2020 2043Z ---")
 do
 --this file contains the required units per sam type
 samTypesDB = {
@@ -48,7 +48,6 @@ samTypesDB = {
 		['name'] = {
 			['NATO'] = 'SA-11 Gadfly',
 		},
-		['mobile'] = true,
 		['harm_detection_chance'] = 70
 	},
 	['s-125'] = {
@@ -91,7 +90,6 @@ samTypesDB = {
 	},
 	['Kub'] = {
 		['type'] = 'complex',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Kub 1S91 str'] = {
 			},
@@ -160,7 +158,6 @@ samTypesDB = {
 	},	
 	['Roland ADS'] = {
 		['type'] = 'single',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Roland ADS'] = {
 			},
@@ -177,7 +174,6 @@ samTypesDB = {
 	},		
 	['2S6 Tunguska'] = {
 		['type'] = 'single',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['2S6 Tunguska'] = {
 			},
@@ -192,7 +188,6 @@ samTypesDB = {
 	},		
 	['Osa'] = {
 		['type'] = 'single',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Osa 9A33 ln'] = {
 			},
@@ -209,7 +204,6 @@ samTypesDB = {
 	},	
 	['Strela-10M3'] = {
 		['type'] = 'single',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Strela-10M3'] = {
 				['trackingRadar'] = true,
@@ -225,7 +219,6 @@ samTypesDB = {
 	},	
 	['Strela-1 9P31'] = {
 		['type'] = 'single',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Strela-1 9P31'] = {
 			},
@@ -241,7 +234,6 @@ samTypesDB = {
 	},
 	['Tor'] = {
 		['type'] = 'single',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Tor 9A331'] = {
 			},
@@ -256,7 +248,6 @@ samTypesDB = {
 	},
 	['Gepard'] = {
 		['type'] = 'single',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Gepard'] = {
 			},
@@ -292,7 +283,6 @@ samTypesDB = {
     },	
 	['ZSU-23-4 Shilka'] = {
 		['type'] = 'single',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['ZSU-23-4 Shilka'] = {
 			},
@@ -345,7 +335,6 @@ samTypesDB = {
 	},
 	['Dog Ear'] = {
 		['type'] = 'ewr',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Dog Ear radar'] = {
 			},
@@ -357,7 +346,6 @@ samTypesDB = {
 	},
 	['Roland Radar'] = {
 		['type'] = 'ewr',
-		['mobile'] = true,
 		['searchRadar'] = {
 			['Roland Radar'] = {
 			},
@@ -365,6 +353,7 @@ samTypesDB = {
 		['name'] = {
 			['NATO'] = 'Roland EWR',
 		},
+		['harm_detection_chance'] = 60
 	},
 	['p-19 s-125 sr'] = {
 		['searchRadar'] = {
@@ -445,6 +434,7 @@ function SkynetIADS:create(name)
 	iads.samSites = {}
 	iads.commandCenters = {}
 	iads.ewRadarScanMistTaskID = nil
+	iads.samSetupMistTaskID = nil
 	iads.coalition = nil
 	iads.contacts = {}
 	iads.maxTargetAge = 32
@@ -453,6 +443,7 @@ function SkynetIADS:create(name)
 		iads.name = ""
 	end
 	iads.contactUpdateInterval = 5
+	iads.samSetupTime = 60
 	iads.destroyedUnitResponsibleForUpdateAutonomousStateOfSAMSite = nil
 	iads.debugOutput = {}
 	iads.debugOutput.IADSStatus = false
@@ -614,7 +605,7 @@ function SkynetIADS:getSAMSitesByPrefix(prefix)
 	local returnSams = {}
 	for i = 1, #self.samSites do
 		local samSite = self.samSites[i]
-		local groupName = samSite:getDCSRepresentation():getName()
+		local groupName = samSite:getDCSName()
 		local pos = self:findSubString(groupName, prefix)
 		if pos and pos == 1 then
 			table.insert(returnSams, samSite)
@@ -770,7 +761,7 @@ function SkynetIADS.evaluateContacts(self)
 		local ewRadar = ewRadars[i]
 		--call go live in case ewRadar had to shut down (HARM attack)
 		ewRadar:goLive()
-		-- if a awacs has traveled more than a predeterminded distance we update the autonomous state of the sams
+		-- if an awacs has traveled more than a predeterminded distance we update the autonomous state of the sams
 		if getmetatable(ewRadar) == SkynetIADSAWACSRadar and ewRadar:isUpdateOfAutonomousStateOfSAMSitesRequired() then
 			self:updateAutonomousStatesOfSAMSites()
 		end
@@ -797,8 +788,8 @@ function SkynetIADS.evaluateContacts(self)
 	for samName, samToTrigger in pairs(samSitesToTrigger) do
 		for j = 1, #self.contacts do
 			local contact = self.contacts[j]
-			-- the DCS Radar only returns enemy aircraft, if that should change an coalition check will be required
-			-- currently every type of object in the air is handed of to the sam site, including missiles
+			-- the DCS Radar only returns enemy aircraft, if that should change a coalition check will be required
+			-- currently every type of object in the air is handed of to the SAM site, including missiles
 			local description = contact:getDesc()
 			local category = description.category
 			if category and category ~= Unit.Category.GROUND_UNIT and category ~= Unit.Category.SHIP and category ~= Unit.Category.STRUCTURE then
@@ -843,6 +834,8 @@ end
 function SkynetIADS:updateIADSCoverage()
 	self:buildSAMSitesInCoveredArea()
 	self:enforceRebuildAutonomousStateOfSAMSites()
+	--update moose connector with radar group names Skynet is able to use
+	self:getMooseConnector():update()
 end
 
 function SkynetIADS:updateAutonomousStatesOfSAMSites(deadUnit)
@@ -912,10 +905,42 @@ function SkynetIADS:getDebugSettings()
 end
 
 -- will start going through the Early Warning Radars and SAM sites to check what targets they have detected
-function SkynetIADS:activate()
+function SkynetIADS.activate(self)
 	mist.removeFunction(self.ewRadarScanMistTaskID)
+	mist.removeFunction(self.samSetupMistTaskID)
 	self.ewRadarScanMistTaskID = mist.scheduleFunction(SkynetIADS.evaluateContacts, {self}, 1, self.contactUpdateInterval)
 	self:updateIADSCoverage()
+end
+
+function SkynetIADS:setupSAMSitesAndThenActivate(setupTime)
+	if setupTime then
+		self.samSetupTime = setupTime
+	end
+	local samSites = self:getSAMSites()
+	for i = 1, #samSites do
+		local sam = samSites[i]
+		sam:goLive()
+		--stop harm scan, because this function will shut down point defences
+		sam:stopScanningForHARMs()
+		--point defences will go dark after sam:goLive() call on the SAM they are protecting, so we load them and call a separate goLive call here, some SAMs will therefore receive 2 goLive calls
+		-- this should not have a negative impact on performance
+		local pointDefences = sam:getPointDefences()
+		for j = 1, #pointDefences do
+			pointDefence = pointDefences[j]
+			pointDefence:goLive()
+		end
+	end
+	self.samSetupMistTaskID = mist.scheduleFunction(SkynetIADS.postSetupSAMSites, {self}, timer.getTime() + self.samSetupTime)
+end
+
+function SkynetIADS.postSetupSAMSites(self)
+	local samSites = self:getSAMSites()
+	for i = 1, #samSites do
+		local sam = samSites[i]
+		--turn on the scan again otherwise SAMs that fired a missile while in setup will not turn off anymore
+		sam:scanForHarms()
+	end
+	self:activate()
 end
 
 function SkynetIADS:deactivate()
@@ -984,6 +1009,17 @@ function SkynetIADS:getCoalitionString()
 	return coalitionStr
 end
 
+function SkynetIADS:getMooseConnector()
+	if self.mooseConnector == nil then
+		self.mooseConnector = SkynetMooseA2ADispatcherConnector:create(self)
+	end
+	return self.mooseConnector
+end
+
+function SkynetIADS:addMooseSetGroup(mooseSetGroup)
+	self:getMooseConnector():addMooseSetGroup(mooseSetGroup)
+end
+
 function SkynetIADS:printDetailedEarlyWarningRadarStatus()
 	local ewRadars = self:getEarlyWarningRadars()
 	env.info("------------------------------------------ EW RADAR STATUS: "..self:getCoalitionString().." -------------------------------")
@@ -1031,7 +1067,7 @@ function SkynetIADS:printDetailedEarlyWarningRadarStatus()
 		local unitName = "DESTROYED"
 		
 		if ewRadar:getDCSRepresentation():isExist() then
-			unitName = ewRadar:getDCSRepresentation():getName()
+			unitName = ewRadar:getDCSName()
 		end
 		
 		env.info("UNIT: "..unitName.." | TYPE: "..ewRadar:getNatoName())
@@ -1103,8 +1139,8 @@ function SkynetIADS:printDetailedSAMSiteStatus()
 		
 		local samSitesInCoveredArea = samSite:getSAMSitesInCoveredArea()
 		
-		env.info("GROUP: "..samSite:getDCSRepresentation():getName().." | TYPE: "..samSite:getNatoName())
-		env.info("ACTIVE: "..tostring(isActive).." | AUTONOMOUS: "..tostring(isAutonomous).." | IS ACTING AS EW: "..tostring(samSite:getActAsEW()).." | DETECTED TARGETS: "..#detectedTargets.." | DEFENDING HARM: "..tostring(samSite:isDefendingHARM()))
+		env.info("GROUP: "..samSite:getDCSName().." | TYPE: "..samSite:getNatoName())
+		env.info("ACTIVE: "..tostring(isActive).." | AUTONOMOUS: "..tostring(isAutonomous).." | IS ACTING AS EW: "..tostring(samSite:getActAsEW()).." | DETECTED TARGETS: "..#detectedTargets.." | DEFENDING HARM: "..tostring(samSite:isDefendingHARM()).." | MISSILES IN FLIGHT:"..tostring(samSite:getNumberOfMissilesInFlight()))
 		
 		if numConnectionNodes > 0 then
 			env.info("CONNECTION NODES: "..numConnectionNodes.." | DAMAGED: "..numDamagedConnectionNodes.." | INTACT: "..intactConnectionNodes)
@@ -1242,6 +1278,76 @@ end
 end
 do
 
+SkynetMooseA2ADispatcherConnector = {}
+
+function SkynetMooseA2ADispatcherConnector:create(iads)
+	local instance = {}
+	setmetatable(instance, self)
+	self.__index = self
+	instance.iadsCollection = {}
+	instance.mooseGroups = {}
+	instance.ewRadarGroupNames = {}
+	instance.samSiteGroupNames = {}
+	table.insert(instance.iadsCollection, iads)
+	return instance
+end
+
+function SkynetMooseA2ADispatcherConnector:addIADS(iads)
+	table.insert(self.iadsCollection, iads)
+end
+
+function SkynetMooseA2ADispatcherConnector:addMooseSetGroup(mooseSetGroup)
+	table.insert(self.mooseGroups, mooseSetGroup)
+	self:update()
+end
+
+function SkynetMooseA2ADispatcherConnector:getEarlyWarningRadarGroupNames()
+	self.ewRadarGroupNames = {}
+	for i = 1, #self.iadsCollection do
+		local ewRadars = self.iadsCollection[i]:getUsableEarlyWarningRadars()
+		for j = 1, #ewRadars do
+			local ewRadar = ewRadars[j]
+			table.insert(self.ewRadarGroupNames, ewRadar:getDCSRepresentation():getGroup():getName())
+		end
+	end
+	return self.ewRadarGroupNames
+end
+
+function SkynetMooseA2ADispatcherConnector:getSAMSiteGroupNames()
+	self.samSiteGroupNames = {}
+	for i = 1, #self.iadsCollection do
+		local samSites = self.iadsCollection[i]:getUsableSAMSites()
+		for j = 1, #samSites do
+			local samSite = samSites[j]
+			table.insert(self.samSiteGroupNames, samSite:getDCSName())
+		end
+	end
+	return self.samSiteGroupNames
+end
+
+function SkynetMooseA2ADispatcherConnector:update()
+	
+	--mooseGroup elements are type of:
+	--https://flightcontrol-master.github.io/MOOSE_DOCS_DEVELOP/Documentation/Core.Set.html##(SET_GROUP)
+	
+	--remove previously set group names:
+	for i = 1, #self.mooseGroups do
+		local mooseGroup = self.mooseGroups[i]
+		mooseGroup:RemoveGroupsByName(self.ewRadarGroupNames)
+		mooseGroup:RemoveGroupsByName(self.samSiteGroupNames)
+	end
+	
+	--add group names of IADS radars that are currently usable by the IADS:
+	for i = 1, #self.mooseGroups do
+		local mooseGroup = self.mooseGroups[i]
+		mooseGroup:AddGroupsByName(self:getEarlyWarningRadarGroupNames())
+		mooseGroup:AddGroupsByName(self:getSAMSiteGroupNames())
+	end
+end
+
+end
+do
+
 
 SkynetIADSTableDelegator = {}
 
@@ -1313,6 +1419,7 @@ function SkynetIADSAbstractElement:create(dcsRepresentation, iads)
 	instance.powerSources = {}
 	instance.iads = iads
 	instance.natoName = "UNKNOWN"
+	instance.dcsName = ""
 	instance:setDCSRepresentation(dcsRepresentation)
 	world.addEventHandler(instance)
 	return instance
@@ -1366,7 +1473,7 @@ function SkynetIADSAbstractElement:hasWorkingPowerSource()
 end
 
 function SkynetIADSAbstractElement:getDCSName()
-	return self:getDCSRepresentation():getName()
+	return self.dcsName
 end
 
 -- generic function to theck if power plants, command centers, connection nodes are still alive
@@ -1385,6 +1492,9 @@ end
 
 function SkynetIADSAbstractElement:setDCSRepresentation(representation)
 	self.dcsRepresentation = representation
+	if self.dcsRepresentation then
+		self.dcsName = self:getDCSRepresentation():getName()
+	end
 end
 
 function SkynetIADSAbstractElement:getDCSRepresentation()
@@ -1396,7 +1506,7 @@ function SkynetIADSAbstractElement:getNatoName()
 end
 
 function SkynetIADSAbstractElement:getDescription()
-	return "IADS ELEMENT: "..self:getDCSRepresentation():getName().." | Type : "..tostring(self:getNatoName())
+	return "IADS ELEMENT: "..self:getDCSName().." | Type : "..tostring(self:getNatoName())
 end
 
 function SkynetIADSAbstractElement:onEvent(event)
@@ -1521,14 +1631,17 @@ function SkynetIADSAbstractRadarElement:create(dcsElementWithRadar, iads)
 	instance.cachedTargets = {}
 	instance.cachedTargetsMaxAge = 1
 	instance.cachedTargetsCurrentAge = 0
+	instance.goLiveTime = 0
+	-- 5 seconds seems to be a good value for the sam site to find the target with its organic radar
+	instance.noCacheActiveForSecondsAfterGoLive = 5
 	return instance
 end
 
 --TODO: this method could be updated to only return Radar weapons fired, this way a SAM firing an IR weapon could go dark faster in the goDark() method
 function SkynetIADSAbstractRadarElement:weaponFired(event)
 	if event.id == world.event.S_EVENT_SHOT then
-		weapon = event.weapon
-		launcherFired = event.initiator
+		local weapon = event.weapon
+		local launcherFired = event.initiator
 		for i = 1, #self.launchers do
 			local launcher = self.launchers[i]
 			if launcher:getDCSRepresentation() == launcherFired then
@@ -1614,6 +1727,10 @@ end
 
 function SkynetIADSAbstractRadarElement:hasMissilesInFlight()
 	return #self.missilesInFlight > 0
+end
+
+function SkynetIADSAbstractRadarElement:getNumberOfMissilesInFlight()
+	return #self.missilesInFlight
 end
 
 -- DCS does not send an event, when a missile is destroyed, so this method needs to be polled so that the missiles in flight are current, polling is done in the HARM Search call: evaluateIfTargetsContainHARMs
@@ -1846,6 +1963,7 @@ function SkynetIADSAbstractRadarElement:goLive()
 			cont:setOnOff(true)
 			cont:setOption(AI.Option.Ground.id.ALARM_STATE, AI.Option.Ground.val.ALARM_STATE.RED)	
 			cont:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.WEAPON_FREE)
+			self.goLiveTime = timer.getTime()
 		end
 		self.aiState = true
 		self:pointDefencesStopActingAsEW()
@@ -1870,17 +1988,20 @@ function SkynetIADSAbstractRadarElement:goDark()
 	then
 		if self:isDestroyed() == false then
 			local controller = self:getController()
-			-- if a harm is the reason for shutdown we turn off the controller, this is a better way to get the HARM to miss the target, if not set to false the HARM often sticks to the target
-			if self.harmSilenceID then
+			-- if the SAM site still has ammo we turn off the controller, this prevents rearming, however this way the SAM site is frozen in a red state, on the next actication it will be up and running much faster, therefore it will instantaneously engage targets
+			-- also  this is a better way to get the HARM to miss the target, if not set to false the HARM often sticks to the target
+			if self:hasRemainingAmmo() then
 				controller:setOnOff(false)
-			--if the reason is not a HARM we shut it down via the ALARM_STATE, the reason for this is that the SAM site can reload ammo in this state
+			--if the SAM is out of ammo we set the state to green, and ROE to weapon hold, this way it will shut down its radar and it can be rearmed
 			else
 				controller:setOption(AI.Option.Ground.id.ALARM_STATE, AI.Option.Ground.val.ALARM_STATE.GREEN)
 				controller:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.WEAPON_HOLD)
 			end
 		end
-		--called here so if SAM is destroyed it will still activate the point defences
-		self:pointDefencesGoLive()
+		-- point defence will only go live if the Radar Emitting site it is protecting goes dark and this is due to a it defending against a HARM
+		if (self.harmSilenceID ~= nil) then
+			self:pointDefencesGoLive()
+		end
 		self.aiState = false
 		self:stopScanningForHARMs()
 		if self.iads:getDebugSettings().samWentDark then
@@ -2049,7 +2170,7 @@ function SkynetIADSAbstractRadarElement:goSilentToEvadeHARM(timeToImpact)
 	self.objectsIdentifiedAsHarms = {}
 	local harmTime = self:getHarmShutDownTime()
 	if self.iads:getDebugSettings().harmDefence then
-		self.iads:printOutput("HARM DEFENCE: "..self:getDCSRepresentation():getName().." shutting down | FOR: "..harmTime.." seconds | TTI: "..timeToImpact)
+		self.iads:printOutput("HARM DEFENCE: "..self:getDCSName().." shutting down | FOR: "..harmTime.." seconds | TTI: "..timeToImpact)
 	end
 	self.harmSilenceID = mist.scheduleFunction(SkynetIADSAbstractRadarElement.finishHarmDefence, {self}, timer.getTime() + harmTime, 1)
 	self:goDark()
@@ -2066,7 +2187,7 @@ function SkynetIADSAbstractRadarElement.finishHarmDefence(self)
 end
 
 function SkynetIADSAbstractRadarElement:getDetectedTargets()
-	if ( timer.getTime() - self.cachedTargetsCurrentAge ) > self.cachedTargetsMaxAge then
+	if ( timer.getTime() - self.cachedTargetsCurrentAge > self.cachedTargetsMaxAge ) or ( timer.getTime() - self.goLiveTime < self.noCacheActiveForSecondsAfterGoLive ) then
 		self.cachedTargets = {}
 		self.cachedTargetsCurrentAge = timer.getTime()
 		if self:hasWorkingPowerSource() and self:isDestroyed() == false then
@@ -2193,10 +2314,10 @@ function SkynetIADSAbstractRadarElement.evaluateIfTargetsContainHARMs(self)
 						local shallReactToHarm = self:shallReactToHARM()
 						
 					--	if self:getNumberOfObjectsItentifiedAsHARMS() > 0 then
-					--		env.info("detect as HARM: "..self:getDCSRepresentation():getName().." "..self:getNumberOfObjectsItentifiedAsHARMS())
+					--		env.info("detect as HARM: "..self:getDCSName().." "..self:getNumberOfObjectsItentifiedAsHARMS())
 					--	end
 						
-						-- we use 2 detection cycles so a random object in the air pointing on the SAM site for a spilt second will not trigger a shutdown. shallReactToHarm adds some salt otherwise the SAM will always shut down 100% of the time.
+						-- we use 2 detection cycles so a random object in the air pointing at the SAM site for a spilt second will not trigger a shutdown. shallReactToHarm adds some salt otherwise the SAM will always shut down 100% of the time.
 						if numDetections == 2 and shallReactToHarm then
 							if self:shallIgnoreHARMShutdown() == false then
 								self.minHarmShutdownTime = self:calculateMinimalShutdownTimeInSeconds(timeToImpact)
@@ -2208,7 +2329,7 @@ function SkynetIADSAbstractRadarElement.evaluateIfTargetsContainHARMs(self)
 						end
 						if numDetections == 2 and shallReactToHarm == false then
 							if self.iads:getDebugSettings().harmDefence then
-								self.iads:printOutput("HARM DEFENCE: "..self:getDCSRepresentation():getName().." will not react")
+								self.iads:printOutput("HARM DEFENCE: "..self:getDCSName().." will not react")
 							end
 						end
 					end
@@ -2386,7 +2507,7 @@ function SkynetIADSJammer:create(emitter, iads)
 	setmetatable(jammer, SkynetIADSJammer)
 	jammer.radioMenu = nil
 	jammer.emitter = emitter
-	jammer.jammerTaskID = nill
+	jammer.jammerTaskID = nil
 	jammer.iads = {iads}
 	jammer.maximumEffectiveDistanceNM = 200
 	--jammer probability settings are stored here, visualisation, see: https://docs.google.com/spreadsheets/d/16rnaU49ZpOczPEsdGJ6nfD0SLPxYLEYKmmo4i2Vfoe0/edit#gid=0
@@ -2661,7 +2782,7 @@ function SkynetIADSSamSite:targetCycleUpdateEnd()
 end
 
 function SkynetIADSSamSite:informOfContact(contact)
-	-- we make sure isTargetInRange (expensive call) is only triggerd if not previous calls to this method resultet in targets in range
+	-- we make sure isTargetInRange (expensive call) is only triggered if no previous calls to this method resulted in targets in range
 	if self.targetsInRange == false and self:isTargetInRange(contact) then
 		self:goLive()
 		self.targetsInRange = true

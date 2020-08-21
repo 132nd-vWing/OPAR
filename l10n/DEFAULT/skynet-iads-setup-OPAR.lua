@@ -1,6 +1,7 @@
 do
+
 --create an instance of the IADS
-redIADS = SkynetIADS:create('IRAN')
+redIADS = SkynetIADS:create('SYRIA')
 
 ---debug settings remove from here on if you do not wan't any output on what the IADS is doing by default
 local iadsDebug = redIADS:getDebugSettings()
@@ -11,44 +12,42 @@ iadsDebug.radarWentLive = true
 iadsDebug.noWorkingCommmandCenter = true
 iadsDebug.ewRadarNoConnection = true
 iadsDebug.samNoConnection = true
-iadsDebug.jammerProbability = false
+iadsDebug.jammerProbability = true
 iadsDebug.addedEWRadar = true
-iadsDebug.hasNoPower = false
-iadsDebug.harmDefence = false
-iadsDebug.samSiteStatusEnvOutput = true
-iadsDebug.earlyWarningRadarStatusEnvOutput = true
+iadsDebug.hasNoPower = true
+iadsDebug.harmDefence = true
 ---end remove debug ---
 
 --add all units with unit name beginning with 'EW' to the IADS:
-redIADS:addEarlyWarningRadarsByPrefix('EW')
+redIADS:addEarlyWarningRadarsByPrefix('EWR')
 
 --add all groups begining with group name 'SAM' to the IADS:
-redIADS:addSAMSitesByPrefix('SAM')
+redIADS:addSAMSitesByPrefix('IADS')
 
---add a connection node to this SA-2 site, and set the option for it to go dark, if it looses connection to the IADS:
-local connectionNode = Unit.getByName('Mobile-Command-Post-SAM-SA-2')
-redIADS:getSAMSiteByGroupName('SAM_SA2_MILBASE'):addConnectionNode(connectionNode):setAutonomousBehaviour(SkynetIADSAbstractRadarElement.AUTONOMOUS_STATE_DARK)
+--add a command center:
+commandCenter = StaticObject.getByName('ADCC')
+redIADS:addCommandCenter(commandCenter)
 
---add a connection node to this SA-3 site, and set the option for it to go dark, if it looses connection to the IADS:
-local connectionNode = Unit.getByName('Mobile-Command-Post-SAM-SA-2')
-redIADS:getSAMSiteByGroupName('SAM_SA3_NORTH'):addConnectionNode(connectionNode):setAutonomousBehaviour(SkynetIADSAbstractRadarElement.AUTONOMOUS_STATE_DARK)
+--add a power source and a connection node for this EW radar:
+local connectionNodeEW = StaticObject.getByName('SCC_WEST')
+redIADS:getEarlyWarningRadarByUnitName('EWR_W_1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
---this SA-3 site will go live at 100% of its max search range:
-redIADS:getSAMSiteByGroupName('SAM_SA3_NORTH'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(100)
+--add a power source and a connection node for this EW radar:
+local connectionNodeEW = StaticObject.getByName('SCC_WEST')
+redIADS:getEarlyWarningRadarByUnitName('EWR_W_2'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
---set this SA-3 site to go live at maximunm search range (default is at maximung firing range):
-redIADS:getSAMSiteByGroupName('SAM_SA3_SOUTH'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE)
+--add a power source and a connection node for this EW radar:
+local connectionNodeEW = StaticObject.getByName('SCC_WEST')
+redIADS:getEarlyWarningRadarByUnitName('EWR_W_3'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+
+
+
+
 
 --activate the radio menu to toggle IADS Status output
 redIADS:addRadioMenu()
 
+
 --activate the IADS
-redIADS:activate()	
-
-
-	
-
-
-
-
+redIADS:setupSAMSitesAndThenActivate()
 end
