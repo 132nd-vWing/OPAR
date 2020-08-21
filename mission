@@ -4688,6 +4688,193 @@ mission =
                                 ["x"] = -171092.72586199,
                                 ["y"] = 12787.264301081,
                             }, -- end of [18]
+                            [19] =
+                            {
+                                ["groupId"] = 178,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_935",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 684,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_937",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 1,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -168389.57085163,
+                                            ["y"] = 30433.308256042,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 5.7421332390613,
+                                        ["name"] = "DictKey_UnitName_936",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M-2 Bradley",
+                                        ["unitId"] = 358,
+                                        ["x"] = -168389.57085163,
+                                        ["y"] = 30433.308256042,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -168389.57085163,
+                                ["y"] = 30433.308256042,
+                            }, -- end of [19]
+                            [20] =
+                            {
+                                ["groupId"] = 179,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_938",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 712,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_940",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 7,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -168381.98133935,
+                                            ["y"] = 28478.454383648,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = -168381.98133935,
+                                                ["y"] = 28478.454383648,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = -168383.31793072,
+                                                ["y"] = 28478.454383648,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "DictKey_UnitName_939",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M-2 Bradley",
+                                        ["unitId"] = 359,
+                                        ["x"] = -168381.98133935,
+                                        ["y"] = 28478.454383648,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -168381.98133935,
+                                ["y"] = 28478.454383648,
+                            }, -- end of [20]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [27]
@@ -11069,7 +11256,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 28606,
+    ["currentKey"] = 37156,
     ["date"] =
     {
         ["Day"] = 21,
@@ -11122,11 +11309,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 57270.708308606,
-        ["centerY"] = -22422.693372898,
-        ["zoom"] = 985772.40356083,
+        ["centerX"] = -173002.1916507,
+        ["centerY"] = 38812.983177672,
+        ["zoom"] = 85691.404237321,
     }, -- end of ["map"]
-    ["maxDictId"] = 906,
+    ["maxDictId"] = 941,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -11195,7 +11382,7 @@ mission =
         {
             [1] = "return(c_time_after(1) )",
             [2] = "return(c_time_after(2) )",
-            [3] = "return(c_time_after(3) )",
+            [3] = "return(c_time_after(900) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -12689,6 +12876,139 @@ mission =
                 ["y"] = 96087.593123396,
                 ["zoneId"] = 1592,
             }, -- end of [77]
+            [78] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_095_Ministry of Defence",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1524,
+                ["x"] = -168179.77793026,
+                ["y"] = 29936.421743408,
+                ["zoneId"] = 1651,
+            }, -- end of [78]
+            [79] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_035_International Communications Centre",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1524,
+                ["x"] = -168458.81904568,
+                ["y"] = 29994.26664462,
+                ["zoneId"] = 1652,
+            }, -- end of [79]
+            [80] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_094_Syrian Intelligenc internet agency",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1524,
+                ["x"] = -168189.24223539,
+                ["y"] = 29048.583440014,
+                ["zoneId"] = 1711,
+            }, -- end of [80]
+            [81] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_096_Ministry of foreign affairs",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1524,
+                ["x"] = -169504.1023358,
+                ["y"] = 29171.031249413,
+                ["zoneId"] = 1770,
+            }, -- end of [81]
+            [82] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_097_Ministry of finance",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1524,
+                ["x"] = -167511.99816573,
+                ["y"] = 31686.408188063,
+                ["zoneId"] = 1771,
+            }, -- end of [82]
+            [83] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_015_Ammunition Factory_missiles",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1524,
+                ["x"] = -170485.69630954,
+                ["y"] = 33817.897125642,
+                ["zoneId"] = 1830,
+            }, -- end of [83]
+            [84] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_065_Syrian Intelligence service",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1524,
+                ["x"] = -168453.05659068,
+                ["y"] = 29746.80133676,
+                ["zoneId"] = 1889,
+            }, -- end of [84]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -12763,7 +13083,7 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 3,
+                    ["seconds"] = 900,
                     ["zone"] = 319,
                 }, -- end of [1]
             }, -- end of ["rules"]
