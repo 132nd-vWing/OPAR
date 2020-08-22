@@ -4882,6 +4882,7 @@ mission =
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
                                 }, -- end of ["tasks"]
@@ -4890,7 +4891,7 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.6614562139956,
+                                        ["heading"] = 1.6614562139957,
                                         ["name"] = "DictKey_UnitName_1045",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
@@ -4908,6 +4909,144 @@ mission =
                                 ["x"] = -265414.82417232,
                                 ["y"] = -99094.309845468,
                             }, -- end of [19]
+                            [20] =
+                            {
+                                ["groupId"] = 203,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1048",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 13,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1050",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 10,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -272027.64523775,
+                                            ["y"] = -97354.093775619,
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 1383.9346612363,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 97,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1051",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -270751.48678653,
+                                            ["y"] = -91669.387947445,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = -272027.64523775,
+                                                ["y"] = -97354.093775619,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = -270751.48678653,
+                                                ["y"] = -91669.387947445,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = -270751.48678653,
+                                                ["y"] = -91669.387947445,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = -270751.48678653,
+                                                ["y"] = -91669.387947445,
+                                            }, -- end of [2]
+                                        }, -- end of [2]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 1.3499675570656,
+                                        ["name"] = "DictKey_UnitName_1049",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "InsurgentPickUp",
+                                        ["unitId"] = 383,
+                                        ["x"] = -272027.64523775,
+                                        ["y"] = -97354.093775619,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -272027.64523775,
+                                ["y"] = -97354.093775619,
+                            }, -- end of [20]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [27]
@@ -11262,7 +11401,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 70213,
+    ["currentKey"] = 70988,
     ["date"] =
     {
         ["Day"] = 21,
@@ -11319,7 +11458,7 @@ mission =
         ["centerY"] = -26237.263721123,
         ["zoom"] = 406050.4162981,
     }, -- end of ["map"]
-    ["maxDictId"] = 1047,
+    ["maxDictId"] = 1051,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
