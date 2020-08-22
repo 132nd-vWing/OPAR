@@ -4546,6 +4546,93 @@ mission =
                                 ["x"] = 10082.413297934,
                                 ["y"] = 75530.659246176,
                             }, -- end of [16]
+                            [17] =
+                            {
+                                ["groupId"] = 193,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_995",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 7,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_997",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 2,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 37362.205709374,
+                                            ["y"] = 2956.8986672429,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_996",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "InsurgentPickUp",
+                                        ["unitId"] = 373,
+                                        ["x"] = 37362.205709374,
+                                        ["y"] = 2956.8986672429,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 37362.205709374,
+                                ["y"] = 2956.8986672429,
+                            }, -- end of [17]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [27]
@@ -10900,7 +10987,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 51141,
+    ["currentKey"] = 54925,
     ["date"] =
     {
         ["Day"] = 21,
@@ -10953,11 +11040,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -26318.273219118,
-        ["centerY"] = 6000.3199551932,
-        ["zoom"] = 500814.58011706,
+        ["centerX"] = 77338.412591365,
+        ["centerY"] = 141671.75814891,
+        ["zoom"] = 621003.87663116,
     }, -- end of ["map"]
-    ["maxDictId"] = 984,
+    ["maxDictId"] = 997,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -11071,7 +11158,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1524,
+                ["radius"] = 1219.2,
                 ["x"] = -50236.688009834,
                 ["y"] = 97093.934007682,
                 ["zoneId"] = 59,
@@ -11109,7 +11196,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = -48878.247343683,
                 ["y"] = 76473.556031542,
                 ["zoneId"] = 61,
@@ -11413,7 +11500,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = -42132.652278273,
                 ["y"] = 64700.737044508,
                 ["zoneId"] = 196,
@@ -11565,7 +11652,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = -34774.39006339,
                 ["y"] = 66402.247454412,
                 ["zoneId"] = 378,
@@ -11584,7 +11671,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = -42668.140062925,
                 ["y"] = 65377.038430834,
                 ["zoneId"] = 437,
@@ -11907,7 +11994,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = -35663.062384254,
                 ["y"] = 72795.973528304,
                 ["zoneId"] = 803,
@@ -12097,7 +12184,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1524,
+                ["radius"] = 1219.2,
                 ["x"] = -30208.336925258,
                 ["y"] = 35318.217739221,
                 ["zoneId"] = 987,
@@ -12910,7 +12997,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "TGT_018_Aircraft assembly factory",
+                ["name"] = "TGT_033_Aircraft assembly factory",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
@@ -12995,6 +13082,120 @@ mission =
                 ["y"] = 137209.07197688,
                 ["zoneId"] = 2429,
             }, -- end of [102]
+            [103] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_028_Vehicle factory",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -76281.341291306,
+                ["y"] = 77856.553417711,
+                ["zoneId"] = 2488,
+            }, -- end of [103]
+            [104] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_020_Vehicle factory",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 9439.1596685796,
+                ["y"] = 82341.711853306,
+                ["zoneId"] = 2489,
+            }, -- end of [104]
+            [105] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_020_SCUD storage",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 124902.81458127,
+                ["y"] = 127318.24843239,
+                ["zoneId"] = 2548,
+            }, -- end of [105]
+            [106] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_100_SYR NAVY HQ",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 60254.123010541,
+                ["y"] = -11915.918935799,
+                ["zoneId"] = 2607,
+            }, -- end of [106]
+            [107] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_006_SYR NAVY Storage",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 57913.206466969,
+                ["y"] = -9551.1372035042,
+                ["zoneId"] = 2608,
+            }, -- end of [107]
+            [108] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_005_Military port",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 37570.001600911,
+                ["y"] = 2904.6387853236,
+                ["zoneId"] = 2667,
+            }, -- end of [108]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
