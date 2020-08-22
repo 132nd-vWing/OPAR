@@ -18,6 +18,10 @@ iadsDebug.hasNoPower = true
 iadsDebug.harmDefence = true
 ---end remove debug ---
 
+
+--test Assaf
+
+
 --add all units with unit name beginning with 'EW' to the IADS:
 redIADS:addEarlyWarningRadarsByPrefix('EWR')
 
