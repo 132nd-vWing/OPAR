@@ -3184,7 +3184,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 71771,
+    ["currentKey"] = 73379,
     ["date"] =
     {
         ["Day"] = 21,
@@ -3197,6 +3197,555 @@ mission =
     ["descriptionText"] = "DictKey_descriptionText_1",
     ["failures"] =
     {
+        ["AAR_47_FAILURE_SENSOR_BOTTOM"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AAR_47_FAILURE_SENSOR_BOTTOM",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AAR_47_FAILURE_SENSOR_BOTTOM"]
+        ["AAR_47_FAILURE_SENSOR_LEFT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AAR_47_FAILURE_SENSOR_LEFT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AAR_47_FAILURE_SENSOR_LEFT"]
+        ["AAR_47_FAILURE_SENSOR_RIGHT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AAR_47_FAILURE_SENSOR_RIGHT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AAR_47_FAILURE_SENSOR_RIGHT"]
+        ["AAR_47_FAILURE_SENSOR_TAIL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AAR_47_FAILURE_SENSOR_TAIL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AAR_47_FAILURE_SENSOR_TAIL"]
+        ["AAR_47_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AAR_47_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AAR_47_FAILURE_TOTAL"]
+        ["AIRSPEED_INDICATOR_FAILURE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AIRSPEED_INDICATOR_FAILURE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AIRSPEED_INDICATOR_FAILURE"]
+        ["AN_ALE_40V_FAILURE_CONTAINER_LEFT_GEAR"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALE_40V_FAILURE_CONTAINER_LEFT_GEAR",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALE_40V_FAILURE_CONTAINER_LEFT_GEAR"]
+        ["AN_ALE_40V_FAILURE_CONTAINER_LEFT_WING"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALE_40V_FAILURE_CONTAINER_LEFT_WING",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALE_40V_FAILURE_CONTAINER_LEFT_WING"]
+        ["AN_ALE_40V_FAILURE_CONTAINER_RIGHT_GEAR"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALE_40V_FAILURE_CONTAINER_RIGHT_GEAR",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALE_40V_FAILURE_CONTAINER_RIGHT_GEAR"]
+        ["AN_ALE_40V_FAILURE_CONTAINER_RIGHT_WING"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALE_40V_FAILURE_CONTAINER_RIGHT_WING",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALE_40V_FAILURE_CONTAINER_RIGHT_WING"]
+        ["AN_ALE_40V_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALE_40V_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALE_40V_FAILURE_TOTAL"]
+        ["AN_ALR69V_FAILURE_SENSOR_NOSE_LEFT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALR69V_FAILURE_SENSOR_NOSE_LEFT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALR69V_FAILURE_SENSOR_NOSE_LEFT"]
+        ["AN_ALR69V_FAILURE_SENSOR_NOSE_RIGHT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALR69V_FAILURE_SENSOR_NOSE_RIGHT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALR69V_FAILURE_SENSOR_NOSE_RIGHT"]
+        ["AN_ALR69V_FAILURE_SENSOR_TAIL_LEFT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALR69V_FAILURE_SENSOR_TAIL_LEFT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALR69V_FAILURE_SENSOR_TAIL_LEFT"]
+        ["AN_ALR69V_FAILURE_SENSOR_TAIL_RIGHT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALR69V_FAILURE_SENSOR_TAIL_RIGHT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALR69V_FAILURE_SENSOR_TAIL_RIGHT"]
+        ["AN_ALR69V_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "AN_ALR69V_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["AN_ALR69V_FAILURE_TOTAL"]
+        ["CADC_FAILURE_BARO_ALT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_BARO_ALT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_BARO_ALT"]
+        ["CADC_FAILURE_DYNAMIC"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_DYNAMIC",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_DYNAMIC"]
+        ["CADC_FAILURE_IAS"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_IAS",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_IAS"]
+        ["CADC_FAILURE_MACH"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_MACH",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_MACH"]
+        ["CADC_FAILURE_PRESSURE_ALT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_PRESSURE_ALT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_PRESSURE_ALT"]
+        ["CADC_FAILURE_STATIC"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_STATIC",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_STATIC"]
+        ["CADC_FAILURE_TAS"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_TAS",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_TAS"]
+        ["CADC_FAILURE_TEMPERATURE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_TEMPERATURE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_TEMPERATURE"]
+        ["CADC_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CADC_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CADC_FAILURE_TOTAL"]
+        ["CDU_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CDU_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CDU_FAILURE_TOTAL"]
+        ["CICU_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CICU_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CICU_FAILURE_TOTAL"]
+        ["CLOCK_FAILURE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "CLOCK_FAILURE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["CLOCK_FAILURE"]
+        ["EGI_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "EGI_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["EGI_FAILURE_TOTAL"]
+        ["HUD_FAILURE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "HUD_FAILURE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["HUD_FAILURE"]
+        ["IFFCC_FAILURE_GUN"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "IFFCC_FAILURE_GUN",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["IFFCC_FAILURE_GUN"]
+        ["IFFCC_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "IFFCC_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["IFFCC_FAILURE_TOTAL"]
+        ["ILS_FAILURE_ANT_GLIDESLOPE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ILS_FAILURE_ANT_GLIDESLOPE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ILS_FAILURE_ANT_GLIDESLOPE"]
+        ["ILS_FAILURE_ANT_LOCALIZER"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ILS_FAILURE_ANT_LOCALIZER",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ILS_FAILURE_ANT_LOCALIZER"]
+        ["ILS_FAILURE_ANT_MARKER"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ILS_FAILURE_ANT_MARKER",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ILS_FAILURE_ANT_MARKER"]
+        ["ILS_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "ILS_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["ILS_FAILURE_TOTAL"]
+        ["LEFT_MFCD_FAILURE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "LEFT_MFCD_FAILURE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["LEFT_MFCD_FAILURE"]
+        ["RADAR_ALTIMETR_LEFT_ANT_FAILURE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "RADAR_ALTIMETR_LEFT_ANT_FAILURE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["RADAR_ALTIMETR_LEFT_ANT_FAILURE"]
+        ["RADAR_ALTIMETR_RIGHT_ANT_FAILURE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "RADAR_ALTIMETR_RIGHT_ANT_FAILURE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["RADAR_ALTIMETR_RIGHT_ANT_FAILURE"]
+        ["RIGHT_MFCD_FAILURE"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "RIGHT_MFCD_FAILURE",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["RIGHT_MFCD_FAILURE"]
+        ["SADL_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "SADL_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["SADL_FAILURE_TOTAL"]
+        ["TACAN_FAILURE_RECEIVER"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "TACAN_FAILURE_RECEIVER",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["TACAN_FAILURE_RECEIVER"]
+        ["TACAN_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "TACAN_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["TACAN_FAILURE_TOTAL"]
+        ["TACAN_FAILURE_TRANSMITTER"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "TACAN_FAILURE_TRANSMITTER",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["TACAN_FAILURE_TRANSMITTER"]
+        ["TGP_FAILURE_LEFT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "TGP_FAILURE_LEFT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["TGP_FAILURE_LEFT"]
+        ["TGP_FAILURE_RIGHT"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "TGP_FAILURE_RIGHT",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["TGP_FAILURE_RIGHT"]
+        ["UHF_RADIO_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "UHF_RADIO_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["UHF_RADIO_FAILURE_TOTAL"]
+        ["VHF_AM_RADIO_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "VHF_AM_RADIO_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["VHF_AM_RADIO_FAILURE_TOTAL"]
+        ["VHF_FM_RADIO_FAILURE_TOTAL"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "VHF_FM_RADIO_FAILURE_TOTAL",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["VHF_FM_RADIO_FAILURE_TOTAL"]
+        ["hydro_left"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "hydro_left",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["hydro_left"]
+        ["hydro_right"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "hydro_right",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["hydro_right"]
+        ["l_conv"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "l_conv",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["l_conv"]
+        ["l_engine"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "l_engine",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["l_engine"]
+        ["l_gen"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "l_gen",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["l_gen"]
+        ["r_conv"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "r_conv",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["r_conv"]
+        ["r_engine"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "r_engine",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["r_engine"]
+        ["r_gen"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "r_gen",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["r_gen"]
+        ["sas_pitch_left"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "sas_pitch_left",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["sas_pitch_left"]
+        ["sas_pitch_right"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "sas_pitch_right",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["sas_pitch_right"]
+        ["sas_yaw_left"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "sas_yaw_left",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["sas_yaw_left"]
+        ["sas_yaw_right"] =
+        {
+            ["enable"] = false,
+            ["hh"] = 0,
+            ["id"] = "sas_yaw_right",
+            ["mm"] = 0,
+            ["mmint"] = 1,
+            ["prob"] = 100,
+        }, -- end of ["sas_yaw_right"]
     }, -- end of ["failures"]
     ["forcedOptions"] =
     {
@@ -3237,11 +3786,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -10000,
-        ["centerY"] = 1007.0579728441,
-        ["zoom"] = 2146389.7131553,
+        ["centerX"] = -207318.18565812,
+        ["centerY"] = 7249.1153092881,
+        ["zoom"] = 321115.83751069,
     }, -- end of ["map"]
-    ["maxDictId"] = 1051,
+    ["maxDictId"] = 1066,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -5563,6 +6112,253 @@ mission =
                 ["y"] = 31669.833679644,
                 ["zoneId"] = 3025,
             }, -- end of [117]
+            [118] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "3rd Corps / 30th Armored Div",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 12192,
+                ["x"] = -235494.49632564,
+                ["y"] = -18841.361111949,
+                ["zoneId"] = 3084,
+            }, -- end of [118]
+            [119] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "3rd Corps / 31st Mech div",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 12192,
+                ["x"] = -211945.13123281,
+                ["y"] = -23399.138960982,
+                ["zoneId"] = 3085,
+            }, -- end of [119]
+            [120] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "3rd Corps HQ",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 30480,
+                ["x"] = -217534.694423,
+                ["y"] = 1926.0153083503,
+                ["zoneId"] = 3086,
+            }, -- end of [120]
+            [121] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "3rd Corps / 32nd Motorized dev",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 12192,
+                ["x"] = -218765.69943736,
+                ["y"] = -11243.336001588,
+                ["zoneId"] = 3145,
+            }, -- end of [121]
+            [122] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL IDF 1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -190235.21064329,
+                ["y"] = -15427.384446502,
+                ["zoneId"] = 3204,
+            }, -- end of [122]
+            [123] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL IDF 3",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -211975.20230787,
+                ["y"] = -16324.51575785,
+                ["zoneId"] = 3267,
+            }, -- end of [123]
+            [124] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL IDF 4",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -228680.1671103,
+                ["y"] = -10187.412145682,
+                ["zoneId"] = 3268,
+            }, -- end of [124]
+            [125] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL IDF 2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -188978.58251753,
+                ["y"] = -14286.280042703,
+                ["zoneId"] = 3269,
+            }, -- end of [125]
+            [126] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL BASE 8",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -217566.86359731,
+                ["y"] = 1923.4900002456,
+                ["zoneId"] = 3328,
+            }, -- end of [126]
+            [127] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL BASE 9",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -186171.10799554,
+                ["y"] = -15299.31312973,
+                ["zoneId"] = 3329,
+            }, -- end of [127]
+            [128] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL BASE 11",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -178245.83718522,
+                ["y"] = -9601.5545383245,
+                ["zoneId"] = 3388,
+            }, -- end of [128]
+            [129] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL BASE 12",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -210237.02308714,
+                ["y"] = 1838.5781641841,
+                ["zoneId"] = 3389,
+            }, -- end of [129]
+            [130] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL BASE 13",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -196245.89160212,
+                ["y"] = 16172.290161095,
+                ["zoneId"] = 3390,
+            }, -- end of [130]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
