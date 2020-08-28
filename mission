@@ -3184,7 +3184,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 73379,
+    ["currentKey"] = 76756,
     ["date"] =
     {
         ["Day"] = 21,
@@ -3786,11 +3786,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -207318.18565812,
-        ["centerY"] = 7249.1153092881,
-        ["zoom"] = 321115.83751069,
+        ["centerX"] = -212221.84499324,
+        ["centerY"] = -17094.995094394,
+        ["zoom"] = 333249.66260253,
     }, -- end of ["map"]
-    ["maxDictId"] = 1066,
+    ["maxDictId"] = 1081,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -6204,7 +6204,7 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 1219.2,
                 ["x"] = -190235.21064329,
-                ["y"] = -15427.384446502,
+                ["y"] = -15422.324893933,
                 ["zoneId"] = 3204,
             }, -- end of [122]
             [123] =
@@ -6293,11 +6293,11 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL BASE 9",
+                ["name"] = "MIL UNDOF 127",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1219.2,
+                ["radius"] = 609.6,
                 ["x"] = -186171.10799554,
                 ["y"] = -15299.31312973,
                 ["zoneId"] = 3329,
@@ -6312,7 +6312,7 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL BASE 11",
+                ["name"] = "MIL UNDOF 3",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
@@ -6359,6 +6359,177 @@ mission =
                 ["y"] = 16172.290161095,
                 ["zoneId"] = 3390,
             }, -- end of [130]
+            [131] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL UNDOF 1",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -212058.82679632,
+                ["y"] = -14388.71457685,
+                ["zoneId"] = 3449,
+            }, -- end of [131]
+            [132] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL UNDOF 2",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -199543.74760499,
+                ["y"] = -4396.2274844253,
+                ["zoneId"] = 3450,
+            }, -- end of [132]
+            [133] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL UNDOF 85",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -233555.2443923,
+                ["y"] = -9458.3306308448,
+                ["zoneId"] = 3509,
+            }, -- end of [133]
+            [134] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL UNDOF 80",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -228912.48256895,
+                ["y"] = -7602.9984341878,
+                ["zoneId"] = 3568,
+            }, -- end of [134]
+            [135] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL UNDOF 68",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -214817.52509818,
+                ["y"] = -8745.7713836392,
+                ["zoneId"] = 3627,
+            }, -- end of [135]
+            [136] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL UNDOF 32",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -201282.13684885,
+                ["y"] = -7679.4307009896,
+                ["zoneId"] = 3687,
+            }, -- end of [136]
+            [137] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL UNDOF 37 ",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -200061.1141166,
+                ["y"] = -13259.23140947,
+                ["zoneId"] = 3746,
+            }, -- end of [137]
+            [138] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL UNDOF 108",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -182939.12719688,
+                ["y"] = -13513.776042881,
+                ["zoneId"] = 3805,
+            }, -- end of [138]
+            [139] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "MIL IDF 5 ",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -218179.53047646,
+                ["y"] = -11307.154643019,
+                ["zoneId"] = 3866,
+            }, -- end of [139]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
