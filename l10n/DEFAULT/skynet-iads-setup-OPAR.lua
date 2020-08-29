@@ -25,8 +25,8 @@ redIADS:addEarlyWarningRadarsByPrefix('EWR')
 redIADS:addSAMSitesByPrefix('IADS')
 
 --add a command center:
-commandCenter = StaticObject.getByName('ADCC')
-redIADS:addCommandCenter(commandCenter)
+--commandCenter = StaticObject.getByName('ADCC')
+--redIADS:addCommandCenter(commandCenter)
 
 
 
