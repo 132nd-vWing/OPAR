@@ -3328,7 +3328,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 77840,
+    ["currentKey"] = 78965,
     ["date"] =
     {
         ["Day"] = 21,
@@ -3930,9 +3930,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -9472.7546983185,
-        ["centerY"] = 68400.46884273,
-        ["zoom"] = 1408246.2908012,
+        ["centerX"] = 102369.60960044,
+        ["centerY"] = 214452.19579904,
+        ["zoom"] = 1368360.7643886,
     }, -- end of ["map"]
     ["maxDictId"] = 1112,
     ["pictureFileNameB"] =
@@ -4469,7 +4469,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 30480,
+                ["radius"] = 24384,
                 ["x"] = 146630.67680335,
                 ["y"] = 41401.047804947,
                 ["zoneId"] = 258,
@@ -4489,8 +4489,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 15240,
-                ["x"] = 169799.9965867,
-                ["y"] = 27900.487947416,
+                ["x"] = 136614.83909497,
+                ["y"] = 63780.166773945,
                 ["zoneId"] = 317,
             }, -- end of [24]
             [25] =
@@ -4508,8 +4508,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 15240,
-                ["x"] = 117127.43622713,
-                ["y"] = 11391.177983971,
+                ["x"] = 169883.32762424,
+                ["y"] = 27558.305992763,
                 ["zoneId"] = 318,
             }, -- end of [25]
             [26] =
@@ -4527,8 +4527,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 15240,
-                ["x"] = 206744.99696179,
-                ["y"] = 71186.283947767,
+                ["x"] = 199358.87652035,
+                ["y"] = 64364.189846984,
                 ["zoneId"] = 319,
             }, -- end of [26]
             [27] =
@@ -6678,6 +6678,101 @@ mission =
                 ["y"] = -11307.154643019,
                 ["zoneId"] = 3866,
             }, -- end of [139]
+            [140] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "2nd Corps/ 21st Mech Div",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15240,
+                ["x"] = 170527.25834681,
+                ["y"] = 108334.44216957,
+                ["zoneId"] = 3925,
+            }, -- end of [140]
+            [141] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "2nd Corps HQ",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 24384,
+                ["x"] = 162643.90564478,
+                ["y"] = 107184.28501194,
+                ["zoneId"] = 3926,
+            }, -- end of [141]
+            [142] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "2nd Corps / 22nd Motorized",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15240,
+                ["x"] = 173516.28707644,
+                ["y"] = 144188.13963472,
+                ["zoneId"] = 3927,
+            }, -- end of [142]
+            [143] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 0,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "CJTF UNIT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 12192,
+                ["x"] = 235208.27894575,
+                ["y"] = 82037.756119287,
+                ["zoneId"] = 3986,
+            }, -- end of [143]
+            [144] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 0,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "CJTF Unit",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 12192,
+                ["x"] = 205965.10148972,
+                ["y"] = 27965.486379364,
+                ["zoneId"] = 3987,
+            }, -- end of [144]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
