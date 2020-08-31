@@ -759,7 +759,6 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -1.5569904031017,
-                                        ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 1,
@@ -772,192 +771,6 @@ mission =
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
-                    ["vehicle"] =
-                    {
-                        ["group"] =
-                        {
-                            [1] =
-                            {
-                                ["groupId"] = 130,
-                                ["hidden"] = false,
-                                ["name"] = "DictKey_GroupName_555",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["action"] = "Off Road",
-                                            ["alt"] = 234,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_557",
-                                            ["speed"] = 5.5555555555556,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                        [1] =
-                                                        {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["groupId"] = 4,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 85279.806849115,
-                                            ["y"] = 38750.09086368,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                    ["spans"] =
-                                    {
-                                    }, -- end of ["spans"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["tasks"] =
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["heading"] = 0,
-                                        ["name"] = "DictKey_UnitName_556",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Vulcan",
-                                        ["unitId"] = 166,
-                                        ["wagons"] =
-                                        {
-                                        }, -- end of ["wagons"]
-                                        ["x"] = 85279.806849115,
-                                        ["y"] = 38750.09086368,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["visible"] = false,
-                                ["x"] = 85279.806849115,
-                                ["y"] = 38750.09086368,
-                            }, -- end of [1]
-                            [2] =
-                            {
-                                ["groupId"] = 131,
-                                ["hidden"] = false,
-                                ["name"] = "DictKey_GroupName_558",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["action"] = "Off Road",
-                                            ["alt"] = 234,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_560",
-                                            ["speed"] = 5.5555555555556,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                        [1] =
-                                                        {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["groupId"] = 6,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 85807.12371227,
-                                            ["y"] = 38595.917713011,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                    ["spans"] =
-                                    {
-                                    }, -- end of ["spans"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "Ground Nothing",
-                                ["taskSelected"] = true,
-                                ["tasks"] =
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["heading"] = 0,
-                                        ["name"] = "DictKey_UnitName_559",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Vulcan",
-                                        ["unitId"] = 167,
-                                        ["wagons"] =
-                                        {
-                                        }, -- end of ["wagons"]
-                                        ["x"] = 85807.12371227,
-                                        ["y"] = 38595.917713011,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["visible"] = false,
-                                ["x"] = 85807.12371227,
-                                ["y"] = 38595.917713011,
-                            }, -- end of [2]
-                        }, -- end of ["group"]
-                    }, -- end of ["vehicle"]
                 }, -- end of [1]
             }, -- end of ["country"]
             ["name"] = "blue",
@@ -1906,7 +1719,6 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -1.4378639872051,
-                                        ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 77,
@@ -2407,7 +2219,6 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -0.048265068153102,
-                                        ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 78,
@@ -2652,7 +2463,6 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -2.8607549289686,
-                                        ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-16C_50",
                                         ["unitId"] = 79,
@@ -2712,6 +2522,714 @@ mission =
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
+                    ["vehicle"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["groupId"] = 332,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1086",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 1884,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1088",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -144723.2177129,
+                                            ["y"] = 39310.247447139,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1087",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 548,
+                                        ["x"] = -144723.2177129,
+                                        ["y"] = 39310.247447139,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -144723.2177129,
+                                ["y"] = 39310.247447139,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["groupId"] = 333,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1089",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 1963,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1091",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -196384.16411505,
+                                            ["y"] = 44943.159607541,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1090",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "1L13 EWR",
+                                        ["unitId"] = 549,
+                                        ["x"] = -196384.16411505,
+                                        ["y"] = 44943.159607541,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -196384.16411505,
+                                ["y"] = 44943.159607541,
+                            }, -- end of [2]
+                            [3] =
+                            {
+                                ["groupId"] = 334,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1092",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 1670,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1094",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -264621.38185082,
+                                            ["y"] = 63255.33867131,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1093",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 550,
+                                        ["x"] = -264621.38185082,
+                                        ["y"] = 63255.33867131,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -264621.38185082,
+                                ["y"] = 63255.33867131,
+                            }, -- end of [3]
+                            [4] =
+                            {
+                                ["groupId"] = 335,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1095",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 1884,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1097",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -37817.80481905,
+                                            ["y"] = 64378.131055586,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1096",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 551,
+                                        ["x"] = -37817.80481905,
+                                        ["y"] = 64378.131055586,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -37817.80481905,
+                                ["y"] = 64378.131055586,
+                            }, -- end of [4]
+                            [5] =
+                            {
+                                ["groupId"] = 336,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1098",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 381,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1100",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 74164.406662068,
+                                            ["y"] = 233745.12225368,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1099",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 552,
+                                        ["x"] = 74164.406662068,
+                                        ["y"] = 233745.12225368,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 74164.406662068,
+                                ["y"] = 233745.12225368,
+                            }, -- end of [5]
+                            [6] =
+                            {
+                                ["groupId"] = 337,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1101",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 1884,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1103",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 99838.027909696,
+                                            ["y"] = 124305.07014826,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1102",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 553,
+                                        ["x"] = 99838.027909696,
+                                        ["y"] = 124305.07014826,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 99838.027909696,
+                                ["y"] = 124305.07014826,
+                            }, -- end of [6]
+                            [7] =
+                            {
+                                ["groupId"] = 338,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1104",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 1884,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1106",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 46872.965031238,
+                                            ["y"] = 1508.6251765255,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1105",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 554,
+                                        ["x"] = 46872.965031238,
+                                        ["y"] = 1508.6251765255,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 46872.965031238,
+                                ["y"] = 1508.6251765255,
+                            }, -- end of [7]
+                            [8] =
+                            {
+                                ["groupId"] = 339,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1107",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 297,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1109",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 146558.39513642,
+                                            ["y"] = 200088.67645337,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1108",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 555,
+                                        ["x"] = 146558.39513642,
+                                        ["y"] = 200088.67645337,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 146558.39513642,
+                                ["y"] = 200088.67645337,
+                            }, -- end of [8]
+                            [9] =
+                            {
+                                ["groupId"] = 340,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1110",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 297,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1112",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EWR",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 102722.00192403,
+                                            ["y"] = 161246.09578062,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_1111",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "55G6 EWR",
+                                        ["unitId"] = 556,
+                                        ["x"] = 102722.00192403,
+                                        ["y"] = 161246.09578062,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 102722.00192403,
+                                ["y"] = 161246.09578062,
+                            }, -- end of [9]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
                 }, -- end of [1]
             }, -- end of ["country"]
             ["name"] = "red",
@@ -2810,7 +3328,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 77378,
+    ["currentKey"] = 84140,
     ["date"] =
     {
         ["Day"] = 21,
@@ -3412,11 +3930,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -57414.906734266,
-        ["centerY"] = 55220.150048373,
-        ["zoom"] = 642954.71223565,
+        ["centerX"] = -217587.60419725,
+        ["centerY"] = -7669.9453320799,
+        ["zoom"] = 398323.69015695,
     }, -- end of ["map"]
-    ["maxDictId"] = 1085,
+    ["maxDictId"] = 1112,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -3951,7 +4469,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 30480,
+                ["radius"] = 24384,
                 ["x"] = 146630.67680335,
                 ["y"] = 41401.047804947,
                 ["zoneId"] = 258,
@@ -3971,8 +4489,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 15240,
-                ["x"] = 169799.9965867,
-                ["y"] = 27900.487947416,
+                ["x"] = 136614.83909497,
+                ["y"] = 63780.166773945,
                 ["zoneId"] = 317,
             }, -- end of [24]
             [25] =
@@ -3990,8 +4508,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 15240,
-                ["x"] = 117127.43622713,
-                ["y"] = 11391.177983971,
+                ["x"] = 169883.32762424,
+                ["y"] = 27558.305992763,
                 ["zoneId"] = 318,
             }, -- end of [25]
             [26] =
@@ -4009,8 +4527,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 15240,
-                ["x"] = 206744.99696179,
-                ["y"] = 71186.283947767,
+                ["x"] = 199358.87652035,
+                ["y"] = 64364.189846984,
                 ["zoneId"] = 319,
             }, -- end of [26]
             [27] =
@@ -5757,8 +6275,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 12192,
-                ["x"] = -235494.49632564,
-                ["y"] = -18841.361111949,
+                ["x"] = -215628.60560468,
+                ["y"] = -16114.014613551,
                 ["zoneId"] = 3084,
             }, -- end of [118]
             [119] =
@@ -5776,8 +6294,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 12192,
-                ["x"] = -211945.13123281,
-                ["y"] = -23399.138960982,
+                ["x"] = -234535.17330585,
+                ["y"] = -17249.621276229,
                 ["zoneId"] = 3085,
             }, -- end of [119]
             [120] =
@@ -5814,25 +6332,25 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 12192,
-                ["x"] = -218765.69943736,
-                ["y"] = -11243.336001588,
+                ["x"] = -197512.79134181,
+                ["y"] = -19130.511558618,
                 ["zoneId"] = 3145,
             }, -- end of [121]
             [122] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL IDF 1",
+                ["name"] = "IDF HERMON",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1219.2,
+                ["radius"] = 609.6,
                 ["x"] = -190235.21064329,
                 ["y"] = -15422.324893933,
                 ["zoneId"] = 3204,
@@ -5841,57 +6359,57 @@ mission =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL IDF 3",
+                ["name"] = "IDF AVITAL",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1219.2,
-                ["x"] = -211975.20230787,
-                ["y"] = -16324.51575785,
+                ["radius"] = 609.6,
+                ["x"] = -211973.4308793,
+                ["y"] = -16321.944329279,
                 ["zoneId"] = 3267,
             }, -- end of [123]
             [124] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL IDF 4",
+                ["name"] = "IDF PERES",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1219.2,
-                ["x"] = -228680.1671103,
-                ["y"] = -10187.412145682,
+                ["radius"] = 609.6,
+                ["x"] = -228679.28139601,
+                ["y"] = -10184.212145682,
                 ["zoneId"] = 3268,
             }, -- end of [124]
             [125] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL IDF 2",
+                ["name"] = "IDF SHLAGIM",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1219.2,
-                ["x"] = -188978.58251753,
-                ["y"] = -14286.280042703,
+                ["radius"] = 609.6,
+                ["x"] = -188978.76461338,
+                ["y"] = -14286.172535674,
                 ["zoneId"] = 3269,
             }, -- end of [125]
             [126] =
@@ -5917,13 +6435,13 @@ mission =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 127",
+                ["name"] = "UNDOF 127",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
@@ -5936,19 +6454,19 @@ mission =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 3",
+                ["name"] = "UNDOF HH",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1219.2,
-                ["x"] = -178245.83718522,
-                ["y"] = -9601.5545383245,
+                ["radius"] = 609.6,
+                ["x"] = -178246.87391839,
+                ["y"] = -9595.3341393288,
                 ["zoneId"] = 3388,
             }, -- end of [128]
             [129] =
@@ -5993,173 +6511,895 @@ mission =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
-                    [4] = 0.15,
+                    [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 1",
+                ["name"] = "UNDOF ZIOUANI",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 609.6,
-                ["x"] = -212058.82679632,
-                ["y"] = -14388.71457685,
+                ["x"] = -212052.50357708,
+                ["y"] = -14389.66704863,
                 ["zoneId"] = 3449,
             }, -- end of [131]
             [132] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
-                    [4] = 0.15,
+                    [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 2",
+                ["name"] = "UNDOF FAOUAR",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 609.6,
-                ["x"] = -199543.74760499,
-                ["y"] = -4396.2274844253,
+                ["x"] = -199546.94760499,
+                ["y"] = -4401.4274844253,
                 ["zoneId"] = 3450,
             }, -- end of [132]
             [133] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
-                    [4] = 0.15,
+                    [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 85",
+                ["name"] = "UNDOF 85",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 609.6,
-                ["x"] = -233555.2443923,
-                ["y"] = -9458.3306308448,
+                ["x"] = -233556.10153516,
+                ["y"] = -9458.5306308448,
                 ["zoneId"] = 3509,
             }, -- end of [133]
             [134] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
-                    [4] = 0.15,
+                    [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 80",
+                ["name"] = "UNDOF 80",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 609.6,
-                ["x"] = -228912.48256895,
-                ["y"] = -7602.9984341878,
+                ["x"] = -228912.25399752,
+                ["y"] = -7604.5127199021,
                 ["zoneId"] = 3568,
             }, -- end of [134]
             [135] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
-                    [4] = 0.15,
+                    [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 68",
+                ["name"] = "UNDOF 68",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 609.6,
-                ["x"] = -214817.52509818,
-                ["y"] = -8745.7713836392,
+                ["x"] = -214815.03938389,
+                ["y"] = -8745.3142407821,
                 ["zoneId"] = 3627,
             }, -- end of [135]
             [136] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
-                    [4] = 0.15,
+                    [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 32",
+                ["name"] = "UNDOF 32",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 609.6,
-                ["x"] = -201282.13684885,
-                ["y"] = -7679.4307009896,
+                ["x"] = -201277.67970599,
+                ["y"] = -7677.7449867039,
                 ["zoneId"] = 3687,
             }, -- end of [136]
             [137] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
-                    [4] = 0.15,
+                    [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 37 ",
+                ["name"] = "UNDOF 37",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 609.6,
-                ["x"] = -200061.1141166,
-                ["y"] = -13259.23140947,
+                ["x"] = -200060.1141166,
+                ["y"] = -13256.945695184,
                 ["zoneId"] = 3746,
             }, -- end of [137]
             [138] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL UNDOF 108",
+                ["name"] = "UNDOF 108",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 609.6,
-                ["x"] = -182939.12719688,
-                ["y"] = -13513.776042881,
+                ["x"] = -182940.99366888,
+                ["y"] = -13509.738368766,
                 ["zoneId"] = 3805,
             }, -- end of [138]
             [139] =
             {
                 ["color"] =
                 {
-                    [1] = 1,
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "2nd Corps/ 21st Mech Div",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15240,
+                ["x"] = 170527.25834681,
+                ["y"] = 108334.44216957,
+                ["zoneId"] = 3925,
+            }, -- end of [139]
+            [140] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "2nd Corps HQ",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 24384,
+                ["x"] = 162643.90564478,
+                ["y"] = 107184.28501194,
+                ["zoneId"] = 3926,
+            }, -- end of [140]
+            [141] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "2nd Corps / 22nd Motorized",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15240,
+                ["x"] = 173516.28707644,
+                ["y"] = 144188.13963472,
+                ["zoneId"] = 3927,
+            }, -- end of [141]
+            [142] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 0,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "CJTF UNIT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 12192,
+                ["x"] = 235208.27894575,
+                ["y"] = 82037.756119287,
+                ["zoneId"] = 3986,
+            }, -- end of [142]
+            [143] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 0,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "CJTF Unit",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 12192,
+                ["x"] = 205965.10148972,
+                ["y"] = 27965.486379364,
+                ["zoneId"] = 3987,
+            }, -- end of [143]
+            [144] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
                     [2] = 1,
                     [3] = 1,
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "MIL IDF 5 ",
+                ["name"] = "FRIENDLY POSITION",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1219.2,
-                ["x"] = -218179.53047646,
-                ["y"] = -11307.154643019,
-                ["zoneId"] = 3866,
-            }, -- end of [139]
+                ["radius"] = 3000,
+                ["x"] = 63799.068257975,
+                ["y"] = 413161.51464852,
+                ["zoneId"] = 4047,
+            }, -- end of [144]
+            [145] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF KRAMIM",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -199695.6427705,
+                ["y"] = -17565.272806552,
+                ["zoneId"] = 4048,
+            }, -- end of [145]
+            [146] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF HERMONIT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -203927.67881158,
+                ["y"] = -16203.202185837,
+                ["zoneId"] = 4049,
+            }, -- end of [146]
+            [147] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF HAZEKA",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -218176.75444688,
+                ["y"] = -11302.785392683,
+                ["zoneId"] = 4108,
+            }, -- end of [147]
+            [148] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 1-32A",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -211394.86999066,
+                ["y"] = -80435.636566829,
+                ["zoneId"] = 4167,
+            }, -- end of [148]
+            [149] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 1-31",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -211835.21872483,
+                ["y"] = -76113.432240323,
+                ["zoneId"] = 4168,
+            }, -- end of [149]
+            [150] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 1-0A",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -210309.05850408,
+                ["y"] = -73458.951533491,
+                ["zoneId"] = 4171,
+            }, -- end of [150]
+            [151] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL BLAT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -210132.65159097,
+                ["y"] = -64268.725332027,
+                ["zoneId"] = 4172,
+            }, -- end of [151]
+            [152] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 5-42",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -210890.76616464,
+                ["y"] = -60921.275837664,
+                ["zoneId"] = 4173,
+            }, -- end of [152]
+            [153] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL BEIT-LIF",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -208356.74880804,
+                ["y"] = -57783.037014603,
+                ["zoneId"] = 4174,
+            }, -- end of [153]
+            [154] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 5-22",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -214078.56067141,
+                ["y"] = -55840.963635767,
+                ["zoneId"] = 4175,
+            }, -- end of [154]
+            [155] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL BENT-JBAIL",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -208276.80135392,
+                ["y"] = -53928.261806323,
+                ["zoneId"] = 4234,
+            }, -- end of [155]
+            [156] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 6-50",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -215456.33147487,
+                ["y"] = -53663.387689176,
+                ["zoneId"] = 4235,
+            }, -- end of [156]
+            [157] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 6-52",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -212017.41568414,
+                ["y"] = -48405.865576611,
+                ["zoneId"] = 4236,
+            }, -- end of [157]
+            [158] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 8-36",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -208372.16368744,
+                ["y"] = -43616.123042038,
+                ["zoneId"] = 4237,
+            }, -- end of [158]
+            [159] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 8-30",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -202594.4430776,
+                ["y"] = -42922.231014597,
+                ["zoneId"] = 4238,
+            }, -- end of [159]
+            [160] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 8-33",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -203305.46949906,
+                ["y"] = -40291.887678322,
+                ["zoneId"] = 4239,
+            }, -- end of [160]
+            [161] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL ADAISSEH",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -196081.31152578,
+                ["y"] = -39328.132439813,
+                ["zoneId"] = 4298,
+            }, -- end of [161]
+            [162] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL KFAR-KILA",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -193594.23642599,
+                ["y"] = -39034.54079437,
+                ["zoneId"] = 4299,
+            }, -- end of [162]
+            [163] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 9-66",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -189770.45559638,
+                ["y"] = -37047.305794853,
+                ["zoneId"] = 4300,
+            }, -- end of [163]
+            [164] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL 9-64",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -193748.68483445,
+                ["y"] = -34490.486814216,
+                ["zoneId"] = 4301,
+            }, -- end of [164]
+            [165] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL AJHER",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -191482.38603652,
+                ["y"] = -30534.62073505,
+                ["zoneId"] = 4360,
+            }, -- end of [165]
+            [166] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "UNIFIL CHEVAA",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -187182.48224141,
+                ["y"] = -20891.009503412,
+                ["zoneId"] = 4361,
+            }, -- end of [166]
+            [167] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF R-HANIKRA",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -211397.84092607,
+                ["y"] = -80517.82480828,
+                ["zoneId"] = 4420,
+            }, -- end of [167]
+            [168] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF ZARIT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -211110.32068367,
+                ["y"] = -63381.783347676,
+                ["zoneId"] = 4421,
+            }, -- end of [168]
+            [169] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF BIRANIT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -215962.59442182,
+                ["y"] = -58929.763070878,
+                ["zoneId"] = 4422,
+            }, -- end of [169]
+            [170] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF DOVEV",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -216121.33276516,
+                ["y"] = -53091.504907782,
+                ["zoneId"] = 4423,
+            }, -- end of [170]
+            [171] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF AVIVIM",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -212988.16159987,
+                ["y"] = -48747.667605501,
+                ["zoneId"] = 4424,
+            }, -- end of [171]
+            [172] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF MALKIA",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -211735.24854696,
+                ["y"] = -42759.852829549,
+                ["zoneId"] = 4425,
+            }, -- end of [172]
+            [173] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF YIFTAH",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -207515.08364965,
+                ["y"] = -40549.139396363,
+                ["zoneId"] = 4426,
+            }, -- end of [173]
+            [174] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF MARGALIOT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -201557.25190691,
+                ["y"] = -39314.148768686,
+                ["zoneId"] = 4427,
+            }, -- end of [174]
+            [175] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF TZIPOREN",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -205201.04731477,
+                ["y"] = -39337.089372608,
+                ["zoneId"] = 4428,
+            }, -- end of [175]
+            [176] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF TZEFIAH",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -192840.04087517,
+                ["y"] = -36555.977982228,
+                ["zoneId"] = 4487,
+            }, -- end of [176]
+            [177] =
+            {
+                ["color"] =
+                {
+                    [1] = 0,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "IDF MT-DOV",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 609.6,
+                ["x"] = -190433.6785257,
+                ["y"] = -24328.00185473,
+                ["zoneId"] = 4488,
+            }, -- end of [177]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
