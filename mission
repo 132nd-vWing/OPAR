@@ -771,6 +771,268 @@ mission =
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
+                    ["ship"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["groupId"] = 341,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1113",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1115",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "ActivateBeacon",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["bearing"] = true,
+                                                                        ["callsign"] = "TKR",
+                                                                        ["channel"] = 1,
+                                                                        ["frequency"] = 1088000000,
+                                                                        ["modeChannel"] = "X",
+                                                                        ["system"] = 4,
+                                                                        ["type"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 62670.623145401,
+                                            ["y"] = -389277.94263106,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0,
+                                        ["modulation"] = 0,
+                                        ["name"] = "DictKey_UnitName_1114",
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "CVN_73",
+                                        ["unitId"] = 557,
+                                        ["x"] = 62670.623145401,
+                                        ["y"] = -389277.94263106,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 62670.623145401,
+                                ["y"] = -389277.94263106,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["groupId"] = 342,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1118",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1120",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 82908.011869436,
+                                            ["y"] = -388664.6884273,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0,
+                                        ["modulation"] = 0,
+                                        ["name"] = "DictKey_UnitName_1119",
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "USS_Arleigh_Burke_IIa",
+                                        ["unitId"] = 560,
+                                        ["x"] = 82908.011869436,
+                                        ["y"] = -388664.6884273,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 82908.011869436,
+                                ["y"] = -388664.6884273,
+                            }, -- end of [2]
+                            [3] =
+                            {
+                                ["groupId"] = 344,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1124",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1126",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "ActivateBeacon",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["bearing"] = true,
+                                                                        ["callsign"] = "TKR",
+                                                                        ["channel"] = 1,
+                                                                        ["frequency"] = 1088000000,
+                                                                        ["modeChannel"] = "X",
+                                                                        ["system"] = 4,
+                                                                        ["type"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 87200.791295747,
+                                            ["y"] = -109634.02571711,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0,
+                                        ["modulation"] = 0,
+                                        ["name"] = "DictKey_UnitName_1125",
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "TICONDEROG",
+                                        ["unitId"] = 562,
+                                        ["x"] = 87200.791295747,
+                                        ["y"] = -109634.02571711,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0,
+                                        ["modulation"] = 0,
+                                        ["name"] = "DictKey_UnitName_1130",
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "PERRY",
+                                        ["unitId"] = 564,
+                                        ["x"] = 86400.791295747,
+                                        ["y"] = -108834.02571711,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 87200.791295747,
+                                ["y"] = -109634.02571711,
+                            }, -- end of [3]
+                        }, -- end of ["group"]
+                    }, -- end of ["ship"]
                 }, -- end of [1]
             }, -- end of ["country"]
             ["name"] = "blue",
@@ -3328,7 +3590,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 84590,
+    ["currentKey"] = 85076,
     ["date"] =
     {
         ["Day"] = 21,
@@ -3930,11 +4192,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -209840.56520792,
-        ["centerY"] = 19971.781773611,
-        ["zoom"] = 641504.28623467,
+        ["centerX"] = -10000,
+        ["centerY"] = -6607.3194856577,
+        ["zoom"] = 2146389.7131553,
     }, -- end of ["map"]
-    ["maxDictId"] = 1112,
+    ["maxDictId"] = 1133,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
