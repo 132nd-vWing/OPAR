@@ -853,7 +853,7 @@ mission =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["type"] = "CVN_73",
+                                        ["type"] = "CVN_72",
                                         ["unitId"] = 557,
                                         ["x"] = 62670.623145401,
                                         ["y"] = -389277.94263106,
@@ -954,30 +954,6 @@ mission =
                                                 {
                                                     ["tasks"] =
                                                     {
-                                                        [1] =
-                                                        {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "ActivateBeacon",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["bearing"] = true,
-                                                                        ["callsign"] = "TKR",
-                                                                        ["channel"] = 1,
-                                                                        ["frequency"] = 1088000000,
-                                                                        ["modeChannel"] = "X",
-                                                                        ["system"] = 4,
-                                                                        ["type"] = 4,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -3590,7 +3566,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 85076,
+    ["currentKey"] = 85324,
     ["date"] =
     {
         ["Day"] = 21,
@@ -4192,9 +4168,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -10000,
-        ["centerY"] = -6607.3194856577,
-        ["zoom"] = 2146389.7131553,
+        ["centerX"] = -15075.015185478,
+        ["centerY"] = -134175.35449323,
+        ["zoom"] = 1668862.3093836,
     }, -- end of ["map"]
     ["maxDictId"] = 1133,
     ["pictureFileNameB"] =
