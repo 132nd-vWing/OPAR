@@ -3566,7 +3566,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 85324,
+    ["currentKey"] = 85578,
     ["date"] =
     {
         ["Day"] = 21,
@@ -4168,11 +4168,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -15075.015185478,
-        ["centerY"] = -134175.35449323,
-        ["zoom"] = 1668862.3093836,
+        ["centerX"] = 102770.48577821,
+        ["centerY"] = 82945.14116241,
+        ["zoom"] = 1167.3887850302,
     }, -- end of ["map"]
-    ["maxDictId"] = 1133,
+    ["maxDictId"] = 1136,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -5429,7 +5429,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = 115070.23845564,
                 ["y"] = 194133.25239191,
                 ["zoneId"] = 1109,
@@ -5448,7 +5448,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = 112953.10660859,
                 ["y"] = 184503.10278987,
                 ["zoneId"] = 1110,
@@ -5467,7 +5467,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = 107162.21746764,
                 ["y"] = 189994.88012154,
                 ["zoneId"] = 1169,
@@ -5486,7 +5486,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 1219.2,
                 ["x"] = 128742.14924644,
                 ["y"] = 118293.39275199,
                 ["zoneId"] = 1228,
@@ -5657,7 +5657,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1524,
+                ["radius"] = 1219.2,
                 ["x"] = 76505.454824791,
                 ["y"] = 110381.72211245,
                 ["zoneId"] = 1529,
@@ -7638,6 +7638,139 @@ mission =
                 ["y"] = -24328.00185473,
                 ["zoneId"] = 4488,
             }, -- end of [177]
+            [178] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_036_MINAKH_AIRFIELD",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 163736.21904342,
+                ["y"] = 107162.05289336,
+                ["zoneId"] = 4547,
+            }, -- end of [178]
+            [179] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_037_ALEPPO_INTL_AIRPORT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 125878.36852962,
+                ["y"] = 123190.11432936,
+                ["zoneId"] = 4548,
+            }, -- end of [179]
+            [180] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_038_KUWEIRES_AIRBASE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 125346.24958125,
+                ["y"] = 155413.50876638,
+                ["zoneId"] = 4549,
+            }, -- end of [180]
+            [181] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_039_JIRAH_AIRFIELD",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 115700.75693574,
+                ["y"] = 186785.95859418,
+                ["zoneId"] = 4550,
+            }, -- end of [181]
+            [182] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_040_TABQA_AIRBASE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 77366.241871334,
+                ["y"] = 243628.47675963,
+                ["zoneId"] = 4551,
+            }, -- end of [182]
+            [183] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_041_ABU_AL_DUHUR_AIRFIELD",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 76171.350286313,
+                ["y"] = 110974.09734756,
+                ["zoneId"] = 4552,
+            }, -- end of [183]
+            [184] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_042_TAFTANAZ_AIRBASE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 102656.80294454,
+                ["y"] = 82919.67956692,
+                ["zoneId"] = 4553,
+            }, -- end of [184]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
