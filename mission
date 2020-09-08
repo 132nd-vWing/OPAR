@@ -3566,7 +3566,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 85578,
+    ["currentKey"] = 86054,
     ["date"] =
     {
         ["Day"] = 21,
@@ -4168,9 +4168,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 102770.48577821,
-        ["centerY"] = 82945.14116241,
-        ["zoom"] = 1167.3887850302,
+        ["centerX"] = 75274.226989955,
+        ["centerY"] = 246868.23463333,
+        ["zoom"] = 1206059.6173145,
     }, -- end of ["map"]
     ["maxDictId"] = 1136,
     ["pictureFileNameB"] =
@@ -5619,7 +5619,7 @@ mission =
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
-                ["radius"] = 1524,
+                ["radius"] = 1219.2,
                 ["x"] = -157606.21905153,
                 ["y"] = 73835.461375213,
                 ["zoneId"] = 1527,
@@ -7771,6 +7771,253 @@ mission =
                 ["y"] = 82919.67956692,
                 ["zoneId"] = 4553,
             }, -- end of [184]
+            [185] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_043_BASSEL_AL_ASSAD",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 41811.865288232,
+                ["y"] = 5802.5948422971,
+                ["zoneId"] = 4612,
+            }, -- end of [185]
+            [186] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_044_HAMA_AIRPORT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 8500.4383712132,
+                ["y"] = 74720.825385778,
+                ["zoneId"] = 4613,
+            }, -- end of [186]
+            [187] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_045_PALMYRA",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -55587.676968246,
+                ["y"] = 220113.88546944,
+                ["zoneId"] = 4614,
+            }, -- end of [187]
+            [188] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_046_AN_NASIRIYAH",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -124900.18056702,
+                ["y"] = 85584.035807525,
+                ["zoneId"] = 4615,
+            }, -- end of [188]
+            [189] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_047_AL_DUMAYR",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -158866.0795641,
+                ["y"] = 74049.27437358,
+                ["zoneId"] = 4616,
+            }, -- end of [189]
+            [190] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_048_MARJ_AS_SULTAN",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -170273.76501149,
+                ["y"] = 47461.701427517,
+                ["zoneId"] = 4617,
+            }, -- end of [190]
+            [191] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_050_DAMASCUS_INTL",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -181474.92727872,
+                ["y"] = 51843.35373301,
+                ["zoneId"] = 4618,
+            }, -- end of [191]
+            [192] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_051_QABR_AS_SITT",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -174675.91600491,
+                ["y"] = 37168.238367223,
+                ["zoneId"] = 4677,
+            }, -- end of [192]
+            [193] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_052_MEZZEH_AIRFIELD",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -172449.85895697,
+                ["y"] = 24156.412275999,
+                ["zoneId"] = 4678,
+            }, -- end of [193]
+            [194] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_053_MARJ_RUHAYYIL",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -194285.63200616,
+                ["y"] = 46102.094444952,
+                ["zoneId"] = 4679,
+            }, -- end of [194]
+            [195] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_054_KHALKHALAH",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -218554.15732246,
+                ["y"] = 55634.179969688,
+                ["zoneId"] = 4680,
+            }, -- end of [195]
+            [196] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_056_TARTUS",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -13266.058721202,
+                ["y"] = -3056.2756230595,
+                ["zoneId"] = 4681,
+            }, -- end of [196]
+            [197] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 0,
+                    [3] = 0.50196078431373,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "TGT_055_LATAKIA_NAVALBASE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = 54729.625928687,
+                ["y"] = -10446.431455722,
+                ["zoneId"] = 4682,
+            }, -- end of [197]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
