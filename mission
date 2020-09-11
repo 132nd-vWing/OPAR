@@ -2163,7 +2163,7 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["frequency"] = 127500000,
+                                        ["frequency"] = 309100000,
                                         ["heading"] = 1.709647382886,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_1114",
@@ -4885,7 +4885,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 88965,
+    ["currentKey"] = 89228,
     ["date"] =
     {
         ["Day"] = 1,
