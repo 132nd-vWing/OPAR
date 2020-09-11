@@ -13,6 +13,416 @@ mission =
             {
                 [1] =
                 {
+                    ["helicopter"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 349,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1156",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 59,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1158",
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 221118.609375,
+                                            ["y"] = -34820.70703125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 35.6,
+                                                    [2] = 32.9,
+                                                    [3] = 48.5,
+                                                    [4] = 33.8,
+                                                    [5] = 36.3,
+                                                    [6] = 37.8,
+                                                    [7] = 38.2,
+                                                    [8] = 36.4,
+                                                    [9] = 39.8,
+                                                    [10] = 32.25,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 0.625,
+                                                    [2] = 0.303,
+                                                    [3] = 0.289,
+                                                    [4] = 0.591,
+                                                    [5] = 0.408,
+                                                    [6] = 0.803,
+                                                    [7] = 0.443,
+                                                    [8] = 0.215,
+                                                    [9] = 0.525,
+                                                    [10] = 1.065,
+                                                    [11] = 0.718,
+                                                    [12] = 0.35,
+                                                    [13] = 0.583,
+                                                    [14] = 0.283,
+                                                    [15] = 0.995,
+                                                    [16] = 1.21,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 59,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 3,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Uzi11",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 696th Dejjvid",
+                                        ["name"] = "DictKey_UnitName_1157",
+                                        ["onboard_num"] = "211",
+                                        ["parking"] = "24",
+                                        ["parking_id"] = "88",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1450",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 576,
+                                        ["x"] = 221118.609375,
+                                        ["y"] = -34820.70703125,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 35.6,
+                                                    [2] = 32.9,
+                                                    [3] = 48.5,
+                                                    [4] = 33.8,
+                                                    [5] = 36.3,
+                                                    [6] = 37.8,
+                                                    [7] = 38.2,
+                                                    [8] = 36.4,
+                                                    [9] = 39.8,
+                                                    [10] = 32.25,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 0.625,
+                                                    [2] = 0.303,
+                                                    [3] = 0.289,
+                                                    [4] = 0.591,
+                                                    [5] = 0.408,
+                                                    [6] = 0.803,
+                                                    [7] = 0.443,
+                                                    [8] = 0.215,
+                                                    [9] = 0.525,
+                                                    [10] = 1.065,
+                                                    [11] = 0.718,
+                                                    [12] = 0.35,
+                                                    [13] = 0.583,
+                                                    [14] = 0.283,
+                                                    [15] = 0.995,
+                                                    [16] = 1.21,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 59,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 3,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Uzi12",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 696th Dejjvid",
+                                        ["name"] = "DictKey_UnitName_1163",
+                                        ["onboard_num"] = "212",
+                                        ["parking"] = "23",
+                                        ["parking_id"] = "89",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1450",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 581,
+                                        ["x"] = 221027.953125,
+                                        ["y"] = -34923.5859375,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 35.6,
+                                                    [2] = 32.9,
+                                                    [3] = 48.5,
+                                                    [4] = 33.8,
+                                                    [5] = 36.3,
+                                                    [6] = 37.8,
+                                                    [7] = 38.2,
+                                                    [8] = 36.4,
+                                                    [9] = 39.8,
+                                                    [10] = 32.25,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 0.625,
+                                                    [2] = 0.303,
+                                                    [3] = 0.289,
+                                                    [4] = 0.591,
+                                                    [5] = 0.408,
+                                                    [6] = 0.803,
+                                                    [7] = 0.443,
+                                                    [8] = 0.215,
+                                                    [9] = 0.525,
+                                                    [10] = 1.065,
+                                                    [11] = 0.718,
+                                                    [12] = 0.35,
+                                                    [13] = 0.583,
+                                                    [14] = 0.283,
+                                                    [15] = 0.995,
+                                                    [16] = 1.21,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 59,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 3,
+                                            [2] = 1,
+                                            [3] = 3,
+                                            ["name"] = "Uzi13",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 696th Dejjvid",
+                                        ["name"] = "DictKey_UnitName_1164",
+                                        ["onboard_num"] = "213",
+                                        ["parking"] = "22",
+                                        ["parking_id"] = "90",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1450",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 582,
+                                        ["x"] = 220982.40625,
+                                        ["y"] = -34891.55078125,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 35.6,
+                                                    [2] = 32.9,
+                                                    [3] = 48.5,
+                                                    [4] = 33.8,
+                                                    [5] = 36.3,
+                                                    [6] = 37.8,
+                                                    [7] = 38.2,
+                                                    [8] = 36.4,
+                                                    [9] = 39.8,
+                                                    [10] = 32.25,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 0.625,
+                                                    [2] = 0.303,
+                                                    [3] = 0.289,
+                                                    [4] = 0.591,
+                                                    [5] = 0.408,
+                                                    [6] = 0.803,
+                                                    [7] = 0.443,
+                                                    [8] = 0.215,
+                                                    [9] = 0.525,
+                                                    [10] = 1.065,
+                                                    [11] = 0.718,
+                                                    [12] = 0.35,
+                                                    [13] = 0.583,
+                                                    [14] = 0.283,
+                                                    [15] = 0.995,
+                                                    [16] = 1.21,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 59,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 3,
+                                            [2] = 1,
+                                            [3] = 4,
+                                            ["name"] = "Uzi14",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 696th Dejjvid",
+                                        ["name"] = "DictKey_UnitName_1165",
+                                        ["onboard_num"] = "214",
+                                        ["parking"] = "21",
+                                        ["parking_id"] = "91",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1450",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Ka-50",
+                                        ["unitId"] = 583,
+                                        ["x"] = 220936.609375,
+                                        ["y"] = -34861.01171875,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 221118.609375,
+                                ["y"] = -34820.70703125,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["helicopter"]
                     ["id"] = 2,
                     ["name"] = "USA",
                     ["plane"] =
@@ -1442,6 +1852,7 @@ mission =
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_1149",
+                                ["radioSet"] = false,
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -1737,8 +2148,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 62670.623145401,
-                                            ["y"] = -389277.94263106,
+                                            ["x"] = 117863.50148368,
+                                            ["y"] = -387715.13353116,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -1762,13 +2173,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "CVN_72",
                                         ["unitId"] = 557,
-                                        ["x"] = 62670.623145401,
-                                        ["y"] = -389277.94263106,
+                                        ["x"] = 117863.50148368,
+                                        ["y"] = -387715.13353116,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 62670.623145401,
-                                ["y"] = -389277.94263106,
+                                ["x"] = 117863.50148368,
+                                ["y"] = -387715.13353116,
                             }, -- end of [1]
                             [2] =
                             {
@@ -1801,8 +2212,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 82908.011869436,
-                                            ["y"] = -388664.6884273,
+                                            ["x"] = 111117.70524233,
+                                            ["y"] = -375450.04945598,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -1826,13 +2237,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "USS_Arleigh_Burke_IIa",
                                         ["unitId"] = 560,
-                                        ["x"] = 82908.011869436,
-                                        ["y"] = -388664.6884273,
+                                        ["x"] = 111117.70524233,
+                                        ["y"] = -375450.04945598,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 82908.011869436,
-                                ["y"] = -388664.6884273,
+                                ["x"] = 111117.70524233,
+                                ["y"] = -375450.04945598,
                             }, -- end of [2]
                             [3] =
                             {
@@ -4473,11 +4884,11 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 86594,
+    ["currentKey"] = 88178,
     ["date"] =
     {
-        ["Day"] = 21,
-        ["Month"] = 6,
+        ["Day"] = 1,
+        ["Month"] = 9,
         ["Year"] = 2011,
     }, -- end of ["date"]
     ["descriptionBlueTask"] = "DictKey_descriptionBlueTask_3",
@@ -5075,11 +5486,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 220075.40223536,
-        ["centerY"] = -34877.591658832,
-        ["zoom"] = 12544.963839579,
+        ["centerX"] = 109031.22804875,
+        ["centerY"] = 172058.985689,
+        ["zoom"] = 1322236.7988712,
     }, -- end of ["map"]
-    ["maxDictId"] = 1155,
+    ["maxDictId"] = 1165,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -5133,7 +5544,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 61200,
+    ["start_time"] = 68400,
     ["theatre"] = "Syria",
     ["trig"] =
     {
