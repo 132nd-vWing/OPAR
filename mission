@@ -2120,30 +2120,6 @@ mission =
                                                 {
                                                     ["tasks"] =
                                                     {
-                                                        [1] =
-                                                        {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "ActivateBeacon",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["bearing"] = true,
-                                                                        ["callsign"] = "TKR",
-                                                                        ["channel"] = 1,
-                                                                        ["frequency"] = 1088000000,
-                                                                        ["modeChannel"] = "X",
-                                                                        ["system"] = 4,
-                                                                        ["type"] = 4,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -2151,6 +2127,31 @@ mission =
                                             ["x"] = 117863.50148368,
                                             ["y"] = -387715.13353116,
                                         }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 1841.1640910311,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1166",
+                                            ["speed"] = 13.88888,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 114324.24117277,
+                                            ["y"] = -362389.53696335,
+                                        }, -- end of [2]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -2163,7 +2164,7 @@ mission =
                                     [1] =
                                     {
                                         ["frequency"] = 127500000,
-                                        ["heading"] = 0,
+                                        ["heading"] = 1.709647382886,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_1114",
                                         ["skill"] = "Average",
@@ -4884,7 +4885,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 88178,
+    ["currentKey"] = 88965,
     ["date"] =
     {
         ["Day"] = 1,
@@ -5449,6 +5450,26 @@ mission =
     }, -- end of ["failures"]
     ["forcedOptions"] =
     {
+        ["RBDAI"] = false,
+        ["accidental_failures"] = false,
+        ["cockpitStatusBarAllowed"] = false,
+        ["cockpitVisualRM"] = false,
+        ["easyCommunication"] = false,
+        ["easyFlight"] = false,
+        ["easyRadar"] = false,
+        ["externalViews"] = false,
+        ["fuel"] = false,
+        ["geffect"] = "realistic",
+        ["immortal"] = false,
+        ["labels"] = 0,
+        ["miniHUD"] = false,
+        ["optionsView"] = "optview_onlymap",
+        ["padlock"] = false,
+        ["permitCrash"] = false,
+        ["radio"] = false,
+        ["unrestrictedSATNAV"] = false,
+        ["wakeTurbulence"] = false,
+        ["weapons"] = false,
     }, -- end of ["forcedOptions"]
     ["goals"] =
     {
@@ -5486,11 +5507,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 109031.22804875,
-        ["centerY"] = 172058.985689,
-        ["zoom"] = 1322236.7988712,
+        ["centerX"] = -39209.14781471,
+        ["centerY"] = -190398.3623769,
+        ["zoom"] = 1754962.3316356,
     }, -- end of ["map"]
-    ["maxDictId"] = 1165,
+    ["maxDictId"] = 1169,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -5550,10 +5571,11 @@ mission =
     {
         ["actions"] =
         {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1083\"));",
+            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1167\"));",
             [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_887\")); mission.trig.func[2]=nil;",
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1082\")); mission.trig.func[3]=nil;",
             [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1085\")); mission.trig.func[4]=nil;",
+            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1169\")); mission.trig.func[5]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -5561,6 +5583,7 @@ mission =
             [2] = "return(c_time_after(1) )",
             [3] = "return(c_time_after(2) )",
             [4] = "return(c_time_after(3) )",
+            [5] = "return(c_time_after(3) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -5577,12 +5600,14 @@ mission =
             [2] = true,
             [3] = true,
             [4] = true,
+            [5] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
             [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
             [3] = "if mission.trig.conditions[3]() then mission.trig.actions[3]() end",
             [4] = "if mission.trig.conditions[4]() then mission.trig.actions[4]() end",
+            [5] = "if mission.trig.conditions[5]() then mission.trig.actions[5]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -9346,7 +9371,7 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_1083",
+                    ["file"] = "ResKey_Action_1167",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = 319,
@@ -9434,6 +9459,31 @@ mission =
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [4]
+        [5] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_1169",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_do_script_file",
+                    ["zone"] = 319,
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["comment"] = "Load OPAR Navygroups",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 3,
+                    ["zone"] = 319,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [5]
     }, -- end of ["trigrules"]
     ["version"] = 18,
     ["weather"] =
