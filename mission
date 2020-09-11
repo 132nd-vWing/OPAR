@@ -421,6 +421,456 @@ mission =
                                 ["x"] = 221118.609375,
                                 ["y"] = -34820.70703125,
                             }, -- end of [1]
+                            [2] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 129.2,
+                                ["groupId"] = 375,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1286",
+                                ["radioSet"] = true,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 58,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1288",
+                                            ["speed"] = 41.666666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 220853.53125,
+                                            ["y"] = -35075.953125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NS430allow"] = true,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 58,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Springfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 1.7229431422679,
+                                        ["livery_id"] = "132 259th DeMonteur Deathwing",
+                                        ["name"] = "DictKey_UnitName_1287",
+                                        ["onboard_num"] = "611",
+                                        ["parking"] = "16",
+                                        ["parking_id"] = "96",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 618,
+                                        ["x"] = 220853.53125,
+                                        ["y"] = -35075.953125,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NS430allow"] = true,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 58,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Springfield12",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 259th DeMonteur Deathwing",
+                                        ["name"] = "DictKey_UnitName_1291",
+                                        ["onboard_num"] = "612",
+                                        ["parking"] = "15",
+                                        ["parking_id"] = "97",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 619,
+                                        ["x"] = 220807.71875,
+                                        ["y"] = -35045.37890625,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NS430allow"] = true,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 127.5,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 129,
+                                                    [13] = 123,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 21.5,
+                                                    [2] = 25.7,
+                                                    [3] = 27,
+                                                    [4] = 28,
+                                                    [5] = 30,
+                                                    [6] = 32,
+                                                    [7] = 40,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 59.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 58,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 3,
+                                            ["name"] = "Springfield13",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 259th DeMonteur Deathwing",
+                                        ["name"] = "DictKey_UnitName_1292",
+                                        ["onboard_num"] = "613",
+                                        ["parking"] = "17",
+                                        ["parking_id"] = "95",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 620,
+                                        ["x"] = 220899.078125,
+                                        ["y"] = -35108.046875,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["AdditionalArmor"] = true,
+                                            ["CargoHalfdoor"] = true,
+                                            ["ExhaustScreen"] = true,
+                                            ["GunnersAISkill"] = 90,
+                                            ["LeftEngineResource"] = 90,
+                                            ["NS430allow"] = true,
+                                            ["NetCrewControlPriority"] = 1,
+                                            ["RightEngineResource"] = 90,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 129.2,
+                                                    [2] = 129.6,
+                                                    [3] = 129.4,
+                                                    [4] = 121.2,
+                                                    [5] = 121.4,
+                                                    [6] = 121.1,
+                                                    [7] = 118.2,
+                                                    [8] = 127.4,
+                                                    [9] = 118.6,
+                                                    [10] = 127.2,
+                                                    [11] = 127.4,
+                                                    [12] = 127.8,
+                                                    [13] = 231.5,
+                                                    [14] = 228,
+                                                    [15] = 248.75,
+                                                    [16] = 119.25,
+                                                    [17] = 136.75,
+                                                    [18] = 127.75,
+                                                    [19] = 122.25,
+                                                    [20] = 233,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 35.6,
+                                                    [2] = 32.9,
+                                                    [3] = 48.5,
+                                                    [4] = 33.8,
+                                                    [5] = 36.3,
+                                                    [6] = 37.8,
+                                                    [7] = 38.2,
+                                                    [8] = 50,
+                                                    [9] = 55.5,
+                                                    [10] = 21,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 58,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 4,
+                                            ["name"] = "Springfield14",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "132 259th DeMonteur Deathwing",
+                                        ["name"] = "DictKey_UnitName_1293",
+                                        ["onboard_num"] = "614",
+                                        ["parking"] = "19",
+                                        ["parking_id"] = "93",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 128,
+                                            ["fuel"] = "1929",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 41.666666666667,
+                                        ["type"] = "Mi-8MT",
+                                        ["unitId"] = 621,
+                                        ["x"] = 220919.4375,
+                                        ["y"] = -34981.546875,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 220853.53125,
+                                ["y"] = -35075.953125,
+                            }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["helicopter"]
                     ["id"] = 2,
@@ -2203,7 +2653,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 1452.0670752522,
+                                            ["ETA"] = 1433.633445454,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -2223,8 +2673,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -10711.531081551,
-                                            ["y"] = -161907.83487429,
+                                            ["x"] = -7203.0534823457,
+                                            ["y"] = -161654.80648354,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -2352,7 +2802,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 996.98100552736,
+                                            ["ETA"] = 996.98100552737,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -2391,7 +2841,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 1427.1431676176,
+                                            ["ETA"] = 1379.4352924928,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -2411,8 +2861,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 260864.56973294,
-                                            ["y"] = 220243.38278932,
+                                            ["x"] = 261006.65130403,
+                                            ["y"] = 221949.28811524,
                                         }, -- end of [3]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -2558,7 +3008,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 3028.9392685966,
+                                            ["ETA"] = 3011.8631327992,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 10972.8,
@@ -2779,7 +3229,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 1970.0476554261,
+                                            ["ETA"] = 1960.0994807245,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 10972.8,
@@ -4222,8 +4672,8 @@ mission =
                         ["vangle"] = 0,
                         ["vnav"] = 1,
                     }, -- end of ["properties"]
-                    ["x"] = 86248.80121459,
-                    ["y"] = -184090.99355338,
+                    ["x"] = 86833.783818824,
+                    ["y"] = -184622.89424169,
                 }, -- end of [1]
             }, -- end of ["nav_points"]
         }, -- end of ["blue"]
@@ -6777,7 +7227,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 92795,
+    ["currentKey"] = 93968,
     ["date"] =
     {
         ["Day"] = 1,
@@ -13710,11 +14160,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -10000,
-        ["centerY"] = 6607.3194856577,
-        ["zoom"] = 2146389.7131553,
+        ["centerX"] = -108526.37117079,
+        ["centerY"] = -36421.683552859,
+        ["zoom"] = 1464209.1016859,
     }, -- end of ["map"]
-    ["maxDictId"] = 1280,
+    ["maxDictId"] = 1293,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -17726,17 +18176,17 @@ mission =
         {
             ["at2000"] =
             {
-                ["dir"] = 85,
+                ["dir"] = 268,
                 ["speed"] = 4.1232,
             }, -- end of ["at2000"]
             ["at8000"] =
             {
-                ["dir"] = 94,
+                ["dir"] = 277,
                 ["speed"] = 4.6386,
             }, -- end of ["at8000"]
             ["atGround"] =
             {
-                ["dir"] = 92.99999044004,
+                ["dir"] = 270,
                 ["speed"] = 2.0616,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
