@@ -2238,18 +2238,9 @@ mission =
                                 {
                                     [1] =
                                     {
-<<<<<<< Updated upstream
-                                        ["frequency"] = 309100000,
-                                        ["heading"] = 1.709647382886,
-                                        ["modulation"] = 0,
-                                        ["name"] = "DictKey_UnitName_1114",
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-=======
                                         ["alt"] = 48,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
->>>>>>> Stashed changes
                                         {
                                             [1] = 2,
                                             [2] = 1,
@@ -3413,8 +3404,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 52733.018824926,
-                                            ["y"] = -337373.07650445,
+                                            ["x"] = 52858.555885262,
+                                            ["y"] = -331295.74678536,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -3438,13 +3429,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "USS_Arleigh_Burke_IIa",
                                         ["unitId"] = 560,
-                                        ["x"] = 52733.018824926,
-                                        ["y"] = -337373.07650445,
+                                        ["x"] = 52858.555885262,
+                                        ["y"] = -331295.74678536,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 52733.018824926,
-                                ["y"] = -337373.07650445,
+                                ["x"] = 52858.555885262,
+                                ["y"] = -331295.74678536,
                             }, -- end of [2]
                             [3] =
                             {
@@ -6786,7 +6777,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 92415,
+    ["currentKey"] = 92795,
     ["date"] =
     {
         ["Day"] = 1,
@@ -13035,38 +13026,6 @@ mission =
         }, -- end of ["fs_damage_BoosterPump"]
         ["fs_damage_EnginePump"] =
         {
-<<<<<<< Updated upstream
-            [1] = 18,
-            [2] = 24,
-            [3] = 27,
-            [4] = 29,
-            [5] = 17,
-            [6] = 34,
-            [7] = 35,
-            [8] = 37,
-            [9] = 38,
-            [10] = 0,
-            [11] = 43,
-            [12] = 19,
-            [13] = 47,
-            [14] = 7,
-        }, -- end of ["red"]
-    }, -- end of ["coalitions"]
-    ["currentKey"] = 89228,
-    ["date"] =
-    {
-        ["Day"] = 1,
-        ["Month"] = 9,
-        ["Year"] = 2011,
-    }, -- end of ["date"]
-    ["descriptionBlueTask"] = "DictKey_descriptionBlueTask_3",
-    ["descriptionNeutralsTask"] = "DictKey_descriptionNeutralsTask_4",
-    ["descriptionRedTask"] = "DictKey_descriptionRedTask_2",
-    ["descriptionText"] = "DictKey_descriptionText_1",
-    ["failures"] =
-    {
-        ["AAR_47_FAILURE_SENSOR_BOTTOM"] =
-=======
             ["enable"] = false,
             ["hh"] = 0,
             ["id"] = "fs_damage_EnginePump",
@@ -13075,7 +13034,6 @@ mission =
             ["prob"] = 100,
         }, -- end of ["fs_damage_EnginePump"]
         ["fs_damage_FuelBoosterPump"] =
->>>>>>> Stashed changes
         {
             ["enable"] = false,
             ["hh"] = 0,
