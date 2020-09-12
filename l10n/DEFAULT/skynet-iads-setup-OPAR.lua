@@ -90,22 +90,22 @@ redIADS:getEarlyWarningRadarByUnitName('EWR_S_3-1'):addPowerSource(powerSource):
 -- POINT DEFENCE
 
 
--- POINT DEFENCE SECTOR EAST
+-- POINT DEFENCE SECTOR WEST
 -- SA-2 Al Qusair
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_1')
---redIADS:getSAMSiteByGroupName('IADS_W_SA2_1'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_1')
+redIADS:getSAMSiteByGroupName('IADS_W_SA2_1'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 -- SA-2 Al Duhur
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_3')
---redIADS:getSAMSiteByGroupName('IADS_W_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_3')
+redIADS:getSAMSiteByGroupName('IADS_W_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 -- SA-6 Hama
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_2')
---redIADS:getSAMSiteByGroupName('IADS_W_SA6_1'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_2')
+redIADS:getSAMSiteByGroupName('IADS_W_SA6_1'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 -- SA-6 Aleppo
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_4')
---redIADS:getSAMSiteByGroupName('IADS_W_SA6_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_4')
+redIADS:getSAMSiteByGroupName('IADS_W_SA6_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 
 
@@ -130,14 +130,14 @@ redIADS:getEarlyWarningRadarByUnitName('EWR_S_3-1'):addPowerSource(powerSource):
 
 
 
--- POINT DEFENCE SECTOR EAST
+-- POINT DEFENCE SECTOR SOUTH
 -- SA-2 Al Dumayr airfield
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_S_SA15_PD_1')
---redIADS:getSAMSiteByGroupName('IADS_S_SA2_1'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_S_SA15_PD_1')
+redIADS:getSAMSiteByGroupName('IADS_S_SA2_1'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 -- SA-2 Damascus International
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_S_SA15_PD_2')
---redIADS:getSAMSiteByGroupName('IADS_S_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_S_SA15_PD_2')
+redIADS:getSAMSiteByGroupName('IADS_S_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 -- SA-6 An Nasaryia Airfield
 --local sa15 = redIADS:getSAMSiteByGroupName('IADS_S_SA15_PD_3')
