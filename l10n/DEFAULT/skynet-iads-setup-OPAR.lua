@@ -3,20 +3,6 @@ do
 --create an instance of the IADS
 redIADS = SkynetIADS:create('SYRIA')
 
----debug settings remove from here on if you do not wan't any output on what the IADS is doing by default
-local iadsDebug = redIADS:getDebugSettings()
-iadsDebug.IADSStatus = true
-iadsDebug.samWentDark = true
-iadsDebug.contacts = true
-iadsDebug.radarWentLive = true
-iadsDebug.noWorkingCommmandCenter = true
-iadsDebug.ewRadarNoConnection = true
-iadsDebug.samNoConnection = true
-iadsDebug.jammerProbability = true
-iadsDebug.addedEWRadar = true
-iadsDebug.hasNoPower = true
-iadsDebug.harmDefence = true
----end remove debug ---
 
 --add all units with unit name beginning with 'EWR' to the IADS:
 redIADS:addEarlyWarningRadarsByPrefix('EWR')
@@ -105,6 +91,9 @@ redIADS:getSAMSiteByGroupName('IADS_W_SA6_1'):addPointDefence(sa15):setHARMDetec
 
 -- SA-6 Aleppo
 local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_4')
+redIADS:getSAMSiteByGroupName('IADS_W_SA6_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_41')
 redIADS:getSAMSiteByGroupName('IADS_W_SA6_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 
