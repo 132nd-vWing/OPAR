@@ -41386,6 +41386,76 @@ mission =
                                 ["x"] = 134388.99701732,
                                 ["y"] = 65557.789466491,
                             }, -- end of [115]
+                            [116] =
+                            {
+                                ["groupId"] = 1714,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "DictKey_GroupName_3314",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 524,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3316",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 125530.35830341,
+                                            ["y"] = 110411.90128371,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 4.5727626402251,
+                                        ["name"] = "DictKey_UnitName_3315",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 3130,
+                                        ["x"] = 125530.35830341,
+                                        ["y"] = 110411.90128371,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 125530.35830341,
+                                ["y"] = 110411.90128371,
+                            }, -- end of [116]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -41988,7 +42058,7 @@ mission =
                                         }, -- end of ["params"]
                                     }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -42469,7 +42539,7 @@ mission =
                                         }, -- end of ["params"]
                                     }, -- end of [1]
                                 }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
+                                ["uncontrolled"] = true,
                                 ["units"] =
                                 {
                                     [1] =
@@ -42529,6 +42599,7 @@ mission =
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 2.3894198186451,
+                                        ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-29A",
                                         ["unitId"] = 1110,
@@ -43402,7 +43473,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 232661,
+    ["currentKey"] = 249097,
     ["date"] =
     {
         ["Day"] = 1,
@@ -44025,11 +44096,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -144031.4249149,
-        ["centerY"] = 231577.55026349,
-        ["zoom"] = 1218377.8690363,
+        ["centerX"] = 73662.519017335,
+        ["centerY"] = 56012.810866314,
+        ["zoom"] = 667694.5323595,
     }, -- end of ["map"]
-    ["maxDictId"] = 3313,
+    ["maxDictId"] = 3316,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -49951,17 +50022,17 @@ mission =
         {
             ["at2000"] =
             {
-                ["dir"] = 91,
+                ["dir"] = 265,
                 ["speed"] = 4.1232,
             }, -- end of ["at2000"]
             ["at8000"] =
             {
-                ["dir"] = 90,
+                ["dir"] = 264,
                 ["speed"] = 4.6386,
             }, -- end of ["at8000"]
             ["atGround"] =
             {
-                ["dir"] = 88,
+                ["dir"] = 270,
                 ["speed"] = 2.0616,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
