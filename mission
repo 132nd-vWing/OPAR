@@ -14367,12 +14367,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -290563.79821958,
-                                            ["y"] = -552403.56083086,
+                                            ["x"] = -294789.05436667,
+                                            ["y"] = -557897.25314338,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 1114.8300657468,
+                                            ["ETA"] = 1146.7610603507,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7620,
@@ -14737,7 +14737,7 @@ mission =
                                         ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 103,
-                                        ["heading"] = 1.4460776462501,
+                                        ["heading"] = 1.4298063483486,
                                         ["livery_id"] = "af standard",
                                         ["name"] = "DictKey_UnitName_2927",
                                         ["onboard_num"] = "013",
@@ -14751,17 +14751,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.4460776462501,
+                                        ["psi"] = -1.4298063483486,
                                         ["skill"] = "High",
                                         ["speed"] = 188.06722202447,
                                         ["type"] = "Tu-142",
                                         ["unitId"] = 2962,
-                                        ["x"] = -290563.79821958,
-                                        ["y"] = -552403.56083086,
+                                        ["x"] = -294789.05436667,
+                                        ["y"] = -557897.25314338,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -290563.79821958,
-                                ["y"] = -552403.56083086,
+                                ["x"] = -294789.05436667,
+                                ["y"] = -557897.25314338,
                             }, -- end of [4]
                             [5] =
                             {
@@ -16178,6 +16178,509 @@ mission =
                                 ["x"] = -158707.703125,
                                 ["y"] = 72821.8359375,
                             }, -- end of [11]
+                            [12] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1920,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_3584",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8229.6,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3586",
+                                            ["speed"] = 217.63476192925,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -304459.00611644,
+                                            ["y"] = -562386.87359863,
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 1248.6249281908,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8229.6,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3587",
+                                            ["speed"] = 217.63476192925,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -276540.47399317,
+                                            ["y"] = -292080.64020473,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 2397.0505776919,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8229.6,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3604",
+                                            ["speed"] = 217.63476192925,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -28737.599742665,
+                                            ["y"] = -324675.28470985,
+                                        }, -- end of [3]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 8229.6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 119,
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 1.4678764407768,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "DictKey_UnitName_3585",
+                                        ["onboard_num"] = "615",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 48,
+                                            ["flare"] = 48,
+                                            ["fuel"] = "50000",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.4678764407768,
+                                        ["skill"] = "High",
+                                        ["speed"] = 217.63476192925,
+                                        ["type"] = "Tu-22M3",
+                                        ["unitId"] = 3398,
+                                        ["x"] = -304459.00611644,
+                                        ["y"] = -562386.87359863,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -304459.00611644,
+                                ["y"] = -562386.87359863,
+                            }, -- end of [12]
+                            [13] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 1921,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_3588",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3590",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -310675.40366986,
+                                            ["y"] = -554443.69894703,
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 1551.4196509893,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3591",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -309135.11849829,
+                                            ["y"] = -207250.98847985,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 1852.956891297,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3592",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -232245.18787082,
+                                            ["y"] = -231488.03182982,
+                                        }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 2373.1179854746,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3594",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -143654.61562612,
+                                            ["y"] = -178417.26449455,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 2240.4452113732,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3595",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -116387.2810252,
+                                            ["y"] = -93030.941224336,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 2898.0624490691,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3596",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -126135.15977689,
+                                            ["y"] = -66948.779158986,
+                                        }, -- end of [6]
+                                        [7] =
+                                        {
+                                            ["ETA"] = 2554.4544944894,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3597",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -85035.995310284,
+                                            ["y"] = -56410.531859855,
+                                        }, -- end of [7]
+                                        [8] =
+                                        {
+                                            ["ETA"] = 2762.1954451448,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3598",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -47098.305033412,
+                                            ["y"] = -29538.001247072,
+                                        }, -- end of [8]
+                                        [9] =
+                                        {
+                                            ["ETA"] = 2893.2285214004,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3600",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -18118.124960802,
+                                            ["y"] = -34016.756349203,
+                                        }, -- end of [9]
+                                        [10] =
+                                        {
+                                            ["ETA"] = 3014.6720669179,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3601",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 7964.0371045472,
+                                            ["y"] = -26376.527057333,
+                                        }, -- end of [10]
+                                        [11] =
+                                        {
+                                            ["ETA"] = 3123.8061704267,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3602",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 30357.8126152,
+                                            ["y"] = -16628.648305637,
+                                        }, -- end of [11]
+                                        [12] =
+                                        {
+                                            ["ETA"] = 3246.176236965,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3603",
+                                            ["speed"] = 223.79252891909,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 49590.113936114,
+                                            ["y"] = -36124.40580903,
+                                        }, -- end of [12]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 122,
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 1.566359957539,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "DictKey_UnitName_3589",
+                                        ["onboard_num"] = "615",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 96,
+                                            ["flare"] = 96,
+                                            ["fuel"] = "11700",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "{7D7EC917-05F6-49D4-8045-61FC587DD019}",
+                                                }, -- end of [2]
+                                                [5] =
+                                                {
+                                                    ["CLSID"] = "{0519A262-0AB6-11d6-9193-00A0249B6F00}",
+                                                }, -- end of [5]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{7D7EC917-05F6-49D4-8045-61FC587DD019}",
+                                                }, -- end of [7]
+                                                [8] =
+                                                {
+                                                    ["CLSID"] = "{0519A261-0AB6-11d6-9193-00A0249B6F00}",
+                                                }, -- end of [8]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.566359957539,
+                                        ["skill"] = "Excellent",
+                                        ["speed"] = 223.79252891909,
+                                        ["type"] = "Su-24MR",
+                                        ["unitId"] = 3399,
+                                        ["x"] = -310675.40366986,
+                                        ["y"] = -554443.69894703,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -310675.40366986,
+                                ["y"] = -554443.69894703,
+                            }, -- end of [13]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["static"] =
@@ -44158,7 +44661,7 @@ mission =
                             [2] =
                             {
                                 ["communication"] = true,
-                                ["frequency"] = 305,
+                                ["frequency"] = 124,
                                 ["groupId"] = 1912,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
@@ -44219,7 +44722,7 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3522",
-                                            ["speed"] = 290.32616011651,
+                                            ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -44244,7 +44747,7 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3527",
-                                            ["speed"] = 290.32616011651,
+                                            ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -44269,7 +44772,7 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3528",
-                                            ["speed"] = 290.32616011651,
+                                            ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -44315,13 +44818,6 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["AddPropAircraft"] =
-                                        {
-                                            ["MissionGeneratorSetting"] = 0,
-                                            ["Rb04GroupTarget"] = 3,
-                                            ["Rb04VinkelHopp"] = 0,
-                                            ["WeapSafeHeight"] = 1,
-                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 300,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
@@ -44333,38 +44829,56 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 1.998945259748,
-                                        ["livery_id"] = "37",
+                                        ["livery_id"] = "syria (2)",
                                         ["name"] = "DictKey_UnitName_3520",
                                         ["onboard_num"] = "201",
                                         ["parking"] = "17",
                                         ["parking_id"] = "18",
                                         ["payload"] =
                                         {
-                                            ["chaff"] = 210,
-                                            ["flare"] = 72,
-                                            ["fuel"] = 4476,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["flare"] = 40,
+                                            ["fuel"] = 2280,
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
+                                                [1] =
+                                                {
+                                                    ["CLSID"] = "{R-60M 2L}",
+                                                }, -- end of [1]
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [2]
+                                                [3] =
+                                                {
+                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                }, -- end of [3]
+                                                [4] =
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [4]
+                                                [5] =
+                                                {
+                                                    ["CLSID"] = "{R-3S}",
+                                                }, -- end of [5]
+                                                [6] =
+                                                {
+                                                    ["CLSID"] = "{ASO-2}",
+                                                }, -- end of [6]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -1.998945259748,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "AJS37",
+                                        ["type"] = "MiG-21Bis",
                                         ["unitId"] = 3385,
                                         ["x"] = 9109.76171875,
                                         ["y"] = 73521.03125,
                                     }, -- end of [1]
                                     [2] =
                                     {
-                                        ["AddPropAircraft"] =
-                                        {
-                                            ["MissionGeneratorSetting"] = 0,
-                                            ["Rb04GroupTarget"] = 3,
-                                            ["Rb04VinkelHopp"] = 0,
-                                            ["WeapSafeHeight"] = 1,
-                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 300,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
@@ -44374,26 +44888,52 @@ mission =
                                             [3] = 2,
                                             ["name"] = "Ford12",
                                         }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
                                         ["heading"] = 1.998945259748,
-                                        ["livery_id"] = "37",
+                                        ["livery_id"] = "syria (2)",
                                         ["name"] = "DictKey_UnitName_3523",
                                         ["onboard_num"] = "202",
                                         ["parking"] = "6",
                                         ["parking_id"] = "12",
                                         ["payload"] =
                                         {
-                                            ["chaff"] = 210,
-                                            ["flare"] = 72,
-                                            ["fuel"] = 4476,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["flare"] = 40,
+                                            ["fuel"] = 2280,
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
+                                                [1] =
+                                                {
+                                                    ["CLSID"] = "{R-60M 2L}",
+                                                }, -- end of [1]
+                                                [2] =
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [2]
+                                                [3] =
+                                                {
+                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                }, -- end of [3]
+                                                [4] =
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [4]
+                                                [5] =
+                                                {
+                                                    ["CLSID"] = "{R-3S}",
+                                                }, -- end of [5]
+                                                [6] =
+                                                {
+                                                    ["CLSID"] = "{ASO-2}",
+                                                }, -- end of [6]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -1.998945259748,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "AJS37",
+                                        ["type"] = "MiG-21Bis",
                                         ["unitId"] = 3386,
                                         ["x"] = 9038.6923828125,
                                         ["y"] = 73077.3125,
@@ -45251,7 +45791,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 330089,
+    ["currentKey"] = 343378,
     ["date"] =
     {
         ["Day"] = 1,
@@ -45874,11 +46414,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 79223.658186377,
-        ["centerY"] = 64567.708538424,
-        ["zoom"] = 1473151.0313966,
+        ["centerX"] = -10000,
+        ["centerY"] = -6607.3194856577,
+        ["zoom"] = 2146389.7131553,
     }, -- end of ["map"]
-    ["maxDictId"] = 3571,
+    ["maxDictId"] = 3604,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
