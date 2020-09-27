@@ -12820,6 +12820,166 @@ mission =
                                 ["x"] = 197535.18195061,
                                 ["y"] = 36661.482616677,
                             }, -- end of [12]
+                            [13] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1925,
+                                ["heading"] = 0,
+                                ["name"] = "DictKey_GroupName_3635",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 205337.77935436,
+                                            ["y"] = 33985.012630446,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Heliports",
+                                        ["heading"] = 0,
+                                        ["heliport_callsign_id"] = 1,
+                                        ["heliport_frequency"] = "230.5",
+                                        ["heliport_modulation"] = 0,
+                                        ["name"] = "DictKey_GroupName_3635",
+                                        ["shape_name"] = "FARP",
+                                        ["type"] = "SINGLE_HELIPAD",
+                                        ["unitId"] = 3409,
+                                        ["x"] = 205337.77935436,
+                                        ["y"] = 33985.012630446,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 205337.77935436,
+                                ["y"] = 33985.012630446,
+                            }, -- end of [13]
+                            [14] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1926,
+                                ["heading"] = 4.3982297150257,
+                                ["name"] = "DictKey_GroupName_3638",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 205312.050066,
+                                            ["y"] = 33811.973663068,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.3982297150257,
+                                        ["name"] = "DictKey_GroupName_3638",
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 3410,
+                                        ["x"] = 205312.050066,
+                                        ["y"] = 33811.973663068,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 205312.050066,
+                                ["y"] = 33811.973663068,
+                            }, -- end of [14]
+                            [15] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1927,
+                                ["heading"] = 2.4958208303519,
+                                ["name"] = "DictKey_GroupName_3641",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 205242.5471696,
+                                            ["y"] = 33997.187425432,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 2.4958208303519,
+                                        ["name"] = "DictKey_GroupName_3641",
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 3411,
+                                        ["x"] = 205242.5471696,
+                                        ["y"] = 33997.187425432,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 205242.5471696,
+                                ["y"] = 33997.187425432,
+                            }, -- end of [15]
+                            [16] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1928,
+                                ["heading"] = 0.97738438111682,
+                                ["name"] = "DictKey_GroupName_3644",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 205373.53339742,
+                                            ["y"] = 34048.359887611,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.97738438111682,
+                                        ["name"] = "DictKey_GroupName_3644",
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 3412,
+                                        ["x"] = 205373.53339742,
+                                        ["y"] = 34048.359887611,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 205373.53339742,
+                                ["y"] = 34048.359887611,
+                            }, -- end of [16]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -13841,6 +14001,136 @@ mission =
                                 ["x"] = 234628.7271949,
                                 ["y"] = 82356.22139439,
                             }, -- end of [9]
+                            [10] =
+                            {
+                                ["groupId"] = 1929,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_3647",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 65,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3649",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 8,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 205314.60274103,
+                                            ["y"] = 33950.930260619,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 205322.24380796,
+                                                ["y"] = 34059.604467528,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 205245.2340255,
+                                                ["y"] = 34185.423267038,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 3.385938748869,
+                                        ["name"] = "DictKey_UnitName_3648",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Hummer",
+                                        ["unitId"] = 3413,
+                                        ["x"] = 205314.60274103,
+                                        ["y"] = 33950.930260619,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["heading"] = 1.6231562043547,
+                                        ["name"] = "DictKey_UnitName_3650",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M978 HEMTT Tanker",
+                                        ["unitId"] = 3414,
+                                        ["x"] = 205308.51873974,
+                                        ["y"] = 33994.856749963,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["heading"] = 3.2288591161895,
+                                        ["name"] = "DictKey_UnitName_3651",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M 818",
+                                        ["unitId"] = 3415,
+                                        ["x"] = 205310.46562015,
+                                        ["y"] = 33969.790664631,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 205314.60274103,
+                                ["y"] = 33950.930260619,
+                            }, -- end of [10]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -47541,7 +47831,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 370128,
+    ["currentKey"] = 383638,
     ["date"] =
     {
         ["Day"] = 1,
@@ -48164,11 +48454,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 180891.15326967,
-        ["centerY"] = 137371.67239353,
-        ["zoom"] = 510843.40280882,
+        ["centerX"] = 198821.52199559,
+        ["centerY"] = 4155.5460455383,
+        ["zoom"] = 295098.44423186,
     }, -- end of ["map"]
-    ["maxDictId"] = 3634,
+    ["maxDictId"] = 3652,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
