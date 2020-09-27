@@ -28578,6 +28578,486 @@ mission =
                                 ["x"] = 76404.63045431,
                                 ["y"] = 110498.70546455,
                             }, -- end of [243]
+                            [244] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1941,
+                                ["heading"] = 4.4854961776254,
+                                ["name"] = "DictKey_GroupName_3792",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -219139.8664615,
+                                            ["y"] = -2995.2052817592,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.4854961776254,
+                                        ["name"] = "DictKey_GroupName_3792",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3501,
+                                        ["x"] = -219139.8664615,
+                                        ["y"] = -2995.2052817592,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -219139.8664615,
+                                ["y"] = -2995.2052817592,
+                            }, -- end of [244]
+                            [245] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1942,
+                                ["heading"] = 4.8869219055841,
+                                ["name"] = "DictKey_GroupName_3795",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -219159.89921285,
+                                            ["y"] = -2936.8018518729,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.8869219055841,
+                                        ["name"] = "DictKey_GroupName_3795",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3502,
+                                        ["x"] = -219159.89921285,
+                                        ["y"] = -2936.8018518729,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -219159.89921285,
+                                ["y"] = -2936.8018518729,
+                            }, -- end of [245]
+                            [246] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1943,
+                                ["heading"] = 5.3930673886625,
+                                ["name"] = "DictKey_GroupName_3798",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -219198.50019159,
+                                            ["y"] = -3023.3566445222,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.3930673886625,
+                                        ["name"] = "DictKey_GroupName_3798",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3503,
+                                        ["x"] = -219198.50019159,
+                                        ["y"] = -3023.3566445222,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -219198.50019159,
+                                ["y"] = -3023.3566445222,
+                            }, -- end of [246]
+                            [247] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1944,
+                                ["heading"] = 4.4854961776254,
+                                ["name"] = "DictKey_GroupName_3801",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -217367.07453602,
+                                            ["y"] = -2415.5293491643,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.4854961776254,
+                                        ["name"] = "DictKey_GroupName_3801",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3504,
+                                        ["x"] = -217367.07453602,
+                                        ["y"] = -2415.5293491643,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -217367.07453602,
+                                ["y"] = -2415.5293491643,
+                            }, -- end of [247]
+                            [248] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1945,
+                                ["heading"] = 4.6425758103049,
+                                ["name"] = "DictKey_GroupName_3804",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -217399.07047718,
+                                            ["y"] = -2428.8609913159,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.6425758103049,
+                                        ["name"] = "DictKey_GroupName_3804",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3505,
+                                        ["x"] = -217399.07047718,
+                                        ["y"] = -2428.8609913159,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -217399.07047718,
+                                ["y"] = -2428.8609913159,
+                            }, -- end of [248]
+                            [249] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1946,
+                                ["heading"] = 4.6425758103049,
+                                ["name"] = "DictKey_GroupName_3807",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -217429.23331755,
+                                            ["y"] = -2398.5315054209,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.6425758103049,
+                                        ["name"] = "DictKey_GroupName_3807",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3506,
+                                        ["x"] = -217429.23331755,
+                                        ["y"] = -2398.5315054209,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -217429.23331755,
+                                ["y"] = -2398.5315054209,
+                            }, -- end of [249]
+                            [250] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1947,
+                                ["heading"] = 4.1364303272266,
+                                ["name"] = "DictKey_GroupName_3810",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -219733.69735542,
+                                            ["y"] = -1916.520080258,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.1364303272266,
+                                        ["name"] = "DictKey_GroupName_3810",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3507,
+                                        ["x"] = -219733.69735542,
+                                        ["y"] = -1916.520080258,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -219733.69735542,
+                                ["y"] = -1916.520080258,
+                            }, -- end of [250]
+                            [251] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1948,
+                                ["heading"] = 4.1364303272266,
+                                ["name"] = "DictKey_GroupName_3813",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -219784.09220251,
+                                            ["y"] = -1903.2713121042,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.1364303272266,
+                                        ["name"] = "DictKey_GroupName_3813",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3508,
+                                        ["x"] = -219784.09220251,
+                                        ["y"] = -1903.2713121042,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -219784.09220251,
+                                ["y"] = -1903.2713121042,
+                            }, -- end of [251]
+                            [252] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1949,
+                                ["heading"] = 4.1364303272266,
+                                ["name"] = "DictKey_GroupName_3816",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -219773.69130041,
+                                            ["y"] = -1909.5861455233,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.1364303272266,
+                                        ["name"] = "DictKey_GroupName_3816",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3509,
+                                        ["x"] = -219773.69130041,
+                                        ["y"] = -1909.5861455233,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -219773.69130041,
+                                ["y"] = -1909.5861455233,
+                            }, -- end of [252]
+                            [253] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1950,
+                                ["heading"] = 4.4854961776254,
+                                ["name"] = "DictKey_GroupName_3819",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -215133.95582188,
+                                            ["y"] = -3638.8017026208,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.4854961776254,
+                                        ["name"] = "DictKey_GroupName_3819",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3510,
+                                        ["x"] = -215133.95582188,
+                                        ["y"] = -3638.8017026208,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -215133.95582188,
+                                ["y"] = -3638.8017026208,
+                            }, -- end of [253]
+                            [254] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1951,
+                                ["heading"] = 4.6425758103049,
+                                ["name"] = "DictKey_GroupName_3822",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -215249.78466895,
+                                            ["y"] = -3703.6234758625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.6425758103049,
+                                        ["name"] = "DictKey_GroupName_3822",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3511,
+                                        ["x"] = -215249.78466895,
+                                        ["y"] = -3703.6234758625,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -215249.78466895,
+                                ["y"] = -3703.6234758625,
+                            }, -- end of [254]
+                            [255] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1952,
+                                ["heading"] = 4.0317105721069,
+                                ["name"] = "DictKey_GroupName_3825",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -215266.62514093,
+                                            ["y"] = -3689.6292808307,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.0317105721069,
+                                        ["name"] = "DictKey_GroupName_3825",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3512,
+                                        ["x"] = -215266.62514093,
+                                        ["y"] = -3689.6292808307,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -215266.62514093,
+                                ["y"] = -3689.6292808307,
+                            }, -- end of [255]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -49902,7 +50382,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 421280,
+    ["currentKey"] = 432010,
     ["date"] =
     {
         ["Day"] = 1,
@@ -50525,11 +51005,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 91048.266703569,
-        ["centerY"] = 108751.90351499,
-        ["zoom"] = 605189.9244258,
+        ["centerX"] = -21605.203014657,
+        ["centerY"] = 21552.173622096,
+        ["zoom"] = 2066037.1700271,
     }, -- end of ["map"]
-    ["maxDictId"] = 3791,
+    ["maxDictId"] = 3827,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -50666,7 +51146,7 @@ mission =
             [34] = "return(c_part_of_group_in_zone(1616, 5531) )",
             [35] = "return(c_part_of_group_in_zone(1920, 5531) )",
             [36] = "return(c_part_of_group_in_zone(1921, 5531) )",
-            [37] = "return(c_part_of_group_in_zone(1634, 5592) )",
+            [37] = "return(c_part_of_group_in_zone(1634, 5592) or c_part_of_group_in_zone(1922, 5592) or c_time_after(8500) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -54941,8 +55421,8 @@ mission =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 121920,
-                ["x"] = 9768.6315608394,
-                ["y"] = -164618.84579228,
+                ["x"] = 25116.336252469,
+                ["y"] = -204168.70018994,
                 ["zoneId"] = 5592,
             }, -- end of [220]
             [221] =
@@ -56679,6 +57159,31 @@ mission =
                     ["unitType"] = "AIRPLANE",
                     ["zone"] = 5592,
                 }, -- end of [1]
+                [2] =
+                {
+                    ["predicate"] = "or",
+                }, -- end of [2]
+                [3] =
+                {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 1922,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["unitType"] = "AIRPLANE",
+                    ["zone"] = 5592,
+                }, -- end of [3]
+                [4] =
+                {
+                    ["predicate"] = "or",
+                }, -- end of [4]
+                [5] =
+                {
+                    ["coalitionlist"] = "blue",
+                    ["group"] = 1922,
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 8500,
+                    ["unitType"] = "AIRPLANE",
+                    ["zone"] = 5592,
+                }, -- end of [5]
             }, -- end of ["rules"]
         }, -- end of [37]
     }, -- end of ["trigrules"]
