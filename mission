@@ -28298,7 +28298,7 @@ mission =
                             }, -- end of [236]
                             [237] =
                             {
-                                ["dead"] = false,
+                                ["dead"] = true,
                                 ["groupId"] = 1894,
                                 ["heading"] = 3.2114058236696,
                                 ["name"] = "DictKey_GroupName_3464",
@@ -29338,6 +29338,86 @@ mission =
                                 ["x"] = 228306.00047047,
                                 ["y"] = 74324.162401975,
                             }, -- end of [262]
+                            [263] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1960,
+                                ["heading"] = 6.1784655520599,
+                                ["name"] = "DictKey_GroupName_3849",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 147908.96923046,
+                                            ["y"] = 38592.458292272,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 6.1784655520599,
+                                        ["name"] = "DictKey_GroupName_3849",
+                                        ["rate"] = 20,
+                                        ["type"] = "SA-11 Buk SR 9S18M1",
+                                        ["unitId"] = 3520,
+                                        ["x"] = 147908.96923046,
+                                        ["y"] = 38592.458292272,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 147908.96923046,
+                                ["y"] = 38592.458292272,
+                            }, -- end of [263]
+                            [264] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 1961,
+                                ["heading"] = 3.7350045992679,
+                                ["name"] = "DictKey_GroupName_3853",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 9111.7723492843,
+                                            ["y"] = 75125.351395238,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Fortifications",
+                                        ["heading"] = 3.7350045992679,
+                                        ["name"] = "DictKey_GroupName_3853",
+                                        ["shape_name"] = "ComCenter",
+                                        ["type"] = ".Command Center",
+                                        ["unitId"] = 3521,
+                                        ["x"] = 9111.7723492843,
+                                        ["y"] = 75125.351395238,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 9111.7723492843,
+                                ["y"] = 75125.351395238,
+                            }, -- end of [264]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -33410,6 +33490,7 @@ mission =
                             {
                                 ["groupId"] = 519,
                                 ["hidden"] = false,
+                                ["lateActivation"] = false,
                                 ["name"] = "DictKey_GroupName_1891",
                                 ["route"] =
                                 {
@@ -33420,7 +33501,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 72,
+                                            ["alt"] = 403,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1897",
@@ -33437,12 +33518,26 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 147909.00957325,
-                                            ["y"] = 38587.355403926,
+                                            ["x"] = 110086.75285132,
+                                            ["y"] = 131998.52184444,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = false,
                                     ["spans"] =
                                     {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 110086.75285132,
+                                                ["y"] = 131998.52184444,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 110063.04863604,
+                                                ["y"] = 132065.27016673,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
                                     }, -- end of ["spans"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -33454,7 +33549,7 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 6.2698527638858,
+                                        ["heading"] = 1.9120324231714,
                                         ["name"] = "DictKey_UnitName_1892",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
@@ -33464,12 +33559,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk SR 9S18M1",
                                         ["unitId"] = 914,
-                                        ["x"] = 147909.00957325,
-                                        ["y"] = 38587.355403926,
+                                        ["x"] = 110086.75285132,
+                                        ["y"] = 131998.52184444,
                                     }, -- end of [1]
                                     [2] =
                                     {
-                                        ["heading"] = 1.0297442586767,
+                                        ["heading"] = 1.9120324231714,
                                         ["name"] = "DictKey_UnitName_1893",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
@@ -33479,12 +33574,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk CC 9S470M1",
                                         ["unitId"] = 915,
-                                        ["x"] = 147928.85643205,
-                                        ["y"] = 38611.891736885,
+                                        ["x"] = 110095.84152848,
+                                        ["y"] = 132000.51986955,
                                     }, -- end of [2]
                                     [3] =
                                     {
-                                        ["heading"] = 6.2698527638858,
+                                        ["heading"] = 1.9120324231714,
                                         ["name"] = "DictKey_UnitName_1894",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
@@ -33494,12 +33589,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 916,
-                                        ["x"] = 147930.52592721,
-                                        ["y"] = 38451.563303354,
+                                        ["x"] = 110078.92290244,
+                                        ["y"] = 131995.29807139,
                                     }, -- end of [3]
                                     [4] =
                                     {
-                                        ["heading"] = 4.3982297150257,
+                                        ["heading"] = 1.9120324231714,
                                         ["name"] = "DictKey_UnitName_1895",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
@@ -33509,12 +33604,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 917,
-                                        ["x"] = 147824.37858099,
-                                        ["y"] = 38548.147825592,
+                                        ["x"] = 110063.04863604,
+                                        ["y"] = 131990.70288901,
                                     }, -- end of [4]
                                     [5] =
                                     {
-                                        ["heading"] = 2.1816615649929,
+                                        ["heading"] = 1.9120324231714,
                                         ["name"] = "DictKey_UnitName_1896",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
@@ -33524,13 +33619,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 918,
-                                        ["x"] = 147876.13935362,
-                                        ["y"] = 38609.039423152,
+                                        ["x"] = 110071.82125695,
+                                        ["y"] = 131993.41822405,
                                     }, -- end of [5]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 147909.00957325,
-                                ["y"] = 38587.355403926,
+                                ["x"] = 110086.75285132,
+                                ["y"] = 131998.52184444,
                             }, -- end of [28]
                             [29] =
                             {
@@ -50365,7 +50460,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 439181,
+    ["currentKey"] = 454125,
     ["date"] =
     {
         ["Day"] = 1,
@@ -50988,11 +51083,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 224650.49513099,
-        ["centerY"] = 81124.764845126,
-        ["zoom"] = 120586.76460396,
+        ["centerX"] = 76252.641318915,
+        ["centerY"] = 160878.06660246,
+        ["zoom"] = 987017.58287316,
     }, -- end of ["map"]
-    ["maxDictId"] = 3848,
+    ["maxDictId"] = 3855,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -55053,13 +55148,13 @@ mission =
                     [4] = 0.14901960784314,
                 }, -- end of ["color"]
                 ["hidden"] = false,
-                ["name"] = "SAM_1C_SA6_zone",
+                ["name"] = "SAM_1C_SA11_zone",
                 ["properties"] =
                 {
                 }, -- end of ["properties"]
                 ["radius"] = 27432,
-                ["x"] = 146280.67368802,
-                ["y"] = 43895.860988023,
+                ["x"] = 254598.45858943,
+                ["y"] = -511593.28447515,
                 ["zoneId"] = 5041,
             }, -- end of [202]
             [203] =
@@ -56188,7 +56283,7 @@ mission =
                 }, -- end of [2]
             }, -- end of ["actions"]
             ["colorItem"] = "0x800000ff",
-            ["comment"] = "Active 1C10Div SA15",
+            ["comment"] = "Active 1C10Div SA6 SA11",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
             ["rules"] =
