@@ -84,6 +84,8 @@ redIADS:getSAMSiteByGroupName('IADS_W_SA2_1'):addPointDefence(sa15):setHARMDetec
 -- SA-2 Al Duhur
 local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_3')
 redIADS:getSAMSiteByGroupName('IADS_W_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
+local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_SA2')
+redIADS:getSAMSiteByGroupName('IADS_W_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 -- SA-6 Hama
 local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_2')
