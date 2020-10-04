@@ -1,8 +1,8 @@
 mapResource = 
 {
     ["ResKey_Action_887"] = "mist_4_3_74.lua",
-    ["ResKey_Action_1082"] = "skynet-iads-compiled.lua",
     ["ResKey_Action_1085"] = "skynet-iads-setup-OPAR.lua",
-    ["ResKey_Action_1167"] = "Moose.lua",
     ["ResKey_Action_1169"] = "OPAR_NavyGroups.lua",
+    ["ResKey_Action_3896"] = "Moose.lua",
+    ["ResKey_Action_3898"] = "skynet-iads-compiled.lua",
 } -- end of mapResource
