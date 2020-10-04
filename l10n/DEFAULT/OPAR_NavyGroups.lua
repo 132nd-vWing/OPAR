@@ -3,7 +3,7 @@ carrier_root_menu = MENU_MISSION:New("CSG_72_Abraham_Lincoln")
 --- CVN72 Supercarrier ---
 CVN72 = NAVYGROUP:New("CSG_72_1")
 CVN72:SetPatrolAdInfinitum()
-CVN72:SetOptionROE(4)
+CVN72:SetDefaultROE(ENUMS.ROE.WeaponFree)
 CVN_72_beacon_unit = UNIT:FindByName("CSG_72_Abraham_Lincoln")
 if CVN_72_beacon_unit then
   CVN72_Beacon = CVN_72_beacon_unit:GetBeacon()

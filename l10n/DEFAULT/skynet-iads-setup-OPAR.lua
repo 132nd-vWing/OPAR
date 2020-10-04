@@ -149,4 +149,6 @@ redIADS:addRadioMenu()
 
 --activate the IADS
 redIADS:setupSAMSitesAndThenActivate()
+DetectionSetGroup = SET_GROUP:New()
+redIADS:addMooseSetGroup(DetectionSetGroup)
 end

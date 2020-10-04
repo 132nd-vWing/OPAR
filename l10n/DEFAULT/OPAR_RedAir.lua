@@ -1,33 +1,66 @@
 
 
 -- CAP active from Airbases --
-
-Jirah_CAP  = true
-Tabqah_CAP = true
-Abu_Ul_Duhur_CAP = true
-Hama_CAP = true
-An_Nasiryah_CAP = true
-Al_Dumary_CAP  = true
-Khalkalah_CAP = true
-Marj_Ruhayl_CAP = true
+local Redair_Debugging = false  --change to false to silence the messages
 
 
+airfield_Cap_table = {
+  "Jirah",
+  "Tabqa",
+  "Abu al-Duhur",
+  "Hama",
+  "An Nasiriyah",
+  "Al-Dumayr",
+  "Khalkhalah",
+  "Marj Ruhayyil"
+}
 
--- DISPATCHER
-DetectionSetGroup = SET_GROUP:New()
+local number_of_CAP_Airfield = math.random(1,#airfield_Cap_table)
+for i,_cap_airfield in ipairs(airfield_Cap_table) do
+  if i == number_of_CAP_Airfield then
+    CAP_Airfield1 = _cap_airfield
+    table.remove(airfield_Cap_table,i)
+  end
+end
+env.info(CAP_Airfield1.." has CAP enabled")
 Detection = DETECTION_AREAS:New( DetectionSetGroup, 30000 ) --range in meters for targets to be grouped
 A2ADispatcher = AI_A2A_DISPATCHER:New( Detection )
 A2ADispatcher:SetEngageRadius() -- 100000 is the default value. Set 100km as the radius to engage any target by airborne friendlies.
 A2ADispatcher:SetGciRadius() -- 200000 is the default value. Set 200km as the radius to ground control intercept.
 
-CCCPBorderZone = ZONE_POLYGON:New( "RED-BORDER", GROUP:FindByName( "RED-BORDER" ) )
+CCCPBorderZone = ZONE_POLYGON:New( "ColdBorder", GROUP:FindByName( "ColdBorder" ) )
 A2ADispatcher:SetBorderZone( CCCPBorderZone )
-A2ADispatcher:SetSquadron( "Kutaisi", AIRBASE.Caucasus.Kutaisi, { "Squadron red SU-27" }, 2 )
-A2ADispatcher:SetSquadronGrouping( "Kutaisi", 2 )
-A2ADispatcher:SetSquadronGci( "Kutaisi", 900, 1200 )
-A2ADispatcher:SetTacticalDisplay(true)
-A2ADispatcher:Start()
---END MOOSE CODE
+A2ADispatcher:SetDisengageRadius( 460000 )--important to stop caps drifting 460km is 250nm, and covers coast from Shiraz to a bit east of Abbas
+A2ADispatcher:SetEngageRadius(200000) --everything inside 200km from the aircraft is handled by the CAP
+A2ADispatcher:SetTacticalDisplay( Redair_Debugging )
+A2ADispatcher:SetDefaultCapTimeInterval( 900, 1200 ) --between 15mins and 20mins
+A2ADispatcher:SetDefaultFuelThreshold( 0.3 ) -- % including tanks before heading to refuel. Note refuel is on INTERNAL max only for AI.
 
--- add the MOOSE SET_GROUP to the IADS, from now on Skynet will update active radars that the MOOSE SET_GROUP can use for EW detection.
-redIADS:addMooseSetGroup(DetectionSetGroup)
+A2ADispatcher:SetSquadron( CAP_Airfield1,CAP_Airfield1,("Red_Cap"))
+A2ADispatcher:SetDefaultGrouping(2)
+A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield1 )
+A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield1 )
+A2ADispatcher:SetSquadronCap( CAP_Airfield1, ZONE:New( "Cap_"..CAP_Airfield1  ), 5000, 20000, 400, 700, 400, 1000, "BARO") --start disabled
+A2ADispatcher:SetSquadronCapInterval( CAP_Airfield1, 1, 900, 1200 ) -- only one CAP ever, between 15mins and 20mins
+A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield1, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 180, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield1):GetCoordinate()})
+A2ADispatcher:SetSquadronGci( CAP_Airfield1, 900, 1200 )
+
+local number_of_CAPs = math.random(1,2) --randomly have 1 or 2 airfields launching CAP
+if number_of_CAPs == 2 then
+  local number_of_CAP_Airfield = math.random(1,#airfield_Cap_table)
+  for i,_cap_airfield in ipairs(airfield_Cap_table) do
+    if i == number_of_CAP_Airfield then
+      CAP_Airfield2 = _cap_airfield
+    end
+  end
+  env.info(CAP_Airfield2.." has second CAP enabled")
+  A2ADispatcher:SetSquadron( CAP_Airfield2,CAP_Airfield2, ("Red_Cap") )
+  A2ADispatcher:SetDefaultGrouping(2)
+  A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield2 )
+  A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield2 )
+  A2ADispatcher:SetSquadronCap( CAP_Airfield2, ZONE:New( "Cap_"..CAP_Airfield2  ), 5000, 20000, 400, 700, 400, 1000, "BARO") --start disabled
+  A2ADispatcher:SetSquadronCapInterval( CAP_Airfield2, 1, 900, 1200 ) -- only one CAP ever, between 15mins and 20mins
+  A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield2, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 180, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate()})
+  A2ADispatcher:SetSquadronGci( CAP_Airfield2, 900, 1200 )
+end
+

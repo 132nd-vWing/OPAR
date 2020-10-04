@@ -1,6 +1,47 @@
 dictionary = 
 {
     ["DictKey_ActionText_3897"] = "",
+    ["DictKey_ActionText_3930"] = "local airfield_Cap_table = {\
+AIRBASE.Syria.Jirah; \
+AIRBASE.Syria.Tabqa;\
+AIRBASE.Syria.Abu_al_Duhur;\
+AIRBASE.Syria.Hama;\
+AIRBASE.Syria.An_Nasiriyah;\
+AIRBASE.Syria.Al_Dumayr;\
+AIRBASE.Syria.Khalkhalah;\
+AIRBASE.Syria.Marj_Ruhayyil;\
+}\
+\
+\
+for i,_cap_airfield in pairs(airfield_Cap_table) do\
+if i == number_of_CAP_Airfield then\
+  CAP_Airfield1 = _cap_airfield\
+\
+end\
+  enf.info(\"selected airfield is \".._cap_airfield)\
+",
+    ["DictKey_ActionText_3932"] = "local Redair_Debugging = true  --change to false to silence the messages\
+local number_of_CAPs = math.random(1,2) --randomly have 1 or 2 airfields launching CAP\
+local number_of_CAP_Airfield = math.random(0,6)\
+airfield_Cap_table = {\
+\"Jirah\",\
+\"Tabqa\",\
+\"Abu_al_Duhur\",\
+\"Syria.Hama\",\
+\"An_Nasiriyah\",\
+\"Al_Dumayr\",\
+\"Khalkhalah\",\
+\"Marj_Ruhayyil\"\
+}\
+for i,_cap_airfield in ipairs(airfield_Cap_table) do\
+if i == number_of_CAP_Airfield then\
+  CAP_Airfield1 = _cap_airfield\
+end\
+end\
+env.info(\"selected field is \"..CAP_Airfield1)\
+",
+    ["DictKey_ActionText_3934"] = "",
+    ["DictKey_ActionText_3941"] = "",
     ["DictKey_GroupName_6"] = "BORDER4",
     ["DictKey_GroupName_34"] = "Ground-1",
     ["DictKey_GroupName_37"] = "Ground-2",
@@ -825,6 +866,15 @@ dictionary =
     ["DictKey_GroupName_3890"] = "Static APC BTR-80-1_DEAD2",
     ["DictKey_GroupName_3893"] = "Static APC BTR-80-1_DEAD3",
     ["DictKey_GroupName_3899"] = "ColdBorder",
+    ["DictKey_GroupName_3905"] = "Red_Cap",
+    ["DictKey_GroupName_3908"] = "Red_Cap_2",
+    ["DictKey_GroupName_3911"] = "Aerial-5",
+    ["DictKey_GroupName_3937"] = "Red_Cap_2",
+    ["DictKey_GroupName_3944"] = "Red_Cap2",
+    ["DictKey_GroupName_3965"] = "Red_Cap1",
+    ["DictKey_GroupName_3968"] = "Red_Cap1-1",
+    ["DictKey_GroupName_3971"] = "Red_Cap1-2",
+    ["DictKey_GroupName_3975"] = "Aerial-5",
     ["DictKey_UnitName_7"] = "Aerial-1-1",
     ["DictKey_UnitName_35"] = "Ground-1-1",
     ["DictKey_UnitName_38"] = "Ground-2-1",
@@ -2734,6 +2784,19 @@ dictionary =
     ["DictKey_UnitName_3891"] = "Static Transport GAZ-66-1_DEAD",
     ["DictKey_UnitName_3894"] = "Static APC BTR-80-1_DEAD2",
     ["DictKey_UnitName_3900"] = "ColdBorder",
+    ["DictKey_UnitName_3906"] = "Red_Cap",
+    ["DictKey_UnitName_3909"] = "Red_Cap_2",
+    ["DictKey_UnitName_3912"] = "Aerial-5-1",
+    ["DictKey_UnitName_3926"] = "Aerial-5-2",
+    ["DictKey_UnitName_3927"] = "Aerial-5-3",
+    ["DictKey_UnitName_3938"] = "Red_Cap_2",
+    ["DictKey_UnitName_3945"] = "Red_Cap2",
+    ["DictKey_UnitName_3966"] = "Red_Cap1",
+    ["DictKey_UnitName_3969"] = "Red_Cap1-1-1",
+    ["DictKey_UnitName_3972"] = "Red_Cap1-2-1",
+    ["DictKey_UnitName_3976"] = "Aerial-5-1",
+    ["DictKey_UnitName_3979"] = "Aerial-5-2",
+    ["DictKey_UnitName_3980"] = "Aerial-5-3",
     ["DictKey_WptName_8"] = "",
     ["DictKey_WptName_9"] = "",
     ["DictKey_WptName_10"] = "",
@@ -3887,6 +3950,18 @@ dictionary =
     ["DictKey_WptName_3902"] = "",
     ["DictKey_WptName_3903"] = "",
     ["DictKey_WptName_3904"] = "",
+    ["DictKey_WptName_3907"] = "",
+    ["DictKey_WptName_3910"] = "",
+    ["DictKey_WptName_3913"] = "",
+    ["DictKey_WptName_3914"] = "",
+    ["DictKey_WptName_3915"] = "",
+    ["DictKey_WptName_3939"] = "",
+    ["DictKey_WptName_3946"] = "",
+    ["DictKey_WptName_3967"] = "",
+    ["DictKey_WptName_3970"] = "",
+    ["DictKey_WptName_3973"] = "",
+    ["DictKey_WptName_3977"] = "",
+    ["DictKey_WptName_3978"] = "",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
