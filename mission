@@ -29058,6 +29058,286 @@ mission =
                                 ["x"] = -215266.62514093,
                                 ["y"] = -3689.6292808307,
                             }, -- end of [255]
+                            [256] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1953,
+                                ["heading"] = 4.8694686130642,
+                                ["name"] = "DictKey_GroupName_3828",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 193475.97940459,
+                                            ["y"] = 64883.386112226,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 4.8694686130642,
+                                        ["name"] = "DictKey_GroupName_3828",
+                                        ["rate"] = 25,
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 3513,
+                                        ["x"] = 193475.97940459,
+                                        ["y"] = 64883.386112226,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 193475.97940459,
+                                ["y"] = 64883.386112226,
+                            }, -- end of [256]
+                            [257] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1954,
+                                ["heading"] = 0.19198621771938,
+                                ["name"] = "DictKey_GroupName_3831",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 190088.18349418,
+                                            ["y"] = 61392.213890739,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 0.19198621771938,
+                                        ["name"] = "DictKey_GroupName_3831",
+                                        ["rate"] = 25,
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 3514,
+                                        ["x"] = 190088.18349418,
+                                        ["y"] = 61392.213890739,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 190088.18349418,
+                                ["y"] = 61392.213890739,
+                            }, -- end of [257]
+                            [258] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1955,
+                                ["heading"] = 4.6774823953448,
+                                ["name"] = "DictKey_GroupName_3834",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 193241.86578197,
+                                            ["y"] = 57636.329947255,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 4.6774823953448,
+                                        ["name"] = "DictKey_GroupName_3834",
+                                        ["rate"] = 25,
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 3515,
+                                        ["x"] = 193241.86578197,
+                                        ["y"] = 57636.329947255,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 193241.86578197,
+                                ["y"] = 57636.329947255,
+                            }, -- end of [258]
+                            [259] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1956,
+                                ["heading"] = 0.83775804095728,
+                                ["name"] = "DictKey_GroupName_3837",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 196607.19120156,
+                                            ["y"] = 62049.172929344,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 0.83775804095728,
+                                        ["name"] = "DictKey_GroupName_3837",
+                                        ["rate"] = 25,
+                                        ["type"] = "Tor 9A331",
+                                        ["unitId"] = 3516,
+                                        ["x"] = 196607.19120156,
+                                        ["y"] = 62049.172929344,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 196607.19120156,
+                                ["y"] = 62049.172929344,
+                            }, -- end of [259]
+                            [260] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1957,
+                                ["heading"] = 2.0071286397935,
+                                ["name"] = "DictKey_GroupName_3840",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 194279.77731513,
+                                            ["y"] = 61391.860536615,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 2.0071286397935,
+                                        ["name"] = "DictKey_GroupName_3840",
+                                        ["rate"] = 15,
+                                        ["type"] = "Dog Ear radar",
+                                        ["unitId"] = 3517,
+                                        ["x"] = 194279.77731513,
+                                        ["y"] = 61391.860536615,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 194279.77731513,
+                                ["y"] = 61391.860536615,
+                            }, -- end of [260]
+                            [261] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1958,
+                                ["heading"] = 6.0213859193804,
+                                ["name"] = "DictKey_GroupName_3843",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 224550.66819214,
+                                            ["y"] = 84659.759682112,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 6.0213859193804,
+                                        ["name"] = "DictKey_GroupName_3843",
+                                        ["rate"] = 20,
+                                        ["type"] = "2S6 Tunguska",
+                                        ["unitId"] = 3518,
+                                        ["x"] = 224550.66819214,
+                                        ["y"] = 84659.759682112,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 224550.66819214,
+                                ["y"] = 84659.759682112,
+                            }, -- end of [261]
+                            [262] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 1959,
+                                ["heading"] = 6.0213859193804,
+                                ["name"] = "DictKey_GroupName_3846",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 228306.00047047,
+                                            ["y"] = 74324.162401975,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 6.0213859193804,
+                                        ["name"] = "DictKey_GroupName_3846",
+                                        ["rate"] = 20,
+                                        ["type"] = "2S6 Tunguska",
+                                        ["unitId"] = 3519,
+                                        ["x"] = 228306.00047047,
+                                        ["y"] = 74324.162401975,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 228306.00047047,
+                                ["y"] = 74324.162401975,
+                            }, -- end of [262]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -30052,192 +30332,6 @@ mission =
                             }, -- end of [11]
                             [12] =
                             {
-                                ["groupId"] = 489,
-                                ["hidden"] = false,
-                                ["name"] = "DictKey_GroupName_1657",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["action"] = "Off Road",
-                                            ["alt"] = 419,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_1667",
-                                            ["speed"] = 5.5555555555556,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 194282.59305053,
-                                            ["y"] = 61393.93090822,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                    ["spans"] =
-                                    {
-                                    }, -- end of ["spans"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["tasks"] =
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["heading"] = 2.0943951023932,
-                                        ["name"] = "DictKey_UnitName_1658",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Dog Ear radar",
-                                        ["unitId"] = 747,
-                                        ["x"] = 194282.59305053,
-                                        ["y"] = 61393.93090822,
-                                    }, -- end of [1]
-                                    [2] =
-                                    {
-                                        ["heading"] = 0.87266462599716,
-                                        ["name"] = "DictKey_UnitName_1659",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Tor 9A331",
-                                        ["unitId"] = 748,
-                                        ["x"] = 196610.2011759,
-                                        ["y"] = 62046.784659166,
-                                    }, -- end of [2]
-                                    [3] =
-                                    {
-                                        ["heading"] = 1.6057029118348,
-                                        ["name"] = "DictKey_UnitName_1660",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Tor 9A331",
-                                        ["unitId"] = 749,
-                                        ["x"] = 193480.86641501,
-                                        ["y"] = 64883.333516677,
-                                    }, -- end of [3]
-                                    [4] =
-                                    {
-                                        ["heading"] = 4.6774823953448,
-                                        ["name"] = "DictKey_UnitName_1661",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Tor 9A331",
-                                        ["unitId"] = 750,
-                                        ["x"] = 193246.49867543,
-                                        ["y"] = 57636.292561648,
-                                    }, -- end of [4]
-                                    [5] =
-                                    {
-                                        ["heading"] = 3.2114058236696,
-                                        ["name"] = "DictKey_UnitName_1662",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Tor 9A331",
-                                        ["unitId"] = 751,
-                                        ["x"] = 190098.48780957,
-                                        ["y"] = 61389.150434763,
-                                    }, -- end of [5]
-                                    [6] =
-                                    {
-                                        ["heading"] = 3.385938748869,
-                                        ["name"] = "DictKey_UnitName_1663",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "GAZ-66",
-                                        ["unitId"] = 752,
-                                        ["x"] = 193250.38956705,
-                                        ["y"] = 57672.769670581,
-                                    }, -- end of [6]
-                                    [7] =
-                                    {
-                                        ["heading"] = 2.0943951023932,
-                                        ["name"] = "DictKey_UnitName_1664",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "GAZ-66",
-                                        ["unitId"] = 753,
-                                        ["x"] = 196590.40117621,
-                                        ["y"] = 62033.584659368,
-                                    }, -- end of [7]
-                                    [8] =
-                                    {
-                                        ["heading"] = 2.3911010752322,
-                                        ["name"] = "DictKey_UnitName_1665",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "GAZ-66",
-                                        ["unitId"] = 754,
-                                        ["x"] = 193495.99055874,
-                                        ["y"] = 64881.710515456,
-                                    }, -- end of [8]
-                                    [9] =
-                                    {
-                                        ["heading"] = 2.0943951023932,
-                                        ["name"] = "DictKey_UnitName_1666",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "GAZ-66",
-                                        ["unitId"] = 755,
-                                        ["x"] = 190127.46666855,
-                                        ["y"] = 61309.458572569,
-                                    }, -- end of [9]
-                                }, -- end of ["units"]
-                                ["visible"] = false,
-                                ["x"] = 194282.59305053,
-                                ["y"] = 61393.93090822,
-                            }, -- end of [12]
-                            [13] =
-                            {
                                 ["groupId"] = 490,
                                 ["hidden"] = false,
                                 ["name"] = "DictKey_GroupName_1668",
@@ -30333,8 +30427,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 197551.23747645,
                                 ["y"] = 75494.780367437,
-                            }, -- end of [13]
-                            [14] =
+                            }, -- end of [12]
+                            [13] =
                             {
                                 ["groupId"] = 497,
                                 ["hidden"] = false,
@@ -30573,8 +30667,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 213005.84935204,
                                 ["y"] = 68297.127368893,
-                            }, -- end of [14]
-                            [15] =
+                            }, -- end of [13]
+                            [14] =
                             {
                                 ["groupId"] = 498,
                                 ["hidden"] = false,
@@ -30802,8 +30896,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 231760.51028968,
                                 ["y"] = 75510.341946148,
-                            }, -- end of [15]
-                            [16] =
+                            }, -- end of [14]
+                            [15] =
                             {
                                 ["groupId"] = 499,
                                 ["hidden"] = false,
@@ -31031,8 +31125,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 230440.80798811,
                                 ["y"] = 71048.227587241,
-                            }, -- end of [16]
-                            [17] =
+                            }, -- end of [15]
+                            [16] =
                             {
                                 ["groupId"] = 500,
                                 ["hidden"] = false,
@@ -31260,8 +31354,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 229754.58309484,
                                 ["y"] = 85512.526958429,
-                            }, -- end of [17]
-                            [18] =
+                            }, -- end of [16]
+                            [17] =
                             {
                                 ["groupId"] = 501,
                                 ["hidden"] = false,
@@ -31489,8 +31583,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 228041.21656592,
                                 ["y"] = 84490.410508125,
-                            }, -- end of [18]
-                            [19] =
+                            }, -- end of [17]
+                            [18] =
                             {
                                 ["groupId"] = 502,
                                 ["hidden"] = false,
@@ -31718,8 +31812,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 226562.2838169,
                                 ["y"] = 85595.330331206,
-                            }, -- end of [19]
-                            [20] =
+                            }, -- end of [18]
+                            [19] =
                             {
                                 ["groupId"] = 503,
                                 ["hidden"] = false,
@@ -31947,8 +32041,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 220480.96799691,
                                 ["y"] = 72585.649919222,
-                            }, -- end of [20]
-                            [21] =
+                            }, -- end of [19]
+                            [20] =
                             {
                                 ["groupId"] = 504,
                                 ["hidden"] = false,
@@ -32176,8 +32270,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 223580.61518475,
                                 ["y"] = 71437.508552817,
-                            }, -- end of [21]
-                            [22] =
+                            }, -- end of [20]
+                            [21] =
                             {
                                 ["groupId"] = 505,
                                 ["hidden"] = false,
@@ -32405,8 +32499,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 222125.83800326,
                                 ["y"] = 72330.809980255,
-                            }, -- end of [22]
-                            [23] =
+                            }, -- end of [21]
+                            [22] =
                             {
                                 ["groupId"] = 506,
                                 ["hidden"] = false,
@@ -32591,8 +32685,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 221770.71624964,
                                 ["y"] = 71278.045175761,
-                            }, -- end of [23]
-                            [24] =
+                            }, -- end of [22]
+                            [23] =
                             {
                                 ["groupId"] = 507,
                                 ["hidden"] = false,
@@ -32777,8 +32871,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 228788.10634604,
                                 ["y"] = 74573.601905427,
-                            }, -- end of [24]
-                            [25] =
+                            }, -- end of [23]
+                            [24] =
                             {
                                 ["groupId"] = 508,
                                 ["hidden"] = false,
@@ -32963,8 +33057,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 225359.89749463,
                                 ["y"] = 85134.801940524,
-                            }, -- end of [25]
-                            [26] =
+                            }, -- end of [24]
+                            [25] =
                             {
                                 ["groupId"] = 509,
                                 ["hidden"] = false,
@@ -33025,123 +33119,12 @@ mission =
                                         ["x"] = 229472.6828495,
                                         ["y"] = 85255.59366398,
                                     }, -- end of [1]
-                                    [2] =
-                                    {
-                                        ["heading"] = 5.846852994181,
-                                        ["name"] = "DictKey_UnitName_1848",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "2S6 Tunguska",
-                                        ["unitId"] = 892,
-                                        ["x"] = 224551.96023724,
-                                        ["y"] = 84666.545577564,
-                                    }, -- end of [2]
-                                    [3] =
-                                    {
-                                        ["heading"] = 6.16101225954,
-                                        ["name"] = "DictKey_UnitName_1849",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "GAZ-66",
-                                        ["unitId"] = 893,
-                                        ["x"] = 224550.90667376,
-                                        ["y"] = 84676.027648929,
-                                    }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
                                 ["x"] = 229472.6828495,
                                 ["y"] = 85255.59366398,
-                            }, -- end of [26]
-                            [27] =
-                            {
-                                ["groupId"] = 510,
-                                ["hidden"] = false,
-                                ["name"] = "DictKey_GroupName_1851",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["action"] = "Off Road",
-                                            ["alt"] = 524,
-                                            ["alt_type"] = "BARO",
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_1855",
-                                            ["speed"] = 5.5555555555556,
-                                            ["speed_locked"] = true,
-                                            ["task"] =
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] =
-                                                {
-                                                    ["tasks"] =
-                                                    {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = 228305.03400767,
-                                            ["y"] = 74316.877096429,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                    ["spans"] =
-                                    {
-                                    }, -- end of ["spans"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["tasks"] =
-                                {
-                                }, -- end of ["tasks"]
-                                ["uncontrollable"] = false,
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["heading"] = 6.0911990894602,
-                                        ["name"] = "DictKey_UnitName_1852",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "2S6 Tunguska",
-                                        ["unitId"] = 894,
-                                        ["x"] = 228305.03400767,
-                                        ["y"] = 74316.877096429,
-                                    }, -- end of [1]
-                                    [2] =
-                                    {
-                                        ["heading"] = 0.78539816339745,
-                                        ["name"] = "DictKey_UnitName_3435",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "GAZ-66",
-                                        ["unitId"] = 3177,
-                                        ["x"] = 228291.82749633,
-                                        ["y"] = 74314.898988563,
-                                    }, -- end of [2]
-                                }, -- end of ["units"]
-                                ["visible"] = false,
-                                ["x"] = 228305.03400767,
-                                ["y"] = 74316.877096429,
-                            }, -- end of [27]
-                            [28] =
+                            }, -- end of [25]
+                            [26] =
                             {
                                 ["groupId"] = 511,
                                 ["hidden"] = false,
@@ -33249,8 +33232,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 223704.94227759,
                                 ["y"] = 71324.707632281,
-                            }, -- end of [28]
-                            [29] =
+                            }, -- end of [26]
+                            [27] =
                             {
                                 ["groupId"] = 518,
                                 ["hidden"] = false,
@@ -33422,8 +33405,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 148204.65931848,
                                 ["y"] = 39348.248116695,
-                            }, -- end of [29]
-                            [30] =
+                            }, -- end of [27]
+                            [28] =
                             {
                                 ["groupId"] = 519,
                                 ["hidden"] = false,
@@ -33548,8 +33531,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 147909.00957325,
                                 ["y"] = 38587.355403926,
-                            }, -- end of [30]
-                            [31] =
+                            }, -- end of [28]
+                            [29] =
                             {
                                 ["groupId"] = 558,
                                 ["hidden"] = false,
@@ -33777,8 +33760,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 176357.29208398,
                                 ["y"] = 53327.388863295,
-                            }, -- end of [31]
-                            [32] =
+                            }, -- end of [29]
+                            [30] =
                             {
                                 ["groupId"] = 559,
                                 ["hidden"] = false,
@@ -33918,8 +33901,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 151494.83117821,
                                 ["y"] = 35156.330976423,
-                            }, -- end of [32]
-                            [33] =
+                            }, -- end of [30]
+                            [31] =
                             {
                                 ["groupId"] = 560,
                                 ["hidden"] = false,
@@ -34059,8 +34042,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 152676.93550976,
                                 ["y"] = 36937.638258415,
-                            }, -- end of [33]
-                            [34] =
+                            }, -- end of [31]
+                            [32] =
                             {
                                 ["groupId"] = 561,
                                 ["hidden"] = false,
@@ -34200,8 +34183,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 149519.08476414,
                                 ["y"] = 34100.149182643,
-                            }, -- end of [34]
-                            [35] =
+                            }, -- end of [32]
+                            [33] =
                             {
                                 ["groupId"] = 562,
                                 ["hidden"] = false,
@@ -34341,8 +34324,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 147431.7079054,
                                 ["y"] = 43720.209348707,
-                            }, -- end of [35]
-                            [36] =
+                            }, -- end of [33]
+                            [34] =
                             {
                                 ["groupId"] = 563,
                                 ["hidden"] = false,
@@ -34482,8 +34465,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 145380.35177917,
                                 ["y"] = 45104.197119019,
-                            }, -- end of [36]
-                            [37] =
+                            }, -- end of [34]
+                            [35] =
                             {
                                 ["groupId"] = 564,
                                 ["hidden"] = false,
@@ -34623,8 +34606,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 146563.54440113,
                                 ["y"] = 44288.668486123,
-                            }, -- end of [37]
-                            [38] =
+                            }, -- end of [35]
+                            [36] =
                             {
                                 ["groupId"] = 566,
                                 ["hidden"] = false,
@@ -34852,8 +34835,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 178622.79950586,
                                 ["y"] = 35156.235477816,
-                            }, -- end of [38]
-                            [39] =
+                            }, -- end of [36]
+                            [37] =
                             {
                                 ["groupId"] = 567,
                                 ["hidden"] = false,
@@ -35081,8 +35064,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 179605.80632313,
                                 ["y"] = 34106.873228664,
-                            }, -- end of [39]
-                            [40] =
+                            }, -- end of [37]
+                            [38] =
                             {
                                 ["groupId"] = 568,
                                 ["hidden"] = false,
@@ -35310,8 +35293,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 175823.47974775,
                                 ["y"] = 33591.937794036,
-                            }, -- end of [40]
-                            [41] =
+                            }, -- end of [38]
+                            [39] =
                             {
                                 ["groupId"] = 569,
                                 ["hidden"] = false,
@@ -35539,8 +35522,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 167814.7383879,
                                 ["y"] = 25767.555147718,
-                            }, -- end of [41]
-                            [42] =
+                            }, -- end of [39]
+                            [40] =
                             {
                                 ["groupId"] = 570,
                                 ["hidden"] = false,
@@ -35768,8 +35751,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 173754.58773447,
                                 ["y"] = 33007.307862031,
-                            }, -- end of [42]
-                            [43] =
+                            }, -- end of [40]
+                            [41] =
                             {
                                 ["groupId"] = 571,
                                 ["hidden"] = false,
@@ -35997,8 +35980,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 165300.86718003,
                                 ["y"] = 29179.355371712,
-                            }, -- end of [43]
-                            [44] =
+                            }, -- end of [41]
+                            [42] =
                             {
                                 ["groupId"] = 572,
                                 ["hidden"] = false,
@@ -36093,8 +36076,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 169823.98036977,
                                 ["y"] = 29913.708267916,
-                            }, -- end of [44]
-                            [45] =
+                            }, -- end of [42]
+                            [43] =
                             {
                                 ["groupId"] = 573,
                                 ["hidden"] = false,
@@ -36202,8 +36185,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 167973.92948207,
                                 ["y"] = 25946.480619165,
-                            }, -- end of [45]
-                            [46] =
+                            }, -- end of [43]
+                            [44] =
                             {
                                 ["groupId"] = 574,
                                 ["hidden"] = false,
@@ -36298,8 +36281,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 165132.79146152,
                                 ["y"] = 29252.372445314,
-                            }, -- end of [46]
-                            [47] =
+                            }, -- end of [44]
+                            [45] =
                             {
                                 ["groupId"] = 575,
                                 ["hidden"] = false,
@@ -36396,8 +36379,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 160350.80020369,
                                 ["y"] = 40286.086073965,
-                            }, -- end of [47]
-                            [48] =
+                            }, -- end of [45]
+                            [46] =
                             {
                                 ["groupId"] = 580,
                                 ["hidden"] = false,
@@ -36625,8 +36608,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 159390.56980124,
                                 ["y"] = 41518.810340548,
-                            }, -- end of [48]
-                            [49] =
+                            }, -- end of [46]
+                            [47] =
                             {
                                 ["groupId"] = 586,
                                 ["hidden"] = false,
@@ -36854,8 +36837,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -232059.15628884,
                                 ["y"] = -11372.342567172,
-                            }, -- end of [49]
-                            [50] =
+                            }, -- end of [47]
+                            [48] =
                             {
                                 ["groupId"] = 587,
                                 ["hidden"] = false,
@@ -37083,8 +37066,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -237186.4718108,
                                 ["y"] = -9390.2553167866,
-                            }, -- end of [50]
-                            [51] =
+                            }, -- end of [48]
+                            [49] =
                             {
                                 ["groupId"] = 588,
                                 ["hidden"] = false,
@@ -37312,8 +37295,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -238832.84273451,
                                 ["y"] = -7125.4275586424,
-                            }, -- end of [51]
-                            [52] =
+                            }, -- end of [49]
+                            [50] =
                             {
                                 ["groupId"] = 589,
                                 ["hidden"] = false,
@@ -37541,8 +37524,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -242692.7179894,
                                 ["y"] = -16795.923016427,
-                            }, -- end of [52]
-                            [53] =
+                            }, -- end of [50]
+                            [51] =
                             {
                                 ["groupId"] = 590,
                                 ["hidden"] = false,
@@ -37770,8 +37753,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -239374.51469358,
                                 ["y"] = -14218.355484241,
-                            }, -- end of [53]
-                            [54] =
+                            }, -- end of [51]
+                            [52] =
                             {
                                 ["groupId"] = 591,
                                 ["hidden"] = false,
@@ -37999,8 +37982,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -242436.23385781,
                                 ["y"] = -14124.097922187,
-                            }, -- end of [54]
-                            [55] =
+                            }, -- end of [52]
+                            [53] =
                             {
                                 ["groupId"] = 592,
                                 ["hidden"] = false,
@@ -38108,8 +38091,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -242491.35056981,
                                 ["y"] = -14152.924245192,
-                            }, -- end of [55]
-                            [56] =
+                            }, -- end of [53]
+                            [54] =
                             {
                                 ["groupId"] = 593,
                                 ["hidden"] = false,
@@ -38204,8 +38187,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -232367.74472303,
                                 ["y"] = -11787.750074738,
-                            }, -- end of [56]
-                            [57] =
+                            }, -- end of [54]
+                            [55] =
                             {
                                 ["groupId"] = 594,
                                 ["hidden"] = false,
@@ -38313,8 +38296,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -239385.35245081,
                                 ["y"] = -14180.637831862,
-                            }, -- end of [57]
-                            [58] =
+                            }, -- end of [55]
+                            [56] =
                             {
                                 ["groupId"] = 595,
                                 ["hidden"] = false,
@@ -38409,8 +38392,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -236913.4897344,
                                 ["y"] = -9069.7980966644,
-                            }, -- end of [58]
-                            [59] =
+                            }, -- end of [56]
+                            [57] =
                             {
                                 ["groupId"] = 596,
                                 ["hidden"] = false,
@@ -38507,8 +38490,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -240919.96902252,
                                 ["y"] = 1725.5599201965,
-                            }, -- end of [59]
-                            [60] =
+                            }, -- end of [57]
+                            [58] =
                             {
                                 ["groupId"] = 597,
                                 ["hidden"] = false,
@@ -38693,8 +38676,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -232645.2264488,
                                 ["y"] = 2656.417214827,
-                            }, -- end of [60]
-                            [61] =
+                            }, -- end of [58]
+                            [59] =
                             {
                                 ["groupId"] = 760,
                                 ["hidden"] = true,
@@ -38926,8 +38909,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 116067.50886151,
                                 ["y"] = 186492.92659702,
-                            }, -- end of [61]
-                            [62] =
+                            }, -- end of [59]
+                            [60] =
                             {
                                 ["groupId"] = 761,
                                 ["hidden"] = true,
@@ -39159,8 +39142,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 80845.881204502,
                                 ["y"] = 249779.78523551,
-                            }, -- end of [62]
-                            [63] =
+                            }, -- end of [60]
+                            [61] =
                             {
                                 ["groupId"] = 762,
                                 ["hidden"] = true,
@@ -39347,8 +39330,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 126227.89216378,
                                 ["y"] = 157224.83430781,
-                            }, -- end of [63]
-                            [64] =
+                            }, -- end of [61]
+                            [62] =
                             {
                                 ["groupId"] = 763,
                                 ["hidden"] = true,
@@ -39535,8 +39518,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 147987.58381062,
                                 ["y"] = 200122.33485198,
-                            }, -- end of [64]
-                            [65] =
+                            }, -- end of [62]
+                            [63] =
                             {
                                 ["groupId"] = 764,
                                 ["hidden"] = true,
@@ -39723,8 +39706,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 56400.772643911,
                                 ["y"] = 230610.98051424,
-                            }, -- end of [65]
-                            [66] =
+                            }, -- end of [63]
+                            [64] =
                             {
                                 ["groupId"] = 765,
                                 ["hidden"] = true,
@@ -39911,8 +39894,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 77503.073698679,
                                 ["y"] = 238505.27599044,
-                            }, -- end of [66]
-                            [67] =
+                            }, -- end of [64]
+                            [65] =
                             {
                                 ["groupId"] = 770,
                                 ["hidden"] = true,
@@ -40084,8 +40067,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 126481.0961922,
                                 ["y"] = 153892.59617787,
-                            }, -- end of [67]
-                            [68] =
+                            }, -- end of [65]
+                            [66] =
                             {
                                 ["groupId"] = 771,
                                 ["hidden"] = true,
@@ -40257,8 +40240,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 79334.341187379,
                                 ["y"] = 243698.10720208,
-                            }, -- end of [68]
-                            [69] =
+                            }, -- end of [66]
+                            [67] =
                             {
                                 ["groupId"] = 774,
                                 ["hidden"] = true,
@@ -40385,8 +40368,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 55608.563065512,
                                 ["y"] = 231647.25806533,
-                            }, -- end of [69]
-                            [70] =
+                            }, -- end of [67]
+                            [68] =
                             {
                                 ["groupId"] = 775,
                                 ["hidden"] = true,
@@ -40513,8 +40496,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 98087.023559991,
                                 ["y"] = 165886.89562707,
-                            }, -- end of [70]
-                            [71] =
+                            }, -- end of [68]
+                            [69] =
                             {
                                 ["groupId"] = 776,
                                 ["hidden"] = true,
@@ -40583,8 +40566,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 80875.622780178,
                                 ["y"] = 249836.86698413,
-                            }, -- end of [71]
-                            [72] =
+                            }, -- end of [69]
+                            [70] =
                             {
                                 ["groupId"] = 778,
                                 ["hidden"] = true,
@@ -40653,8 +40636,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 79300.899802545,
                                 ["y"] = 243720.08459835,
-                            }, -- end of [72]
-                            [73] =
+                            }, -- end of [70]
+                            [71] =
                             {
                                 ["groupId"] = 780,
                                 ["hidden"] = true,
@@ -40723,8 +40706,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 126522.34416842,
                                 ["y"] = 153886.58084801,
-                            }, -- end of [73]
-                            [74] =
+                            }, -- end of [71]
+                            [72] =
                             {
                                 ["groupId"] = 781,
                                 ["hidden"] = true,
@@ -40793,8 +40776,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 115987.31811893,
                                 ["y"] = 186538.50403578,
-                            }, -- end of [74]
-                            [75] =
+                            }, -- end of [72]
+                            [73] =
                             {
                                 ["groupId"] = 1390,
                                 ["hidden"] = true,
@@ -41026,8 +41009,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -177569.73307504,
                                 ["y"] = 51749.148186283,
-                            }, -- end of [75]
-                            [76] =
+                            }, -- end of [73]
+                            [74] =
                             {
                                 ["groupId"] = 1391,
                                 ["hidden"] = true,
@@ -41259,8 +41242,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -155330.42922097,
                                 ["y"] = 86586.923224998,
-                            }, -- end of [76]
-                            [77] =
+                            }, -- end of [74]
+                            [75] =
                             {
                                 ["groupId"] = 1392,
                                 ["hidden"] = true,
@@ -41447,8 +41430,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -158212.48670504,
                                 ["y"] = 73115.406300625,
-                            }, -- end of [77]
-                            [78] =
+                            }, -- end of [75]
+                            [76] =
                             {
                                 ["groupId"] = 1393,
                                 ["hidden"] = true,
@@ -41635,8 +41618,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -141561.6549879,
                                 ["y"] = 71883.170980365,
-                            }, -- end of [78]
-                            [79] =
+                            }, -- end of [76]
+                            [77] =
                             {
                                 ["groupId"] = 1394,
                                 ["hidden"] = true,
@@ -41823,8 +41806,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -182276.185795,
                                 ["y"] = 21728.280223067,
-                            }, -- end of [79]
-                            [80] =
+                            }, -- end of [77]
+                            [78] =
                             {
                                 ["groupId"] = 1395,
                                 ["hidden"] = true,
@@ -42011,8 +41994,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -214874.66625597,
                                 ["y"] = 53308.662819844,
-                            }, -- end of [80]
-                            [81] =
+                            }, -- end of [78]
+                            [79] =
                             {
                                 ["groupId"] = 1400,
                                 ["hidden"] = true,
@@ -42184,8 +42167,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -267209.97858571,
                                 ["y"] = 60448.882509838,
-                            }, -- end of [81]
-                            [82] =
+                            }, -- end of [79]
+                            [80] =
                             {
                                 ["groupId"] = 1401,
                                 ["hidden"] = true,
@@ -42357,8 +42340,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -123065.47245779,
                                 ["y"] = 85057.048434557,
-                            }, -- end of [82]
-                            [83] =
+                            }, -- end of [80]
+                            [81] =
                             {
                                 ["groupId"] = 1404,
                                 ["hidden"] = true,
@@ -42485,8 +42468,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -164252.99422621,
                                 ["y"] = 27449.614313496,
-                            }, -- end of [83]
-                            [84] =
+                            }, -- end of [81]
+                            [82] =
                             {
                                 ["groupId"] = 1405,
                                 ["hidden"] = true,
@@ -42613,8 +42596,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -172545.86639974,
                                 ["y"] = 24844.746661896,
-                            }, -- end of [84]
-                            [85] =
+                            }, -- end of [82]
+                            [83] =
                             {
                                 ["groupId"] = 1406,
                                 ["hidden"] = false,
@@ -42681,8 +42664,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -155476.73620077,
                                 ["y"] = 86625.10354635,
-                            }, -- end of [85]
-                            [86] =
+                            }, -- end of [83]
+                            [84] =
                             {
                                 ["groupId"] = 1408,
                                 ["hidden"] = true,
@@ -42751,8 +42734,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -123151.88705936,
                                 ["y"] = 85117.20705739,
-                            }, -- end of [86]
-                            [87] =
+                            }, -- end of [84]
+                            [85] =
                             {
                                 ["groupId"] = 1410,
                                 ["hidden"] = true,
@@ -42821,8 +42804,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -267281.92381529,
                                 ["y"] = 60471.518761916,
-                            }, -- end of [87]
-                            [88] =
+                            }, -- end of [85]
+                            [86] =
                             {
                                 ["groupId"] = 1411,
                                 ["hidden"] = false,
@@ -42889,8 +42872,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -177549.48747491,
                                 ["y"] = 51806.023221558,
-                            }, -- end of [88]
-                            [89] =
+                            }, -- end of [86]
+                            [87] =
                             {
                                 ["groupId"] = 1570,
                                 ["hidden"] = true,
@@ -43122,8 +43105,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 76819.779441965,
                                 ["y"] = 112989.27498724,
-                            }, -- end of [89]
-                            [90] =
+                            }, -- end of [87]
+                            [88] =
                             {
                                 ["groupId"] = 1571,
                                 ["hidden"] = true,
@@ -43355,8 +43338,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -52363.845138304,
                                 ["y"] = 60442.950319759,
-                            }, -- end of [90]
-                            [91] =
+                            }, -- end of [88]
+                            [89] =
                             {
                                 ["groupId"] = 1572,
                                 ["hidden"] = true,
@@ -43543,8 +43526,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -49854.789326356,
                                 ["y"] = 93757.147919162,
-                            }, -- end of [91]
-                            [92] =
+                            }, -- end of [89]
+                            [90] =
                             {
                                 ["groupId"] = 1573,
                                 ["hidden"] = true,
@@ -43731,8 +43714,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 43302.154908679,
                                 ["y"] = 3318.6695773138,
-                            }, -- end of [92]
-                            [93] =
+                            }, -- end of [90]
+                            [91] =
                             {
                                 ["groupId"] = 1574,
                                 ["hidden"] = true,
@@ -43921,8 +43904,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 109704.88147686,
                                 ["y"] = 133630.45527961,
-                            }, -- end of [93]
-                            [94] =
+                            }, -- end of [91]
+                            [92] =
                             {
                                 ["groupId"] = 1575,
                                 ["hidden"] = true,
@@ -44109,8 +44092,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 103180.72686845,
                                 ["y"] = 82164.329610802,
-                            }, -- end of [94]
-                            [95] =
+                            }, -- end of [92]
+                            [93] =
                             {
                                 ["groupId"] = 1580,
                                 ["hidden"] = true,
@@ -44282,8 +44265,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 124960.35949202,
                                 ["y"] = 110536.80201088,
-                            }, -- end of [95]
-                            [96] =
+                            }, -- end of [93]
+                            [94] =
                             {
                                 ["groupId"] = 1581,
                                 ["hidden"] = true,
@@ -44455,8 +44438,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 8230.6898882078,
                                 ["y"] = 73998.080650169,
-                            }, -- end of [96]
-                            [97] =
+                            }, -- end of [94]
+                            [95] =
                             {
                                 ["groupId"] = 1584,
                                 ["hidden"] = true,
@@ -44583,8 +44566,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -16989.088788696,
                                 ["y"] = -1222.0403207763,
-                            }, -- end of [97]
-                            [98] =
+                            }, -- end of [95]
+                            [96] =
                             {
                                 ["groupId"] = 1585,
                                 ["hidden"] = true,
@@ -44711,8 +44694,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 26832.563249221,
                                 ["y"] = 76384.390348522,
-                            }, -- end of [98]
-                            [99] =
+                            }, -- end of [96]
+                            [97] =
                             {
                                 ["groupId"] = 1586,
                                 ["hidden"] = true,
@@ -44781,8 +44764,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -52556.60829131,
                                 ["y"] = 60320.053154284,
-                            }, -- end of [99]
-                            [100] =
+                            }, -- end of [97]
+                            [98] =
                             {
                                 ["groupId"] = 1588,
                                 ["hidden"] = true,
@@ -44851,8 +44834,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 76709.316393661,
                                 ["y"] = 112919.91275344,
-                            }, -- end of [100]
-                            [101] =
+                            }, -- end of [98]
+                            [99] =
                             {
                                 ["groupId"] = 1590,
                                 ["hidden"] = true,
@@ -44921,8 +44904,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 125231.36871316,
                                 ["y"] = 110046.23070374,
-                            }, -- end of [101]
-                            [102] =
+                            }, -- end of [99]
+                            [100] =
                             {
                                 ["groupId"] = 1591,
                                 ["hidden"] = true,
@@ -44991,8 +44974,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 8235.8545399157,
                                 ["y"] = 73969.582119909,
-                            }, -- end of [102]
-                            [103] =
+                            }, -- end of [100]
+                            [101] =
                             {
                                 ["groupId"] = 1592,
                                 ["hidden"] = false,
@@ -45089,8 +45072,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -200633.38094771,
                                 ["y"] = -6311.5735031519,
-                            }, -- end of [103]
-                            [104] =
+                            }, -- end of [101]
+                            [102] =
                             {
                                 ["groupId"] = 1597,
                                 ["hidden"] = false,
@@ -45275,8 +45258,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -195932.00187859,
                                 ["y"] = -11099.740613565,
-                            }, -- end of [104]
-                            [105] =
+                            }, -- end of [102]
+                            [103] =
                             {
                                 ["groupId"] = 1599,
                                 ["hidden"] = false,
@@ -45504,8 +45487,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -213010.15470404,
                                 ["y"] = -15514.823774713,
-                            }, -- end of [105]
-                            [106] =
+                            }, -- end of [103]
+                            [104] =
                             {
                                 ["groupId"] = 1600,
                                 ["hidden"] = false,
@@ -45733,8 +45716,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -217286.02350802,
                                 ["y"] = -12918.930437533,
-                            }, -- end of [106]
-                            [107] =
+                            }, -- end of [104]
+                            [105] =
                             {
                                 ["groupId"] = 1601,
                                 ["hidden"] = false,
@@ -45962,8 +45945,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -209923.10716957,
                                 ["y"] = -19607.051732288,
-                            }, -- end of [107]
-                            [108] =
+                            }, -- end of [105]
+                            [106] =
                             {
                                 ["groupId"] = 1602,
                                 ["hidden"] = false,
@@ -46191,8 +46174,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -210784.75119352,
                                 ["y"] = -22622.449381244,
-                            }, -- end of [108]
-                            [109] =
+                            }, -- end of [106]
+                            [107] =
                             {
                                 ["groupId"] = 1603,
                                 ["hidden"] = false,
@@ -46330,8 +46313,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -199615.81089788,
                                 ["y"] = 19633.924263533,
-                            }, -- end of [109]
-                            [110] =
+                            }, -- end of [107]
+                            [108] =
                             {
                                 ["groupId"] = 1609,
                                 ["hidden"] = false,
@@ -46426,8 +46409,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -210758.14215383,
                                 ["y"] = -22701.788714492,
-                            }, -- end of [110]
-                            [111] =
+                            }, -- end of [108]
+                            [109] =
                             {
                                 ["groupId"] = 1610,
                                 ["hidden"] = false,
@@ -46522,8 +46505,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -213526.20434917,
                                 ["y"] = -15518.615498168,
-                            }, -- end of [111]
-                            [112] =
+                            }, -- end of [109]
+                            [110] =
                             {
                                 ["groupId"] = 1611,
                                 ["hidden"] = false,
@@ -46631,8 +46614,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -210196.77841782,
                                 ["y"] = 1856.416210769,
-                            }, -- end of [112]
-                            [113] =
+                            }, -- end of [110]
+                            [111] =
                             {
                                 ["groupId"] = 1612,
                                 ["hidden"] = false,
@@ -46740,8 +46723,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = -216909.1395307,
                                 ["y"] = 2561.5007029269,
-                            }, -- end of [113]
-                            [114] =
+                            }, -- end of [111]
+                            [112] =
                             {
                                 ["groupId"] = 1635,
                                 ["hidden"] = false,
@@ -46823,8 +46806,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 134388.99701732,
                                 ["y"] = 65557.789466491,
-                            }, -- end of [114]
-                            [115] =
+                            }, -- end of [112]
+                            [113] =
                             {
                                 ["groupId"] = 1714,
                                 ["hidden"] = true,
@@ -46893,8 +46876,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 125530.35830341,
                                 ["y"] = 110411.90128371,
-                            }, -- end of [115]
-                            [116] =
+                            }, -- end of [113]
+                            [114] =
                             {
                                 ["groupId"] = 1930,
                                 ["hidden"] = false,
@@ -47133,8 +47116,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 210967.30857437,
                                 ["y"] = 68870.29564781,
-                            }, -- end of [116]
-                            [117] =
+                            }, -- end of [114]
+                            [115] =
                             {
                                 ["groupId"] = 1931,
                                 ["hidden"] = false,
@@ -47373,8 +47356,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 208779.15641906,
                                 ["y"] = 66473.361278449,
-                            }, -- end of [117]
-                            [118] =
+                            }, -- end of [115]
+                            [116] =
                             {
                                 ["groupId"] = 1932,
                                 ["hidden"] = false,
@@ -47613,8 +47596,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 199712.82495033,
                                 ["y"] = 75446.860574831,
-                            }, -- end of [118]
-                            [119] =
+                            }, -- end of [116]
+                            [117] =
                             {
                                 ["groupId"] = 1933,
                                 ["hidden"] = false,
@@ -47853,8 +47836,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 200840.96073567,
                                 ["y"] = 70897.023622169,
-                            }, -- end of [119]
-                            [120] =
+                            }, -- end of [117]
+                            [118] =
                             {
                                 ["groupId"] = 1934,
                                 ["hidden"] = false,
@@ -48093,8 +48076,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 202347.76318943,
                                 ["y"] = 72632.783713242,
-                            }, -- end of [120]
-                            [121] =
+                            }, -- end of [118]
+                            [119] =
                             {
                                 ["groupId"] = 1935,
                                 ["hidden"] = false,
@@ -48292,8 +48275,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 210855.26120956,
                                 ["y"] = 68724.132647742,
-                            }, -- end of [121]
-                            [122] =
+                            }, -- end of [119]
+                            [120] =
                             {
                                 ["groupId"] = 1936,
                                 ["hidden"] = false,
@@ -48491,8 +48474,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 200358.13946276,
                                 ["y"] = 73403.316399869,
-                            }, -- end of [122]
-                            [123] =
+                            }, -- end of [120]
+                            [121] =
                             {
                                 ["groupId"] = 1937,
                                 ["hidden"] = false,
@@ -48587,8 +48570,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 210813.47014572,
                                 ["y"] = 68492.469567154,
-                            }, -- end of [123]
-                            [124] =
+                            }, -- end of [121]
+                            [122] =
                             {
                                 ["groupId"] = 1938,
                                 ["hidden"] = false,
@@ -48683,8 +48666,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 212419.20973771,
                                 ["y"] = 67913.93762344,
-                            }, -- end of [124]
-                            [125] =
+                            }, -- end of [122]
+                            [123] =
                             {
                                 ["groupId"] = 1939,
                                 ["hidden"] = false,
@@ -48779,8 +48762,8 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 199686.34602417,
                                 ["y"] = 75477.144546962,
-                            }, -- end of [125]
-                            [126] =
+                            }, -- end of [123]
+                            [124] =
                             {
                                 ["groupId"] = 1940,
                                 ["hidden"] = false,
@@ -48875,7 +48858,7 @@ mission =
                                 ["visible"] = false,
                                 ["x"] = 200373.40610008,
                                 ["y"] = 74013.379804903,
-                            }, -- end of [126]
+                            }, -- end of [124]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -50382,7 +50365,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 432010,
+    ["currentKey"] = 439181,
     ["date"] =
     {
         ["Day"] = 1,
@@ -51005,11 +50988,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -21605.203014657,
-        ["centerY"] = 21552.173622096,
-        ["zoom"] = 2066037.1700271,
+        ["centerX"] = 224650.49513099,
+        ["centerY"] = 81124.764845126,
+        ["zoom"] = 120586.76460396,
     }, -- end of ["map"]
-    ["maxDictId"] = 3827,
+    ["maxDictId"] = 3848,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -51075,38 +51058,37 @@ mission =
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1082\")); mission.trig.func[3]=nil;",
             [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1085\")); mission.trig.func[4]=nil;",
             [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1169\")); mission.trig.func[5]=nil;",
-            [6] = "a_group_off(376);a_group_off(386);a_group_off(489);a_group_off(490);a_group_off(1635);a_group_off(575);a_group_off(519);a_group_off(518);a_group_off(597);a_group_off(596);a_group_off(1597);a_group_off(1592);a_group_off(1603);a_group_off(1609);a_group_off(1610);a_group_off(592);a_group_off(593);a_group_off(594);a_group_off(595);a_group_off(1611);a_group_off(1612);a_group_off(1617);a_group_off(367); mission.trig.func[6]=nil;",
+            [6] = "a_group_off(376);a_group_off(386);a_group_off(490);a_group_off(1635);a_group_off(575);a_group_off(519);a_group_off(518);a_group_off(597);a_group_off(596);a_group_off(1597);a_group_off(1592);a_group_off(1603);a_group_off(1609);a_group_off(1610);a_group_off(592);a_group_off(593);a_group_off(594);a_group_off(595);a_group_off(1611);a_group_off(1612);a_group_off(1617);a_group_off(367); mission.trig.func[6]=nil;",
             [7] = "a_group_off(507);a_group_off(497);a_group_off(499);a_group_off(498);a_group_off(508);a_group_off(500);a_group_off(501);a_group_off(502);a_group_off(506);a_group_off(503);a_group_off(504);a_group_off(505);a_group_off(1937);a_group_off(1938);a_group_off(1935);a_group_off(497);a_group_off(1930);a_group_off(1931);a_group_off(1939);a_group_off(1940);a_group_off(1936);a_group_off(1932);a_group_off(1933);a_group_off(1934);a_group_off(561);a_group_off(559);a_group_off(560);a_group_off(562);a_group_off(563);a_group_off(564);a_group_off(558);a_group_off(566);a_group_off(567);a_group_off(568);a_group_off(569);a_group_off(570);a_group_off(571);a_group_off(580);a_group_off(588);a_group_off(587);a_group_off(586);a_group_off(589);a_group_off(591);a_group_off(590); mission.trig.func[7]=nil;",
             [8] = "a_group_on(376); mission.trig.func[8]=nil;",
             [9] = "a_group_on(386); mission.trig.func[9]=nil;",
-            [10] = "a_group_on(489); mission.trig.func[10]=nil;",
-            [11] = "a_group_on(490); mission.trig.func[11]=nil;",
-            [12] = "a_group_on(519);a_group_on(518); mission.trig.func[12]=nil;",
-            [13] = "a_group_on(1635); mission.trig.func[13]=nil;",
-            [14] = "a_group_on(1939);a_group_on(1940);a_group_on(1937);a_group_on(1938); mission.trig.func[14]=nil;",
-            [15] = "a_group_on(575); mission.trig.func[15]=nil;",
-            [16] = "a_group_on(1597);a_group_on(1592); mission.trig.func[16]=nil;",
-            [17] = "a_group_on(597);a_group_on(596); mission.trig.func[17]=nil;",
-            [18] = "a_group_on(1611);a_group_on(1612); mission.trig.func[18]=nil;",
-            [19] = "a_group_on(592);a_group_on(593);a_group_on(594);a_group_on(595);a_group_on(1609);a_group_on(1610);a_set_flag(1); mission.trig.func[19]=nil;",
-            [20] = "a_group_on(1603); mission.trig.func[20]=nil;",
-            [21] = "a_group_on(1617); mission.trig.func[21]=nil;",
-            [22] = "a_group_on(367); mission.trig.func[22]=nil;",
-            [23] = "a_set_flag(4); mission.trig.func[23]=nil;",
-            [24] = "a_ai_task(1902, 1); mission.trig.func[24]=nil;",
-            [25] = "a_set_flag(5); mission.trig.func[25]=nil;",
-            [26] = "a_ai_task(1912, 1);a_ai_task(1915, 1); mission.trig.func[26]=nil;",
-            [27] = "a_ai_task(1911, 1); mission.trig.func[27]=nil;",
-            [28] = "a_set_flag(2); mission.trig.func[28]=nil;",
-            [29] = "a_ai_task(1913, 1);a_set_flag(3); mission.trig.func[29]=nil;",
-            [30] = "a_ai_task(1916, 1); mission.trig.func[30]=nil;",
-            [31] = "a_ai_task(1920, 1); mission.trig.func[31]=nil;",
-            [32] = "a_ai_task(1616, 1); mission.trig.func[32]=nil;",
-            [33] = "a_activate_group(1920); mission.trig.func[33]=nil;",
-            [34] = "a_deactivate_group(1616); mission.trig.func[34]=nil;",
-            [35] = "a_deactivate_group(1920); mission.trig.func[35]=nil;",
-            [36] = "a_deactivate_group(1921); mission.trig.func[36]=nil;",
-            [37] = "a_activate_group(1616);a_activate_group(1921); mission.trig.func[37]=nil;",
+            [10] = "a_group_on(490); mission.trig.func[10]=nil;",
+            [11] = "a_group_on(519);a_group_on(518); mission.trig.func[11]=nil;",
+            [12] = "a_group_on(1635); mission.trig.func[12]=nil;",
+            [13] = "a_group_on(1939);a_group_on(1940);a_group_on(1937);a_group_on(1938); mission.trig.func[13]=nil;",
+            [14] = "a_group_on(575); mission.trig.func[14]=nil;",
+            [15] = "a_group_on(1597);a_group_on(1592); mission.trig.func[15]=nil;",
+            [16] = "a_group_on(597);a_group_on(596); mission.trig.func[16]=nil;",
+            [17] = "a_group_on(1611);a_group_on(1612); mission.trig.func[17]=nil;",
+            [18] = "a_group_on(592);a_group_on(593);a_group_on(594);a_group_on(595);a_group_on(1609);a_group_on(1610);a_set_flag(1); mission.trig.func[18]=nil;",
+            [19] = "a_group_on(1603); mission.trig.func[19]=nil;",
+            [20] = "a_group_on(1617); mission.trig.func[20]=nil;",
+            [21] = "a_group_on(367); mission.trig.func[21]=nil;",
+            [22] = "a_set_flag(4); mission.trig.func[22]=nil;",
+            [23] = "a_ai_task(1902, 1); mission.trig.func[23]=nil;",
+            [24] = "a_set_flag(5); mission.trig.func[24]=nil;",
+            [25] = "a_ai_task(1912, 1);a_ai_task(1915, 1); mission.trig.func[25]=nil;",
+            [26] = "a_ai_task(1911, 1); mission.trig.func[26]=nil;",
+            [27] = "a_set_flag(2); mission.trig.func[27]=nil;",
+            [28] = "a_ai_task(1913, 1);a_set_flag(3); mission.trig.func[28]=nil;",
+            [29] = "a_ai_task(1916, 1); mission.trig.func[29]=nil;",
+            [30] = "a_ai_task(1920, 1); mission.trig.func[30]=nil;",
+            [31] = "a_ai_task(1616, 1); mission.trig.func[31]=nil;",
+            [32] = "a_activate_group(1920); mission.trig.func[32]=nil;",
+            [33] = "a_deactivate_group(1616); mission.trig.func[33]=nil;",
+            [34] = "a_deactivate_group(1920); mission.trig.func[34]=nil;",
+            [35] = "a_deactivate_group(1921); mission.trig.func[35]=nil;",
+            [36] = "a_activate_group(1616);a_activate_group(1921); mission.trig.func[36]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -51119,34 +51101,33 @@ mission =
             [7] = "return(c_time_after(10) )",
             [8] = "return(c_part_of_coalition_in_zone(\"blue\", 4801, \"ALL\") )",
             [9] = "return(c_part_of_coalition_in_zone(\"blue\", 4860, \"ALL\") )",
-            [10] = "return(c_part_of_coalition_in_zone(\"blue\", 4981, \"ALL\") )",
-            [11] = "return(c_part_of_coalition_in_zone(\"blue\", 4982, \"ALL\") )",
-            [12] = "return(c_part_of_coalition_in_zone(\"blue\", 5041, \"ALL\") )",
-            [13] = "return(c_part_of_coalition_in_zone(\"blue\", 5471, \"ALL\") )",
-            [14] = "return(c_part_of_coalition_in_zone(\"blue\", 5651, \"ALL\") )",
-            [15] = "return(c_part_of_coalition_in_zone(\"blue\", 5101, \"ALL\") )",
-            [16] = "return(c_part_of_coalition_in_zone(\"blue\", 5345, \"ALL\") )",
-            [17] = "return(c_part_of_coalition_in_zone(\"blue\", 5346, \"ALL\") )",
-            [18] = "return(c_part_of_coalition_in_zone(\"blue\", 5348, \"ALL\") )",
-            [19] = "return(c_part_of_coalition_in_zone(\"blue\", 5349, \"ALL\") )",
-            [20] = "return(c_part_of_coalition_in_zone(\"blue\", 5347, \"ALL\") )",
-            [21] = "return(c_part_of_coalition_in_zone(\"red\", 5350, \"AIRPLANE\") )",
-            [22] = "return(c_part_of_coalition_in_zone(\"red\", 5351, \"AIRPLANE\") )",
-            [23] = "return(c_part_of_coalition_in_zone(\"blue\", 5769, \"AIRPLANE\") )",
-            [24] = "return(c_time_since_flag(4, 600) )",
-            [25] = "return(c_part_of_group_in_zone(1621, 5769) or c_part_of_group_in_zone(1622, 5769) or c_part_of_group_in_zone(1623, 5769) )",
-            [26] = "return(c_time_since_flag(5, 300) )",
-            [27] = "return(c_time_since_flag(5, 800) )",
-            [28] = "return(c_part_of_group_in_zone(1621, 5710) or c_part_of_group_in_zone(1622, 5710) or c_part_of_group_in_zone(1623, 5710) )",
-            [29] = "return(c_time_since_flag(2, 600) )",
-            [30] = "return(c_time_since_flag(3, 600) )",
+            [10] = "return(c_part_of_coalition_in_zone(\"blue\", 4982, \"ALL\") )",
+            [11] = "return(c_part_of_coalition_in_zone(\"blue\", 5041, \"ALL\") )",
+            [12] = "return(c_part_of_coalition_in_zone(\"blue\", 5471, \"ALL\") )",
+            [13] = "return(c_part_of_coalition_in_zone(\"blue\", 5651, \"ALL\") )",
+            [14] = "return(c_part_of_coalition_in_zone(\"blue\", 5101, \"ALL\") )",
+            [15] = "return(c_part_of_coalition_in_zone(\"blue\", 5345, \"ALL\") )",
+            [16] = "return(c_part_of_coalition_in_zone(\"blue\", 5346, \"ALL\") )",
+            [17] = "return(c_part_of_coalition_in_zone(\"blue\", 5348, \"ALL\") )",
+            [18] = "return(c_part_of_coalition_in_zone(\"blue\", 5349, \"ALL\") )",
+            [19] = "return(c_part_of_coalition_in_zone(\"blue\", 5347, \"ALL\") )",
+            [20] = "return(c_part_of_coalition_in_zone(\"red\", 5350, \"AIRPLANE\") )",
+            [21] = "return(c_part_of_coalition_in_zone(\"red\", 5351, \"AIRPLANE\") )",
+            [22] = "return(c_part_of_coalition_in_zone(\"blue\", 5769, \"AIRPLANE\") )",
+            [23] = "return(c_time_since_flag(4, 600) )",
+            [24] = "return(c_part_of_group_in_zone(1621, 5769) or c_part_of_group_in_zone(1622, 5769) or c_part_of_group_in_zone(1623, 5769) )",
+            [25] = "return(c_time_since_flag(5, 300) )",
+            [26] = "return(c_time_since_flag(5, 800) )",
+            [27] = "return(c_part_of_group_in_zone(1621, 5710) or c_part_of_group_in_zone(1622, 5710) or c_part_of_group_in_zone(1623, 5710) )",
+            [28] = "return(c_time_since_flag(2, 600) )",
+            [29] = "return(c_time_since_flag(3, 600) )",
+            [30] = "return(c_part_of_coalition_in_zone(\"blue\", 5530, \"AIRPLANE\") )",
             [31] = "return(c_part_of_coalition_in_zone(\"blue\", 5530, \"AIRPLANE\") )",
-            [32] = "return(c_part_of_coalition_in_zone(\"blue\", 5530, \"AIRPLANE\") )",
-            [33] = "return(c_part_of_group_in_zone(1616, 5532) or c_part_of_group_in_zone(1616, 5533) )",
-            [34] = "return(c_part_of_group_in_zone(1616, 5531) )",
-            [35] = "return(c_part_of_group_in_zone(1920, 5531) )",
-            [36] = "return(c_part_of_group_in_zone(1921, 5531) )",
-            [37] = "return(c_part_of_group_in_zone(1634, 5592) or c_part_of_group_in_zone(1922, 5592) or c_time_after(8500) )",
+            [32] = "return(c_part_of_group_in_zone(1616, 5532) or c_part_of_group_in_zone(1616, 5533) )",
+            [33] = "return(c_part_of_group_in_zone(1616, 5531) )",
+            [34] = "return(c_part_of_group_in_zone(1920, 5531) )",
+            [35] = "return(c_part_of_group_in_zone(1921, 5531) )",
+            [36] = "return(c_part_of_group_in_zone(1634, 5592) or c_part_of_group_in_zone(1922, 5592) or c_time_after(8500) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -51195,7 +51176,6 @@ mission =
             [34] = true,
             [35] = true,
             [36] = true,
-            [37] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -51234,7 +51214,6 @@ mission =
             [34] = "if mission.trig.conditions[34]() then mission.trig.actions[34]() end",
             [35] = "if mission.trig.conditions[35]() then mission.trig.actions[35]() end",
             [36] = "if mission.trig.conditions[36]() then mission.trig.actions[36]() end",
-            [37] = "if mission.trig.conditions[37]() then mission.trig.actions[37]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -55625,151 +55604,144 @@ mission =
                 }, -- end of [2]
                 [3] =
                 {
-                    ["group"] = 489,
+                    ["group"] = 490,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [3]
                 [4] =
                 {
-                    ["group"] = 490,
+                    ["group"] = 1635,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [4]
                 [5] =
                 {
-                    ["group"] = 1635,
+                    ["group"] = 575,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [5]
                 [6] =
                 {
-                    ["group"] = 575,
+                    ["group"] = 519,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [6]
                 [7] =
                 {
-                    ["group"] = 519,
+                    ["group"] = 518,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [7]
                 [8] =
                 {
-                    ["group"] = 518,
+                    ["group"] = 597,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [8]
                 [9] =
                 {
-                    ["group"] = 597,
+                    ["group"] = 596,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [9]
                 [10] =
                 {
-                    ["group"] = 596,
+                    ["group"] = 1597,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [10]
                 [11] =
                 {
-                    ["group"] = 1597,
+                    ["group"] = 1592,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [11]
                 [12] =
                 {
-                    ["group"] = 1592,
+                    ["group"] = 1603,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [12]
                 [13] =
                 {
-                    ["group"] = 1603,
+                    ["group"] = 1609,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [13]
                 [14] =
                 {
-                    ["group"] = 1609,
+                    ["group"] = 1610,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [14]
                 [15] =
                 {
-                    ["group"] = 1610,
+                    ["group"] = 592,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [15]
                 [16] =
                 {
-                    ["group"] = 592,
+                    ["group"] = 593,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [16]
                 [17] =
                 {
-                    ["group"] = 593,
+                    ["group"] = 594,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [17]
                 [18] =
                 {
-                    ["group"] = 594,
+                    ["group"] = 595,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [18]
                 [19] =
                 {
-                    ["group"] = 595,
+                    ["group"] = 1611,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [19]
                 [20] =
                 {
-                    ["group"] = 1611,
+                    ["group"] = 1612,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [20]
                 [21] =
                 {
-                    ["group"] = 1612,
+                    ["group"] = 1617,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
                 }, -- end of [21]
                 [22] =
                 {
-                    ["group"] = 1617,
-                    ["meters"] = 1000,
-                    ["predicate"] = "a_group_off",
-                    ["zone"] = 319,
-                }, -- end of [22]
-                [23] =
-                {
                     ["group"] = 367,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_off",
                     ["zone"] = 319,
-                }, -- end of [23]
+                }, -- end of [22]
             }, -- end of ["actions"]
             ["colorItem"] = "0x800000ff",
             ["comment"] = "Deactivate SAMs",
@@ -56174,34 +56146,6 @@ mission =
             {
                 [1] =
                 {
-                    ["group"] = 489,
-                    ["meters"] = 1000,
-                    ["predicate"] = "a_group_on",
-                    ["zone"] = 319,
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x800000ff",
-            ["comment"] = "Active 1C10Div SA15",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["coalitionlist"] = "blue",
-                    ["predicate"] = "c_part_of_coalition_in_zone",
-                    ["seconds"] = 9,
-                    ["unitType"] = "ALL",
-                    ["zone"] = 4981,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [10]
-        [11] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
                     ["group"] = 490,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_on",
@@ -56223,8 +56167,8 @@ mission =
                     ["zone"] = 4982,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [11]
-        [12] =
+        }, -- end of [10]
+        [11] =
         {
             ["actions"] =
             {
@@ -56258,8 +56202,8 @@ mission =
                     ["zone"] = 5041,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [12]
-        [13] =
+        }, -- end of [11]
+        [12] =
         {
             ["actions"] =
             {
@@ -56286,8 +56230,8 @@ mission =
                     ["zone"] = 5471,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [13]
-        [14] =
+        }, -- end of [12]
+        [13] =
         {
             ["actions"] =
             {
@@ -56335,8 +56279,8 @@ mission =
                     ["zone"] = 5651,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [14]
-        [15] =
+        }, -- end of [13]
+        [14] =
         {
             ["actions"] =
             {
@@ -56363,8 +56307,8 @@ mission =
                     ["zone"] = 5101,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [15]
-        [16] =
+        }, -- end of [14]
+        [15] =
         {
             ["actions"] =
             {
@@ -56398,8 +56342,8 @@ mission =
                     ["zone"] = 5345,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [16]
-        [17] =
+        }, -- end of [15]
+        [16] =
         {
             ["actions"] =
             {
@@ -56433,8 +56377,8 @@ mission =
                     ["zone"] = 5346,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [17]
-        [18] =
+        }, -- end of [16]
+        [17] =
         {
             ["actions"] =
             {
@@ -56468,8 +56412,8 @@ mission =
                     ["zone"] = 5348,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [18]
-        [19] =
+        }, -- end of [17]
+        [18] =
         {
             ["actions"] =
             {
@@ -56538,8 +56482,8 @@ mission =
                     ["zone"] = 5349,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [19]
-        [20] =
+        }, -- end of [18]
+        [19] =
         {
             ["actions"] =
             {
@@ -56566,8 +56510,8 @@ mission =
                     ["zone"] = 5347,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [20]
-        [21] =
+        }, -- end of [19]
+        [20] =
         {
             ["actions"] =
             {
@@ -56593,8 +56537,8 @@ mission =
                     ["zone"] = 5350,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [21]
-        [22] =
+        }, -- end of [20]
+        [21] =
         {
             ["actions"] =
             {
@@ -56620,8 +56564,8 @@ mission =
                     ["zone"] = 5351,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [22]
-        [23] =
+        }, -- end of [21]
+        [22] =
         {
             ["actions"] =
             {
@@ -56647,8 +56591,8 @@ mission =
                     ["zone"] = 5769,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [23]
-        [24] =
+        }, -- end of [22]
+        [23] =
         {
             ["actions"] =
             {
@@ -56680,8 +56624,8 @@ mission =
                     ["zone"] = 5769,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [24]
-        [25] =
+        }, -- end of [23]
+        [24] =
         {
             ["actions"] =
             {
@@ -56726,8 +56670,8 @@ mission =
                     ["zone"] = 5769,
                 }, -- end of [5]
             }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
+        }, -- end of [24]
+        [25] =
         {
             ["actions"] =
             {
@@ -56769,8 +56713,8 @@ mission =
                     ["zone"] = 5769,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -56801,8 +56745,8 @@ mission =
                     ["zone"] = 5769,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [27]
-        [28] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -56847,8 +56791,8 @@ mission =
                     ["zone"] = 5710,
                 }, -- end of [5]
             }, -- end of ["rules"]
-        }, -- end of [28]
-        [29] =
+        }, -- end of [27]
+        [28] =
         {
             ["actions"] =
             {
@@ -56885,8 +56829,8 @@ mission =
                     ["zone"] = 319,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [29]
-        [30] =
+        }, -- end of [28]
+        [29] =
         {
             ["actions"] =
             {
@@ -56916,8 +56860,8 @@ mission =
                     ["zone"] = 319,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [30]
-        [31] =
+        }, -- end of [29]
+        [30] =
         {
             ["actions"] =
             {
@@ -56946,8 +56890,8 @@ mission =
                     ["zone"] = 5530,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [31]
-        [32] =
+        }, -- end of [30]
+        [31] =
         {
             ["actions"] =
             {
@@ -56976,8 +56920,8 @@ mission =
                     ["zone"] = 5530,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
+        }, -- end of [31]
+        [32] =
         {
             ["actions"] =
             {
@@ -57020,8 +56964,8 @@ mission =
                     ["zone"] = 5533,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [33]
-        [34] =
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -57052,8 +56996,8 @@ mission =
                     ["zone"] = 5531,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [34]
-        [35] =
+        }, -- end of [33]
+        [34] =
         {
             ["actions"] =
             {
@@ -57084,8 +57028,8 @@ mission =
                     ["zone"] = 5531,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [35]
-        [36] =
+        }, -- end of [34]
+        [35] =
         {
             ["actions"] =
             {
@@ -57116,8 +57060,8 @@ mission =
                     ["zone"] = 5531,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [36]
-        [37] =
+        }, -- end of [35]
+        [36] =
         {
             ["actions"] =
             {
@@ -57185,7 +57129,7 @@ mission =
                     ["zone"] = 5592,
                 }, -- end of [5]
             }, -- end of ["rules"]
-        }, -- end of [37]
+        }, -- end of [36]
     }, -- end of ["trigrules"]
     ["version"] = 18,
     ["weather"] =
