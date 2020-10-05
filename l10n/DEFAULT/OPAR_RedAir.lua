@@ -1,9 +1,10 @@
 
 
 -- CAP active from Airbases --
-local Redair_Debugging = false  --change to false to silence the messages
+local Redair_Debugging = true  --change to false to silence the messages
 
-
+-- at missions start there is a 50% chance that one or two CAP will be launched, one per the table below. 
+-- You can comment out any entry in the table below if you dont want to launch CAP from it.
 airfield_Cap_table = {
   "Jirah",
   "Tabqa",
@@ -14,6 +15,19 @@ airfield_Cap_table = {
   "Khalkhalah",
   "Marj Ruhayyil"
 }
+-- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want. 
+airfield_GCI_table = {
+  "Jirah",
+  "Tabqa",
+--  "Abu al-Duhur",
+--  "Hama",
+--  "An Nasiriyah",
+--  "Al-Dumayr",
+--  "Khalkhalah",
+--  "Marj Ruhayyil"
+}
+
+--- CAP
 
 local number_of_CAP_Airfield = math.random(1,#airfield_Cap_table)
 for i,_cap_airfield in ipairs(airfield_Cap_table) do
@@ -28,6 +42,7 @@ A2ADispatcher = AI_A2A_DISPATCHER:New( Detection )
 A2ADispatcher:SetEngageRadius() -- 100000 is the default value. Set 100km as the radius to engage any target by airborne friendlies.
 A2ADispatcher:SetGciRadius() -- 200000 is the default value. Set 200km as the radius to ground control intercept.
 
+
 CCCPBorderZone = ZONE_POLYGON:New( "ColdBorder", GROUP:FindByName( "ColdBorder" ) )
 A2ADispatcher:SetBorderZone( CCCPBorderZone )
 A2ADispatcher:SetDisengageRadius( 460000 )--important to stop caps drifting 460km is 250nm, and covers coast from Shiraz to a bit east of Abbas
@@ -36,6 +51,7 @@ A2ADispatcher:SetTacticalDisplay( Redair_Debugging )
 A2ADispatcher:SetDefaultCapTimeInterval( 900, 1200 ) --between 15mins and 20mins
 A2ADispatcher:SetDefaultFuelThreshold( 0.3 ) -- % including tanks before heading to refuel. Note refuel is on INTERNAL max only for AI.
 
+
 A2ADispatcher:SetSquadron( CAP_Airfield1,CAP_Airfield1,("Cap_"..CAP_Airfield1))
 A2ADispatcher:SetDefaultGrouping(2)
 A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield1 )
@@ -43,7 +59,7 @@ A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield1 )
 A2ADispatcher:SetSquadronCap( CAP_Airfield1, ZONE:New( "Cap_"..CAP_Airfield1  ), 5000, 20000, 400, 700, 400, 1000, "BARO") --start disabled
 A2ADispatcher:SetSquadronCapInterval( CAP_Airfield1, 1, 900, 1200 ) -- only one CAP ever, between 15mins and 20mins
 A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield1, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 180, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield1):GetCoordinate()})
-A2ADispatcher:SetSquadronGci( CAP_Airfield1, 900, 1200 )
+A2ADispatcher:SchedulerCAP(CAP_Airfield1)
 
 local number_of_CAPs = math.random(1,2) --randomly have 1 or 2 airfields launching CAP
 if number_of_CAPs == 2 then
@@ -61,7 +77,18 @@ if number_of_CAPs == 2 then
   A2ADispatcher:SetSquadronCap( CAP_Airfield2, ZONE:New( "Cap_"..CAP_Airfield2  ), 5000, 20000, 400, 700, 400, 1000, "BARO") --start disabled
   A2ADispatcher:SetSquadronCapInterval( CAP_Airfield2, 1, 900, 1200 ) -- only one CAP ever, between 15mins and 20mins
   A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield2, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 180, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate()})
-  A2ADispatcher:SetSquadronGci( CAP_Airfield2, 900, 1200 )
+  A2ADispatcher:SchedulerCAP(CAP_Airfield2)
 end
 
+--- CAP
 
+
+--- QRA
+for i,_gci_airfield in ipairs(airfield_GCI_table) do 
+A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield))
+A2ADispatcher:SetDefaultGrouping(2)
+A2ADispatcher:SetSquadronTakeoffFromParkingHot( _gci_airfield )
+A2ADispatcher:SetSquadronLandingAtEngineShutdown( _gci_airfield )
+A2ADispatcher:SetSquadronGci(_gci_airfield,600,1200)
+env.info(_gci_airfield.." has QRF enabled")    
+   end
