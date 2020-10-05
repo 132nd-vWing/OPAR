@@ -36,7 +36,7 @@ A2ADispatcher:SetTacticalDisplay( Redair_Debugging )
 A2ADispatcher:SetDefaultCapTimeInterval( 900, 1200 ) --between 15mins and 20mins
 A2ADispatcher:SetDefaultFuelThreshold( 0.3 ) -- % including tanks before heading to refuel. Note refuel is on INTERNAL max only for AI.
 
-A2ADispatcher:SetSquadron( CAP_Airfield1,CAP_Airfield1,("Red_Cap"))
+A2ADispatcher:SetSquadron( CAP_Airfield1,CAP_Airfield1,("Cap_"..CAP_Airfield1))
 A2ADispatcher:SetDefaultGrouping(2)
 A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield1 )
 A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield1 )
@@ -54,7 +54,7 @@ if number_of_CAPs == 2 then
     end
   end
   env.info(CAP_Airfield2.." has second CAP enabled")
-  A2ADispatcher:SetSquadron( CAP_Airfield2,CAP_Airfield2, ("Red_Cap") )
+  A2ADispatcher:SetSquadron( CAP_Airfield2,CAP_Airfield2, ("Cap_"..CAP_Airfield2))
   A2ADispatcher:SetDefaultGrouping(2)
   A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield2 )
   A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield2 )
@@ -63,4 +63,5 @@ if number_of_CAPs == 2 then
   A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield2, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 180, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate()})
   A2ADispatcher:SetSquadronGci( CAP_Airfield2, 900, 1200 )
 end
+
 
