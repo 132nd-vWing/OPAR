@@ -12228,6 +12228,332 @@ mission =
                                 ["x"] = 26541.123998403,
                                 ["y"] = 35702.442882543,
                             }, -- end of [23]
+                            [24] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 129.2,
+                                ["groupId"] = 1993,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_4019",
+                                ["radioSet"] = true,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 52,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4021",
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 221103.953125,
+                                            ["y"] = -36012.2265625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Attack",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["MissionGeneratorSetting"] = 0,
+                                            ["Rb04GroupTarget"] = 3,
+                                            ["Rb04VinkelHopp"] = 0,
+                                            ["WeapSafeHeight"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 129.2,
+                                                    [2] = 135.25,
+                                                    [3] = 140.25,
+                                                    [4] = 125,
+                                                    [5] = 238,
+                                                    [6] = 118.75,
+                                                    [7] = 243,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 1.1546690582518,
+                                        ["livery_id"] = "37",
+                                        ["name"] = "DictKey_UnitName_4020",
+                                        ["onboard_num"] = "711",
+                                        ["parking"] = "82",
+                                        ["parking_id"] = "40",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 210,
+                                            ["flare"] = 72,
+                                            ["fuel"] = 4476,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "AJS37",
+                                        ["unitId"] = 3557,
+                                        ["x"] = 221103.953125,
+                                        ["y"] = -36012.2265625,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["MissionGeneratorSetting"] = 0,
+                                            ["Rb04GroupTarget"] = 3,
+                                            ["Rb04VinkelHopp"] = 0,
+                                            ["WeapSafeHeight"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 129.2,
+                                                    [2] = 135.25,
+                                                    [3] = 140.25,
+                                                    [4] = 125,
+                                                    [5] = 238,
+                                                    [6] = 118.75,
+                                                    [7] = 243,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Enfield12",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "37",
+                                        ["name"] = "DictKey_UnitName_4023",
+                                        ["onboard_num"] = "712",
+                                        ["parking"] = "125",
+                                        ["parking_id"] = "39",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 210,
+                                            ["flare"] = 72,
+                                            ["fuel"] = 4476,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "AJS37",
+                                        ["unitId"] = 3558,
+                                        ["x"] = 221157.296875,
+                                        ["y"] = -36127.6484375,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["MissionGeneratorSetting"] = 0,
+                                            ["Rb04GroupTarget"] = 3,
+                                            ["Rb04VinkelHopp"] = 0,
+                                            ["WeapSafeHeight"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 129.2,
+                                                    [2] = 135.25,
+                                                    [3] = 140.25,
+                                                    [4] = 125,
+                                                    [5] = 238,
+                                                    [6] = 118.75,
+                                                    [7] = 243,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 3,
+                                            ["name"] = "Enfield13",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "37",
+                                        ["name"] = "DictKey_UnitName_4024",
+                                        ["onboard_num"] = "713",
+                                        ["parking"] = "54",
+                                        ["parking_id"] = "37",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 210,
+                                            ["flare"] = 72,
+                                            ["fuel"] = 4476,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "AJS37",
+                                        ["unitId"] = 3559,
+                                        ["x"] = 221190.96875,
+                                        ["y"] = -36151.03515625,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["MissionGeneratorSetting"] = 0,
+                                            ["Rb04GroupTarget"] = 3,
+                                            ["Rb04VinkelHopp"] = 0,
+                                            ["WeapSafeHeight"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 129.2,
+                                                    [2] = 135.25,
+                                                    [3] = 140.25,
+                                                    [4] = 125,
+                                                    [5] = 238,
+                                                    [6] = 118.75,
+                                                    [7] = 243,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 4,
+                                            ["name"] = "Enfield14",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "37",
+                                        ["name"] = "DictKey_UnitName_4025",
+                                        ["onboard_num"] = "714",
+                                        ["parking"] = "83",
+                                        ["parking_id"] = "41",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 210,
+                                            ["flare"] = 72,
+                                            ["fuel"] = 4476,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "AJS37",
+                                        ["unitId"] = 3560,
+                                        ["x"] = 221231.46875,
+                                        ["y"] = -35897.046875,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 221103.953125,
+                                ["y"] = -36012.2265625,
+                            }, -- end of [24]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] =
@@ -49502,6 +49828,210 @@ mission =
                                 ["x"] = 200373.40610008,
                                 ["y"] = 74013.379804903,
                             }, -- end of [123]
+                            [124] =
+                            {
+                                ["groupId"] = 1994,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_4026",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 596,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4028",
+                                            ["speed"] = 4,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -30132.967477916,
+                                            ["y"] = 35285.211352807,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_4027",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 3561,
+                                        ["x"] = -30132.967477916,
+                                        ["y"] = 35285.211352807,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -30132.967477916,
+                                ["y"] = 35285.211352807,
+                            }, -- end of [124]
+                            [125] =
+                            {
+                                ["groupId"] = 1995,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_4029",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 592,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4031",
+                                            ["speed"] = 4,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -30114.893244903,
+                                            ["y"] = 35285.211352807,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_4030",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 3562,
+                                        ["x"] = -30114.893244903,
+                                        ["y"] = 35285.211352807,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -30114.893244903,
+                                ["y"] = 35285.211352807,
+                            }, -- end of [125]
+                            [126] =
+                            {
+                                ["groupId"] = 1996,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_4032",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 593,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4034",
+                                            ["speed"] = 4,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -30128.999769516,
+                                            ["y"] = 35273.143196545,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_4033",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Infantry AK",
+                                        ["unitId"] = 3563,
+                                        ["x"] = -30128.999769516,
+                                        ["y"] = 35273.143196545,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -30128.999769516,
+                                ["y"] = 35273.143196545,
+                            }, -- end of [126]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -50931,12 +51461,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3901",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 123.33333333333,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -50968,8 +51492,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 265531.02925539,
-                                            ["y"] = 351290.79160022,
+                                            ["x"] = 265271.19798694,
+                                            ["y"] = 351812.8946548,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -51058,7 +51582,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Ford11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 2.9568233591288,
+                                        ["heading"] = 2.9658503035117,
                                         ["name"] = "DictKey_UnitName_3900",
                                         ["onboard_num"] = "8888",
                                         ["payload"] =
@@ -51072,17 +51596,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -2.9568233591288,
+                                        ["psi"] = -2.9658503035117,
                                         ["skill"] = "High",
                                         ["speed"] = 123.33333333333,
                                         ["type"] = "A-10A",
                                         ["unitId"] = 3535,
-                                        ["x"] = 265531.02925539,
-                                        ["y"] = 351290.79160022,
+                                        ["x"] = 265271.19798694,
+                                        ["y"] = 351812.8946548,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 265531.02925539,
-                                ["y"] = 351290.79160022,
+                                ["x"] = 265271.19798694,
+                                ["y"] = 351812.8946548,
                             }, -- end of [5]
                             [6] =
                             {
@@ -51107,12 +51631,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3907",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -51242,12 +51760,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3991",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -51377,12 +51889,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3994",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -51512,12 +52018,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3997",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -51647,12 +52147,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_4000",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -51782,12 +52276,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_4003",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -51917,12 +52405,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_4006",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -52052,12 +52534,6 @@ mission =
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_4009",
-                                            ["properties"] =
-                                            {
-                                                ["addopt"] =
-                                                {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
                                             ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
@@ -52264,7 +52740,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 717979,
+    ["currentKey"] = 736942,
     ["date"] =
     {
         ["Day"] = 3,
@@ -59197,11 +59673,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 18637.934546304,
-        ["centerY"] = 112050.23532546,
-        ["zoom"] = 1043817.4748055,
+        ["centerX"] = -30158.658709126,
+        ["centerY"] = 35319.035988873,
+        ["zoom"] = 903.71165063377,
     }, -- end of ["map"]
-    ["maxDictId"] = 4018,
+    ["maxDictId"] = 4034,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
