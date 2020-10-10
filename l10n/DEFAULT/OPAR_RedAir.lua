@@ -27,6 +27,17 @@ airfield_GCI_table = {
 --  "Marj Ruhayyil"
 }
 
+local function pickNumber() -- picks a random number of 1-4 with a weighting of 2 about 2/3rds of the time
+local choose = math.random(1,100)
+if choose < 6 then env.info("someone is a singleton") return 1
+elseif choose >=6 and choose < 85 then env.info("someone is a 2ship") return 2
+elseif choose >= 85 and choose < 95 then env.info("someone is a 3 ship") return 3
+elseif choose >= 95 then env.info("someone is a fourship") return 4
+end
+end
+
+
+
 --- CAP
 
 local number_of_CAP_Airfield = math.random(1,#airfield_Cap_table)
@@ -53,7 +64,7 @@ A2ADispatcher:SetDefaultFuelThreshold( 0.3 ) -- % including tanks before heading
 
 
 A2ADispatcher:SetSquadron( CAP_Airfield1,CAP_Airfield1,("Cap_"..CAP_Airfield1))
-A2ADispatcher:SetDefaultGrouping(2)
+A2ADispatcher:SetSquadronGrouping(CAP_Airfield1,pickNumber())
 A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield1 )
 A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield1 )
 A2ADispatcher:SetSquadronCap( CAP_Airfield1, ZONE:New( "Cap_"..CAP_Airfield1  ), 5000, 20000, 400, 700, 400, 1000, "BARO") --start disabled
@@ -71,7 +82,7 @@ if number_of_CAPs == 2 then
   end
   env.info(CAP_Airfield2.." has second CAP enabled")
   A2ADispatcher:SetSquadron( CAP_Airfield2,CAP_Airfield2, ("Cap_"..CAP_Airfield2))
-  A2ADispatcher:SetDefaultGrouping(2)
+  A2ADispatcher:SetSquadronGrouping(CAP_Airfield2,pickNumber())
   A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield2 )
   A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield2 )
   A2ADispatcher:SetSquadronCap( CAP_Airfield2, ZONE:New( "Cap_"..CAP_Airfield2  ), 5000, 20000, 400, 700, 400, 1000, "BARO") --start disabled
@@ -85,8 +96,8 @@ end
 
 --- QRA
 for i,_gci_airfield in ipairs(airfield_GCI_table) do 
-A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield))
-A2ADispatcher:SetDefaultGrouping(2)
+A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield),6)
+A2ADispatcher:SetSquadronGrouping(_gci_airfield,pickNumber())
 A2ADispatcher:SetSquadronTakeoffFromParkingHot( _gci_airfield )
 A2ADispatcher:SetSquadronLandingAtEngineShutdown( _gci_airfield )
 A2ADispatcher:SetSquadronGci(_gci_airfield,600,1200)

@@ -54764,7 +54764,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 774167,
+    ["currentKey"] = 792827,
     ["date"] =
     {
         ["Day"] = 3,
@@ -61697,11 +61697,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 205130.02808659,
-        ["centerY"] = 34265.678257543,
-        ["zoom"] = 1730.9483042894,
+        ["centerX"] = 175315.39508512,
+        ["centerY"] = 50406.941959999,
+        ["zoom"] = 203562.35315404,
     }, -- end of ["map"]
-    ["maxDictId"] = 4116,
+    ["maxDictId"] = 4122,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -61762,11 +61762,11 @@ mission =
     {
         ["actions"] =
         {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3896\"));",
+            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_4118\"));",
             [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_887\")); mission.trig.func[2]=nil;",
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3898\")); mission.trig.func[3]=nil;",
             [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3916\")); mission.trig.func[4]=nil;",
-            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_4018\")); mission.trig.func[5]=nil;",
+            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_4122\")); mission.trig.func[5]=nil;",
             [6] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3919\")); mission.trig.func[6]=nil;",
             [7] = "a_group_off(376);a_group_off(386);a_group_off(490);a_group_off(1635);a_group_off(575);a_group_off(519);a_group_off(518);a_group_off(597);a_group_off(596);a_group_off(1597);a_group_off(1592);a_group_off(1603);a_group_off(1610);a_group_off(592);a_group_off(593);a_group_off(594);a_group_off(595);a_group_off(1611);a_group_off(1612);a_group_off(1617);a_group_off(367); mission.trig.func[7]=nil;",
             [8] = "a_group_off(507);a_group_off(497);a_group_off(499);a_group_off(498);a_group_off(508);a_group_off(500);a_group_off(501);a_group_off(502);a_group_off(506);a_group_off(503);a_group_off(504);a_group_off(505);a_group_off(1937);a_group_off(1938);a_group_off(1935);a_group_off(497);a_group_off(1930);a_group_off(1931);a_group_off(1939);a_group_off(1940);a_group_off(1936);a_group_off(1932);a_group_off(1933);a_group_off(1934);a_group_off(561);a_group_off(559);a_group_off(560);a_group_off(562);a_group_off(563);a_group_off(564);a_group_off(558);a_group_off(566);a_group_off(567);a_group_off(568);a_group_off(569);a_group_off(570);a_group_off(571);a_group_off(580);a_group_off(588);a_group_off(587);a_group_off(586);a_group_off(589);a_group_off(591);a_group_off(590); mission.trig.func[8]=nil;",
@@ -66328,7 +66328,7 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_3896",
+                    ["file"] = "ResKey_Action_4118",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = 319,
@@ -66424,7 +66424,7 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_4018",
+                    ["file"] = "ResKey_Action_4122",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = 319,
