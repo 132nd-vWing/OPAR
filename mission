@@ -1292,13 +1292,12 @@ mission =
                                         {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 30,
-                                            ["alt"] = 47,
+                                            ["action"] = "From Ground Area",
+                                            ["alt"] = 500,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3042",
-                                            ["speed"] = 41.666666666667,
+                                            ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -1328,9 +1327,9 @@ mission =
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
-                                            ["type"] = "TakeOffParking",
-                                            ["x"] = -258810.71875,
-                                            ["y"] = -74591.7578125,
+                                            ["type"] = "TakeOffGround",
+                                            ["x"] = -259129.01903433,
+                                            ["y"] = -74392.364118161,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -1392,7 +1391,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [2]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 47,
+                                        ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -1405,8 +1404,6 @@ mission =
                                         ["livery_id"] = "132 696th Dejjvid",
                                         ["name"] = "DictKey_UnitName_3038",
                                         ["onboard_num"] = "231",
-                                        ["parking"] = "11",
-                                        ["parking_id"] = "37",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 0,
@@ -1420,11 +1417,11 @@ mission =
                                         ["psi"] = 0,
                                         ["ropeLength"] = 15,
                                         ["skill"] = "Client",
-                                        ["speed"] = 41.666666666667,
+                                        ["speed"] = 55.555555555556,
                                         ["type"] = "Ka-50",
                                         ["unitId"] = 3027,
-                                        ["x"] = -258810.71875,
-                                        ["y"] = -74591.7578125,
+                                        ["x"] = -259129.01903433,
+                                        ["y"] = -74392.364118161,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -1475,7 +1472,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [2]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 47,
+                                        ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -1488,8 +1485,6 @@ mission =
                                         ["livery_id"] = "132 696th Dejjvid",
                                         ["name"] = "DictKey_UnitName_3039",
                                         ["onboard_num"] = "232",
-                                        ["parking"] = "12",
-                                        ["parking_id"] = "36",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 0,
@@ -1503,11 +1498,11 @@ mission =
                                         ["psi"] = 0,
                                         ["ropeLength"] = 15,
                                         ["skill"] = "Client",
-                                        ["speed"] = 41.666666666667,
+                                        ["speed"] = 55.555555555556,
                                         ["type"] = "Ka-50",
                                         ["unitId"] = 3028,
-                                        ["x"] = -258826.5625,
-                                        ["y"] = -74570.46875,
+                                        ["x"] = -259152.18347143,
+                                        ["y"] = -74371.145493778,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -1558,7 +1553,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [2]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 47,
+                                        ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -1571,8 +1566,6 @@ mission =
                                         ["livery_id"] = "132 696th Dejjvid",
                                         ["name"] = "DictKey_UnitName_3040",
                                         ["onboard_num"] = "233",
-                                        ["parking"] = "13",
-                                        ["parking_id"] = "35",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 0,
@@ -1586,11 +1579,11 @@ mission =
                                         ["psi"] = 0,
                                         ["ropeLength"] = 15,
                                         ["skill"] = "Client",
-                                        ["speed"] = 41.666666666667,
+                                        ["speed"] = 55.555555555556,
                                         ["type"] = "Ka-50",
                                         ["unitId"] = 3029,
-                                        ["x"] = -258841.953125,
-                                        ["y"] = -74549.390625,
+                                        ["x"] = -259179.61016495,
+                                        ["y"] = -74352.613944099,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -1641,7 +1634,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [2]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 47,
+                                        ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -1654,8 +1647,6 @@ mission =
                                         ["livery_id"] = "132 696th Dejjvid",
                                         ["name"] = "DictKey_UnitName_3041",
                                         ["onboard_num"] = "234",
-                                        ["parking"] = "42",
-                                        ["parking_id"] = "38",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 0,
@@ -1669,15 +1660,15 @@ mission =
                                         ["psi"] = 0,
                                         ["ropeLength"] = 15,
                                         ["skill"] = "Client",
-                                        ["speed"] = 41.666666666667,
+                                        ["speed"] = 55.555555555556,
                                         ["type"] = "Ka-50",
                                         ["unitId"] = 3030,
-                                        ["x"] = -258763.27887654,
-                                        ["y"] = -75079.270272892,
+                                        ["x"] = -259208.14875146,
+                                        ["y"] = -74336.584153627,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
-                                ["x"] = -258810.71875,
-                                ["y"] = -74591.7578125,
+                                ["x"] = -259129.01903433,
+                                ["y"] = -74392.364118161,
                             }, -- end of [4]
                         }, -- end of ["group"]
                     }, -- end of ["helicopter"]
@@ -13470,6 +13461,1042 @@ mission =
                                 ["x"] = 266271.01879327,
                                 ["y"] = -52265.084075173,
                             }, -- end of [28]
+                            [29] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 2002,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_4084",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 52,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4089",
+                                            ["properties"] =
+                                            {
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 25,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 221183.59375,
+                                            ["y"] = -36199.99609375,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 6,
+                                            [3] = 1,
+                                            ["name"] = "Tusk61",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4085",
+                                        ["onboard_num"] = "161",
+                                        ["parking"] = "56",
+                                        ["parking_id"] = "35",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3569,
+                                        ["x"] = 221183.59375,
+                                        ["y"] = -36199.99609375,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 6,
+                                            [3] = 2,
+                                            ["name"] = "Tusk62",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4086",
+                                        ["onboard_num"] = "162",
+                                        ["parking"] = "55",
+                                        ["parking_id"] = "36",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3570,
+                                        ["x"] = 221186.8125,
+                                        ["y"] = -36175.73046875,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 6,
+                                            [3] = 3,
+                                            ["name"] = "Tusk63",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4087",
+                                        ["onboard_num"] = "163",
+                                        ["parking"] = "84",
+                                        ["parking_id"] = "42",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3571,
+                                        ["x"] = 221333.328125,
+                                        ["y"] = -36098.98828125,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 6,
+                                            [3] = 4,
+                                            ["name"] = "Tusk64",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4088",
+                                        ["onboard_num"] = "164",
+                                        ["parking"] = "85",
+                                        ["parking_id"] = "43",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3572,
+                                        ["x"] = 221358.125,
+                                        ["y"] = -35922.47265625,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 221183.59375,
+                                ["y"] = -36199.99609375,
+                            }, -- end of [29]
+                            [30] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 2003,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_4090",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 52,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4095",
+                                            ["properties"] =
+                                            {
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 26,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 221602.6875,
+                                            ["y"] = -35303.7578125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 7,
+                                            [3] = 1,
+                                            ["name"] = "Tusk71",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4091",
+                                        ["onboard_num"] = "171",
+                                        ["parking"] = 97,
+                                        ["parking_id"] = "124",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3573,
+                                        ["x"] = 221602.6875,
+                                        ["y"] = -35303.7578125,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 7,
+                                            [3] = 2,
+                                            ["name"] = "Tusk72",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4092",
+                                        ["onboard_num"] = "172",
+                                        ["parking"] = 80,
+                                        ["parking_id"] = "31",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3574,
+                                        ["x"] = 221090.359375,
+                                        ["y"] = -36728.8359375,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 7,
+                                            [3] = 3,
+                                            ["name"] = "Tusk73",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4093",
+                                        ["onboard_num"] = "173",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "48",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3575,
+                                        ["x"] = 221592.65625,
+                                        ["y"] = -35796.6171875,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 7,
+                                            [3] = 4,
+                                            ["name"] = "Tusk74",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4094",
+                                        ["onboard_num"] = "174",
+                                        ["parking"] = "0",
+                                        ["parking_id"] = "49",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3576,
+                                        ["x"] = 221611.1875,
+                                        ["y"] = -35769.8671875,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 221602.6875,
+                                ["y"] = -35303.7578125,
+                            }, -- end of [30]
+                            [31] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 2004,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_4096",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 16,
+                                            ["alt"] = 52,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4101",
+                                            ["properties"] =
+                                            {
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 27,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 220734.65625,
+                                            ["y"] = -36719.22265625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Tusk81",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4097",
+                                        ["onboard_num"] = "181",
+                                        ["parking"] = "4",
+                                        ["parking_id"] = "26",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3577,
+                                        ["x"] = 220734.65625,
+                                        ["y"] = -36719.22265625,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 8,
+                                            [3] = 2,
+                                            ["name"] = "Tusk82",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4098",
+                                        ["onboard_num"] = "182",
+                                        ["parking"] = 79,
+                                        ["parking_id"] = "30",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3578,
+                                        ["x"] = 220944.015625,
+                                        ["y"] = -36643.9921875,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 8,
+                                            [3] = 3,
+                                            ["name"] = "Tusk83",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4099",
+                                        ["onboard_num"] = "183",
+                                        ["parking"] = "2",
+                                        ["parking_id"] = "28",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3579,
+                                        ["x"] = 220781.78125,
+                                        ["y"] = -36704.09375,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 52,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 8,
+                                            [3] = 4,
+                                            ["name"] = "Tusk84",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4100",
+                                        ["onboard_num"] = "184",
+                                        ["parking"] = "64",
+                                        ["parking_id"] = "29",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3580,
+                                        ["x"] = 220883.328125,
+                                        ["y"] = -36797.28125,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 220734.65625,
+                                ["y"] = -36719.22265625,
+                            }, -- end of [31]
+                            [32] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 2005,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_4102",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 30,
+                                            ["alt"] = 6,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4107",
+                                            ["properties"] =
+                                            {
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAS",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 28,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -258763.27887654,
+                                            ["y"] = -75079.270272892,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAS",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 9,
+                                            [3] = 1,
+                                            ["name"] = "Tusk91",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4103",
+                                        ["onboard_num"] = "191",
+                                        ["parking"] = "42",
+                                        ["parking_id"] = "38",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3581,
+                                        ["x"] = -258763.27887654,
+                                        ["y"] = -75079.270272892,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 9,
+                                            [3] = 2,
+                                            ["name"] = "Tusk92",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4104",
+                                        ["onboard_num"] = "192",
+                                        ["parking"] = "11",
+                                        ["parking_id"] = "37",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3582,
+                                        ["x"] = -258810.71875,
+                                        ["y"] = -74591.7578125,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 9,
+                                            [3] = 3,
+                                            ["name"] = "Tusk93",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4105",
+                                        ["onboard_num"] = "193",
+                                        ["parking"] = "12",
+                                        ["parking_id"] = "36",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3583,
+                                        ["x"] = -258826.5625,
+                                        ["y"] = -74570.46875,
+                                    }, -- end of [3]
+                                    [4] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["DefaultGunMode"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 12,
+                                            [2] = 9,
+                                            [3] = 4,
+                                            ["name"] = "Tusk94",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "25th fs osan ab, korea (os)",
+                                        ["name"] = "DictKey_UnitName_4106",
+                                        ["onboard_num"] = "194",
+                                        ["parking"] = "13",
+                                        ["parking_id"] = "35",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 5029,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 3584,
+                                        ["x"] = -258841.953125,
+                                        ["y"] = -74549.390625,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = -258763.27887654,
+                                ["y"] = -75079.270272892,
+                            }, -- end of [32]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] =
@@ -53332,7 +54359,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 755467,
+    ["currentKey"] = 762959,
     ["date"] =
     {
         ["Day"] = 3,
@@ -60265,11 +61292,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -10000,
-        ["centerY"] = 6607.3194856577,
-        ["zoom"] = 2146389.7131553,
+        ["centerX"] = -198432.796831,
+        ["centerY"] = -17375.393671682,
+        ["zoom"] = 841711.59464195,
     }, -- end of ["map"]
-    ["maxDictId"] = 4083,
+    ["maxDictId"] = 4107,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
