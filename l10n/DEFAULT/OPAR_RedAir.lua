@@ -1,7 +1,7 @@
 
 
 -- CAP active from Airbases --
-local Redair_Debugging = true  --change to false to silence the messages
+local Redair_Debugging = false  --change to false to silence the messages
 
 -- at missions start there is a 50% chance that one or two CAP will be launched, one per the table below. 
 -- You can comment out any entry in the table below if you dont want to launch CAP from it.
@@ -30,9 +30,9 @@ airfield_GCI_table = {
 local function pickNumber() -- picks a random number of 1-4 with a weighting of 2 about 2/3rds of the time
 local choose = math.random(1,100)
 if choose < 6 then env.info("someone is a singleton") return 1
-elseif choose >=6 and choose < 85 then env.info("someone is a 2ship") return 2
-elseif choose >= 85 and choose < 95 then env.info("someone is a 3 ship") return 3
-elseif choose >= 95 then env.info("someone is a fourship") return 4
+elseif choose >=6 and choose < 95 then env.info("someone is a 2ship") return 2
+elseif choose >= 95 and choose < 99 then env.info("someone is a 3 ship") return 3
+elseif choose >= 99 then env.info("someone is a fourship") return 4
 end
 end
 
