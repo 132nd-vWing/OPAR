@@ -31431,8 +31431,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 231642.56056268,
-                                            ["y"] = 77020.897344332,
+                                            ["x"] = 231645.0065845,
+                                            ["y"] = 77022.858300934,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -31446,12 +31446,12 @@ mission =
                                         ["rate"] = 17,
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3181,
-                                        ["x"] = 231642.56056268,
-                                        ["y"] = 77020.897344332,
+                                        ["x"] = 231645.0065845,
+                                        ["y"] = 77022.858300934,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 231642.56056268,
-                                ["y"] = 77020.897344332,
+                                ["x"] = 231645.0065845,
+                                ["y"] = 77022.858300934,
                             }, -- end of [231]
                             [232] =
                             {
@@ -32659,7 +32659,7 @@ mission =
                             {
                                 ["dead"] = true,
                                 ["groupId"] = 1959,
-                                ["heading"] = 6.0213859193804,
+                                ["heading"] = 0.6457718232379,
                                 ["name"] = "DictKey_GroupName_3846",
                                 ["route"] =
                                 {
@@ -32673,8 +32673,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 228306.00047047,
-                                            ["y"] = 74324.162401975,
+                                            ["x"] = 228463.30635543,
+                                            ["y"] = 74040.253759542,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -32682,18 +32682,18 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["category"] = "Air Defence",
-                                        ["heading"] = 6.0213859193804,
+                                        ["category"] = "Artillery",
+                                        ["heading"] = 0.6457718232379,
                                         ["name"] = "DictKey_GroupName_3846",
-                                        ["rate"] = 20,
-                                        ["type"] = "2S6 Tunguska",
+                                        ["rate"] = 15,
+                                        ["type"] = "SAU Msta",
                                         ["unitId"] = 3519,
-                                        ["x"] = 228306.00047047,
-                                        ["y"] = 74324.162401975,
+                                        ["x"] = 228463.30635543,
+                                        ["y"] = 74040.253759542,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 228306.00047047,
-                                ["y"] = 74324.162401975,
+                                ["x"] = 228463.30635543,
+                                ["y"] = 74040.253759542,
                             }, -- end of [262]
                             [263] =
                             {
@@ -33620,6 +33620,846 @@ mission =
                                 ["x"] = 103446.72514136,
                                 ["y"] = 83206.646298048,
                             }, -- end of [285]
+                            [286] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2046,
+                                ["heading"] = 4.8520153205442,
+                                ["name"] = "DictKey_GroupName_4366",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = -17045.752303469,
+                                            ["y"] = -1252.7422442321,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 4.8520153205442,
+                                        ["name"] = "DictKey_GroupName_4366",
+                                        ["rate"] = 70,
+                                        ["type"] = "SA-11 Buk LN 9A310M1",
+                                        ["unitId"] = 3648,
+                                        ["x"] = -17045.752303469,
+                                        ["y"] = -1252.7422442321,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -17045.752303469,
+                                ["y"] = -1252.7422442321,
+                            }, -- end of [286]
+                            [287] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2047,
+                                ["heading"] = 5.6374134839417,
+                                ["name"] = "DictKey_GroupName_4370",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 210814.65004537,
+                                            ["y"] = 68495.596588988,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 5.6374134839417,
+                                        ["name"] = "DictKey_GroupName_4370",
+                                        ["rate"] = 20,
+                                        ["type"] = "2S6 Tunguska",
+                                        ["unitId"] = 3650,
+                                        ["x"] = 210814.65004537,
+                                        ["y"] = 68495.596588988,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 210814.65004537,
+                                ["y"] = 68495.596588988,
+                            }, -- end of [287]
+                            [288] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2048,
+                                ["heading"] = 0.57595865315813,
+                                ["name"] = "DictKey_GroupName_4376",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 160349.71220678,
+                                            ["y"] = 40287.502550204,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 0.57595865315813,
+                                        ["name"] = "DictKey_GroupName_4376",
+                                        ["rate"] = 15,
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 3651,
+                                        ["x"] = 160349.71220678,
+                                        ["y"] = 40287.502550204,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 160349.71220678,
+                                ["y"] = 40287.502550204,
+                            }, -- end of [288]
+                            [289] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2049,
+                                ["heading"] = 0.87266462599716,
+                                ["name"] = "DictKey_GroupName_4379",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223702.6211255,
+                                            ["y"] = 71326.885182003,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 0.87266462599716,
+                                        ["name"] = "DictKey_GroupName_4379",
+                                        ["rate"] = 10,
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 3652,
+                                        ["x"] = 223702.6211255,
+                                        ["y"] = 71326.885182003,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223702.6211255,
+                                ["y"] = 71326.885182003,
+                            }, -- end of [289]
+                            [290] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2050,
+                                ["heading"] = 0.017453292519943,
+                                ["name"] = "DictKey_GroupName_4382",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223818.08615871,
+                                            ["y"] = 71224.221739384,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "DictKey_GroupName_4382",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3653,
+                                        ["x"] = 223818.08615871,
+                                        ["y"] = 71224.221739384,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223818.08615871,
+                                ["y"] = 71224.221739384,
+                            }, -- end of [290]
+                            [291] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2051,
+                                ["heading"] = 0.017453292519943,
+                                ["name"] = "DictKey_GroupName_4385",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223873.3424597,
+                                            ["y"] = 71233.735025756,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "DictKey_GroupName_4385",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3654,
+                                        ["x"] = 223873.3424597,
+                                        ["y"] = 71233.735025756,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223873.3424597,
+                                ["y"] = 71233.735025756,
+                            }, -- end of [291]
+                            [292] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2052,
+                                ["heading"] = 0.017453292519943,
+                                ["name"] = "DictKey_GroupName_4388",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223603.33699514,
+                                            ["y"] = 71421.213470004,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "DictKey_GroupName_4388",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3655,
+                                        ["x"] = 223603.33699514,
+                                        ["y"] = 71421.213470004,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223603.33699514,
+                                ["y"] = 71421.213470004,
+                            }, -- end of [292]
+                            [293] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2053,
+                                ["heading"] = 0.017453292519943,
+                                ["name"] = "DictKey_GroupName_4391",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223565.52840763,
+                                            ["y"] = 71409.870893752,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "DictKey_GroupName_4391",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3656,
+                                        ["x"] = 223565.52840763,
+                                        ["y"] = 71409.870893752,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223565.52840763,
+                                ["y"] = 71409.870893752,
+                            }, -- end of [293]
+                            [294] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2054,
+                                ["heading"] = 0.017453292519943,
+                                ["name"] = "DictKey_GroupName_4394",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223579.869596,
+                                            ["y"] = 71439.074768239,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "DictKey_GroupName_4394",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3657,
+                                        ["x"] = 223579.869596,
+                                        ["y"] = 71439.074768239,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223579.869596,
+                                ["y"] = 71439.074768239,
+                            }, -- end of [294]
+                            [295] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2055,
+                                ["heading"] = 0.017453292519943,
+                                ["name"] = "DictKey_GroupName_4397",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223427.30464849,
+                                            ["y"] = 71079.504729092,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "DictKey_GroupName_4397",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3658,
+                                        ["x"] = 223427.30464849,
+                                        ["y"] = 71079.504729092,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223427.30464849,
+                                ["y"] = 71079.504729092,
+                            }, -- end of [295]
+                            [296] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2057,
+                                ["heading"] = 0.017453292519943,
+                                ["name"] = "DictKey_GroupName_4403",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223450.1994752,
+                                            ["y"] = 71124.950105642,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "DictKey_GroupName_4403",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3660,
+                                        ["x"] = 223450.1994752,
+                                        ["y"] = 71124.950105642,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223450.1994752,
+                                ["y"] = 71124.950105642,
+                            }, -- end of [296]
+                            [297] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2058,
+                                ["heading"] = 0.017453292519943,
+                                ["name"] = "DictKey_GroupName_4406",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 223380.21669888,
+                                            ["y"] = 71164.832279299,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 0.017453292519943,
+                                        ["name"] = "DictKey_GroupName_4406",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3661,
+                                        ["x"] = 223380.21669888,
+                                        ["y"] = 71164.832279299,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 223380.21669888,
+                                ["y"] = 71164.832279299,
+                            }, -- end of [297]
+                            [298] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2059,
+                                ["heading"] = 6.0213859193804,
+                                ["name"] = "DictKey_GroupName_4412",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 228312.24625804,
+                                            ["y"] = 74316.640923534,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Air Defence",
+                                        ["heading"] = 6.0213859193804,
+                                        ["name"] = "DictKey_GroupName_4412",
+                                        ["rate"] = 20,
+                                        ["type"] = "2S6 Tunguska",
+                                        ["unitId"] = 3662,
+                                        ["x"] = 228312.24625804,
+                                        ["y"] = 74316.640923534,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 228312.24625804,
+                                ["y"] = 74316.640923534,
+                            }, -- end of [298]
+                            [299] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2060,
+                                ["heading"] = 0.71558499331767,
+                                ["name"] = "DictKey_GroupName_4415",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 228291.52789593,
+                                            ["y"] = 74170.674353944,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Artillery",
+                                        ["heading"] = 0.71558499331767,
+                                        ["name"] = "DictKey_GroupName_4415",
+                                        ["rate"] = 15,
+                                        ["type"] = "SAU Msta",
+                                        ["unitId"] = 3663,
+                                        ["x"] = 228291.52789593,
+                                        ["y"] = 74170.674353944,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 228291.52789593,
+                                ["y"] = 74170.674353944,
+                            }, -- end of [299]
+                            [300] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2061,
+                                ["heading"] = 0.6457718232379,
+                                ["name"] = "DictKey_GroupName_4418",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 228204.10310188,
+                                            ["y"] = 73954.262158838,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Artillery",
+                                        ["heading"] = 0.6457718232379,
+                                        ["name"] = "DictKey_GroupName_4418",
+                                        ["rate"] = 15,
+                                        ["type"] = "SAU Msta",
+                                        ["unitId"] = 3664,
+                                        ["x"] = 228204.10310188,
+                                        ["y"] = 73954.262158838,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 228204.10310188,
+                                ["y"] = 73954.262158838,
+                            }, -- end of [300]
+                            [301] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2062,
+                                ["heading"] = 4.9916416607038,
+                                ["name"] = "DictKey_GroupName_4421",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 210938.83387581,
+                                            ["y"] = 68859.935490527,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 4.9916416607038,
+                                        ["name"] = "DictKey_GroupName_4421",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3665,
+                                        ["x"] = 210938.83387581,
+                                        ["y"] = 68859.935490527,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 210938.83387581,
+                                ["y"] = 68859.935490527,
+                            }, -- end of [301]
+                            [302] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2063,
+                                ["heading"] = 5.9690260418206,
+                                ["name"] = "DictKey_GroupName_4424",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 210968.57614645,
+                                            ["y"] = 68872.478556738,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.9690260418206,
+                                        ["name"] = "DictKey_GroupName_4424",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3666,
+                                        ["x"] = 210968.57614645,
+                                        ["y"] = 68872.478556738,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 210968.57614645,
+                                ["y"] = 68872.478556738,
+                            }, -- end of [302]
+                            [303] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2064,
+                                ["heading"] = 5.9690260418206,
+                                ["name"] = "DictKey_GroupName_4427",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 210975.89293508,
+                                            ["y"] = 68881.790833168,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Armor",
+                                        ["heading"] = 5.9690260418206,
+                                        ["name"] = "DictKey_GroupName_4427",
+                                        ["rate"] = 17,
+                                        ["type"] = "T-72B",
+                                        ["unitId"] = 3667,
+                                        ["x"] = 210975.89293508,
+                                        ["y"] = 68881.790833168,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 210975.89293508,
+                                ["y"] = 68881.790833168,
+                            }, -- end of [303]
+                            [304] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2065,
+                                ["heading"] = 5.9690260418206,
+                                ["name"] = "DictKey_GroupName_4430",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 210883.95123198,
+                                            ["y"] = 68537.529713972,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Artillery",
+                                        ["heading"] = 5.9690260418206,
+                                        ["name"] = "DictKey_GroupName_4430",
+                                        ["rate"] = 15,
+                                        ["type"] = "SAU Msta",
+                                        ["unitId"] = 3668,
+                                        ["x"] = 210883.95123198,
+                                        ["y"] = 68537.529713972,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 210883.95123198,
+                                ["y"] = 68537.529713972,
+                            }, -- end of [304]
+                            [305] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2067,
+                                ["heading"] = 5.9690260418206,
+                                ["name"] = "DictKey_GroupName_4436",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 210988.73965629,
+                                            ["y"] = 68645.77059889,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Artillery",
+                                        ["heading"] = 5.9690260418206,
+                                        ["name"] = "DictKey_GroupName_4436",
+                                        ["rate"] = 15,
+                                        ["type"] = "SAU Msta",
+                                        ["unitId"] = 3670,
+                                        ["x"] = 210988.73965629,
+                                        ["y"] = 68645.77059889,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 210988.73965629,
+                                ["y"] = 68645.77059889,
+                            }, -- end of [305]
+                            [306] =
+                            {
+                                ["dead"] = true,
+                                ["groupId"] = 2068,
+                                ["heading"] = 5.9690260418206,
+                                ["name"] = "DictKey_GroupName_4439",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 210805.09434728,
+                                            ["y"] = 68262.411016346,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Artillery",
+                                        ["heading"] = 5.9690260418206,
+                                        ["name"] = "DictKey_GroupName_4439",
+                                        ["rate"] = 15,
+                                        ["type"] = "SAU Msta",
+                                        ["unitId"] = 3671,
+                                        ["x"] = 210805.09434728,
+                                        ["y"] = 68262.411016346,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 210805.09434728,
+                                ["y"] = 68262.411016346,
+                            }, -- end of [306]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -34741,8 +35581,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 213005.84935204,
-                                            ["y"] = 68297.127368893,
+                                            ["x"] = 213006.66628695,
+                                            ["y"] = 68297.772676497,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -34782,8 +35622,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 765,
-                                        ["x"] = 213005.84935204,
-                                        ["y"] = 68297.127368893,
+                                        ["x"] = 213006.66628695,
+                                        ["y"] = 68297.772676497,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -34798,8 +35638,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 766,
-                                        ["x"] = 213002.34370701,
-                                        ["y"] = 68316.934263281,
+                                        ["x"] = 213005.57504123,
+                                        ["y"] = 68315.232608013,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -34814,8 +35654,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 767,
-                                        ["x"] = 212969.21536153,
-                                        ["y"] = 68299.756602661,
+                                        ["x"] = 212970.03229644,
+                                        ["y"] = 68300.401910265,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -34830,8 +35670,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 768,
-                                        ["x"] = 212923.45336498,
-                                        ["y"] = 67767.060496654,
+                                        ["x"] = 212924.76348411,
+                                        ["y"] = 67777.778133343,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -34846,8 +35686,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 769,
-                                        ["x"] = 212999.83200429,
-                                        ["y"] = 67722.532441561,
+                                        ["x"] = 213000.6489392,
+                                        ["y"] = 67723.177749165,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -34862,8 +35702,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 770,
-                                        ["x"] = 212938.5180324,
-                                        ["y"] = 67749.806147969,
+                                        ["x"] = 212939.33496731,
+                                        ["y"] = 67750.451455573,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -34878,8 +35718,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 771,
-                                        ["x"] = 212429.95447425,
-                                        ["y"] = 67816.619225561,
+                                        ["x"] = 212430.77140916,
+                                        ["y"] = 67817.264533165,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -34894,8 +35734,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 772,
-                                        ["x"] = 212424.17287918,
-                                        ["y"] = 67947.095762956,
+                                        ["x"] = 212424.98981409,
+                                        ["y"] = 67947.74107056,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -34910,8 +35750,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 773,
-                                        ["x"] = 212414.79731961,
-                                        ["y"] = 67844.589644954,
+                                        ["x"] = 212415.61425452,
+                                        ["y"] = 67845.234952558,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -34926,8 +35766,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 774,
-                                        ["x"] = 208817.43819378,
-                                        ["y"] = 66441.864824097,
+                                        ["x"] = 208818.25512869,
+                                        ["y"] = 66442.510131701,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -34942,13 +35782,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 775,
-                                        ["x"] = 208784.58974122,
-                                        ["y"] = 66475.724477575,
+                                        ["x"] = 208785.40667613,
+                                        ["y"] = 66476.369785179,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 213005.84935204,
-                                ["y"] = 68297.127368893,
+                                ["x"] = 213006.66628695,
+                                ["y"] = 68297.772676497,
                             }, -- end of [13]
                             [14] =
                             {
@@ -34964,7 +35804,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 529,
+                                            ["alt"] = 511,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1716",
@@ -34981,8 +35821,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 231760.51028968,
-                                            ["y"] = 75510.341946148,
+                                            ["x"] = 217602.21407281,
+                                            ["y"] = 72013.133384917,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -35021,8 +35861,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 776,
-                                        ["x"] = 231760.51028968,
-                                        ["y"] = 75510.341946148,
+                                        ["x"] = 217602.21407281,
+                                        ["y"] = 72013.133384917,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -35036,8 +35876,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 777,
-                                        ["x"] = 231783.41072169,
-                                        ["y"] = 75492.021600542,
+                                        ["x"] = 217625.11450482,
+                                        ["y"] = 71994.813039311,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -35051,8 +35891,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 778,
-                                        ["x"] = 231746.00668274,
-                                        ["y"] = 75481.334732272,
+                                        ["x"] = 217587.71046587,
+                                        ["y"] = 71984.126171041,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -35066,8 +35906,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 779,
-                                        ["x"] = 231997.91143482,
-                                        ["y"] = 75313.398230888,
+                                        ["x"] = 217839.61521795,
+                                        ["y"] = 71816.189669657,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -35081,8 +35921,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 780,
-                                        ["x"] = 232024.62860549,
-                                        ["y"] = 75272.177453276,
+                                        ["x"] = 217866.33238862,
+                                        ["y"] = 71774.968892045,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -35096,8 +35936,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 781,
-                                        ["x"] = 231975.77435055,
-                                        ["y"] = 75266.834019141,
+                                        ["x"] = 217817.47813368,
+                                        ["y"] = 71769.62545791,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -35111,8 +35951,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 782,
-                                        ["x"] = 231740.66324861,
-                                        ["y"] = 75284.391017013,
+                                        ["x"] = 217582.36703174,
+                                        ["y"] = 71787.182455782,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -35126,8 +35966,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 783,
-                                        ["x"] = 231767.38041928,
-                                        ["y"] = 75258.437194072,
+                                        ["x"] = 217609.08420241,
+                                        ["y"] = 71761.228632841,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -35141,8 +35981,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 784,
-                                        ["x"] = 231723.10625074,
-                                        ["y"] = 75259.200541805,
+                                        ["x"] = 217564.81003387,
+                                        ["y"] = 71761.991980574,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -35156,8 +35996,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 785,
-                                        ["x"] = 231866.61562465,
-                                        ["y"] = 75366.069224504,
+                                        ["x"] = 217708.31940778,
+                                        ["y"] = 71868.860663273,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -35171,13 +36011,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 786,
-                                        ["x"] = 231829.2115857,
-                                        ["y"] = 75276.757539677,
+                                        ["x"] = 217670.91536883,
+                                        ["y"] = 71779.548978446,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 231760.51028968,
-                                ["y"] = 75510.341946148,
+                                ["x"] = 217602.21407281,
+                                ["y"] = 72013.133384917,
                             }, -- end of [14]
                             [15] =
                             {
@@ -35422,7 +36262,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 485,
+                                            ["alt"] = 508,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1742",
@@ -35439,8 +36279,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 229754.58309484,
-                                            ["y"] = 85512.526958429,
+                                            ["x"] = 221114.08025607,
+                                            ["y"] = 85397.674600125,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -35479,8 +36319,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 798,
-                                        ["x"] = 229754.58309484,
-                                        ["y"] = 85512.526958429,
+                                        ["x"] = 221114.08025607,
+                                        ["y"] = 85397.674600125,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -35494,8 +36334,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 799,
-                                        ["x"] = 229804.61217216,
-                                        ["y"] = 85514.379887218,
+                                        ["x"] = 221198.39725624,
+                                        ["y"] = 85420.800804153,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -35509,8 +36349,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 800,
-                                        ["x"] = 229732.75971132,
-                                        ["y"] = 85511.291672569,
+                                        ["x"] = 221092.25687255,
+                                        ["y"] = 85396.439314265,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -35524,8 +36364,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 801,
-                                        ["x"] = 229774.02809049,
-                                        ["y"] = 84998.920510323,
+                                        ["x"] = 221133.52525172,
+                                        ["y"] = 84884.068152019,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -35539,8 +36379,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 802,
-                                        ["x"] = 229752.98329992,
-                                        ["y"] = 85014.000766211,
+                                        ["x"] = 221112.48046115,
+                                        ["y"] = 84899.148407907,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -35554,8 +36394,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 803,
-                                        ["x"] = 229724.89161423,
-                                        ["y"] = 85056.76404413,
+                                        ["x"] = 221084.38877546,
+                                        ["y"] = 84941.911685826,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -35569,8 +36409,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 804,
-                                        ["x"] = 229596.81513768,
-                                        ["y"] = 85421.256238285,
+                                        ["x"] = 220956.31229891,
+                                        ["y"] = 85306.403879981,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -35584,8 +36424,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 805,
-                                        ["x"] = 229627.08778651,
-                                        ["y"] = 85451.164156407,
+                                        ["x"] = 220986.58494774,
+                                        ["y"] = 85336.311798103,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -35599,8 +36439,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 806,
-                                        ["x"] = 229544.29391561,
-                                        ["y"] = 85377.853283936,
+                                        ["x"] = 220903.79107684,
+                                        ["y"] = 85263.000925632,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -35614,8 +36454,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 807,
-                                        ["x"] = 229733.19550056,
-                                        ["y"] = 85541.969586026,
+                                        ["x"] = 221092.69266179,
+                                        ["y"] = 85427.117227722,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -35629,13 +36469,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 808,
-                                        ["x"] = 229566.54248884,
-                                        ["y"] = 85416.150008361,
+                                        ["x"] = 220926.03965007,
+                                        ["y"] = 85301.297650057,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 229754.58309484,
-                                ["y"] = 85512.526958429,
+                                ["x"] = 221114.08025607,
+                                ["y"] = 85397.674600125,
                             }, -- end of [16]
                             [17] =
                             {
@@ -35651,7 +36491,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 483,
+                                            ["alt"] = 476,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1759",
@@ -35668,8 +36508,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 228041.21656592,
-                                            ["y"] = 84490.410508125,
+                                            ["x"] = 219370.80025046,
+                                            ["y"] = 83494.120757221,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -35708,8 +36548,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 809,
-                                        ["x"] = 228041.21656592,
-                                        ["y"] = 84490.410508125,
+                                        ["x"] = 219370.80025046,
+                                        ["y"] = 83494.120757221,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -35723,8 +36563,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 810,
-                                        ["x"] = 228048.64233501,
-                                        ["y"] = 84471.598559755,
+                                        ["x"] = 219378.22601955,
+                                        ["y"] = 83475.308808851,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -35738,8 +36578,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 811,
-                                        ["x"] = 228049.13738629,
-                                        ["y"] = 84434.222188653,
+                                        ["x"] = 219378.72107083,
+                                        ["y"] = 83437.932437749,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -35753,8 +36593,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 812,
-                                        ["x"] = 227930.13240672,
-                                        ["y"] = 84843.865571399,
+                                        ["x"] = 219308.91956097,
+                                        ["y"] = 83888.610152733,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -35768,8 +36608,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 813,
-                                        ["x"] = 227930.82889207,
-                                        ["y"] = 84790.410320509,
+                                        ["x"] = 219297.60963658,
+                                        ["y"] = 83776.06629555,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -35783,8 +36623,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 814,
-                                        ["x"] = 227932.22186278,
-                                        ["y"] = 84761.157935656,
+                                        ["x"] = 219261.80554732,
+                                        ["y"] = 83764.868184752,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -35798,8 +36638,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 815,
-                                        ["x"] = 227955.85110751,
-                                        ["y"] = 84277.827997054,
+                                        ["x"] = 219285.43479205,
+                                        ["y"] = 83281.53824615,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -35813,8 +36653,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 816,
-                                        ["x"] = 227949.591606,
-                                        ["y"] = 84249.944763043,
+                                        ["x"] = 219279.17529054,
+                                        ["y"] = 83253.655012139,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -35828,8 +36668,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 817,
-                                        ["x"] = 227977.09547628,
-                                        ["y"] = 84257.911401332,
+                                        ["x"] = 219306.67916082,
+                                        ["y"] = 83261.621650428,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -35843,8 +36683,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 818,
-                                        ["x"] = 228061.51366811,
-                                        ["y"] = 84387.19231773,
+                                        ["x"] = 219391.09735265,
+                                        ["y"] = 83390.902566826,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -35858,13 +36698,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 819,
-                                        ["x"] = 227949.72382057,
-                                        ["y"] = 84241.700687012,
+                                        ["x"] = 219279.30750511,
+                                        ["y"] = 83245.410936108,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 228041.21656592,
-                                ["y"] = 84490.410508125,
+                                ["x"] = 219370.80025046,
+                                ["y"] = 83494.120757221,
                             }, -- end of [17]
                             [18] =
                             {
@@ -35880,7 +36720,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 529,
+                                            ["alt"] = 444,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1773",
@@ -35897,8 +36737,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 226562.2838169,
-                                            ["y"] = 85595.330331206,
+                                            ["x"] = 217846.98827172,
+                                            ["y"] = 84027.84170409,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -35937,8 +36777,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 820,
-                                        ["x"] = 226562.2838169,
-                                        ["y"] = 85595.330331206,
+                                        ["x"] = 217846.98827172,
+                                        ["y"] = 84027.84170409,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -35952,8 +36792,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 821,
-                                        ["x"] = 226585.1842489,
-                                        ["y"] = 85577.0099856,
+                                        ["x"] = 217869.88870372,
+                                        ["y"] = 84009.521358484,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -35967,8 +36807,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 822,
-                                        ["x"] = 226547.78020996,
-                                        ["y"] = 85566.32311733,
+                                        ["x"] = 217832.48466478,
+                                        ["y"] = 83998.834490214,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -35982,8 +36822,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 823,
-                                        ["x"] = 226799.68496203,
-                                        ["y"] = 85398.386615946,
+                                        ["x"] = 218084.38941685,
+                                        ["y"] = 83830.89798883,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -35997,8 +36837,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 824,
-                                        ["x"] = 226826.40213271,
-                                        ["y"] = 85357.165838335,
+                                        ["x"] = 218111.10658753,
+                                        ["y"] = 83789.677211219,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -36012,8 +36852,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 825,
-                                        ["x"] = 226777.54787776,
-                                        ["y"] = 85351.822404199,
+                                        ["x"] = 218062.25233258,
+                                        ["y"] = 83784.333777083,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -36027,8 +36867,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 826,
-                                        ["x"] = 226542.43677582,
-                                        ["y"] = 85369.379402071,
+                                        ["x"] = 217827.14123064,
+                                        ["y"] = 83801.890774955,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -36042,8 +36882,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 827,
-                                        ["x"] = 226569.1539465,
-                                        ["y"] = 85343.425579131,
+                                        ["x"] = 217853.85840132,
+                                        ["y"] = 83775.936952015,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -36057,8 +36897,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 828,
-                                        ["x"] = 226524.87977795,
-                                        ["y"] = 85344.188926863,
+                                        ["x"] = 217809.58423277,
+                                        ["y"] = 83776.700299747,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -36072,8 +36912,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 829,
-                                        ["x"] = 226668.38915186,
-                                        ["y"] = 85451.057609563,
+                                        ["x"] = 217953.09360668,
+                                        ["y"] = 83883.568982447,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -36087,13 +36927,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 830,
-                                        ["x"] = 226630.98511292,
-                                        ["y"] = 85361.745924736,
+                                        ["x"] = 217915.68956774,
+                                        ["y"] = 83794.25729762,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 226562.2838169,
-                                ["y"] = 85595.330331206,
+                                ["x"] = 217846.98827172,
+                                ["y"] = 84027.84170409,
                             }, -- end of [18]
                             [19] =
                             {
@@ -36338,7 +37178,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 509,
+                                            ["alt"] = 215,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1799",
@@ -36355,8 +37195,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 223580.61518475,
-                                            ["y"] = 71437.508552817,
+                                            ["x"] = 182594.21096788,
+                                            ["y"] = 59762.057884377,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -36395,8 +37235,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 842,
-                                        ["x"] = 223580.61518475,
-                                        ["y"] = 71437.508552817,
+                                        ["x"] = 182594.21096788,
+                                        ["y"] = 59762.057884377,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -36410,8 +37250,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 843,
-                                        ["x"] = 223603.51561675,
-                                        ["y"] = 71419.188207211,
+                                        ["x"] = 182617.11139988,
+                                        ["y"] = 59743.737538771,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -36425,8 +37265,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 844,
-                                        ["x"] = 223566.11157781,
-                                        ["y"] = 71408.501338941,
+                                        ["x"] = 182579.70736094,
+                                        ["y"] = 59733.050670501,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -36440,8 +37280,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 845,
-                                        ["x"] = 223818.91014962,
-                                        ["y"] = 71223.46114577,
+                                        ["x"] = 182832.50593275,
+                                        ["y"] = 59548.01047733,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -36455,8 +37295,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 846,
-                                        ["x"] = 223874.09424675,
-                                        ["y"] = 71232.658495292,
+                                        ["x"] = 182887.69002988,
+                                        ["y"] = 59557.207826852,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -36470,8 +37310,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 847,
-                                        ["x"] = 223935.13120267,
-                                        ["y"] = 71194.196851838,
+                                        ["x"] = 182948.7269858,
+                                        ["y"] = 59518.746183398,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -36485,8 +37325,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 848,
-                                        ["x"] = 223450.18004608,
-                                        ["y"] = 71126.470914452,
+                                        ["x"] = 182463.74424555,
+                                        ["y"] = 59450.210859582,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -36500,8 +37340,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 849,
-                                        ["x"] = 223379.94574064,
-                                        ["y"] = 71165.76868059,
+                                        ["x"] = 182393.54152377,
+                                        ["y"] = 59490.31801215,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -36515,8 +37355,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 850,
-                                        ["x"] = 223428.4408563,
-                                        ["y"] = 71080.484166844,
+                                        ["x"] = 182442.03663943,
+                                        ["y"] = 59405.033498404,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -36530,8 +37370,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 851,
-                                        ["x"] = 223544.66190935,
-                                        ["y"] = 71413.260994988,
+                                        ["x"] = 182558.25769248,
+                                        ["y"] = 59737.810326548,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -36545,13 +37385,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 852,
-                                        ["x"] = 223367.40390038,
-                                        ["y"] = 71050.383750228,
+                                        ["x"] = 182380.99968351,
+                                        ["y"] = 59374.933081788,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 223580.61518475,
-                                ["y"] = 71437.508552817,
+                                ["x"] = 182594.21096788,
+                                ["y"] = 59762.057884377,
                             }, -- end of [20]
                             [21] =
                             {
@@ -36982,7 +37822,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 556,
+                                            ["alt"] = 528,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1834",
@@ -36999,8 +37839,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 228788.10634604,
-                                            ["y"] = 74573.601905427,
+                                            ["x"] = 217230.88179462,
+                                            ["y"] = 71116.327466568,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -37026,8 +37866,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 873,
-                                        ["x"] = 228788.10634604,
-                                        ["y"] = 74573.601905427,
+                                        ["x"] = 217230.88179462,
+                                        ["y"] = 71116.327466568,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -37041,8 +37881,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 874,
-                                        ["x"] = 228923.21889488,
-                                        ["y"] = 74503.373913939,
+                                        ["x"] = 217365.99434346,
+                                        ["y"] = 71046.09947508,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -37056,8 +37896,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 875,
-                                        ["x"] = 228704.90144308,
-                                        ["y"] = 74452.22961579,
+                                        ["x"] = 217147.67689166,
+                                        ["y"] = 70994.955176931,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -37071,8 +37911,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 876,
-                                        ["x"] = 228201.65303408,
-                                        ["y"] = 73949.140509146,
+                                        ["x"] = 216644.42848266,
+                                        ["y"] = 70491.866070287,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -37086,8 +37926,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 877,
-                                        ["x"] = 228291.29059617,
-                                        ["y"] = 74162.192105985,
+                                        ["x"] = 216734.06604475,
+                                        ["y"] = 70704.917667126,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -37101,8 +37941,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 878,
-                                        ["x"] = 228457.57476931,
-                                        ["y"] = 74045.273546744,
+                                        ["x"] = 216900.35021789,
+                                        ["y"] = 70587.999107885,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -37116,8 +37956,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-4320-31",
                                         ["unitId"] = 879,
-                                        ["x"] = 228817.11355991,
-                                        ["y"] = 74490.397002468,
+                                        ["x"] = 217259.88900849,
+                                        ["y"] = 71033.122563609,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -37131,8 +37971,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-4320-31",
                                         ["unitId"] = 880,
-                                        ["x"] = 228475.76210075,
-                                        ["y"] = 73967.327840584,
+                                        ["x"] = 216918.53754933,
+                                        ["y"] = 70510.053401725,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -37146,13 +37986,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-4320-31",
                                         ["unitId"] = 881,
-                                        ["x"] = 228288.69240596,
-                                        ["y"] = 74062.161783079,
+                                        ["x"] = 216731.46785454,
+                                        ["y"] = 70604.88734422,
                                     }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 228788.10634604,
-                                ["y"] = 74573.601905427,
+                                ["x"] = 217230.88179462,
+                                ["y"] = 71116.327466568,
                             }, -- end of [23]
                             [24] =
                             {
@@ -37168,7 +38008,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 527,
+                                            ["alt"] = 477,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1845",
@@ -37185,8 +38025,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 225359.89749463,
-                                            ["y"] = 85134.801940524,
+                                            ["x"] = 217174.03577349,
+                                            ["y"] = 84901.906443166,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -37212,8 +38052,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 882,
-                                        ["x"] = 225359.89749463,
-                                        ["y"] = 85134.801940524,
+                                        ["x"] = 217174.03577349,
+                                        ["y"] = 84901.906443166,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -37227,8 +38067,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 883,
-                                        ["x"] = 225496.68250908,
-                                        ["y"] = 85039.588842227,
+                                        ["x"] = 217310.82078794,
+                                        ["y"] = 84806.693344869,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -37242,8 +38082,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 884,
-                                        ["x"] = 225325.03072624,
-                                        ["y"] = 85063.727374189,
+                                        ["x"] = 217139.1690051,
+                                        ["y"] = 84830.831876831,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -37257,8 +38097,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 885,
-                                        ["x"] = 224988.77760318,
-                                        ["y"] = 84451.933161439,
+                                        ["x"] = 216802.91588204,
+                                        ["y"] = 84219.037664081,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -37272,8 +38112,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 886,
-                                        ["x"] = 225075.59922929,
-                                        ["y"] = 84595.708060026,
+                                        ["x"] = 216889.73750815,
+                                        ["y"] = 84362.812562668,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -37287,8 +38127,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 887,
-                                        ["x"] = 224924.71803446,
-                                        ["y"] = 84481.858799381,
+                                        ["x"] = 216738.85631332,
+                                        ["y"] = 84248.963302023,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -37302,8 +38142,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-4320-31",
                                         ["unitId"] = 888,
-                                        ["x"] = 225388.9047085,
-                                        ["y"] = 85051.597037565,
+                                        ["x"] = 217203.04298736,
+                                        ["y"] = 84818.701540207,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -37317,8 +38157,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-4320-31",
                                         ["unitId"] = 889,
-                                        ["x"] = 225078.08692891,
-                                        ["y"] = 84574.441241762,
+                                        ["x"] = 216892.22520777,
+                                        ["y"] = 84341.545744404,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -37332,13 +38172,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-4320-31",
                                         ["unitId"] = 890,
-                                        ["x"] = 225013.09218401,
-                                        ["y"] = 84478.585682731,
+                                        ["x"] = 216827.23046287,
+                                        ["y"] = 84245.690185373,
                                     }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 225359.89749463,
-                                ["y"] = 85134.801940524,
+                                ["x"] = 217174.03577349,
+                                ["y"] = 84901.906443166,
                             }, -- end of [24]
                             [25] =
                             {
@@ -37354,7 +38194,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 483,
+                                            ["alt"] = 523,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1850",
@@ -37371,8 +38211,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 229472.6828495,
-                                            ["y"] = 85255.59366398,
+                                            ["x"] = 221041.57886675,
+                                            ["y"] = 84515.15213384,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -37398,13 +38238,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 891,
-                                        ["x"] = 229472.6828495,
-                                        ["y"] = 85255.59366398,
+                                        ["x"] = 221041.57886675,
+                                        ["y"] = 84515.15213384,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 229472.6828495,
-                                ["y"] = 85255.59366398,
+                                ["x"] = 221041.57886675,
+                                ["y"] = 84515.15213384,
                             }, -- end of [25]
                             [26] =
                             {
@@ -37420,7 +38260,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 508,
+                                            ["alt"] = 513,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1860",
@@ -37437,8 +38277,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 223704.94227759,
-                                            ["y"] = 71324.707632281,
+                                            ["x"] = 222487.02100764,
+                                            ["y"] = 72401.179227467,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -37475,30 +38315,15 @@ mission =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["type"] = "2S6 Tunguska",
                                         ["unitId"] = 897,
-                                        ["x"] = 223704.94227759,
-                                        ["y"] = 71324.707632281,
+                                        ["x"] = 222487.02100764,
+                                        ["y"] = 72401.179227467,
                                     }, -- end of [1]
                                     [2] =
                                     {
-                                        ["heading"] = 5.6897733615015,
+                                        ["heading"] = 1.2566370614359,
                                         ["name"] = "DictKey_UnitName_1858",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "2S6 Tunguska",
-                                        ["unitId"] = 898,
-                                        ["x"] = 222479.89129834,
-                                        ["y"] = 72447.618661031,
-                                    }, -- end of [2]
-                                    [3] =
-                                    {
-                                        ["heading"] = 1.1665382539865,
-                                        ["name"] = "DictKey_UnitName_1859",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
                                         ["transportable"] =
@@ -37506,14 +38331,14 @@ mission =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["type"] = "GAZ-66",
-                                        ["unitId"] = 899,
-                                        ["x"] = 222453.39335596,
-                                        ["y"] = 72444.464144081,
-                                    }, -- end of [3]
+                                        ["unitId"] = 898,
+                                        ["x"] = 222480.44109871,
+                                        ["y"] = 72413.607944334,
+                                    }, -- end of [2]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 223704.94227759,
-                                ["y"] = 71324.707632281,
+                                ["x"] = 222487.02100764,
+                                ["y"] = 72401.179227467,
                             }, -- end of [26]
                             [27] =
                             {
@@ -40593,7 +41418,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 368,
+                                            ["alt"] = 370,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_2186",
@@ -40610,8 +41435,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 160350.80020369,
-                                            ["y"] = 40286.086073965,
+                                            ["x"] = 160147.26764463,
+                                            ["y"] = 40067.013612409,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -40639,8 +41464,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 1088,
-                                        ["x"] = 160350.80020369,
-                                        ["y"] = 40286.086073965,
+                                        ["x"] = 160147.26764463,
+                                        ["y"] = 40067.013612409,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -40652,30 +41477,15 @@ mission =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["type"] = "Osa 9A33 ln",
-                                        ["unitId"] = 1089,
-                                        ["x"] = 160134.96003808,
-                                        ["y"] = 40083.726910683,
-                                    }, -- end of [2]
-                                    [3] =
-                                    {
-                                        ["heading"] = 2.3911010752322,
-                                        ["name"] = "DictKey_UnitName_2185",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "GAZ-66",
-                                        ["unitId"] = 1090,
-                                        ["x"] = 160235.12419924,
-                                        ["y"] = 40225.545361352,
-                                    }, -- end of [3]
+                                        ["unitId"] = 1089,
+                                        ["x"] = 160248.8330898,
+                                        ["y"] = 40129.337862854,
+                                    }, -- end of [2]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 160350.80020369,
-                                ["y"] = 40286.086073965,
+                                ["x"] = 160147.26764463,
+                                ["y"] = 40067.013612409,
                             }, -- end of [45]
                             [46] =
                             {
@@ -48801,23 +49611,8 @@ mission =
                                     }, -- end of [3]
                                     [4] =
                                     {
-                                        ["heading"] = 4.7822021504645,
-                                        ["name"] = "DictKey_UnitName_2750",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "SA-11 Buk LN 9A310M1",
-                                        ["unitId"] = 2853,
-                                        ["x"] = -17040.111890462,
-                                        ["y"] = -1253.6260504414,
-                                    }, -- end of [4]
-                                    [5] =
-                                    {
-                                        ["heading"] = 2.1816615649929,
-                                        ["name"] = "DictKey_UnitName_2749",
+                                        ["heading"] = 6.2698527638858,
+                                        ["name"] = "DictKey_UnitName_4369",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
                                         ["transportable"] =
@@ -48825,10 +49620,10 @@ mission =
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
                                         ["type"] = "GAZ-66",
-                                        ["unitId"] = 2854,
-                                        ["x"] = -17000.293066514,
-                                        ["y"] = -1235.3085445089,
-                                    }, -- end of [5]
+                                        ["unitId"] = 3649,
+                                        ["x"] = -17015.444324774,
+                                        ["y"] = -1233.8883990318,
+                                    }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
                                 ["x"] = -16989.088788696,
@@ -51032,7 +51827,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 460,
+                                            ["alt"] = 471,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3665",
@@ -51049,8 +51844,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 210967.30857437,
-                                            ["y"] = 68870.29564781,
+                                            ["x"] = 210940.10259826,
+                                            ["y"] = 67325.614625294,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -51090,8 +51885,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3416,
-                                        ["x"] = 210967.30857437,
-                                        ["y"] = 68870.29564781,
+                                        ["x"] = 210940.10259826,
+                                        ["y"] = 67325.614625294,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -51106,12 +51901,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3417,
-                                        ["x"] = 210978.04637984,
-                                        ["y"] = 68885.139084779,
+                                        ["x"] = 210960.85830253,
+                                        ["y"] = 67333.359291064,
                                     }, -- end of [2]
                                     [3] =
                                     {
-                                        ["heading"] = 5.1138147083434,
+                                        ["heading"] = 0.22689280275926,
                                         ["livery_id"] = "desert",
                                         ["name"] = "DictKey_UnitName_3656",
                                         ["playerCanDrive"] = true,
@@ -51122,12 +51917,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3418,
-                                        ["x"] = 210939.20078947,
-                                        ["y"] = 68859.557842344,
+                                        ["x"] = 210915.83418058,
+                                        ["y"] = 67160.810374659,
                                     }, -- end of [3]
                                     [4] =
                                     {
-                                        ["heading"] = 4.7996554429844,
+                                        ["heading"] = 0.66322511575785,
                                         ["livery_id"] = "desert",
                                         ["name"] = "DictKey_UnitName_3657",
                                         ["playerCanDrive"] = true,
@@ -51138,12 +51933,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3419,
-                                        ["x"] = 210959.959976,
-                                        ["y"] = 68101.824711267,
+                                        ["x"] = 211769.4676171,
+                                        ["y"] = 67226.500427357,
                                     }, -- end of [4]
                                     [5] =
                                     {
-                                        ["heading"] = 4.9567350756639,
+                                        ["heading"] = 0.27925268031909,
                                         ["livery_id"] = "desert",
                                         ["name"] = "DictKey_UnitName_3658",
                                         ["playerCanDrive"] = true,
@@ -51154,12 +51949,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3420,
-                                        ["x"] = 211027.24653536,
-                                        ["y"] = 68085.871904573,
+                                        ["x"] = 211777.91694213,
+                                        ["y"] = 67278.742831096,
                                     }, -- end of [5]
                                     [6] =
                                     {
-                                        ["heading"] = 5.4454272662223,
+                                        ["heading"] = 0.31415926535898,
                                         ["livery_id"] = "desert",
                                         ["name"] = "DictKey_UnitName_3659",
                                         ["playerCanDrive"] = true,
@@ -51170,12 +51965,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3421,
-                                        ["x"] = 211082.74520215,
-                                        ["y"] = 68069.495248798,
+                                        ["x"] = 211806.1035134,
+                                        ["y"] = 67226.291049185,
                                     }, -- end of [6]
                                     [7] =
                                     {
-                                        ["heading"] = 5.218534463463,
+                                        ["heading"] = 0.24434609527921,
                                         ["livery_id"] = "desert",
                                         ["name"] = "DictKey_UnitName_3660",
                                         ["playerCanDrive"] = true,
@@ -51186,8 +51981,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3422,
-                                        ["x"] = 210746.50884166,
-                                        ["y"] = 68402.537632343,
+                                        ["x"] = 211727.11214578,
+                                        ["y"] = 67398.821896803,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -51202,12 +51997,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3423,
-                                        ["x"] = 210741.17761957,
-                                        ["y"] = 68424.470160569,
+                                        ["x"] = 211697.96763681,
+                                        ["y"] = 67441.726081021,
                                     }, -- end of [8]
                                     [9] =
                                     {
-                                        ["heading"] = 4.9043751981041,
+                                        ["heading"] = 0.17453292519943,
                                         ["livery_id"] = "desert",
                                         ["name"] = "DictKey_UnitName_3662",
                                         ["playerCanDrive"] = true,
@@ -51218,12 +52013,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 3424,
-                                        ["x"] = 210769.26946771,
-                                        ["y"] = 68423.672096702,
+                                        ["x"] = 211737.83819184,
+                                        ["y"] = 67429.266532574,
                                     }, -- end of [9]
                                     [10] =
                                     {
-                                        ["heading"] = 0.78539816339745,
+                                        ["heading"] = 3.07177948351,
                                         ["livery_id"] = "desert",
                                         ["name"] = "DictKey_UnitName_3663",
                                         ["playerCanDrive"] = true,
@@ -51234,8 +52029,8 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "Ural-375",
                                         ["unitId"] = 3425,
-                                        ["x"] = 210941.09569632,
-                                        ["y"] = 68883.559995739,
+                                        ["x"] = 210932.9846216,
+                                        ["y"] = 67329.288549069,
                                     }, -- end of [10]
                                     [11] =
                                     {
@@ -51250,13 +52045,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 3426,
-                                        ["x"] = 210797.52092863,
-                                        ["y"] = 68535.720263737,
+                                        ["x"] = 211719.96144841,
+                                        ["y"] = 67399.363616301,
                                     }, -- end of [11]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 210967.30857437,
-                                ["y"] = 68870.29564781,
+                                ["x"] = 210940.10259826,
+                                ["y"] = 67325.614625294,
                             }, -- end of [113]
                             [114] =
                             {
@@ -52232,7 +53027,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 528,
+                                            ["alt"] = 468,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3728",
@@ -52249,8 +53044,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 210855.26120956,
-                                            ["y"] = 68724.132647742,
+                                            ["x"] = 210540.98009855,
+                                            ["y"] = 67462.178975403,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -52259,13 +53054,13 @@ mission =
                                         {
                                             [1] =
                                             {
-                                                ["x"] = 210855.26120956,
-                                                ["y"] = 68724.132647742,
+                                                ["x"] = 210540.98009855,
+                                                ["y"] = 67462.178975403,
                                             }, -- end of [1]
                                             [2] =
                                             {
-                                                ["x"] = 211324.07512293,
-                                                ["y"] = 68434.65417714,
+                                                ["x"] = 210663.83939536,
+                                                ["y"] = 67473.902190748,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -52279,7 +53074,7 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 5.7300192445386,
+                                        ["heading"] = 0.095131821614595,
                                         ["name"] = "DictKey_UnitName_3719",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
@@ -52289,12 +53084,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 3471,
-                                        ["x"] = 210855.26120956,
-                                        ["y"] = 68724.132647742,
+                                        ["x"] = 210540.98009855,
+                                        ["y"] = 67462.178975403,
                                     }, -- end of [1]
                                     [2] =
                                     {
-                                        ["heading"] = 5.7300192445386,
+                                        ["heading"] = 0.095131821614595,
                                         ["name"] = "DictKey_UnitName_3720",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
@@ -52304,12 +53099,12 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 3472,
-                                        ["x"] = 210992.23394931,
-                                        ["y"] = 68654.940232818,
+                                        ["x"] = 210502.99688084,
+                                        ["y"] = 67509.071836781,
                                     }, -- end of [2]
                                     [3] =
                                     {
-                                        ["heading"] = 5.7300192445386,
+                                        ["heading"] = 0.095131821614595,
                                         ["name"] = "DictKey_UnitName_3721",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
@@ -52319,103 +53114,31 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "SAU Msta",
                                         ["unitId"] = 3473,
-                                        ["x"] = 210882.09092147,
-                                        ["y"] = 68532.088394074,
+                                        ["x"] = 210504.87259529,
+                                        ["y"] = 67413.879328185,
                                     }, -- end of [3]
                                     [4] =
                                     {
-                                        ["heading"] = 5.7300192445386,
+                                        ["heading"] = 4.8345620280243,
                                         ["name"] = "DictKey_UnitName_3722",
-                                        ["playerCanDrive"] = true,
+                                        ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
                                         ["transportable"] =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["type"] = "SAU Msta",
+                                        ["type"] = "Ural-4320-31",
                                         ["unitId"] = 3474,
-                                        ["x"] = 210979.5251384,
-                                        ["y"] = 68001.142516287,
+                                        ["wagons"] =
+                                        {
+                                        }, -- end of ["wagons"]
+                                        ["x"] = 210487.05330797,
+                                        ["y"] = 67446.704331149,
                                     }, -- end of [4]
-                                    [5] =
-                                    {
-                                        ["heading"] = 5.7300192445386,
-                                        ["name"] = "DictKey_UnitName_3723",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "SAU Msta",
-                                        ["unitId"] = 3475,
-                                        ["x"] = 210804.42596594,
-                                        ["y"] = 68253.906644276,
-                                    }, -- end of [5]
-                                    [6] =
-                                    {
-                                        ["heading"] = 5.7300192445386,
-                                        ["name"] = "DictKey_UnitName_3724",
-                                        ["playerCanDrive"] = true,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "SAU Msta",
-                                        ["unitId"] = 3476,
-                                        ["x"] = 210718.28846981,
-                                        ["y"] = 67874.054407242,
-                                    }, -- end of [6]
-                                    [7] =
-                                    {
-                                        ["heading"] = 0.54105206811824,
-                                        ["name"] = "DictKey_UnitName_3725",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Ural-4320-31",
-                                        ["unitId"] = 3477,
-                                        ["x"] = 210814.09059899,
-                                        ["y"] = 68526.417001601,
-                                    }, -- end of [7]
-                                    [8] =
-                                    {
-                                        ["heading"] = 5.7300192445386,
-                                        ["name"] = "DictKey_UnitName_3726",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Ural-4320-31",
-                                        ["unitId"] = 3478,
-                                        ["x"] = 210801.14729079,
-                                        ["y"] = 67973.698326272,
-                                    }, -- end of [8]
-                                    [9] =
-                                    {
-                                        ["heading"] = 5.7300192445386,
-                                        ["name"] = "DictKey_UnitName_3727",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Ural-4320-31",
-                                        ["unitId"] = 3479,
-                                        ["x"] = 210796.69311215,
-                                        ["y"] = 67965.990609051,
-                                    }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 210855.26120956,
-                                ["y"] = 68724.132647742,
+                                ["x"] = 210540.98009855,
+                                ["y"] = 67462.178975403,
                             }, -- end of [118]
                             [119] =
                             {
@@ -52630,7 +53353,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 524,
+                                            ["alt"] = 472,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_3743",
@@ -52647,8 +53370,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 210813.47014572,
-                                            ["y"] = 68492.469567154,
+                                            ["x"] = 210633.71544965,
+                                            ["y"] = 67343.23380226,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -52672,10 +53395,10 @@ mission =
                                         {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["type"] = "2S6 Tunguska",
+                                        ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 3489,
-                                        ["x"] = 210813.47014572,
-                                        ["y"] = 68492.469567154,
+                                        ["x"] = 210633.71544965,
+                                        ["y"] = 67343.23380226,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -52689,28 +53412,13 @@ mission =
                                         }, -- end of ["transportable"]
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 3490,
-                                        ["x"] = 210806.97116845,
-                                        ["y"] = 68531.432964033,
+                                        ["x"] = 210629.43008685,
+                                        ["y"] = 67349.272268028,
                                     }, -- end of [2]
-                                    [3] =
-                                    {
-                                        ["heading"] = 5.550147021342,
-                                        ["name"] = "DictKey_UnitName_3744",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] =
-                                        {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "ZSU-23-4 Shilka",
-                                        ["unitId"] = 3491,
-                                        ["x"] = 211058.30864764,
-                                        ["y"] = 68083.508040744,
-                                    }, -- end of [3]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 210813.47014572,
-                                ["y"] = 68492.469567154,
+                                ["x"] = 210633.71544965,
+                                ["y"] = 67343.23380226,
                             }, -- end of [120]
                             [121] =
                             {
@@ -56520,7 +57228,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1080626,
+    ["currentKey"] = 1141696,
     ["date"] =
     {
         ["Day"] = 3,
@@ -63453,11 +64161,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -90265.36002391,
-        ["centerY"] = -104328.07157739,
-        ["zoom"] = 1541843.221316,
+        ["centerX"] = 219498.89778338,
+        ["centerY"] = 112255.63740364,
+        ["zoom"] = 211442.45720526,
     }, -- end of ["map"]
-    ["maxDictId"] = 4365,
+    ["maxDictId"] = 4442,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -63526,33 +64234,34 @@ mission =
             [6] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3919\")); mission.trig.func[6]=nil;",
             [7] = "a_group_off(376);a_group_off(386);a_group_off(490);a_group_off(1635);a_group_off(575);a_group_off(519);a_group_off(518);a_group_off(597);a_group_off(596);a_group_off(1597);a_group_off(1592);a_group_off(1603);a_group_off(1610);a_group_off(592);a_group_off(593);a_group_off(594);a_group_off(595);a_group_off(1611);a_group_off(1612);a_group_off(1617);a_group_off(367); mission.trig.func[7]=nil;",
             [8] = "a_group_off(507);a_group_off(497);a_group_off(499);a_group_off(498);a_group_off(508);a_group_off(500);a_group_off(501);a_group_off(502);a_group_off(506);a_group_off(503);a_group_off(504);a_group_off(505);a_group_off(1937);a_group_off(1938);a_group_off(1935);a_group_off(497);a_group_off(1930);a_group_off(1931);a_group_off(1939);a_group_off(1940);a_group_off(1936);a_group_off(1932);a_group_off(1933);a_group_off(1934);a_group_off(561);a_group_off(559);a_group_off(560);a_group_off(562);a_group_off(563);a_group_off(564);a_group_off(558);a_group_off(566);a_group_off(567);a_group_off(568);a_group_off(569);a_group_off(570);a_group_off(571);a_group_off(580);a_group_off(588);a_group_off(587);a_group_off(586);a_group_off(589);a_group_off(591);a_group_off(590); mission.trig.func[8]=nil;",
-            [9] = "a_group_on(376); mission.trig.func[9]=nil;",
-            [10] = "a_group_on(386); mission.trig.func[10]=nil;",
-            [11] = "a_group_on(490); mission.trig.func[11]=nil;",
-            [12] = "a_group_on(519);a_group_on(518); mission.trig.func[12]=nil;",
-            [13] = "a_group_on(1635); mission.trig.func[13]=nil;",
-            [14] = "a_group_on(1939);a_group_on(1940);a_group_on(1937);a_group_on(1938); mission.trig.func[14]=nil;",
-            [15] = "a_group_on(575); mission.trig.func[15]=nil;",
-            [16] = "a_group_on(1597);a_group_on(1592); mission.trig.func[16]=nil;",
-            [17] = "a_group_on(597);a_group_on(596); mission.trig.func[17]=nil;",
-            [18] = "a_group_on(1611);a_group_on(1612); mission.trig.func[18]=nil;",
-            [19] = "a_group_on(592);a_group_on(593);a_group_on(594);a_group_on(595);a_group_on(1610);a_set_flag(1); mission.trig.func[19]=nil;",
-            [20] = "a_group_on(1603); mission.trig.func[20]=nil;",
-            [21] = "a_group_on(1617); mission.trig.func[21]=nil;",
-            [22] = "a_group_on(367); mission.trig.func[22]=nil;",
-            [23] = "a_ai_task(1915, 1); mission.trig.func[23]=nil;",
-            [24] = "a_activate_group(2009); mission.trig.func[24]=nil;",
-            [25] = "a_activate_group(1616);a_set_flag(20); mission.trig.func[25]=nil;",
-            [26] = "a_activate_group(1921); mission.trig.func[26]=nil;",
-            [27] = "a_activate_group(1920);a_activate_group(2010); mission.trig.func[27]=nil;",
-            [28] = "a_deactivate_group(1616); mission.trig.func[28]=nil;",
-            [29] = "a_deactivate_group(1920); mission.trig.func[29]=nil;",
-            [30] = "a_deactivate_group(2010); mission.trig.func[30]=nil;",
-            [31] = "a_deactivate_group(1921); mission.trig.func[31]=nil;",
-            [32] = "a_deactivate_group(2009); mission.trig.func[32]=nil;",
-            [33] = "a_activate_group(2015);a_activate_group(2016); mission.trig.func[33]=nil;",
-            [34] = "a_activate_group(2044); mission.trig.func[34]=nil;",
-            [35] = "a_activate_group(2045);a_deactivate_group(2044); mission.trig.func[35]=nil;",
+            [9] = "a_explosion(6070, 1, 500);a_explosion(6129, 1, 500);a_explosion(6188, 1, 500); mission.trig.func[9]=nil;",
+            [10] = "a_group_on(376); mission.trig.func[10]=nil;",
+            [11] = "a_group_on(386); mission.trig.func[11]=nil;",
+            [12] = "a_group_on(490); mission.trig.func[12]=nil;",
+            [13] = "a_group_on(519);a_group_on(518); mission.trig.func[13]=nil;",
+            [14] = "a_group_on(1635); mission.trig.func[14]=nil;",
+            [15] = "a_group_on(1939);a_group_on(1940);a_group_on(1937);a_group_on(1938); mission.trig.func[15]=nil;",
+            [16] = "a_group_on(575); mission.trig.func[16]=nil;",
+            [17] = "a_group_on(1597);a_group_on(1592); mission.trig.func[17]=nil;",
+            [18] = "a_group_on(597);a_group_on(596); mission.trig.func[18]=nil;",
+            [19] = "a_group_on(1611);a_group_on(1612); mission.trig.func[19]=nil;",
+            [20] = "a_group_on(592);a_group_on(593);a_group_on(594);a_group_on(595);a_group_on(1610);a_set_flag(1); mission.trig.func[20]=nil;",
+            [21] = "a_group_on(1603); mission.trig.func[21]=nil;",
+            [22] = "a_group_on(1617); mission.trig.func[22]=nil;",
+            [23] = "a_group_on(367); mission.trig.func[23]=nil;",
+            [24] = "a_ai_task(1915, 1); mission.trig.func[24]=nil;",
+            [25] = "a_activate_group(2009); mission.trig.func[25]=nil;",
+            [26] = "a_activate_group(1616);a_set_flag(20); mission.trig.func[26]=nil;",
+            [27] = "a_activate_group(1921); mission.trig.func[27]=nil;",
+            [28] = "a_activate_group(1920);a_activate_group(2010); mission.trig.func[28]=nil;",
+            [29] = "a_deactivate_group(1616); mission.trig.func[29]=nil;",
+            [30] = "a_deactivate_group(1920); mission.trig.func[30]=nil;",
+            [31] = "a_deactivate_group(2010); mission.trig.func[31]=nil;",
+            [32] = "a_deactivate_group(1921); mission.trig.func[32]=nil;",
+            [33] = "a_deactivate_group(2009); mission.trig.func[33]=nil;",
+            [34] = "a_activate_group(2015);a_activate_group(2016); mission.trig.func[34]=nil;",
+            [35] = "a_activate_group(2044); mission.trig.func[35]=nil;",
+            [36] = "a_activate_group(2045);a_deactivate_group(2044); mission.trig.func[36]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -63564,33 +64273,34 @@ mission =
             [6] = "return(c_time_after(3) )",
             [7] = "return(c_time_after(9) )",
             [8] = "return(c_time_after(10) )",
-            [9] = "return(c_part_of_coalition_in_zone(\"blue\", 4801, \"ALL\") )",
-            [10] = "return(c_part_of_coalition_in_zone(\"blue\", 4860, \"ALL\") )",
-            [11] = "return(c_part_of_coalition_in_zone(\"blue\", 4982, \"ALL\") )",
-            [12] = "return(c_part_of_coalition_in_zone(\"blue\", 5041, \"ALL\") )",
-            [13] = "return(c_part_of_coalition_in_zone(\"blue\", 5471, \"ALL\") )",
-            [14] = "return(c_part_of_coalition_in_zone(\"blue\", 5651, \"ALL\") )",
-            [15] = "return(c_part_of_coalition_in_zone(\"blue\", 5101, \"ALL\") )",
-            [16] = "return(c_part_of_coalition_in_zone(\"blue\", 5345, \"ALL\") )",
-            [17] = "return(c_part_of_coalition_in_zone(\"blue\", 5346, \"ALL\") )",
-            [18] = "return(c_part_of_coalition_in_zone(\"blue\", 5348, \"ALL\") )",
-            [19] = "return(c_part_of_coalition_in_zone(\"blue\", 5349, \"ALL\") )",
-            [20] = "return(c_part_of_coalition_in_zone(\"blue\", 5347, \"ALL\") )",
-            [21] = "return(c_part_of_coalition_in_zone(\"red\", 5350, \"AIRPLANE\") )",
-            [22] = "return(c_part_of_coalition_in_zone(\"red\", 5351, \"AIRPLANE\") )",
-            [23] = "return(c_part_of_coalition_in_zone(\"blue\", 5769, \"AIRPLANE\") )",
-            [24] = "return(c_time_after(3300) )",
-            [25] = "return(c_part_of_group_in_zone(2009, 5952) )",
-            [26] = "return(c_time_after(6500) or c_time_since_flag(20, 100) )",
-            [27] = "return(c_time_after(6860) or c_time_since_flag(20, 460) )",
-            [28] = "return(c_part_of_group_in_zone(1616, 5531) )",
-            [29] = "return(c_part_of_group_in_zone(1920, 5531) )",
-            [30] = "return(c_part_of_group_in_zone(2010, 5531) )",
-            [31] = "return(c_part_of_group_in_zone(1921, 5531) )",
-            [32] = "return(c_part_of_group_in_zone(2009, 5531) )",
-            [33] = "return(c_time_after(6000) )",
-            [34] = "return(c_time_after(6540) )",
-            [35] = "return(c_part_of_group_in_zone(2044, 6011) )",
+            [9] = "return(c_time_after(90) )",
+            [10] = "return(c_part_of_coalition_in_zone(\"blue\", 4801, \"ALL\") )",
+            [11] = "return(c_part_of_coalition_in_zone(\"blue\", 4860, \"ALL\") )",
+            [12] = "return(c_part_of_coalition_in_zone(\"blue\", 4982, \"ALL\") )",
+            [13] = "return(c_part_of_coalition_in_zone(\"blue\", 5041, \"ALL\") )",
+            [14] = "return(c_part_of_coalition_in_zone(\"blue\", 5471, \"ALL\") )",
+            [15] = "return(c_part_of_coalition_in_zone(\"blue\", 5651, \"ALL\") )",
+            [16] = "return(c_part_of_coalition_in_zone(\"blue\", 5101, \"ALL\") )",
+            [17] = "return(c_part_of_coalition_in_zone(\"blue\", 5345, \"ALL\") )",
+            [18] = "return(c_part_of_coalition_in_zone(\"blue\", 5346, \"ALL\") )",
+            [19] = "return(c_part_of_coalition_in_zone(\"blue\", 5348, \"ALL\") )",
+            [20] = "return(c_part_of_coalition_in_zone(\"blue\", 5349, \"ALL\") )",
+            [21] = "return(c_part_of_coalition_in_zone(\"blue\", 5347, \"ALL\") )",
+            [22] = "return(c_part_of_coalition_in_zone(\"red\", 5350, \"AIRPLANE\") )",
+            [23] = "return(c_part_of_coalition_in_zone(\"red\", 5351, \"AIRPLANE\") )",
+            [24] = "return(c_part_of_coalition_in_zone(\"blue\", 5769, \"AIRPLANE\") )",
+            [25] = "return(c_time_after(3300) )",
+            [26] = "return(c_part_of_group_in_zone(2009, 5952) )",
+            [27] = "return(c_time_after(6500) or c_time_since_flag(20, 100) )",
+            [28] = "return(c_time_after(6860) or c_time_since_flag(20, 460) )",
+            [29] = "return(c_part_of_group_in_zone(1616, 5531) )",
+            [30] = "return(c_part_of_group_in_zone(1920, 5531) )",
+            [31] = "return(c_part_of_group_in_zone(2010, 5531) )",
+            [32] = "return(c_part_of_group_in_zone(1921, 5531) )",
+            [33] = "return(c_part_of_group_in_zone(2009, 5531) )",
+            [34] = "return(c_time_after(6000) )",
+            [35] = "return(c_time_after(6540) )",
+            [36] = "return(c_part_of_group_in_zone(2044, 6011) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -63638,6 +64348,7 @@ mission =
             [33] = true,
             [34] = true,
             [35] = true,
+            [36] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -63675,6 +64386,7 @@ mission =
             [33] = "if mission.trig.conditions[33]() then mission.trig.actions[33]() end",
             [34] = "if mission.trig.conditions[34]() then mission.trig.actions[34]() end",
             [35] = "if mission.trig.conditions[35]() then mission.trig.actions[35]() end",
+            [36] = "if mission.trig.conditions[36]() then mission.trig.actions[36]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -67979,6 +68691,63 @@ mission =
                 ["y"] = -54258.529955397,
                 ["zoneId"] = 6011,
             }, -- end of [226]
+            [227] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "BOMB_SA2_ABU_AL DUHUR",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 12.192,
+                ["x"] = 76804.022272405,
+                ["y"] = 113004.05842109,
+                ["zoneId"] = 6070,
+            }, -- end of [227]
+            [228] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "BOMB_SA2_AL_QUSAYR",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 30.48,
+                ["x"] = -52371.500148082,
+                ["y"] = 60445.610713594,
+                ["zoneId"] = 6129,
+            }, -- end of [228]
+            [229] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "BOMB_TGT091_INT_HQ",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15.24,
+                ["x"] = -30129.626987876,
+                ["y"] = 35276.205282942,
+                ["zoneId"] = 6188,
+            }, -- end of [229]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -68628,6 +69397,49 @@ mission =
             {
                 [1] =
                 {
+                    ["altitude"] = 1,
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 6070,
+                }, -- end of [1]
+                [2] =
+                {
+                    ["altitude"] = 1,
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 6129,
+                }, -- end of [2]
+                [3] =
+                {
+                    ["altitude"] = 1,
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_explosion",
+                    ["volume"] = 500,
+                    ["zone"] = 6188,
+                }, -- end of [3]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x8000ffff",
+            ["comment"] = "Explode units",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 90,
+                    ["zone"] = 319,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [9]
+        [10] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
                     ["group"] = 376,
                     ["meters"] = 1000,
                     ["predicate"] = "a_group_on",
@@ -68649,8 +69461,8 @@ mission =
                     ["zone"] = 4801,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [9]
-        [10] =
+        }, -- end of [10]
+        [11] =
         {
             ["actions"] =
             {
@@ -68677,8 +69489,8 @@ mission =
                     ["zone"] = 4860,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [10]
-        [11] =
+        }, -- end of [11]
+        [12] =
         {
             ["actions"] =
             {
@@ -68705,8 +69517,8 @@ mission =
                     ["zone"] = 4982,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [11]
-        [12] =
+        }, -- end of [12]
+        [13] =
         {
             ["actions"] =
             {
@@ -68740,8 +69552,8 @@ mission =
                     ["zone"] = 5041,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [12]
-        [13] =
+        }, -- end of [13]
+        [14] =
         {
             ["actions"] =
             {
@@ -68768,8 +69580,8 @@ mission =
                     ["zone"] = 5471,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [13]
-        [14] =
+        }, -- end of [14]
+        [15] =
         {
             ["actions"] =
             {
@@ -68817,8 +69629,8 @@ mission =
                     ["zone"] = 5651,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [14]
-        [15] =
+        }, -- end of [15]
+        [16] =
         {
             ["actions"] =
             {
@@ -68845,8 +69657,8 @@ mission =
                     ["zone"] = 5101,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [15]
-        [16] =
+        }, -- end of [16]
+        [17] =
         {
             ["actions"] =
             {
@@ -68880,8 +69692,8 @@ mission =
                     ["zone"] = 5345,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [16]
-        [17] =
+        }, -- end of [17]
+        [18] =
         {
             ["actions"] =
             {
@@ -68915,8 +69727,8 @@ mission =
                     ["zone"] = 5346,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [17]
-        [18] =
+        }, -- end of [18]
+        [19] =
         {
             ["actions"] =
             {
@@ -68950,8 +69762,8 @@ mission =
                     ["zone"] = 5348,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [18]
-        [19] =
+        }, -- end of [19]
+        [20] =
         {
             ["actions"] =
             {
@@ -69013,8 +69825,8 @@ mission =
                     ["zone"] = 5349,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [19]
-        [20] =
+        }, -- end of [20]
+        [21] =
         {
             ["actions"] =
             {
@@ -69041,8 +69853,8 @@ mission =
                     ["zone"] = 5347,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [20]
-        [21] =
+        }, -- end of [21]
+        [22] =
         {
             ["actions"] =
             {
@@ -69068,8 +69880,8 @@ mission =
                     ["zone"] = 5350,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [21]
-        [22] =
+        }, -- end of [22]
+        [23] =
         {
             ["actions"] =
             {
@@ -69095,8 +69907,8 @@ mission =
                     ["zone"] = 5351,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [22]
-        [23] =
+        }, -- end of [23]
+        [24] =
         {
             ["actions"] =
             {
@@ -69127,8 +69939,8 @@ mission =
                     ["zone"] = 5769,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [23]
-        [24] =
+        }, -- end of [24]
+        [25] =
         {
             ["actions"] =
             {
@@ -69152,8 +69964,8 @@ mission =
                     ["zone"] = 319,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [24]
-        [25] =
+        }, -- end of [25]
+        [26] =
         {
             ["actions"] =
             {
@@ -69189,8 +70001,8 @@ mission =
                     ["zone"] = 5952,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [25]
-        [26] =
+        }, -- end of [26]
+        [27] =
         {
             ["actions"] =
             {
@@ -69233,8 +70045,8 @@ mission =
                     ["zone"] = 319,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [26]
-        [27] =
+        }, -- end of [27]
+        [28] =
         {
             ["actions"] =
             {
@@ -69289,8 +70101,8 @@ mission =
                     ["zone"] = 319,
                 }, -- end of [3]
             }, -- end of ["rules"]
-        }, -- end of [27]
-        [28] =
+        }, -- end of [28]
+        [29] =
         {
             ["actions"] =
             {
@@ -69321,8 +70133,8 @@ mission =
                     ["zone"] = 5531,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [28]
-        [29] =
+        }, -- end of [29]
+        [30] =
         {
             ["actions"] =
             {
@@ -69353,8 +70165,8 @@ mission =
                     ["zone"] = 5531,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [29]
-        [30] =
+        }, -- end of [30]
+        [31] =
         {
             ["actions"] =
             {
@@ -69385,8 +70197,8 @@ mission =
                     ["zone"] = 5531,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [30]
-        [31] =
+        }, -- end of [31]
+        [32] =
         {
             ["actions"] =
             {
@@ -69417,8 +70229,8 @@ mission =
                     ["zone"] = 5531,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [31]
-        [32] =
+        }, -- end of [32]
+        [33] =
         {
             ["actions"] =
             {
@@ -69449,8 +70261,8 @@ mission =
                     ["zone"] = 5531,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [32]
-        [33] =
+        }, -- end of [33]
+        [34] =
         {
             ["actions"] =
             {
@@ -69482,8 +70294,8 @@ mission =
                     ["zone"] = 319,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [33]
-        [34] =
+        }, -- end of [34]
+        [35] =
         {
             ["actions"] =
             {
@@ -69508,8 +70320,8 @@ mission =
                     ["zone"] = 319,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [34]
-        [35] =
+        }, -- end of [35]
+        [36] =
         {
             ["actions"] =
             {
@@ -69542,7 +70354,7 @@ mission =
                     ["zone"] = 6011,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [35]
+        }, -- end of [36]
     }, -- end of ["trigrules"]
     ["version"] = 18,
     ["weather"] =
