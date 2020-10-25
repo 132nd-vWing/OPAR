@@ -22039,7 +22039,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 3600.7793731915,
+                                            ["ETA"] = 3600.7793731925,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -22205,7 +22205,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 11739.254029715,
+                                            ["ETA"] = 15323.224034718,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -55848,12 +55848,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 188582.95287874,
-                                            ["y"] = 432199.23037341,
+                                            ["x"] = 221896.83098697,
+                                            ["y"] = 402703.81428446,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 1015.4783905669,
+                                            ["ETA"] = 1067.1289772643,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -55873,12 +55873,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 231192.72316171,
-                                            ["y"] = 314428.05430834,
+                                            ["x"] = 200569.19757674,
+                                            ["y"] = 301133.59972687,
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 1764.6665763204,
+                                            ["ETA"] = 1761.7295295449,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -55898,12 +55898,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 235417.73138862,
-                                            ["y"] = 228418.95826047,
+                                            ["x"] = 215984.21974453,
+                                            ["y"] = 219835.19514335,
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 2469.8482732697,
+                                            ["ETA"] = 2455.1101870656,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -55923,8 +55923,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 205540.88749831,
-                                            ["y"] = 136072.34987223,
+                                            ["x"] = 185998.83415788,
+                                            ["y"] = 136636.30837476,
                                         }, -- end of [4]
                                         [5] =
                                         {
@@ -55953,7 +55953,7 @@ mission =
                                         }, -- end of [5]
                                         [6] =
                                         {
-                                            ["ETA"] = 3523.9918465924,
+                                            ["ETA"] = 3576.4984384433,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -55973,12 +55973,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 155369.70312833,
-                                            ["y"] = 19886.681689153,
+                                            ["x"] = 150100.83732879,
+                                            ["y"] = 20495.730398305,
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 3769.131044833,
+                                            ["ETA"] = 3809.457294322,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -55998,8 +55998,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 140979.91576879,
-                                            ["y"] = -6703.1427795658,
+                                            ["x"] = 143132.40265021,
+                                            ["y"] = -7378.008316044,
                                         }, -- end of [7]
                                         [8] =
                                         {
@@ -56376,7 +56376,7 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Ford11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = -1.223646984551,
+                                        ["heading"] = -1.7777686090258,
                                         ["name"] = "DictKey_UnitName_3900",
                                         ["onboard_num"] = "8888",
                                         ["payload"] =
@@ -56390,17 +56390,17 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.223646984551,
+                                        ["psi"] = 1.7777686090258,
                                         ["skill"] = "High",
                                         ["speed"] = 123.33333333333,
                                         ["type"] = "A-10A",
                                         ["unitId"] = 3535,
-                                        ["x"] = 188582.95287874,
-                                        ["y"] = 432199.23037341,
+                                        ["x"] = 221896.83098697,
+                                        ["y"] = 402703.81428446,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 188582.95287874,
-                                ["y"] = 432199.23037341,
+                                ["x"] = 221896.83098697,
+                                ["y"] = 402703.81428446,
                             }, -- end of [2]
                             [3] =
                             {
@@ -57503,7 +57503,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 697.12324886235,
+                                            ["ETA"] = 696.81511024238,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -57543,12 +57543,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -90562.494289817,
-                                            ["y"] = -50693.328319958,
+                                            ["x"] = -89412.82114809,
+                                            ["y"] = -50393.705003986,
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 1335.212835512,
+                                            ["ETA"] = 1805.3470144571,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -57574,7 +57574,7 @@ mission =
                                                             {
                                                                 ["groupId"] = 2016,
                                                                 ["lastWptIndex"] = 5,
-                                                                ["lastWptIndexFlag"] = false,
+                                                                ["lastWptIndexFlag"] = true,
                                                                 ["lastWptIndexFlagChangedManually"] = true,
                                                                 ["pos"] =
                                                                 {
@@ -57588,9 +57588,54 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -113118.94846684,
-                                            ["y"] = -149757.59237905,
+                                            ["x"] = -130216.98261419,
+                                            ["y"] = -222118.44116417,
                                         }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 3098.7084153099,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4540",
+                                            ["speed"] = 159.22499803737,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Follow",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["groupId"] = 2016,
+                                                                ["lastWptIndex"] = 5,
+                                                                ["lastWptIndexFlag"] = true,
+                                                                ["lastWptIndexFlagChangedManually"] = true,
+                                                                ["pos"] =
+                                                                {
+                                                                    ["x"] = -42.672,
+                                                                    ["y"] = 30.48,
+                                                                    ["z"] = 32.3088,
+                                                                }, -- end of ["pos"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -318239.2372525,
+                                            ["y"] = -306124.67979204,
+                                        }, -- end of [5]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
@@ -57707,7 +57752,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 980.74301859419,
+                                            ["ETA"] = 980.02895524245,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -57727,12 +57772,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -90286.292810098,
-                                            ["y"] = -50693.328319958,
+                                            ["x"] = -89436.938739054,
+                                            ["y"] = -50417.822594949,
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 1866.4053448844,
+                                            ["ETA"] = 2411.8879171689,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -57752,9 +57797,34 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -113134.33861072,
-                                            ["y"] = -150102.60585772,
+                                            ["x"] = -130257.40062186,
+                                            ["y"] = -222231.13824588,
                                         }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 4080.3113088158,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4539",
+                                            ["speed"] = 123.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -318151.19911513,
+                                            ["y"] = -306124.67979204,
+                                        }, -- end of [5]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
@@ -57847,25 +57917,6 @@ mission =
                                                 {
                                                     ["tasks"] =
                                                     {
-                                                        [1] =
-                                                        {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["groupId"] = 20,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -57924,7 +57975,8 @@ mission =
                                                             ["number"] = 1,
                                                             ["params"] =
                                                             {
-                                                                ["altitude"] = 7315.2,
+                                                                ["altitude"] = 6400.8,
+                                                                ["altitudeEdited"] = true,
                                                                 ["pattern"] = "Race-Track",
                                                                 ["speed"] = 77.597222222222,
                                                                 ["speedEdited"] = true,
@@ -57939,7 +57991,7 @@ mission =
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 1489.1424826706,
+                                            ["ETA"] = 1625.7187867624,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6400.8,
@@ -58402,7 +58454,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1274044,
+    ["currentKey"] = 1303325,
     ["date"] =
     {
         ["Day"] = 4,
@@ -65335,11 +65387,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 57647.905129144,
-        ["centerY"] = 174813.15654727,
-        ["zoom"] = 895396.28336083,
+        ["centerX"] = 124115.80612349,
+        ["centerY"] = 46459.672513884,
+        ["zoom"] = 1217793.627236,
     }, -- end of ["map"]
-    ["maxDictId"] = 4538,
+    ["maxDictId"] = 4554,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -65435,6 +65487,7 @@ mission =
             [33] = "a_deactivate_group(2009); mission.trig.func[33]=nil;",
             [34] = "a_activate_group(2016); mission.trig.func[34]=nil;",
             [35] = "a_activate_group(2015); mission.trig.func[35]=nil;",
+            [36] = "a_deactivate_group(2015);a_deactivate_group(2016); mission.trig.func[36]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -65471,8 +65524,9 @@ mission =
             [31] = "return(c_part_of_group_in_zone(1920, 5531) )",
             [32] = "return(c_part_of_group_in_zone(1921, 5531) )",
             [33] = "return(c_part_of_group_in_zone(2009, 5531) )",
-            [34] = "return(c_time_after(20) )",
-            [35] = "return(c_time_after(75) )",
+            [34] = "return(c_time_after(5400) )",
+            [35] = "return(c_time_after(5460) )",
+            [36] = "return(c_part_of_group_in_zone(2016, 6372) or c_part_of_group_in_zone(2015, 6372) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -65520,6 +65574,7 @@ mission =
             [33] = true,
             [34] = true,
             [35] = true,
+            [36] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -65557,6 +65612,7 @@ mission =
             [33] = "if mission.trig.conditions[33]() then mission.trig.actions[33]() end",
             [34] = "if mission.trig.conditions[34]() then mission.trig.actions[34]() end",
             [35] = "if mission.trig.conditions[35]() then mission.trig.actions[35]() end",
+            [36] = "if mission.trig.conditions[36]() then mission.trig.actions[36]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -69918,6 +69974,25 @@ mission =
                 ["y"] = 35276.205282942,
                 ["zoneId"] = 6188,
             }, -- end of [229]
+            [230] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "AF_CIV_ACP203_DEACTIVATE",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 15240,
+                ["x"] = -316410.37016883,
+                ["y"] = -305028.286004,
+                ["zoneId"] = 6372,
+            }, -- end of [230]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -71434,7 +71509,7 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 20,
+                    ["seconds"] = 5400,
                     ["zone"] = 319,
                 }, -- end of [1]
             }, -- end of ["rules"]
@@ -71460,11 +71535,56 @@ mission =
                 [1] =
                 {
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 75,
+                    ["seconds"] = 5460,
                     ["zone"] = 319,
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [35]
+        [36] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["group"] = 2015,
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_deactivate_group",
+                    ["zone"] = 319,
+                }, -- end of [1]
+                [2] =
+                {
+                    ["group"] = 2016,
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_deactivate_group",
+                    ["zone"] = 319,
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0xc0c0c0ff",
+            ["comment"] = "AF_Despawn CIV_C130",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["group"] = 2016,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["seconds"] = 5460,
+                    ["zone"] = 6372,
+                }, -- end of [1]
+                [2] =
+                {
+                    ["predicate"] = "or",
+                }, -- end of [2]
+                [3] =
+                {
+                    ["group"] = 2015,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["seconds"] = 5460,
+                    ["zone"] = 6372,
+                }, -- end of [3]
+            }, -- end of ["rules"]
+        }, -- end of [36]
     }, -- end of ["trigrules"]
     ["version"] = 18,
     ["weather"] =
