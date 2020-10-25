@@ -28,7 +28,7 @@ routes =
 					["position"] = 
 					{
 						["longitude"] = 35.4125,
-						["latitude"] = 36.994166666667,
+						["latitude"] = 36.9941666666667,
 					},
 					["sub_type"] = 0,
 					["callsign"] = "Incirlik AB",
