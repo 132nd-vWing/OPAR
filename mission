@@ -34294,8 +34294,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 76278.599041107,
-                                            ["y"] = 112777.97844372,
+                                            ["x"] = 76271.395292299,
+                                            ["y"] = 112792.81600429,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -34310,12 +34310,12 @@ mission =
                                         ["rate"] = "70",
                                         ["type"] = "IL-76MD",
                                         ["unitId"] = 3373,
-                                        ["x"] = 76278.599041107,
-                                        ["y"] = 112777.97844372,
+                                        ["x"] = 76271.395292299,
+                                        ["y"] = 112792.81600429,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 76278.599041107,
-                                ["y"] = 112777.97844372,
+                                ["x"] = 76271.395292299,
+                                ["y"] = 112792.81600429,
                             }, -- end of [242]
                             [243] =
                             {
@@ -34335,8 +34335,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 76281.811190777,
-                                            ["y"] = 112708.91722582,
+                                            ["x"] = 76278.141217675,
+                                            ["y"] = 112704.63712258,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -34351,12 +34351,12 @@ mission =
                                         ["rate"] = "70",
                                         ["type"] = "IL-76MD",
                                         ["unitId"] = 3375,
-                                        ["x"] = 76281.811190777,
-                                        ["y"] = 112708.91722582,
+                                        ["x"] = 76278.141217675,
+                                        ["y"] = 112704.63712258,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 76281.811190777,
-                                ["y"] = 112708.91722582,
+                                ["x"] = 76278.141217675,
+                                ["y"] = 112704.63712258,
                             }, -- end of [243]
                             [244] =
                             {
@@ -56935,7 +56935,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 329.35467963697,
+                                            ["ETA"] = 414.31898001721,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -56955,12 +56955,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 155581.00770542,
-                                            ["y"] = 260182.03923046,
+                                            ["x"] = 154807.15837648,
+                                            ["y"] = 313762.76503391,
                                         }, -- end of [3]
                                         [4] =
                                         {
-                                            ["ETA"] = 507.23075662018,
+                                            ["ETA"] = 693.23373874741,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -56980,12 +56980,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 200467.50332553,
-                                            ["y"] = 252771.53287808,
+                                            ["x"] = 224881.25423787,
+                                            ["y"] = 327121.37193725,
                                         }, -- end of [4]
                                         [5] =
                                         {
-                                            ["ETA"] = 745.50985274204,
+                                            ["ETA"] = 1099.835838086,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
@@ -57005,8 +57005,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 244295.35518101,
-                                            ["y"] = 210425.78229308,
+                                            ["x"] = 243031.25231122,
+                                            ["y"] = 211138.45741973,
                                         }, -- end of [5]
                                         [6] =
                                         {
@@ -58742,8 +58742,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 125903.14165043,
-                                            ["y"] = 123619.36122695,
+                                            ["x"] = 125901.93154145,
+                                            ["y"] = 123620.47050679,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -58758,12 +58758,12 @@ mission =
                                         ["rate"] = "50",
                                         ["type"] = "Yak-40",
                                         ["unitId"] = 3636,
-                                        ["x"] = 125903.14165043,
-                                        ["y"] = 123619.36122695,
+                                        ["x"] = 125901.93154145,
+                                        ["y"] = 123620.47050679,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 125903.14165043,
-                                ["y"] = 123619.36122695,
+                                ["x"] = 125901.93154145,
+                                ["y"] = 123620.47050679,
                             }, -- end of [2]
                             [3] =
                             {
@@ -59373,6 +59373,53 @@ mission =
                             }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
+                    ["static"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2088,
+                                ["heading"] = 3.1415926535898,
+                                ["name"] = "DictKey_GroupName_4591",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 43006.124163052,
+                                            ["y"] = 5413.4969995449,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Planes",
+                                        ["heading"] = 3.1415926535898,
+                                        ["livery_id"] = "IRIAF 5-8204 2009",
+                                        ["name"] = "DictKey_GroupName_4591",
+                                        ["rate"] = "70",
+                                        ["type"] = "IL-76MD",
+                                        ["unitId"] = 3700,
+                                        ["x"] = 43006.124163052,
+                                        ["y"] = 5413.4969995449,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43006.124163052,
+                                ["y"] = 5413.4969995449,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
                 }, -- end of [3]
                 [4] =
                 {
@@ -59854,6 +59901,457 @@ mission =
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                 }, -- end of [5]
+                [6] =
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                    ["static"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2083,
+                                ["heading"] = 0.83775804095728,
+                                ["name"] = "DictKey_GroupName_4576",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76002.116371496,
+                                            ["y"] = 109723.18955157,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "MissilesSS",
+                                        ["heading"] = 0.83775804095728,
+                                        ["name"] = "DictKey_GroupName_4576",
+                                        ["rate"] = 20,
+                                        ["type"] = "Scud_B",
+                                        ["unitId"] = 3695,
+                                        ["x"] = 76002.116371496,
+                                        ["y"] = 109723.18955157,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76002.116371496,
+                                ["y"] = 109723.18955157,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2084,
+                                ["heading"] = 0.85521133347722,
+                                ["name"] = "DictKey_GroupName_4579",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 75982.280711884,
+                                            ["y"] = 109740.74979886,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "MissilesSS",
+                                        ["heading"] = 0.85521133347722,
+                                        ["name"] = "DictKey_GroupName_4579",
+                                        ["rate"] = 20,
+                                        ["type"] = "Scud_B",
+                                        ["unitId"] = 3696,
+                                        ["x"] = 75982.280711884,
+                                        ["y"] = 109740.74979886,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 75982.280711884,
+                                ["y"] = 109740.74979886,
+                            }, -- end of [2]
+                            [3] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2085,
+                                ["heading"] = 5.235987755983,
+                                ["name"] = "DictKey_GroupName_4582",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76510.262990774,
+                                            ["y"] = 109747.95724951,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "MissilesSS",
+                                        ["heading"] = 5.235987755983,
+                                        ["name"] = "DictKey_GroupName_4582",
+                                        ["rate"] = 20,
+                                        ["type"] = "Scud_B",
+                                        ["unitId"] = 3697,
+                                        ["x"] = 76510.262990774,
+                                        ["y"] = 109747.95724951,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76510.262990774,
+                                ["y"] = 109747.95724951,
+                            }, -- end of [3]
+                            [4] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2086,
+                                ["heading"] = 0.034906585039887,
+                                ["name"] = "DictKey_GroupName_4585",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 76632.029129658,
+                                            ["y"] = 109897.76589946,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "MissilesSS",
+                                        ["heading"] = 0.034906585039887,
+                                        ["name"] = "DictKey_GroupName_4585",
+                                        ["rate"] = 20,
+                                        ["type"] = "Scud_B",
+                                        ["unitId"] = 3698,
+                                        ["x"] = 76632.029129658,
+                                        ["y"] = 109897.76589946,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 76632.029129658,
+                                ["y"] = 109897.76589946,
+                            }, -- end of [4]
+                            [5] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2087,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "DictKey_GroupName_4588",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 43060.17138433,
+                                            ["y"] = 5375.4935428698,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "MissilesSS",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "DictKey_GroupName_4588",
+                                        ["rate"] = 10,
+                                        ["type"] = "Silkworm_SR",
+                                        ["unitId"] = 3699,
+                                        ["x"] = 43060.17138433,
+                                        ["y"] = 5375.4935428698,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43060.17138433,
+                                ["y"] = 5375.4935428698,
+                            }, -- end of [5]
+                            [6] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2090,
+                                ["heading"] = 0,
+                                ["name"] = "DictKey_GroupName_4597",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 43063.116316901,
+                                            ["y"] = 5412.1211417269,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "MissilesSS",
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_GroupName_4597",
+                                        ["rate"] = 10,
+                                        ["type"] = "Silkworm_SR",
+                                        ["unitId"] = 3702,
+                                        ["x"] = 43063.116316901,
+                                        ["y"] = 5412.1211417269,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43063.116316901,
+                                ["y"] = 5412.1211417269,
+                            }, -- end of [6]
+                            [7] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2091,
+                                ["heading"] = 0,
+                                ["name"] = "DictKey_GroupName_4600",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 43040.431133187,
+                                            ["y"] = 5413.2715060126,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "MissilesSS",
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_GroupName_4600",
+                                        ["rate"] = 10,
+                                        ["type"] = "hy_launcher",
+                                        ["unitId"] = 3703,
+                                        ["x"] = 43040.431133187,
+                                        ["y"] = 5413.2715060126,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43040.431133187,
+                                ["y"] = 5413.2715060126,
+                            }, -- end of [7]
+                            [8] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2092,
+                                ["heading"] = 1.5707963267949,
+                                ["name"] = "DictKey_GroupName_4603",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 43048.437668616,
+                                            ["y"] = 5376.3678197269,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "MissilesSS",
+                                        ["heading"] = 1.5707963267949,
+                                        ["name"] = "DictKey_GroupName_4603",
+                                        ["rate"] = 10,
+                                        ["type"] = "hy_launcher",
+                                        ["unitId"] = 3704,
+                                        ["x"] = 43048.437668616,
+                                        ["y"] = 5376.3678197269,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43048.437668616,
+                                ["y"] = 5376.3678197269,
+                            }, -- end of [8]
+                            [9] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2093,
+                                ["heading"] = 0,
+                                ["name"] = "DictKey_GroupName_4606",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 43047.60940633,
+                                            ["y"] = 5413.2715060126,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_GroupName_4606",
+                                        ["rate"] = 3,
+                                        ["type"] = "Land_Rover_101_FC",
+                                        ["unitId"] = 3705,
+                                        ["x"] = 43047.60940633,
+                                        ["y"] = 5413.2715060126,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43047.60940633,
+                                ["y"] = 5413.2715060126,
+                            }, -- end of [9]
+                            [10] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2094,
+                                ["heading"] = 2.0420352248334,
+                                ["name"] = "DictKey_GroupName_4609",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 43058.280784417,
+                                            ["y"] = 5383.9195513196,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 2.0420352248334,
+                                        ["name"] = "DictKey_GroupName_4609",
+                                        ["rate"] = 3,
+                                        ["type"] = "Land_Rover_101_FC",
+                                        ["unitId"] = 3706,
+                                        ["x"] = 43058.280784417,
+                                        ["y"] = 5383.9195513196,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43058.280784417,
+                                ["y"] = 5383.9195513196,
+                            }, -- end of [10]
+                            [11] =
+                            {
+                                ["dead"] = false,
+                                ["groupId"] = 2095,
+                                ["heading"] = 5.0265482457437,
+                                ["name"] = "DictKey_GroupName_4612",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["action"] = "",
+                                            ["alt"] = 0,
+                                            ["formation_template"] = "",
+                                            ["name"] = "",
+                                            ["speed"] = 0,
+                                            ["type"] = "",
+                                            ["x"] = 43065.00291433,
+                                            ["y"] = 5399.0530034412,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["heading"] = 5.0265482457437,
+                                        ["name"] = "DictKey_GroupName_4612",
+                                        ["rate"] = 3,
+                                        ["type"] = "Land_Rover_109_S3",
+                                        ["unitId"] = 3707,
+                                        ["x"] = 43065.00291433,
+                                        ["y"] = 5399.0530034412,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43065.00291433,
+                                ["y"] = 5399.0530034412,
+                            }, -- end of [11]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                }, -- end of [6]
             }, -- end of ["country"]
             ["name"] = "red",
             ["nav_points"] =
@@ -59951,7 +60449,7 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1356307,
+    ["currentKey"] = 1389399,
     ["date"] =
     {
         ["Day"] = 4,
@@ -66884,11 +67382,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -80975.795317939,
-        ["centerY"] = 124648.25102112,
-        ["zoom"] = 1654964.8197571,
+        ["centerX"] = 57116.563418558,
+        ["centerY"] = 185993.07689383,
+        ["zoom"] = 1205305.3893245,
     }, -- end of ["map"]
-    ["maxDictId"] = 4566,
+    ["maxDictId"] = 4614,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -66943,7 +67441,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 18000,
+    ["start_time"] = 28800,
     ["theatre"] = "Syria",
     ["trig"] =
     {
