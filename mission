@@ -17640,6 +17640,93 @@ mission =
                                 ["x"] = 173422.14851513,
                                 ["y"] = 33944.695570581,
                             }, -- end of [13]
+                            [14] =
+                            {
+                                ["groupId"] = 2130,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_4724",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 3,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4726",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 10,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 183775.15767281,
+                                            ["y"] = 33482.006841477,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_4725",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["transportable"] =
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "M-109",
+                                        ["unitId"] = 3742,
+                                        ["x"] = 183775.15767281,
+                                        ["y"] = 33482.006841477,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 183775.15767281,
+                                ["y"] = 33482.006841477,
+                            }, -- end of [14]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -60755,10 +60842,10 @@ mission =
             [14] = 7,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1441275,
+    ["currentKey"] = 1457936,
     ["date"] =
     {
-        ["Day"] = 4,
+        ["Day"] = 5,
         ["Month"] = 9,
         ["Year"] = 2011,
     }, -- end of ["date"]
@@ -67688,11 +67775,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = -10000,
-        ["centerY"] = 6607.3194856577,
-        ["zoom"] = 2146389.7131553,
+        ["centerX"] = 172119.48252205,
+        ["centerY"] = 138435.02815023,
+        ["zoom"] = 858228.36067821,
     }, -- end of ["map"]
-    ["maxDictId"] = 4723,
+    ["maxDictId"] = 4726,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -67747,7 +67834,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 32400,
+    ["start_time"] = 68400,
     ["theatre"] = "Syria",
     ["trig"] =
     {
