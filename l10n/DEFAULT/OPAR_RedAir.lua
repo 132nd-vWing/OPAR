@@ -9,22 +9,22 @@ airfield_Cap_table = {
   "Jirah",
   --"Tabqa",
   --"Abu al-Duhur",
- -- "Hama",
+  --"Hama",
   --"An Nasiriyah",
   --"Al-Dumayr",
-  -- "Khalkhalah",
-  "Marj Ruhayyil"
+  "Khalkhalah",
+  --"Marj Ruhayyil"
 }
 -- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want. 
 airfield_GCI_table = {
- -- "Jirah",
- "Tabqa",
---  "Abu al-Duhur",
---  "Hama",
- "An Nasiriyah",
---  "Al-Dumayr",
---  "Khalkhalah",
---  "Marj Ruhayyil"
+  "Jirah",
+  --"Tabqa",
+  "Abu al-Duhur",
+  --"Hama",
+  --"An Nasiriyah",
+  --"Al-Dumayr",
+  --"Khalkhalah",
+  --"Marj Ruhayyil"
 }
 
 local function pickNumber() -- picks a random number of 1-4 with a weighting of 2 about 2/3rds of the time
