@@ -109,7 +109,6 @@ redIADS:getSAMSiteByGroupName('IADS_E_SA2_1'):addPointDefence(sa15):setHARMDetec
 -- SA-2 Jirah Airfield
 local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_2')
 redIADS:getSAMSiteByGroupName('IADS_E_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
-
 local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_5')
 redIADS:getSAMSiteByGroupName('IADS_E_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
