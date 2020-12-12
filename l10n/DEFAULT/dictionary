@@ -51,11 +51,11 @@ Attack is now in progress. Company 1 and 2 have left their positions and are mov
 FROM: GFC\
 \
 ARTILLERY\
-At start of the attack, the artillery battery will conduct a 10 minute suppression barrage  to cover the start of the assault. Firing will be at the forward line of enemy troops.\
+At H-hour, the artillery battery will conduct a 10 minute suppression barrage  to cover the start of the assault. Firing will be at the forward line of enemy troops.\
 \
 Duration 10 minutes\
 Maxord: 16000ft \
-GTL: 186 degrees",
+GTL: 151 degrees",
     ["DictKey_ActionText_4913"] = "",
     ["DictKey_GroupName_6"] = "BORDER4",
     ["DictKey_GroupName_34"] = "Ground-1",
@@ -1118,7 +1118,7 @@ GTL: 186 degrees",
     ["DictKey_GroupName_5163"] = "Ground-9",
     ["DictKey_GroupName_5166"] = "Ground-10",
     ["DictKey_GroupName_5169"] = "Ground-11",
-    ["DictKey_GroupName_5172"] = "Ground-12",
+    ["DictKey_GroupName_5172"] = "IADS_SAM_OPARTGT059_SA6-1",
     ["DictKey_GroupName_5182"] = "00 test",
     ["DictKey_GroupName_5196"] = "Ground-13",
     ["DictKey_GroupName_5199"] = "Static Invisible FARP-1",
@@ -3383,14 +3383,14 @@ GTL: 186 degrees",
     ["DictKey_UnitName_5164"] = "Ground-9-1",
     ["DictKey_UnitName_5167"] = "Ground-10-1",
     ["DictKey_UnitName_5170"] = "Ground-11-1",
-    ["DictKey_UnitName_5173"] = "Ground-12-1",
-    ["DictKey_UnitName_5174"] = "Ground-12-2",
-    ["DictKey_UnitName_5175"] = "Ground-12-3",
-    ["DictKey_UnitName_5176"] = "Ground-12-4",
-    ["DictKey_UnitName_5177"] = "Ground-12-5",
-    ["DictKey_UnitName_5178"] = "Ground-12-6",
-    ["DictKey_UnitName_5179"] = "Ground-12-7",
-    ["DictKey_UnitName_5180"] = "Ground-12-8",
+    ["DictKey_UnitName_5173"] = "IADS_SAM_OPARTGT059_SA6",
+    ["DictKey_UnitName_5174"] = "IADS_SAM_OPARTGT059_SA6-1",
+    ["DictKey_UnitName_5175"] = "IADS_SAM_OPARTGT059_SA6-2",
+    ["DictKey_UnitName_5176"] = "IADS_SAM_OPARTGT059_SA6-3",
+    ["DictKey_UnitName_5177"] = "IADS_SAM_OPARTGT059_SA6-4",
+    ["DictKey_UnitName_5178"] = "IADS_SAM_OPARTGT059_SA6-5",
+    ["DictKey_UnitName_5179"] = "IADS_SAM_OPARTGT059_SA6-6",
+    ["DictKey_UnitName_5180"] = "IADS_SAM_OPARTGT059_SA6-7",
     ["DictKey_UnitName_5183"] = "Aerial-5-2",
     ["DictKey_UnitName_5197"] = "Ground-13-1",
     ["DictKey_UnitName_5200"] = "",
