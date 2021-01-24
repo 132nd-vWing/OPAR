@@ -7,7 +7,7 @@ local Redair_Debugging = false  --change to false to silence the messages
 -- You can comment out any entry in the table below if you dont want to launch CAP from it.
 airfield_Cap_table = {
   --"Jirah",
-  --"Tabqa",
+  "Tabqa",
   --"Abu al-Duhur",
   --"Hama",
   --"An Nasiriyah",
