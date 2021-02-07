@@ -20,7 +20,7 @@ airfield_GCI_table = {
   --"Jirah",
   "Tabqa",
   --"Abu al-Duhur",
-  --"Hama",
+  "Hama",
   "An Nasiriyah",
   --"Al-Dumayr",
   --"Khalkhalah",
