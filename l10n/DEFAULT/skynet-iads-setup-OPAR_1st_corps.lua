@@ -12,21 +12,21 @@ redIADS:addSAMSitesByPrefix('ADIADS')
 
 
 -- Go active at 70 percent
-redIADS:getSAMSiteByGroupName('ADIADS_SA15_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
+redIADS:getSAMSiteByGroupName('ADIADS_SA15_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
 
-redIADS:getSAMSiteByGroupName('ADIADS_SA15_2'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
+redIADS:getSAMSiteByGroupName('ADIADS_SA15_2'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
 
-redIADS:getSAMSiteByGroupName('ADIADS_SA15_3'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
+redIADS:getSAMSiteByGroupName('ADIADS_SA15_3'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
 
-redIADS:getSAMSiteByGroupName('ADIADS_SA15_4'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
+redIADS:getSAMSiteByGroupName('ADIADS_SA15_4'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
 
-redIADS:getSAMSiteByGroupName('ADIADS_SA8_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(80)
+redIADS:getSAMSiteByGroupName('ADIADS_SA8_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
 
-redIADS:getSAMSiteByGroupName('ADIADS_SA8_2'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(80)
+redIADS:getSAMSiteByGroupName('ADIADS_SA8_2'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
 
-redIADS:getSAMSiteByGroupName('ADIADS_SA8_3'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(80)
+redIADS:getSAMSiteByGroupName('ADIADS_SA8_3'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
 
-redIADS:getSAMSiteByGroupName('ADIADS_SA8_4'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(80)
+redIADS:getSAMSiteByGroupName('ADIADS_SA8_4'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
 
 --activate the radio menu to toggle IADS Status output
 redIADS:addRadioMenu()
