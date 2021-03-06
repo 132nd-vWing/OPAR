@@ -11,20 +11,22 @@ redIADS:addEarlyWarningRadarsByPrefix('SBORKA')
 redIADS:addSAMSitesByPrefix('ADIADS')
 
 
+-- Go active at 70 percent
+redIADS:getSAMSiteByGroupName('ADIADS_SA15_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
 
+redIADS:getSAMSiteByGroupName('ADIADS_SA15_2'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
 
+redIADS:getSAMSiteByGroupName('ADIADS_SA15_3'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
 
+redIADS:getSAMSiteByGroupName('ADIADS_SA15_4'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
 
+redIADS:getSAMSiteByGroupName('ADIADS_SA8_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(80)
 
--- POINT DEFENCE
+redIADS:getSAMSiteByGroupName('ADIADS_SA8_2'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(80)
 
+redIADS:getSAMSiteByGroupName('ADIADS_SA8_3'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(80)
 
--- POINT DEFENCE SECTOR WEST
--- SA-2 Al Qusair
---local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_1')
---redIADS:getSAMSiteByGroupName('IADS_W_SA2_1'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
-
-
+redIADS:getSAMSiteByGroupName('ADIADS_SA8_4'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(80)
 
 --activate the radio menu to toggle IADS Status output
 redIADS:addRadioMenu()
