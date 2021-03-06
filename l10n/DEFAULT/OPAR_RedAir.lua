@@ -7,8 +7,8 @@ local Redair_Debugging = false  --change to false to silence the messages
 -- You can comment out any entry in the table below if you dont want to launch CAP from it.
 airfield_Cap_table = {
   --"Jirah",
-  --"Tabqa",
-  "Abu al-Duhur",
+  "Tabqa",
+  --"Abu al-Duhur",
   --"Hama",
   --"An Nasiriyah",
   --"Al-Dumayr",
@@ -18,10 +18,10 @@ airfield_Cap_table = {
 -- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want. 
 airfield_GCI_table = {
   --"Jirah",
-  --"Tabqa",
-  "Abu al-Duhur",
+  "Tabqa",
+  --"Abu al-Duhur",
   --"Hama",
-  --"An Nasiriyah",
+  "An Nasiriyah",
   --"Al-Dumayr",
   --"Khalkhalah",
   --"Marj Ruhayyil"
