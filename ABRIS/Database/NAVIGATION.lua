@@ -90,121 +90,271 @@ navigation =
 			},
 			["sub_type"] = 0,
 		},
-		["London"] = 
+		["NAI 1"] = 
 		{
 			["type"] = 0,
-			["name"] = "London",
-			["callsign"] = "London",
+			["name"] = "NAI 1",
+			["callsign"] = "NAI 1",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.2101710947086,
-				["latitude"] = 36.8773008773299,
+				["longitude"] = 36.5916666666667,
+				["latitude"] = 36.1383333333333,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["BP1"] = 
+		["NAI 2"] = 
 		{
 			["type"] = 0,
-			["name"] = "BP1",
-			["callsign"] = "BP1",
+			["name"] = "NAI 2",
+			["callsign"] = "NAI 2",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 37.0288481491074,
-				["latitude"] = 36.6361011384671,
+				["longitude"] = 36.6683333333333,
+				["latitude"] = 36.1516666666667,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["BP2"] = 
+		["NAI 3"] = 
 		{
 			["type"] = 0,
-			["name"] = "BP2",
-			["callsign"] = "BP2",
+			["name"] = "NAI 3",
+			["callsign"] = "NAI 3",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.9878333333333,
-				["latitude"] = 36.62,
+				["longitude"] = 36.7316666666667,
+				["latitude"] = 36.195,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["TRP2"] = 
+		["NAI 4"] = 
 		{
 			["type"] = 0,
-			["name"] = "TRP2",
-			["callsign"] = "TRP2",
+			["name"] = "NAI 4",
+			["callsign"] = "NAI 4",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 37.0333333333333,
-				["latitude"] = 36.5233333333333,
+				["longitude"] = 36.8016666666667,
+				["latitude"] = 36.2283333333333,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["TRP1"] = 
+		["NAI 5"] = 
 		{
 			["type"] = 0,
-			["name"] = "TRP1",
-			["callsign"] = "TRP1",
+			["name"] = "NAI 5",
+			["callsign"] = "NAI 5",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.9674309113104,
-				["latitude"] = 36.5831541334472,
+				["longitude"] = 36.82,
+				["latitude"] = 36.375,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["BP3"] = 
+		["CENTER-NORTH-EAST"] = 
 		{
 			["type"] = 0,
-			["name"] = "BP3",
-			["callsign"] = "BP3",
+			["name"] = "CENTER-NORTH-EAST",
+			["callsign"] = "CENTER-NORTH-EAST",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.9078413503461,
-				["latitude"] = 36.5773234750709,
+				["longitude"] = 36.9757534850706,
+				["latitude"] = 36.2257110079764,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["AR702"] = 
+		["NAI RAIL_ROAD"] = 
 		{
 			["type"] = 0,
-			["name"] = "AR702",
-			["callsign"] = "AR702",
+			["name"] = "NAI RAIL_ROAD",
+			["callsign"] = "NAI RAIL_ROAD",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.383293479022,
-				["latitude"] = 37.5276210024949,
+				["longitude"] = 36.7063,
+				["latitude"] = 36.0701166666667,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["AR702"] = 
+		["NAI 6"] = 
 		{
 			["type"] = 0,
-			["name"] = "AR702",
-			["callsign"] = "AR702",
+			["name"] = "NAI 6",
+			["callsign"] = "NAI 6",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 37.2221765454879,
-				["latitude"] = 37.4952531463916,
+				["longitude"] = 36.8295681041451,
+				["latitude"] = 36.080587961094,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["NAI MAARRAT MISRIN"] = 
+		{
+			["type"] = 0,
+			["name"] = "NAI MAARRAT MISRIN",
+			["callsign"] = "NAI MAARRAT MISRIN",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.6866088915837,
+				["latitude"] = 36.0230616392365,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["TAFTANAZ"] = 
+		{
+			["type"] = 0,
+			["name"] = "TAFTANAZ",
+			["callsign"] = "TAFTANAZ",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.7753593883755,
+				["latitude"] = 35.9749281902501,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["FIRST_TOWN"] = 
+		{
+			["type"] = 0,
+			["name"] = "FIRST_TOWN",
+			["callsign"] = "FIRST_TOWN",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.7948503686772,
+				["latitude"] = 36.1653949698707,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["CENTER-EAST"] = 
+		{
+			["type"] = 0,
+			["name"] = "CENTER-EAST",
+			["callsign"] = "CENTER-EAST",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.9382671942689,
+				["latitude"] = 36.1433897255652,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["NORTH-TOWN"] = 
+		{
+			["type"] = 0,
+			["name"] = "NORTH-TOWN",
+			["callsign"] = "NORTH-TOWN",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.8455974685977,
+				["latitude"] = 36.2834252982545,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["NAI 7"] = 
+		{
+			["type"] = 0,
+			["name"] = "NAI 7",
+			["callsign"] = "NAI 7",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.6167166666667,
+				["latitude"] = 36.0367833333333,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["NAI Y-JUNCTION"] = 
+		{
+			["type"] = 0,
+			["name"] = "NAI Y-JUNCTION",
+			["callsign"] = "NAI Y-JUNCTION",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.9004166666667,
+				["latitude"] = 36.12705,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["NAI 8"] = 
+		{
+			["type"] = 0,
+			["name"] = "NAI 8",
+			["callsign"] = "NAI 8",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.8884,
+				["latitude"] = 36.2279333333333,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["IP BEAST"] = 
+		{
+			["type"] = 0,
+			["name"] = "IP BEAST",
+			["callsign"] = "IP BEAST",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.2003446287504,
+				["latitude"] = 36.4851718475573,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["IP COBRA"] = 
+		{
+			["type"] = 0,
+			["name"] = "IP COBRA",
+			["callsign"] = "IP COBRA",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.5657240194678,
+				["latitude"] = 36.2724739079873,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -233,8 +383,8 @@ navigation =
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 33.4784044856783,
-				["latitude"] = 35.4902273048985,
+				["longitude"] = 33.4783294639599,
+				["latitude"] = 35.4845272631576,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -264,7 +414,7 @@ navigation =
 			["position"] = 
 			{
 				["longitude"] = 33.8333333333333,
-				["latitude"] = 35.0671179804421,
+				["latitude"] = 35.067119026827,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -294,7 +444,7 @@ navigation =
 			["position"] = 
 			{
 				["longitude"] = 33.8333333333333,
-				["latitude"] = 34.9005667581788,
+				["latitude"] = 34.9005680661556,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -308,8 +458,8 @@ navigation =
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 34.8546188710809,
-				["latitude"] = 37.0155579594492,
+				["longitude"] = 36.1176941666555,
+				["latitude"] = 37.3108632733363,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -323,8 +473,8 @@ navigation =
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 34.0490694835435,
-				["latitude"] = 36.3099360891344,
+				["longitude"] = 36.9613932610151,
+				["latitude"] = 37.3018912662303,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -354,7 +504,7 @@ navigation =
 			["position"] = 
 			{
 				["longitude"] = 33.9691086329761,
-				["latitude"] = 34.9925028625441,
+				["latitude"] = 34.9925039089247,
 				["course"] = 0,
 				["height"] = 0,
 			},
