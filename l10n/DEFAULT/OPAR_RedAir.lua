@@ -23,7 +23,7 @@ airfield_GCI_table = {
   --"Hama",
   --"An Nasiriyah",
   --"Al-Dumayr",
-  --"Khalkhalah",
+  "Khalkhalah",
   --"Marj Ruhayyil"
 }
 
@@ -96,7 +96,7 @@ end
 
 --- QRA
 for i,_gci_airfield in ipairs(airfield_GCI_table) do 
-A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield),6)
+A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield),4)
 A2ADispatcher:SetSquadronGrouping(_gci_airfield,pickNumber())
 A2ADispatcher:SetSquadronTakeoffFromParkingHot( _gci_airfield )
 A2ADispatcher:SetSquadronLandingAtEngineShutdown( _gci_airfield )
