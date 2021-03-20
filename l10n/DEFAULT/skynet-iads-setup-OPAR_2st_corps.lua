@@ -20,6 +20,10 @@ redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA-15BN-3'):setEngagementZone(SkynetIA
 
 redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA-15BN-4'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
 
+redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA-15BN-5'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
+
+redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA-15BN-6'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
+
 redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
 
 redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-2'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
@@ -27,6 +31,14 @@ redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-2'):setEngagementZone(SkynetIAD
 redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-3'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
 
 redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-4'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
+
+redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-5'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
+
+redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-6'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
+
+redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-7'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
+
+redIADS:getSAMSiteByGroupName('ADIADS_2ND_SA8_BN-8'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(50)
 
 --activate the radio menu to toggle IADS Status output
 redIADS:addRadioMenu()
