@@ -3,6 +3,18 @@ do
 --create an instance of the IADS
 redIADS = SkynetIADS:create('SYRIA')
 
+-- debug
+local iadsDebug = redIADS:getDebugSettings()
+iadsDebug.IADSStatus = true
+iadsDebug.radarWentDark = true
+iadsDebug.contacts = true
+iadsDebug.radarWentLive = true
+iadsDebug.noWorkingCommmandCenter = true
+iadsDebug.samNoConnection = true
+iadsDebug.jammerProbability = true
+iadsDebug.addedEWRadar = true
+iadsDebug.harmDefence = true
+-- debug end
 
 --add all units with unit name beginning with 'EWR' to the IADS:
 redIADS:addEarlyWarningRadarsByPrefix('EWR')
