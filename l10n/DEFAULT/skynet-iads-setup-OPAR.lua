@@ -23,8 +23,8 @@ redIADS:addEarlyWarningRadarsByPrefix('EWR')
 redIADS:addSAMSitesByPrefix('IADS')
 
 --add a command center:
---commandCenter = StaticObject.getByName('ADCC')
---redIADS:addCommandCenter(commandCenter)
+commandCenter = StaticObject.getByName('SCC_EAST')
+redIADS:addCommandCenter(commandCenter)
 
 
 
@@ -49,7 +49,7 @@ redIADS:getEarlyWarningRadarByUnitName('EWR_W_3-1'):addPowerSource(powerSource):
 
 
 
--- EWR CONNECTION TO SECTOR COMMAND CENTER - WEST
+-- EWR CONNECTION TO SECTOR COMMAND CENTER - EAST
 --add a power source and a connection node for this EW radar:
 local connectionNodeEW = StaticObject.getByName('SCC_EAST')
 redIADS:getEarlyWarningRadarByUnitName('EWR_E_1-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
