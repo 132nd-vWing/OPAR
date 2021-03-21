@@ -133,7 +133,7 @@ local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_4')
 redIADS:getSAMSiteByGroupName('IADS_E_SA6_2'):addPointDefence(sa15):setHARMDetectionChance(100):setIgnoreHARMSWhilePointDefencesHaveAmmo(true)
 
 -- GO active at 60%
-redIADS:getSAMSiteByGroupName('IADS_E_SA2_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(60)
+redIADS:getSAMSiteByGroupName('IADS_E_SA2_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
 
 
 
