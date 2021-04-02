@@ -20,8 +20,8 @@ airfield_GCI_table = {
   --"Jirah",
   "Tabqa",
   --"Abu al-Duhur",
-  --"Hama",
-  "An Nasiriyah",
+  "Hama",
+  --"An Nasiriyah",
   --"Al-Dumayr",
   --"Khalkhalah",
   --"Marj Ruhayyil"
@@ -29,9 +29,9 @@ airfield_GCI_table = {
 
 local function pickNumber() -- picks a random number of 1-4 with a weighting of 2 about 2/3rds of the time
 local choose = math.random(1,100)
-if choose < 6 then env.info("someone is a singleton") return 1
-elseif choose >=6 and choose < 95 then env.info("someone is a 2ship") return 2
-elseif choose >= 95 and choose < 99 then env.info("someone is a 3 ship") return 3
+if choose < 1 then env.info("someone is a singleton") return 1
+elseif choose >=1 and choose < 98 then env.info("someone is a 2ship") return 2
+elseif choose >= 98 and choose < 99 then env.info("someone is a 3 ship") return 3
 elseif choose >= 99 then env.info("someone is a fourship") return 4
 end
 end
@@ -96,7 +96,7 @@ end
 
 --- QRA
 for i,_gci_airfield in ipairs(airfield_GCI_table) do 
-A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield),4)
+A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield),2)
 A2ADispatcher:SetSquadronGrouping(_gci_airfield,pickNumber())
 A2ADispatcher:SetSquadronTakeoffFromParkingHot( _gci_airfield )
 A2ADispatcher:SetSquadronLandingAtEngineShutdown( _gci_airfield )
