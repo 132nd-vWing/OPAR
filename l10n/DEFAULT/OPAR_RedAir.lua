@@ -9,8 +9,8 @@ airfield_Cap_table = {
   --"Jirah",
   --"Tabqa",
   --"Abu al-Duhur",
-  "Hama",
-  --"An Nasiriyah",
+  --"Hama",
+  "An Nasiriyah",
   --"Al-Dumayr",
   --"Khalkhalah",
   --"Marj Ruhayyil"
