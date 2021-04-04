@@ -15,256 +15,76 @@ navigation =
 	["region"] = "",
 	["waypoints"] = 
 	{
-		["ACP2 / Contact Point"] = 
+		["IP.INSIGHT"] = 
 		{
 			["type"] = 0,
-			["name"] = "ACP2 / Contact Point",
-			["callsign"] = "ACP2 / Contact Point",
+			["name"] = "IP.INSIGHT",
+			["callsign"] = "IP.INSIGHT",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 35.3416666666667,
-				["latitude"] = 36.5416666666667,
+				["longitude"] = 36.8303114729908,
+				["latitude"] = 36.5850308915765,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["ACP3"] = 
+		["IP.WISDOM"] = 
 		{
 			["type"] = 0,
-			["name"] = "ACP3",
-			["callsign"] = "ACP3",
+			["name"] = "IP.WISDOM",
+			["callsign"] = "IP.WISDOM",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 35.2234833333333,
-				["latitude"] = 36.8785333333333,
+				["longitude"] = 36.5265409891334,
+				["latitude"] = 36.0290629239595,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["ACP4"] = 
+		["IP.KNOWLEDGE"] = 
 		{
 			["type"] = 0,
-			["name"] = "ACP4",
-			["callsign"] = "ACP4",
+			["name"] = "IP.KNOWLEDGE",
+			["callsign"] = "IP.KNOWLEDGE",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 35.6294666666667,
-				["latitude"] = 37.12525,
+				["longitude"] = 36.7217993078681,
+				["latitude"] = 36.2180285091854,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["ACP5 / Contact Point"] = 
+		["CP MEMORY"] = 
 		{
 			["type"] = 0,
-			["name"] = "ACP5 / Contact Point",
-			["callsign"] = "ACP5 / Contact Point",
+			["name"] = "CP MEMORY",
+			["callsign"] = "CP MEMORY",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.155,
-				["latitude"] = 37.0616666666667,
+				["longitude"] = 36.5452390011563,
+				["latitude"] = 36.3303762185716,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["ACP1 / Contact Point"] = 
+		["IP.VISION"] = 
 		{
 			["type"] = 0,
-			["name"] = "ACP1 / Contact Point",
-			["callsign"] = "ACP1 / Contact Point",
+			["name"] = "IP.VISION",
+			["callsign"] = "IP.VISION",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 33.8333333333333,
-				["latitude"] = 35.7333333333333,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["ACP2 / Contact Point"] = 
-		{
-			["type"] = 0,
-			["name"] = "ACP2 / Contact Point",
-			["callsign"] = "ACP2 / Contact Point",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 35.3416666666667,
-				["latitude"] = 36.5416666666667,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["ACP3"] = 
-		{
-			["type"] = 0,
-			["name"] = "ACP3",
-			["callsign"] = "ACP3",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 35.2234833333333,
-				["latitude"] = 36.8785333333333,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["ACP4"] = 
-		{
-			["type"] = 0,
-			["name"] = "ACP4",
-			["callsign"] = "ACP4",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 35.6294666666667,
-				["latitude"] = 37.12525,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["ACP5 / Contact Point"] = 
-		{
-			["type"] = 0,
-			["name"] = "ACP5 / Contact Point",
-			["callsign"] = "ACP5 / Contact Point",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.155,
-				["latitude"] = 37.0616666666667,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["NAI 1"] = 
-		{
-			["type"] = 0,
-			["name"] = "NAI 1",
-			["callsign"] = "NAI 1",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.5916666666667,
-				["latitude"] = 36.1383333333333,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["NAI 2"] = 
-		{
-			["type"] = 0,
-			["name"] = "NAI 2",
-			["callsign"] = "NAI 2",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.6166666666667,
-				["latitude"] = 36.035,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["NAI 3"] = 
-		{
-			["type"] = 0,
-			["name"] = "NAI 3",
-			["callsign"] = "NAI 3",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.7316666666667,
-				["latitude"] = 36.195,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["NAI 4"] = 
-		{
-			["type"] = 0,
-			["name"] = "NAI 4",
-			["callsign"] = "NAI 4",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.8166666666667,
-				["latitude"] = 36.15,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["NAI 5"] = 
-		{
-			["type"] = 0,
-			["name"] = "NAI 5",
-			["callsign"] = "NAI 5",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.8066666666667,
-				["latitude"] = 36.375,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["NAI 6"] = 
-		{
-			["type"] = 0,
-			["name"] = "NAI 6",
-			["callsign"] = "NAI 6",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.6983333333333,
-				["latitude"] = 35.9833333333333,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["NAI 7"] = 
-		{
-			["type"] = 0,
-			["name"] = "NAI 7",
-			["callsign"] = "NAI 7",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.875,
-				["latitude"] = 36.0383333333333,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["TRP1"] = 
-		{
-			["type"] = 0,
-			["name"] = "TRP1",
-			["callsign"] = "TRP1",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.3918333333333,
-				["latitude"] = 35.9918833333333,
+				["longitude"] = 36.5982903048745,
+				["latitude"] = 36.584612223871,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -278,23 +98,23 @@ navigation =
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.446,
-				["latitude"] = 35.9166666666667,
+				["longitude"] = 36.6866666666667,
+				["latitude"] = 36.023,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["TRP4"] = 
+		["TRP1"] = 
 		{
 			["type"] = 0,
-			["name"] = "TRP4",
-			["callsign"] = "TRP4",
+			["name"] = "TRP1",
+			["callsign"] = "TRP1",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.53585,
-				["latitude"] = 35.9594166666667,
+				["longitude"] = 36.6233333333333,
+				["latitude"] = 35.9366666666667,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -308,8 +128,23 @@ navigation =
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.4989333333333,
-				["latitude"] = 36.08775,
+				["longitude"] = 36.7166666666667,
+				["latitude"] = 36.0883333333333,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["TRP4"] = 
+		{
+			["type"] = 0,
+			["name"] = "TRP4",
+			["callsign"] = "TRP4",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.7844766211542,
+				["latitude"] = 35.9735283807841,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -323,8 +158,8 @@ navigation =
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.6245,
-				["latitude"] = 35.9371666666667,
+				["longitude"] = 36.9053333333333,
+				["latitude"] = 36.1271666666667,
 				["course"] = 0,
 				["height"] = 0,
 			},
@@ -338,398 +173,38 @@ navigation =
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.6866666666667,
-				["latitude"] = 36.023,
+				["longitude"] = 37.0175,
+				["latitude"] = 36.5513333333333,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["Ref7"] = 
+		["TRP7"] = 
 		{
 			["type"] = 0,
-			["name"] = "Ref7",
-			["callsign"] = "Ref7",
+			["name"] = "TRP7",
+			["callsign"] = "TRP7",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.7131666666667,
-				["latitude"] = 36.09,
+				["longitude"] = 37.0773333333333,
+				["latitude"] = 36.2828333333333,
 				["course"] = 0,
 				["height"] = 0,
 			},
 			["sub_type"] = 0,
 		},
-		["TRPf8"] = 
+		["TRP8"] = 
 		{
 			["type"] = 0,
-			["name"] = "TRPf8",
-			["callsign"] = "TRPf8",
+			["name"] = "TRP8",
+			["callsign"] = "TRP8",
 			["class"] = "ABRIS_Waypoint",
 			["position"] = 
 			{
-				["longitude"] = 36.7812166666667,
-				["latitude"] = 35.9741666666667,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["TRP9"] = 
-		{
-			["type"] = 0,
-			["name"] = "TRP9",
-			["callsign"] = "TRP9",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.8216666666667,
-				["latitude"] = 36.0316666666667,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["TRP10"] = 
-		{
-			["type"] = 0,
-			["name"] = "TRP10",
-			["callsign"] = "TRP10",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.984,
-				["latitude"] = 36.0875,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["TRP11"] = 
-		{
-			["type"] = 0,
-			["name"] = "TRP11",
-			["callsign"] = "TRP11",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.9766666666667,
-				["latitude"] = 35.931,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["TRP12"] = 
-		{
-			["type"] = 0,
-			["name"] = "TRP12",
-			["callsign"] = "TRP12",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 37.0971666666667,
-				["latitude"] = 35.9058333333333,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR801"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR801",
-			["callsign"] = "AR801",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 34.5153163389022,
-				["latitude"] = 36.0639060320865,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR801"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR801",
-			["callsign"] = "AR801",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 34.8736650200526,
-				["latitude"] = 36.4072964715198,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR802"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR802",
-			["callsign"] = "AR802",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.0384436734839,
-				["latitude"] = 37.4600286309742,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR802"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR802",
-			["callsign"] = "AR802",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 35.1994297734382,
-				["latitude"] = 37.4454355781471,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AEW502"] = 
-		{
-			["type"] = 0,
-			["name"] = "AEW502",
-			["callsign"] = "AEW502",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 34.5828880708015,
-				["latitude"] = 36.941635520938,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AEW502"] = 
-		{
-			["type"] = 0,
-			["name"] = "AEW502",
-			["callsign"] = "AEW502",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 33.904894304844,
-				["latitude"] = 36.3112073025837,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AEW501"] = 
-		{
-			["type"] = 0,
-			["name"] = "AEW501",
-			["callsign"] = "AEW501",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.1740129243608,
-				["latitude"] = 37.3484862295777,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AEW501"] = 
-		{
-			["type"] = 0,
-			["name"] = "AEW501",
-			["callsign"] = "AEW501",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 37.0179651331467,
-				["latitude"] = 37.333522027658,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR701"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR701",
-			["callsign"] = "AR701",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.0741215408382,
-				["latitude"] = 37.5757946227505,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR701"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR701",
-			["callsign"] = "AR701",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 35.2338083685905,
-				["latitude"] = 37.5611891940623,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR801"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR801",
-			["callsign"] = "AR801",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 32.6471769564511,
-				["latitude"] = 35.4916537856993,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR801"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR801",
-			["callsign"] = "AR801",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 33.4783294639599,
-				["latitude"] = 35.4845272631576,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR802"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR802",
-			["callsign"] = "AR802",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 33.8333333333333,
-				["latitude"] = 35.7333333333333,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR802"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR802",
-			["callsign"] = "AR802",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 33.8333333333333,
-				["latitude"] = 35.067119026827,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AEW502"] = 
-		{
-			["type"] = 0,
-			["name"] = "AEW502",
-			["callsign"] = "AEW502",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 33.8333333333333,
-				["latitude"] = 35.7333333333333,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AEW502"] = 
-		{
-			["type"] = 0,
-			["name"] = "AEW502",
-			["callsign"] = "AEW502",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 33.8333333333333,
-				["latitude"] = 34.9005680661556,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AEW501"] = 
-		{
-			["type"] = 0,
-			["name"] = "AEW501",
-			["callsign"] = "AEW501",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.1176941666555,
-				["latitude"] = 37.3108632733363,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AEW501"] = 
-		{
-			["type"] = 0,
-			["name"] = "AEW501",
-			["callsign"] = "AEW501",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 36.9613932610151,
-				["latitude"] = 37.3018912662303,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR701"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR701",
-			["callsign"] = "AR701",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 33.9691086329761,
-				["latitude"] = 35.6587161226676,
-				["course"] = 0,
-				["height"] = 0,
-			},
-			["sub_type"] = 0,
-		},
-		["AR701"] = 
-		{
-			["type"] = 0,
-			["name"] = "AR701",
-			["callsign"] = "AR701",
-			["class"] = "ABRIS_Waypoint",
-			["position"] = 
-			{
-				["longitude"] = 33.9691086329761,
-				["latitude"] = 34.9925039089247,
+				["longitude"] = 37.2103612075783,
+				["latitude"] = 36.1821666139752,
 				["course"] = 0,
 				["height"] = 0,
 			},
