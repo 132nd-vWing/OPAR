@@ -3,7 +3,7 @@
 -- CAP active from Airbases --
 local Redair_Debugging = false  --change to false to silence the messages
 
--- at missions start there is a 50% chance that one or two CAP will be launched, one per the table below. 
+-- at missions start there is a 50% chance that one or two CAP will be launched, one per the table below.
 -- You can comment out any entry in the table below if you dont want to launch CAP from it.
 airfield_Cap_table = {
   --"Jirah",
@@ -11,29 +11,29 @@ airfield_Cap_table = {
   --"Abu al-Duhur",
   --"Hama",
   "An Nasiriyah",
-  --"Al-Dumayr",
-  --"Khalkhalah",
-  --"Marj Ruhayyil"
+--"Al-Dumayr",
+--"Khalkhalah",
+--"Marj Ruhayyil"
 }
--- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want. 
+-- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want.
 airfield_GCI_table = {
   --"Jirah",
   "Tabqa",
   --"Abu al-Duhur",
   "Hama",
-  --"An Nasiriyah",
-  --"Al-Dumayr",
-  --"Khalkhalah",
-  --"Marj Ruhayyil"
+--"An Nasiriyah",
+--"Al-Dumayr",
+--"Khalkhalah",
+--"Marj Ruhayyil"
 }
 
 local function pickNumber() -- picks a random number of 1-4 with a weighting of 2 about 2/3rds of the time
-local choose = math.random(1,100)
-if choose < 1 then env.info("someone is a singleton") return 1
-elseif choose >=1 and choose < 98 then env.info("someone is a 2ship") return 2
-elseif choose >= 98 and choose < 99 then env.info("someone is a 3 ship") return 3
-elseif choose >= 99 then env.info("someone is a fourship") return 4
-end
+  local choose = math.random(1,100)
+  if choose < 1 then env.info("someone is a singleton") return 1
+  elseif choose >=1 and choose < 98 then env.info("someone is a 2ship") return 2
+  elseif choose >= 98 and choose < 99 then env.info("someone is a 3 ship") return 3
+  elseif choose >= 99 then env.info("someone is a fourship") return 4
+  end
 end
 
 
@@ -78,28 +78,28 @@ if number_of_CAPs == 2 then
   for i,_cap_airfield in ipairs(airfield_Cap_table) do
     if i == number_of_CAP_Airfield then
       CAP_Airfield2 = _cap_airfield
+      env.info(CAP_Airfield2.." has second CAP enabled")
+      A2ADispatcher:SetSquadron( CAP_Airfield2,CAP_Airfield2, ("Cap_"..CAP_Airfield2))
+      A2ADispatcher:SetSquadronGrouping(CAP_Airfield2,pickNumber())
+      A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield2 )
+      A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield2 )
+      A2ADispatcher:SetSquadronCap( CAP_Airfield2, ZONE:New( "Cap_"..CAP_Airfield2  ), 5000, 20000, 400, 700, 400, 1000, "BARO") --start disabled
+      A2ADispatcher:SetSquadronCapInterval( CAP_Airfield2, 1, 900, 1200 ) -- only one CAP ever, between 15mins and 20mins
+      A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield2, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 180, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate()})
+      A2ADispatcher:SchedulerCAP(CAP_Airfield2)
     end
   end
-  env.info(CAP_Airfield2.." has second CAP enabled")
-  A2ADispatcher:SetSquadron( CAP_Airfield2,CAP_Airfield2, ("Cap_"..CAP_Airfield2))
-  A2ADispatcher:SetSquadronGrouping(CAP_Airfield2,pickNumber())
-  A2ADispatcher:SetSquadronTakeoffFromParkingHot( CAP_Airfield2 )
-  A2ADispatcher:SetSquadronLandingAtEngineShutdown( CAP_Airfield2 )
-  A2ADispatcher:SetSquadronCap( CAP_Airfield2, ZONE:New( "Cap_"..CAP_Airfield2  ), 5000, 20000, 400, 700, 400, 1000, "BARO") --start disabled
-  A2ADispatcher:SetSquadronCapInterval( CAP_Airfield2, 1, 900, 1200 ) -- only one CAP ever, between 15mins and 20mins
-  A2ADispatcher:SetSquadronCapRacetrack(CAP_Airfield2, UTILS.NMToMeters(20), UTILS.NMToMeters(20), 180, 180, nil, nil, {ZONE:New("Cap_"..CAP_Airfield2):GetCoordinate()})
-  A2ADispatcher:SchedulerCAP(CAP_Airfield2)
 end
 
 --- CAP
 
 
 --- QRA
-for i,_gci_airfield in ipairs(airfield_GCI_table) do 
-A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield),2)
-A2ADispatcher:SetSquadronGrouping(_gci_airfield,pickNumber())
-A2ADispatcher:SetSquadronTakeoffFromParkingHot( _gci_airfield )
-A2ADispatcher:SetSquadronLandingAtEngineShutdown( _gci_airfield )
-A2ADispatcher:SetSquadronGci(_gci_airfield,600,1200)
-env.info(_gci_airfield.." has QRF enabled")    
-   end
+for i,_gci_airfield in ipairs(airfield_GCI_table) do
+  A2ADispatcher:SetSquadron( _gci_airfield,_gci_airfield,("Cap_".._gci_airfield),2)
+  A2ADispatcher:SetSquadronGrouping(_gci_airfield,pickNumber())
+  A2ADispatcher:SetSquadronTakeoffFromParkingHot( _gci_airfield )
+  A2ADispatcher:SetSquadronLandingAtEngineShutdown( _gci_airfield )
+  A2ADispatcher:SetSquadronGci(_gci_airfield,600,1200)
+  env.info(_gci_airfield.." has QRF enabled")
+end

@@ -57,6 +57,7 @@ Duration 10 minutes\
 Maxord: 16000ft \
 GTL: 151 degrees",
     ["DictKey_ActionText_4913"] = "",
+    ["DictKey_ActionText_7218"] = "",
     ["DictKey_GroupName_6"] = "BORDER4",
     ["DictKey_GroupName_34"] = "Ground-1",
     ["DictKey_GroupName_37"] = "Ground-2",
