@@ -4762,7 +4762,7 @@ mission =
                                     {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 2.7227136331112,
-                                        ["name"] = "SCC_SOUTH-1",
+                                        ["name"] = "SCC_SOUTH",
                                         ["shape_name"] = "ComCenter",
                                         ["type"] = ".Command Center",
                                         ["unitId"] = 302,
@@ -4891,7 +4891,7 @@ mission =
                                     {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 3.2114058236696,
-                                        ["name"] = "SCC_WEST-1",
+                                        ["name"] = "SCC_WEST",
                                         ["shape_name"] = "ComCenter",
                                         ["type"] = ".Command Center",
                                         ["unitId"] = 305,
@@ -4934,7 +4934,7 @@ mission =
                                     {
                                         ["category"] = "Fortifications",
                                         ["heading"] = 0.69813170079773,
-                                        ["name"] = "SCC_EAST-1",
+                                        ["name"] = "SCC_EAST",
                                         ["shape_name"] = "ComCenter",
                                         ["type"] = ".Command Center",
                                         ["unitId"] = 306,
@@ -4945,135 +4945,6 @@ mission =
                                 ["x"] = 77946.795544418,
                                 ["y"] = 245042.15830005,
                             }, -- end of [6]
-                            [7] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 68,
-                                ["heading"] = 2.7227136331112,
-                                ["hidden"] = true,
-                                ["hiddenOnMFD"] = true,
-                                ["hiddenOnPlanner"] = true,
-                                ["name"] = "SCC_SOUTH-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = -157605.61182292,
-                                            ["y"] = 73835.364549284,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 2.7227136331112,
-                                        ["name"] = "SCC_SOUTH-1-1",
-                                        ["shape_name"] = "ComCenter",
-                                        ["type"] = ".Command Center",
-                                        ["unitId"] = 307,
-                                        ["x"] = -157605.61182292,
-                                        ["y"] = 73835.364549284,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = -157605.61182292,
-                                ["y"] = 73835.364549284,
-                            }, -- end of [7]
-                            [8] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 69,
-                                ["heading"] = 6.2308254296198,
-                                ["hidden"] = true,
-                                ["hiddenOnMFD"] = true,
-                                ["hiddenOnPlanner"] = true,
-                                ["name"] = "ADCC-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = -172271.89951344,
-                                            ["y"] = 31470.591123932,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 6.2308254296198,
-                                        ["name"] = "ADCC-1-1",
-                                        ["shape_name"] = "ComCenter",
-                                        ["type"] = ".Command Center",
-                                        ["unitId"] = 308,
-                                        ["x"] = -172271.89951344,
-                                        ["y"] = 31470.591123932,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = -172271.89951344,
-                                ["y"] = 31470.591123932,
-                            }, -- end of [8]
-                            [9] =
-                            {
-                                ["dead"] = false,
-                                ["groupId"] = 70,
-                                ["heading"] = 6.2308254296198,
-                                ["hidden"] = true,
-                                ["hiddenOnMFD"] = true,
-                                ["hiddenOnPlanner"] = true,
-                                ["name"] = "ADCC_1-1",
-                                ["route"] =
-                                {
-                                    ["points"] =
-                                    {
-                                        [1] =
-                                        {
-                                            ["action"] = "",
-                                            ["alt"] = 0,
-                                            ["formation_template"] = "",
-                                            ["name"] = "",
-                                            ["speed"] = 0,
-                                            ["type"] = "",
-                                            ["x"] = -172266.51334936,
-                                            ["y"] = 31475.177362653,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["units"] =
-                                {
-                                    [1] =
-                                    {
-                                        ["category"] = "Fortifications",
-                                        ["heading"] = 6.2308254296198,
-                                        ["name"] = "ADCC_1-1-1",
-                                        ["rate"] = 5,
-                                        ["type"] = "outpost",
-                                        ["unitId"] = 309,
-                                        ["x"] = -172266.51334936,
-                                        ["y"] = 31475.177362653,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = -172266.51334936,
-                                ["y"] = 31475.177362653,
-                            }, -- end of [9]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
                     ["vehicle"] =
@@ -11296,7 +11167,7 @@ mission =
             [13] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 25856,
+    ["currentKey"] = 32226,
     ["date"] =
     {
         ["Day"] = 21,
@@ -12059,11 +11930,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 4844.9197860963,
-        ["centerY"] = 1.1641532182693e-10,
-        ["zoom"] = 2096256.684492,
+        ["centerX"] = -981.43251183325,
+        ["centerY"] = 25703.457160924,
+        ["zoom"] = 2000040.5346917,
     }, -- end of ["map"]
-    ["maxDictId"] = 13,
+    ["maxDictId"] = 17,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -12126,22 +11997,18 @@ mission =
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_6\"));",
             [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_7\")); mission.trig.func[2]=nil;",
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_8\")); mission.trig.func[3]=nil;",
-            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_9\")); mission.trig.func[4]=nil;",
-            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_10\")); mission.trig.func[5]=nil;",
-            [6] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_11\")); mission.trig.func[6]=nil;",
-            [7] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_12\")); mission.trig.func[7]=nil;",
-            [8] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_13\")); mission.trig.func[8]=nil;",
+            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_17\")); mission.trig.func[4]=nil;",
+            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_12\")); mission.trig.func[5]=nil;",
+            [6] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_13\")); mission.trig.func[6]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
             [1] = "return(true)",
             [2] = "return(c_time_after(2) )",
             [3] = "return(c_time_after(4) )",
-            [4] = "return(c_time_after(5) )",
-            [5] = "return(c_time_after(6) )",
-            [6] = "return(c_time_after(7) )",
-            [7] = "return(c_time_after(8) )",
-            [8] = "return(c_time_after(9) )",
+            [4] = "return(c_time_after(6) )",
+            [5] = "return(c_time_after(8) )",
+            [6] = "return(c_time_after(9) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -12160,8 +12027,6 @@ mission =
             [4] = true,
             [5] = true,
             [6] = true,
-            [7] = true,
-            [8] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
@@ -12170,8 +12035,6 @@ mission =
             [4] = "if mission.trig.conditions[4]() then mission.trig.actions[4]() end",
             [5] = "if mission.trig.conditions[5]() then mission.trig.actions[5]() end",
             [6] = "if mission.trig.conditions[6]() then mission.trig.actions[6]() end",
-            [7] = "if mission.trig.conditions[7]() then mission.trig.actions[7]() end",
-            [8] = "if mission.trig.conditions[8]() then mission.trig.actions[8]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -12422,38 +12285,12 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_9",
+                    ["file"] = "ResKey_Action_17",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["colorItem"] = "0x808080ff",
-            ["comment"] = "Load IADS Skynet",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["coalitionlist"] = "red",
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 5,
-                    ["unitType"] = "ALL",
-                    ["zone"] = "",
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [4]
-        [5] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["file"] = "ResKey_Action_10",
-                    ["predicate"] = "a_do_script_file",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808080ff",
-            ["comment"] = "Load 1 Corp Skynet",
+            ["comment"] = "Load IADS OPAR",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
             ["rules"] =
@@ -12467,34 +12304,8 @@ mission =
                     ["zone"] = "",
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [5]
-        [6] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["file"] = "ResKey_Action_11",
-                    ["predicate"] = "a_do_script_file",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0x808080ff",
-            ["comment"] = "Load 2 Corp Skynet",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["coalitionlist"] = "red",
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 7,
-                    ["unitType"] = "ALL",
-                    ["zone"] = "",
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [6]
-        [7] =
+        }, -- end of [4]
+        [5] =
         {
             ["actions"] =
             {
@@ -12519,8 +12330,8 @@ mission =
                     ["zone"] = "",
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [7]
-        [8] =
+        }, -- end of [5]
+        [6] =
         {
             ["actions"] =
             {
@@ -12545,7 +12356,7 @@ mission =
                     ["zone"] = "",
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [8]
+        }, -- end of [6]
     }, -- end of ["trigrules"]
     ["version"] = 20,
     ["weather"] =
