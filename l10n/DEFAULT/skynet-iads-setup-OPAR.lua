@@ -163,6 +163,8 @@ redIADS:addRadioMenu()
 
 --activate the IADS
 redIADS:activate()
+
+--Moose integration
 DetectionSetGroup = SET_GROUP:New()
 redIADS:addMooseSetGroup(DetectionSetGroup)
 
