@@ -1,5 +1,4 @@
 do
-
 --create an instance of the IADS
 redIADS = SkynetIADS:create('SYRIA')
 
@@ -160,12 +159,11 @@ redIADS:getSAMSiteByGroupName('IADS_E_SA2_1'):setEngagementZone(SkynetIADSAbstra
 
 
 
---activate the radio menu to toggle IADS Status output
 redIADS:addRadioMenu()
-
 
 --activate the IADS
 redIADS:activate()
 DetectionSetGroup = SET_GROUP:New()
 redIADS:addMooseSetGroup(DetectionSetGroup)
+
 end
