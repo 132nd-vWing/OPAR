@@ -1,9 +1,0 @@
-mapResource = 
-{
-    ["ResKey_Action_6"] = "Moose.lua",
-    ["ResKey_Action_7"] = "mist_4_4_90.lua",
-    ["ResKey_Action_8"] = "skynet-iads-compiled.lua",
-    ["ResKey_Action_12"] = "OPAR_RedAir.lua",
-    ["ResKey_Action_13"] = "OPAR_NavyGroups.lua",
-    ["ResKey_Action_17"] = "skynet-iads-setup-OPAR.lua",
-} -- end of mapResource
