@@ -8,13 +8,17 @@ iadsDebug.IADSStatus = true
 iadsDebug.radarWentDark = true
 iadsDebug.contacts = true
 iadsDebug.radarWentLive = true
-iadsDebug.noWorkingCommmandCenter = true
-iadsDebug.samNoConnection = true
+iadsDebug.noWorkingCommmandCenter = false
+iadsDebug.ewRadarNoConnection = false
+iadsDebug.samNoConnection = false
 iadsDebug.jammerProbability = true
-iadsDebug.addedEWRadar = true
+iadsDebug.addedEWRadar = false
+iadsDebug.hasNoPower = false
 iadsDebug.harmDefence = true
+iadsDebug.samSiteStatusEnvOutput = true
+iadsDebug.earlyWarningRadarStatusEnvOutput = true
+iadsDebug.commandCenterStatusEnvOutput = true
 ---end remove debug ---
-
 
 --add all units with unit name beginning with 'EWR' to the IADS:
 redIADS:addEarlyWarningRadarsByPrefix('EWR')
@@ -23,8 +27,8 @@ redIADS:addEarlyWarningRadarsByPrefix('EWR')
 redIADS:addSAMSitesByPrefix('IADS')
 
 --add a command center:
-commandCenter = StaticObject.getByName('SCC_EAST')
-redIADS:addCommandCenter(commandCenter)
+--commandCenter = StaticObject.getByName('SCC_EAST')
+--redIADS:addCommandCenter(commandCenter)
 
 
 
@@ -33,54 +37,54 @@ redIADS:addCommandCenter(commandCenter)
 
 --EWR CONNECTION TO SECTOR COMMAND CENTER - WEST
 --add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_WEST')
-redIADS:getEarlyWarningRadarByUnitName('EWR_W_1-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_WEST')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_W_1-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 ----add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_WEST')
-redIADS:getEarlyWarningRadarByUnitName('EWR_W_2-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_WEST')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_W_2-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 ----add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_WEST')
-redIADS:getEarlyWarningRadarByUnitName('EWR_W_3-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_WEST')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_W_3-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 
 
 -- EWR CONNECTION TO SECTOR COMMAND CENTER - EAST
 --add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_EAST')
-redIADS:getEarlyWarningRadarByUnitName('EWR_E_1-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_EAST')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_E_1-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 ----add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_EAST')
-redIADS:getEarlyWarningRadarByUnitName('EWR_E_2-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_EAST')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_E_2-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 ----add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_EAST')
-redIADS:getEarlyWarningRadarByUnitName('EWR_E_3-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_EAST')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_E_3-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 
 
 -- EWR CONNECTION TO SECTOR COMMAND CENTER - SOUTH
 --add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_SOUTH')
-redIADS:getEarlyWarningRadarByUnitName('EWR_S_1-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_SOUTH')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_S_1-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 ----add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_SOUTH')
-redIADS:getEarlyWarningRadarByUnitName('EWR_S_2-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_SOUTH')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_S_2-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 ----add a power source and a connection node for this EW radar:
-local connectionNodeEW = StaticObject.getByName('SCC_SOUTH')
-redIADS:getEarlyWarningRadarByUnitName('EWR_S_3-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
+--local connectionNodeEW = StaticObject.getByName('SCC_SOUTH')
+--redIADS:getEarlyWarningRadarByUnitName('EWR_S_3-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
 
 
@@ -158,7 +162,7 @@ redIADS:getEarlyWarningRadarByUnitName('EWR_S_3-1'):addPowerSource(powerSource):
 
 
 
-
+--activate the radio menu to toggle IADS Status output
 redIADS:addRadioMenu()
 
 --activate the IADS
