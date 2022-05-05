@@ -1,11 +1,11 @@
 mapResource = 
 {
-    ["ResKey_Action_887"] = "mist_4_3_74.lua",
-    ["ResKey_Action_3898"] = "skynet-iads-compiled.lua",
-    ["ResKey_Action_3916"] = "skynet-iads-setup-OPAR.lua",
-    ["ResKey_Action_4118"] = "Moose.lua",
-    ["ResKey_Action_6385"] = "skynet-iads-setup-OPAR_1st_corps.lua",
-    ["ResKey_Action_6717"] = "skynet-iads-setup-OPAR_2st_corps.lua",
-    ["ResKey_Action_7219"] = "OPAR_NavyGroups.lua",
-    ["ResKey_Action_7221"] = "OPAR_RedAir.lua",
+    ["ResKey_Action_6"] = "Moose.lua",
+    ["ResKey_Action_7"] = "mist_4_5_98.lua",
+    ["ResKey_Action_8"] = "skynet-iads-compiled.lua",
+    ["ResKey_Action_9"] = "skynet-iads-setup-OPAR.lua",
+    ["ResKey_Action_10"] = "skynet-iads-setup-OPAR_1st_corps.lua",
+    ["ResKey_Action_11"] = "skynet-iads-setup-OPAR_2st_corps.lua",
+    ["ResKey_Action_12"] = "OPAR_RedAir.lua",
+    ["ResKey_Action_13"] = "OPAR_NavyGroups.lua",
 } -- end of mapResource
