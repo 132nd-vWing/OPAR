@@ -1,6 +1,6 @@
 do
 --create an instance of the IADS
-redIADS = SkynetIADS:create('1stCorps')
+redIADS = SkynetIADS:create('FIRSTCORPS')
 
 ---debug settings remove from here on if you do not wan't any output on what the IADS is doing by default
 local iadsDebug = redIADS:getDebugSettings()
@@ -22,13 +22,13 @@ iadsDebug.commandCenterStatusEnvOutput = true
 
 
 --add all units with unit name beginning with 'EWR' to the IADS:
-redIADS:addEarlyWarningRadarsByPrefix('1ST_SBORKA')
+redIADS:addEarlyWarningRadarsByPrefix('FIRSTSBORKA')
 
 --add all groups begining with group name 'IADS' to the IADS:
-redIADS:addSAMSitesByPrefix('AD_1ST')
+redIADS:addSAMSitesByPrefix('FIRSTAD')
 
 --add a command center:
-commandCenter = StaticObject.getByName('1ST_13th_AD_DIV_C2')
+commandCenter = StaticObject.getByName('FIRSTCORPSCOMMANDCENTER')
 redIADS:addCommandCenter(commandCenter)
 
 
