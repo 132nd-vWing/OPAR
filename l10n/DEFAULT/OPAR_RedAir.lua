@@ -6,21 +6,27 @@ local Redair_Debugging = false  --change to false to silence the messages
 -- at missions start there is a 50% chance that one or two CAP will be launched, one per the table below.
 -- You can comment out any entry in the table below if you dont want to launch CAP from it.
 airfield_Cap_table = {
-  --"Jirah",
-  --"Tabqa",
-  --"Abu al-Duhur",
-  --"Hama",
-  "An Nasiriyah",
+--"Jirah",
+--"Tabqa",
+--"Abu al-Duhur",
+--"Hama",
+--"Tiyas",
+--"Shayrat",
+--"Sayqal",
+    "An Nasiriyah",
 --"Al-Dumayr",
 --"Khalkhalah",
 --"Marj Ruhayyil"
 }
 -- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want.
 airfield_GCI_table = {
-  --"Jirah",
-  "Tabqa",
-  --"Abu al-Duhur",
-  "Hama",
+--"Jirah",
+--"Tiyas",
+--"Shayrat",
+--"Sayqal",
+"Tabqa",
+--"Abu al-Duhur",
+"Hama",
 "An Nasiriyah",
 --"Al-Dumayr",
 --"Khalkhalah",
@@ -35,6 +41,8 @@ local function pickNumber() -- picks a random number of 1-4 with a weighting of 
   elseif choose >= 99 then env.info("someone is a fourship") return 4
   end
 end
+
+
 
 
 

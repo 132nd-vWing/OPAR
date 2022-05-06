@@ -562,10 +562,224 @@ mission =
                                 ["x"] = 220982.375,
                                 ["y"] = -34891.546875,
                             }, -- end of [3]
+                            [4] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 127.5,
+                                ["groupId"] = 123,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "CVN72_Rescue #IFF:5326FR",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 500,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 46.25,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -135132.85144021,
+                                            ["y"] = -304168.03974839,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Transport",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 500,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 4,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Colt11",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 2.0773572931633,
+                                        ["livery_id"] = "standard",
+                                        ["name"] = "CVN72_Rescue #IFF:5326FR",
+                                        ["onboard_num"] = "42",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 60,
+                                            ["flare"] = 60,
+                                            ["fuel"] = "2880",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["ropeLength"] = 15,
+                                        ["skill"] = "High",
+                                        ["speed"] = 46.25,
+                                        ["type"] = "CH-53E",
+                                        ["unitId"] = 472,
+                                        ["x"] = -135132.85144021,
+                                        ["y"] = -304168.03974839,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -135132.85144021,
+                                ["y"] = -304168.03974839,
+                            }, -- end of [4]
                         }, -- end of ["group"]
                     }, -- end of ["helicopter"]
                     ["id"] = 2,
                     ["name"] = "USA",
+                    ["plane"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 143.5,
+                                ["groupId"] = 122,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "CVN72_Tanker#IFF:5327FR",
+                                ["radioSet"] = true,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 2000,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 82.222222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Tanker",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "ActivateBeacon",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["AA"] = false,
+                                                                        ["bearing"] = true,
+                                                                        ["callsign"] = "TKR",
+                                                                        ["channel"] = 1,
+                                                                        ["frequency"] = 962000000,
+                                                                        ["modeChannel"] = "X",
+                                                                        ["system"] = 4,
+                                                                        ["type"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -131952.6187542,
+                                            ["y"] = -300224.55121773,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Refueling",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["alt"] = 2000,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Texaco11",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0.89831782415005,
+                                        ["livery_id"] = "usaf standard",
+                                        ["name"] = "CVN72_Tanker#IFF:5327FR",
+                                        ["onboard_num"] = "511",
+                                        ["payload"] =
+                                        {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "7813",
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "High",
+                                        ["speed"] = 82.222222222222,
+                                        ["type"] = "S-3B Tanker",
+                                        ["unitId"] = 471,
+                                        ["x"] = -131952.6187542,
+                                        ["y"] = -300224.55121773,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -131952.6187542,
+                                ["y"] = -300224.55121773,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["plane"]
                     ["ship"] =
                     {
                         ["group"] =
@@ -685,8 +899,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -130495.46731655,
-                                            ["y"] = -300693.91544778,
+                                            ["x"] = -130907.65171504,
+                                            ["y"] = -302902.37467018,
                                         }, -- end of [1]
                                         [2] =
                                         {
@@ -723,20 +937,20 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["frequency"] = 309100000,
-                                        ["heading"] = 1.0986042175594,
+                                        ["frequency"] = 309500000,
+                                        ["heading"] = 1.1032903389643,
                                         ["modulation"] = 0,
                                         ["name"] = "CVN_72_ABRAHAM_LINCOLN",
                                         ["skill"] = "Excellent",
                                         ["type"] = "CVN_72",
                                         ["unitId"] = 307,
-                                        ["x"] = -130495.46731655,
-                                        ["y"] = -300693.91544778,
+                                        ["x"] = -130907.65171504,
+                                        ["y"] = -302902.37467018,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = -130495.46731655,
-                                ["y"] = -300693.91544778,
+                                ["x"] = -130907.65171504,
+                                ["y"] = -302902.37467018,
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
@@ -14864,7 +15078,7 @@ mission =
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 39366,
+    ["currentKey"] = 46490,
     ["date"] =
     {
         ["Day"] = 21,
@@ -15481,11 +15695,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 166017.37720071,
-        ["centerY"] = 207947.53357087,
-        ["zoom"] = 996912.3240307,
+        ["centerX"] = 212550.71584094,
+        ["centerY"] = 328094.53878173,
+        ["zoom"] = 135309.77280485,
     }, -- end of ["map"]
-    ["maxDictId"] = 20,
+    ["maxDictId"] = 24,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -15545,10 +15759,10 @@ mission =
     {
         ["actions"] =
         {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_9\"));",
+            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_22\"));",
             [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_6\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_7\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_8\")); mission.trig.func[2]=nil;",
-            [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_12\")); mission.trig.func[3]=nil;",
-            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_13\")); mission.trig.func[4]=nil;",
+            [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_23\")); mission.trig.func[3]=nil;",
+            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_24\")); mission.trig.func[4]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -15748,6 +15962,66 @@ mission =
                 ["y"] = 269309.33265096,
                 ["zoneId"] = 92,
             }, -- end of [8]
+            [9] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "Cap_Tiyas",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["type"] = 0,
+                ["x"] = 218166.02867067,
+                ["y"] = 307665.61546867,
+                ["zoneId"] = 177,
+            }, -- end of [9]
+            [10] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "Cap_Shayrat",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["type"] = 0,
+                ["x"] = 217644.54820033,
+                ["y"] = 329273.71735564,
+                ["zoneId"] = 178,
+            }, -- end of [10]
+            [11] =
+            {
+                ["color"] =
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "Cap_Sayqal",
+                ["properties"] =
+                {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["type"] = 0,
+                ["x"] = 217633.08774433,
+                ["y"] = 337898.06036884,
+                ["zoneId"] = 179,
+            }, -- end of [11]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] =
@@ -15758,7 +16032,7 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_9",
+                    ["file"] = "ResKey_Action_22",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
@@ -15812,12 +16086,12 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_12",
+                    ["file"] = "ResKey_Action_23",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["colorItem"] = "0x808080ff",
-            ["comment"] = "Navy Groups",
+            ["comment"] = "Airboss",
             ["eventlist"] = "",
             ["predicate"] = "triggerOnce",
             ["rules"] =
@@ -15838,7 +16112,7 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_13",
+                    ["file"] = "ResKey_Action_24",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
