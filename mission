@@ -4002,7 +4002,7 @@ mission =
                                 ["dead"] = false,
                                 ["groupId"] = 121,
                                 ["heading"] = 0,
-                                ["name"] = "1ST_13th_AD_DIV_C2",
+                                ["name"] = "FIRSTCORPSCOMMANDCENTER",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -4015,8 +4015,8 @@ mission =
                                             ["name"] = "",
                                             ["speed"] = 0,
                                             ["type"] = "",
-                                            ["x"] = 209918.13013684,
-                                            ["y"] = 149246.22176988,
+                                            ["x"] = 209362.08764355,
+                                            ["y"] = 146157.46037668,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -4026,16 +4026,16 @@ mission =
                                     {
                                         ["category"] = "Unarmed",
                                         ["heading"] = 0,
-                                        ["name"] = "1ST_13th_AD_DIV_C2-1",
+                                        ["name"] = "FIRSTCORPSCOMMANDCENTER",
                                         ["rate"] = 20,
                                         ["type"] = "SKP-11",
                                         ["unitId"] = 470,
-                                        ["x"] = 209918.13013684,
-                                        ["y"] = 149246.22176988,
+                                        ["x"] = 209362.08764355,
+                                        ["y"] = 146157.46037668,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 209918.13013684,
-                                ["y"] = 149246.22176988,
+                                ["x"] = 209362.08764355,
+                                ["y"] = 146157.46037668,
                             }, -- end of [7]
                         }, -- end of ["group"]
                     }, -- end of ["static"]
@@ -10152,7 +10152,7 @@ mission =
                             {
                                 ["groupId"] = 77,
                                 ["hidden"] = false,
-                                ["name"] = "1ST_SBORKA_12th",
+                                ["name"] = "FIRSTSBORKA_12th",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10162,7 +10162,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 394,
+                                            ["alt"] = 553,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10178,8 +10178,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 226969.03048279,
-                                            ["y"] = 187001.54041204,
+                                            ["x"] = 221496.87215589,
+                                            ["y"] = 181998.06464908,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10198,24 +10198,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 0,
-                                        ["name"] = "1ST_SBORKA_12th",
+                                        ["name"] = "FIRSTSBORKA_12th",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Dog Ear radar",
                                         ["unitId"] = 324,
-                                        ["x"] = 226969.03048279,
-                                        ["y"] = 187001.54041204,
+                                        ["x"] = 221496.87215589,
+                                        ["y"] = 181998.06464908,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 226969.03048279,
-                                ["y"] = 187001.54041204,
+                                ["x"] = 221496.87215589,
+                                ["y"] = 181998.06464908,
                             }, -- end of [53]
                             [54] =
                             {
                                 ["groupId"] = 78,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_1",
+                                ["name"] = "FIRSTAD_1ST_SA15_1",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10225,7 +10225,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 390,
+                                            ["alt"] = 463,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10241,8 +10241,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 225478.29328695,
-                                            ["y"] = 189173.57266707,
+                                            ["x"] = 219493.95674563,
+                                            ["y"] = 182203.93286996,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10273,25 +10273,25 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.1333817655693,
+                                        ["heading"] = 5.2010811709431,
                                         ["name"] = "AD_1ST_SA15_1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 325,
-                                        ["x"] = 225478.29328695,
-                                        ["y"] = 189173.57266707,
+                                        ["x"] = 219493.95674563,
+                                        ["y"] = 182203.93286996,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 225478.29328695,
-                                ["y"] = 189173.57266707,
+                                ["x"] = 219493.95674563,
+                                ["y"] = 182203.93286996,
                             }, -- end of [54]
                             [55] =
                             {
                                 ["groupId"] = 79,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_2",
+                                ["name"] = "FIRSTAD_1ST_SA15_2",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10301,7 +10301,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 415,
+                                            ["alt"] = 407,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10317,8 +10317,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 225401.35188976,
-                                            ["y"] = 188558.04148954,
+                                            ["x"] = 222658.01299827,
+                                            ["y"] = 184906.45645833,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10349,25 +10349,25 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_2",
+                                        ["heading"] = 0.087266462599716,
+                                        ["name"] = "FIRSTAD_1ST_SA15_2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 326,
-                                        ["x"] = 225401.35188976,
-                                        ["y"] = 188558.04148954,
+                                        ["x"] = 222658.01299827,
+                                        ["y"] = 184906.45645833,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 225401.35188976,
-                                ["y"] = 188558.04148954,
+                                ["x"] = 222658.01299827,
+                                ["y"] = 184906.45645833,
                             }, -- end of [55]
                             [56] =
                             {
                                 ["groupId"] = 80,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_3",
+                                ["name"] = "FIRSTAD_1ST_SA15_3",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10377,7 +10377,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 386,
+                                            ["alt"] = 376,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10393,8 +10393,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 224862.76210942,
-                                            ["y"] = 189404.39685865,
+                                            ["x"] = 222052.31385663,
+                                            ["y"] = 182357.71263848,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10425,25 +10425,25 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_3",
+                                        ["heading"] = 5.4977871437821,
+                                        ["name"] = "FIRSTAD_1ST_SA15_3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 327,
-                                        ["x"] = 224862.76210942,
-                                        ["y"] = 189404.39685865,
+                                        ["x"] = 222052.31385663,
+                                        ["y"] = 182357.71263848,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 224862.76210942,
-                                ["y"] = 189404.39685865,
+                                ["x"] = 222052.31385663,
+                                ["y"] = 182357.71263848,
                             }, -- end of [56]
                             [57] =
                             {
                                 ["groupId"] = 81,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_4",
+                                ["name"] = "FIRSTAD_1ST_SA15_4",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10453,7 +10453,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 381,
+                                            ["alt"] = 384,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10469,8 +10469,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 225709.11747853,
-                                            ["y"] = 189712.16244742,
+                                            ["x"] = 218803.32430967,
+                                            ["y"] = 186880.78891812,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10502,18 +10502,18 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_4",
+                                        ["name"] = "FIRSTAD_1ST_SA15_4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 328,
-                                        ["x"] = 225709.11747853,
-                                        ["y"] = 189712.16244742,
+                                        ["x"] = 218803.32430967,
+                                        ["y"] = 186880.78891812,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 225709.11747853,
-                                ["y"] = 189712.16244742,
+                                ["x"] = 218803.32430967,
+                                ["y"] = 186880.78891812,
                             }, -- end of [57]
                             [58] =
                             {
@@ -10529,7 +10529,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 390,
+                                            ["alt"] = 377,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10545,8 +10545,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 222616.88605213,
-                                            ["y"] = 185777.61212399,
+                                            ["x"] = 222044.48550192,
+                                            ["y"] = 182353.13620491,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10564,14 +10564,14 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 0,
+                                        ["heading"] = 5.3930673886625,
                                         ["name"] = "1ST_AD_SA15_BN_LOG_12th",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 340,
-                                        ["x"] = 222616.88605213,
-                                        ["y"] = 185777.61212399,
+                                        ["x"] = 222044.48550192,
+                                        ["y"] = 182353.13620491,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -10581,8 +10581,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 339,
-                                        ["x"] = 221900.26774,
-                                        ["y"] = 185634.28846157,
+                                        ["x"] = 219489.52697571,
+                                        ["y"] = 182226.81831607,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -10592,8 +10592,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 338,
-                                        ["x"] = 221613.62041515,
-                                        ["y"] = 186159.80855713,
+                                        ["x"] = 222633.31580687,
+                                        ["y"] = 184901.44294298,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -10603,19 +10603,19 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 337,
-                                        ["x"] = 221231.42398201,
-                                        ["y"] = 186398.68132784,
+                                        ["x"] = 218795.68598163,
+                                        ["y"] = 186905.81011285,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 222616.88605213,
-                                ["y"] = 185777.61212399,
+                                ["x"] = 222044.48550192,
+                                ["y"] = 182353.13620491,
                             }, -- end of [58]
                             [59] =
                             {
                                 ["groupId"] = 84,
                                 ["hidden"] = false,
-                                ["name"] = "1ST_SBORKA_11th",
+                                ["name"] = "FIRSTSBORKA_11th",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10625,7 +10625,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 803,
+                                            ["alt"] = 689,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10641,8 +10641,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 219886.1642931,
-                                            ["y"] = 142331.92538527,
+                                            ["x"] = 210636.56998099,
+                                            ["y"] = 146724.50372403,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10661,24 +10661,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 0,
-                                        ["name"] = "1ST_SBORKA_11th",
+                                        ["name"] = "FIRSTSBORKA_11th",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Dog Ear radar",
                                         ["unitId"] = 341,
-                                        ["x"] = 219886.1642931,
-                                        ["y"] = 142331.92538527,
+                                        ["x"] = 210636.56998099,
+                                        ["y"] = 146724.50372403,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 219886.1642931,
-                                ["y"] = 142331.92538527,
+                                ["x"] = 210636.56998099,
+                                ["y"] = 146724.50372403,
                             }, -- end of [59]
                             [60] =
                             {
                                 ["groupId"] = 85,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_5",
+                                ["name"] = "FIRSTAD_1ST_SA15_5",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10688,7 +10688,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 858,
+                                            ["alt"] = 762,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10704,8 +10704,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 221393.45698367,
-                                            ["y"] = 142143.51379894,
+                                            ["x"] = 214737.24755518,
+                                            ["y"] = 150906.43870851,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10737,24 +10737,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_5",
+                                        ["name"] = "FIRSTAD_1ST_SA15_5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 342,
-                                        ["x"] = 221393.45698367,
-                                        ["y"] = 142143.51379894,
+                                        ["x"] = 214737.24755518,
+                                        ["y"] = 150906.43870851,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 221393.45698367,
-                                ["y"] = 142143.51379894,
+                                ["x"] = 214737.24755518,
+                                ["y"] = 150906.43870851,
                             }, -- end of [60]
                             [61] =
                             {
                                 ["groupId"] = 86,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_6",
+                                ["name"] = "FIRSTAD_1ST_SA15_6",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10764,7 +10764,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 856,
+                                            ["alt"] = 745,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10780,8 +10780,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 219268.54003395,
-                                            ["y"] = 138380.14031514,
+                                            ["x"] = 208857.56456316,
+                                            ["y"] = 141600.28258752,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10813,24 +10813,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_6",
+                                        ["name"] = "FIRSTAD_1ST_SA15_6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 343,
-                                        ["x"] = 219268.54003395,
-                                        ["y"] = 138380.14031514,
+                                        ["x"] = 208857.56456316,
+                                        ["y"] = 141600.28258752,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 219268.54003395,
-                                ["y"] = 138380.14031514,
+                                ["x"] = 208857.56456316,
+                                ["y"] = 141600.28258752,
                             }, -- end of [61]
                             [62] =
                             {
                                 ["groupId"] = 87,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_7",
+                                ["name"] = "FIRSTAD_1ST_SA15_7",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10840,7 +10840,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 818,
+                                            ["alt"] = 893,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10856,8 +10856,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 222791.16063185,
-                                            ["y"] = 144569.38923226,
+                                            ["x"] = 216681.68094187,
+                                            ["y"] = 151368.23468845,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10889,24 +10889,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_7",
+                                        ["name"] = "FIRSTAD_1ST_SA15_7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 344,
-                                        ["x"] = 222791.16063185,
-                                        ["y"] = 144569.38923226,
+                                        ["x"] = 216681.68094187,
+                                        ["y"] = 151368.23468845,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 222791.16063185,
-                                ["y"] = 144569.38923226,
+                                ["x"] = 216681.68094187,
+                                ["y"] = 151368.23468845,
                             }, -- end of [62]
                             [63] =
                             {
                                 ["groupId"] = 88,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_8",
+                                ["name"] = "FIRSTAD_1ST_SA15_8",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -10916,7 +10916,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 872,
+                                            ["alt"] = 689,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -10932,8 +10932,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 219232.9668456,
-                                            ["y"] = 140910.81447773,
+                                            ["x"] = 210676.33376444,
+                                            ["y"] = 146758.65767911,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -10964,19 +10964,19 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_8",
+                                        ["heading"] = 5.4105206811824,
+                                        ["name"] = "FIRSTAD_1ST_SA15_8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 345,
-                                        ["x"] = 219232.9668456,
-                                        ["y"] = 140910.81447773,
+                                        ["x"] = 210676.33376444,
+                                        ["y"] = 146758.65767911,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 219232.9668456,
-                                ["y"] = 140910.81447773,
+                                ["x"] = 210676.33376444,
+                                ["y"] = 146758.65767911,
                             }, -- end of [63]
                             [64] =
                             {
@@ -10992,7 +10992,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 897,
+                                            ["alt"] = 689,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -11008,8 +11008,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 221016.63381103,
-                                            ["y"] = 139756.96703887,
+                                            ["x"] = 210608.11505446,
+                                            ["y"] = 146762.91611058,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -11027,14 +11027,14 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 0,
+                                        ["heading"] = 5.1487212933833,
                                         ["name"] = "1ST_AD_SA15_BN_LOG_11th",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 346,
-                                        ["x"] = 221016.63381103,
-                                        ["y"] = 139756.96703887,
+                                        ["x"] = 210608.11505446,
+                                        ["y"] = 146762.91611058,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -11044,8 +11044,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 347,
-                                        ["x"] = 215422.28913045,
-                                        ["y"] = 133760.15151796,
+                                        ["x"] = 208712.7891085,
+                                        ["y"] = 141776.75162302,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -11055,8 +11055,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 348,
-                                        ["x"] = 219697.75270678,
-                                        ["y"] = 143525.1987653,
+                                        ["x"] = 216630.34864181,
+                                        ["y"] = 151341.34034954,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -11066,13 +11066,13 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 349,
-                                        ["x"] = 223277.57284689,
-                                        ["y"] = 147607.44980227,
+                                        ["x"] = 214738.62291572,
+                                        ["y"] = 150909.87500815,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 221016.63381103,
-                                ["y"] = 139756.96703887,
+                                ["x"] = 210608.11505446,
+                                ["y"] = 146762.91611058,
                             }, -- end of [64]
                             [65] =
                             {
@@ -11088,7 +11088,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 477,
+                                            ["alt"] = 492,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 5.5555555555556,
@@ -11104,8 +11104,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 163785.8653263,
-                                            ["y"] = 107963.21417771,
+                                            ["x"] = 163883.76302161,
+                                            ["y"] = 106948.04194148,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -11127,8 +11127,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Kub 1S91 str",
                                         ["unitId"] = 350,
-                                        ["x"] = 163785.8653263,
-                                        ["y"] = 107963.21417771,
+                                        ["x"] = 163883.76302161,
+                                        ["y"] = 106948.04194148,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -11138,8 +11138,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Kub 2P25 ln",
                                         ["unitId"] = 351,
-                                        ["x"] = 163821.29389773,
-                                        ["y"] = 107912.35703486,
+                                        ["x"] = 163919.19159304,
+                                        ["y"] = 106897.18479863,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -11149,8 +11149,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Kub 2P25 ln",
                                         ["unitId"] = 352,
-                                        ["x"] = 163840.15104058,
-                                        ["y"] = 107940.64274915,
+                                        ["x"] = 163938.04873589,
+                                        ["y"] = 106925.47051292,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -11160,8 +11160,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Kub 2P25 ln",
                                         ["unitId"] = 353,
-                                        ["x"] = 163841.57961201,
-                                        ["y"] = 107990.07132058,
+                                        ["x"] = 163939.47730732,
+                                        ["y"] = 106974.89908435,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -11171,8 +11171,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Kub 2P25 ln",
                                         ["unitId"] = 354,
-                                        ["x"] = 163822.72246915,
-                                        ["y"] = 108015.21417772,
+                                        ["x"] = 163920.62016446,
+                                        ["y"] = 107000.04194149,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -11182,8 +11182,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 355,
-                                        ["x"] = 163780.26103996,
-                                        ["y"] = 107975.79299466,
+                                        ["x"] = 163878.15873527,
+                                        ["y"] = 106960.62075843,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -11193,8 +11193,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 356,
-                                        ["x"] = 163822.43086383,
-                                        ["y"] = 107935.67639726,
+                                        ["x"] = 163920.32855914,
+                                        ["y"] = 106920.50416103,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -11204,13 +11204,13 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 357,
-                                        ["x"] = 163822.1945251,
-                                        ["y"] = 107990.86148931,
+                                        ["x"] = 163920.09222041,
+                                        ["y"] = 106975.68925308,
                                     }, -- end of [8]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 163785.8653263,
-                                ["y"] = 107963.21417771,
+                                ["x"] = 163883.76302161,
+                                ["y"] = 106948.04194148,
                             }, -- end of [65]
                             [66] =
                             {
@@ -11364,7 +11364,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 487,
+                                            ["alt"] = 490,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 5.5555555555556,
@@ -11380,8 +11380,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 164554.83060504,
-                                            ["y"] = 106867.9591285,
+                                            ["x"] = 163379.49086764,
+                                            ["y"] = 107785.38692772,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -11403,8 +11403,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 382,
-                                        ["x"] = 164554.83060504,
-                                        ["y"] = 106867.9591285,
+                                        ["x"] = 163379.49086764,
+                                        ["y"] = 107785.38692772,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -11414,8 +11414,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 383,
-                                        ["x"] = 164562.28937849,
-                                        ["y"] = 106870.75616854,
+                                        ["x"] = 163386.94964109,
+                                        ["y"] = 107788.18396776,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -11425,8 +11425,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 384,
-                                        ["x"] = 164568.34963192,
-                                        ["y"] = 106875.18481528,
+                                        ["x"] = 163393.00989452,
+                                        ["y"] = 107792.6126145,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -11436,8 +11436,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Uragan_BM-27",
                                         ["unitId"] = 385,
-                                        ["x"] = 164649.69687905,
-                                        ["y"] = 106832.38089995,
+                                        ["x"] = 163474.35714165,
+                                        ["y"] = 107749.80869917,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -11447,8 +11447,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Uragan_BM-27",
                                         ["unitId"] = 386,
-                                        ["x"] = 164644.10279896,
-                                        ["y"] = 106829.35077323,
+                                        ["x"] = 163468.76306156,
+                                        ["y"] = 107746.77857245,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -11458,8 +11458,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Smerch",
                                         ["unitId"] = 387,
-                                        ["x"] = 164545.50713737,
-                                        ["y"] = 106739.14623177,
+                                        ["x"] = 163370.16739997,
+                                        ["y"] = 107656.57403099,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -11469,8 +11469,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Smerch",
                                         ["unitId"] = 388,
-                                        ["x"] = 164538.04836391,
-                                        ["y"] = 106735.41684504,
+                                        ["x"] = 163362.70862651,
+                                        ["y"] = 107652.84464426,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -11480,8 +11480,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 389,
-                                        ["x"] = 164650.86231241,
-                                        ["y"] = 106824.45595315,
+                                        ["x"] = 163475.52257501,
+                                        ["y"] = 107741.88375237,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -11491,13 +11491,13 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 390,
-                                        ["x"] = 164544.57479069,
-                                        ["y"] = 106729.35659161,
+                                        ["x"] = 163369.23505329,
+                                        ["y"] = 107646.78439083,
                                     }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 164554.83060504,
-                                ["y"] = 106867.9591285,
+                                ["x"] = 163379.49086764,
+                                ["y"] = 107785.38692772,
                             }, -- end of [67]
                             [68] =
                             {
@@ -11652,7 +11652,7 @@ mission =
                             {
                                 ["groupId"] = 96,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_1",
+                                ["name"] = "FIRSTAD_1ST_SA8_1",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -11662,7 +11662,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 433,
+                                            ["alt"] = 363,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -11678,8 +11678,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 217888.86273414,
-                                            ["y"] = 194845.59638877,
+                                            ["x"] = 219061.56033112,
+                                            ["y"] = 191988.37739176,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -11711,24 +11711,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_1",
+                                        ["name"] = "FIRSTAD_1ST_SA8_1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 400,
-                                        ["x"] = 217888.86273414,
-                                        ["y"] = 194845.59638877,
+                                        ["x"] = 219061.56033112,
+                                        ["y"] = 191988.37739176,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 217888.86273414,
-                                ["y"] = 194845.59638877,
+                                ["x"] = 219061.56033112,
+                                ["y"] = 191988.37739176,
                             }, -- end of [69]
                             [70] =
                             {
                                 ["groupId"] = 97,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_3",
+                                ["name"] = "FIRSTAD_1ST_SA8_3",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -11738,7 +11738,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 454,
+                                            ["alt"] = 345,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -11754,8 +11754,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 217821.01493641,
-                                            ["y"] = 196227.99526761,
+                                            ["x"] = 217685.46171172,
+                                            ["y"] = 191548.94534425,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -11787,24 +11787,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_31",
+                                        ["name"] = "FIRSTAD_1ST_SA8_31",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 401,
-                                        ["x"] = 217821.01493641,
-                                        ["y"] = 196227.99526761,
+                                        ["x"] = 217685.46171172,
+                                        ["y"] = 191548.94534425,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 217821.01493641,
-                                ["y"] = 196227.99526761,
+                                ["x"] = 217685.46171172,
+                                ["y"] = 191548.94534425,
                             }, -- end of [70]
                             [71] =
                             {
                                 ["groupId"] = 98,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_4",
+                                ["name"] = "FIRSTAD_1ST_SA8_4",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -11814,7 +11814,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 453,
+                                            ["alt"] = 442,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -11830,8 +11830,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 216888.10771756,
-                                            ["y"] = 196049.89479856,
+                                            ["x"] = 217769.80271388,
+                                            ["y"] = 193314.65031774,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -11863,24 +11863,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_4",
+                                        ["name"] = "FIRSTAD_1ST_SA8_4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 402,
-                                        ["x"] = 216888.10771756,
-                                        ["y"] = 196049.89479856,
+                                        ["x"] = 217769.80271388,
+                                        ["y"] = 193314.65031774,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 216888.10771756,
-                                ["y"] = 196049.89479856,
+                                ["x"] = 217769.80271388,
+                                ["y"] = 193314.65031774,
                             }, -- end of [71]
                             [72] =
                             {
                                 ["groupId"] = 99,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_2",
+                                ["name"] = "FIRSTAD_1ST_SA8_2",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -11890,7 +11890,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 424,
+                                            ["alt"] = 369,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -11906,8 +11906,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 216814.60593668,
-                                            ["y"] = 194875.75096554,
+                                            ["x"] = 217751.48780392,
+                                            ["y"] = 189111.05886284,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -11939,24 +11939,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_2",
+                                        ["name"] = "FIRSTAD_1ST_SA8_2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 403,
-                                        ["x"] = 216814.60593668,
-                                        ["y"] = 194875.75096554,
+                                        ["x"] = 217751.48780392,
+                                        ["y"] = 189111.05886284,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 216814.60593668,
-                                ["y"] = 194875.75096554,
+                                ["x"] = 217751.48780392,
+                                ["y"] = 189111.05886284,
                             }, -- end of [72]
                             [73] =
                             {
                                 ["groupId"] = 100,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_5",
+                                ["name"] = "FIRSTAD_1ST_SA8_5",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -11966,7 +11966,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 686,
+                                            ["alt"] = 667,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -11982,8 +11982,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 211484.52935374,
-                                            ["y"] = 148594.51984366,
+                                            ["x"] = 209835.45753374,
+                                            ["y"] = 149321.16785394,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12015,24 +12015,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_5",
+                                        ["name"] = "FIRSTAD_1ST_SA8_5",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 404,
-                                        ["x"] = 211484.52935374,
-                                        ["y"] = 148594.51984366,
+                                        ["x"] = 209835.45753374,
+                                        ["y"] = 149321.16785394,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 211484.52935374,
-                                ["y"] = 148594.51984366,
+                                ["x"] = 209835.45753374,
+                                ["y"] = 149321.16785394,
                             }, -- end of [73]
                             [74] =
                             {
                                 ["groupId"] = 101,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_6",
+                                ["name"] = "FIRSTAD_1ST_SA8_6",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -12042,7 +12042,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 682,
+                                            ["alt"] = 668,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -12058,8 +12058,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 211281.21974392,
-                                            ["y"] = 148772.41575225,
+                                            ["x"] = 210602.4977725,
+                                            ["y"] = 149194.73264975,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12091,24 +12091,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_6",
+                                        ["name"] = "FIRSTAD_1ST_SA8_6",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 405,
-                                        ["x"] = 211281.21974392,
-                                        ["y"] = 148772.41575225,
+                                        ["x"] = 210602.4977725,
+                                        ["y"] = 149194.73264975,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 211281.21974392,
-                                ["y"] = 148772.41575225,
+                                ["x"] = 210602.4977725,
+                                ["y"] = 149194.73264975,
                             }, -- end of [74]
                             [75] =
                             {
                                 ["groupId"] = 102,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_7",
+                                ["name"] = "FIRSTAD_1ST_SA8_7",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -12118,7 +12118,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 684,
+                                            ["alt"] = 670,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -12134,8 +12134,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 211306.63344515,
-                                            ["y"] = 148645.34724611,
+                                            ["x"] = 210161.37939343,
+                                            ["y"] = 148635.6080801,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12167,24 +12167,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_7",
+                                        ["name"] = "FIRSTAD_1ST_SA8_7",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 406,
-                                        ["x"] = 211306.63344515,
-                                        ["y"] = 148645.34724611,
+                                        ["x"] = 210161.37939343,
+                                        ["y"] = 148635.6080801,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 211306.63344515,
-                                ["y"] = 148645.34724611,
+                                ["x"] = 210161.37939343,
+                                ["y"] = 148635.6080801,
                             }, -- end of [75]
                             [76] =
                             {
                                 ["groupId"] = 103,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_8",
+                                ["name"] = "FIRSTAD_1ST_SA8_8",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -12194,7 +12194,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 688,
+                                            ["alt"] = 669,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -12210,8 +12210,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 211519.81210488,
-                                            ["y"] = 148382.99866372,
+                                            ["x"] = 210290.62426883,
+                                            ["y"] = 148941.86224136,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12243,18 +12243,18 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_8",
+                                        ["name"] = "FIRSTAD_1ST_SA8_8",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 407,
-                                        ["x"] = 211519.81210488,
-                                        ["y"] = 148382.99866372,
+                                        ["x"] = 210290.62426883,
+                                        ["y"] = 148941.86224136,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 211519.81210488,
-                                ["y"] = 148382.99866372,
+                                ["x"] = 210290.62426883,
+                                ["y"] = 148941.86224136,
                             }, -- end of [76]
                             [77] =
                             {
@@ -12286,8 +12286,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 209398.79288683,
-                                            ["y"] = 148136.55673816,
+                                            ["x"] = 209560.66434796,
+                                            ["y"] = 148153.33101189,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12309,8 +12309,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "SA-11 Buk SR 9S18M1",
                                         ["unitId"] = 408,
-                                        ["x"] = 209398.79288683,
-                                        ["y"] = 148136.55673816,
+                                        ["x"] = 209560.66434796,
+                                        ["y"] = 148153.33101189,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -12320,8 +12320,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "SA-11 Buk CC 9S470M1",
                                         ["unitId"] = 409,
-                                        ["x"] = 209376.5301863,
-                                        ["y"] = 148177.0343755,
+                                        ["x"] = 209538.40164743,
+                                        ["y"] = 148193.80864923,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -12331,8 +12331,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 410,
-                                        ["x"] = 209465.72370433,
-                                        ["y"] = 148126.23700859,
+                                        ["x"] = 209627.59516546,
+                                        ["y"] = 148143.01128232,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -12342,8 +12342,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 411,
-                                        ["x"] = 209338.3487565,
-                                        ["y"] = 148126.82670743,
+                                        ["x"] = 209500.22021763,
+                                        ["y"] = 148143.60098116,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -12353,13 +12353,13 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 412,
-                                        ["x"] = 209387.58860902,
-                                        ["y"] = 148123.28851443,
+                                        ["x"] = 209549.46007015,
+                                        ["y"] = 148140.06278816,
                                     }, -- end of [5]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 209398.79288683,
-                                ["y"] = 148136.55673816,
+                                ["x"] = 209560.66434796,
+                                ["y"] = 148153.33101189,
                             }, -- end of [77]
                             [78] =
                             {
@@ -12375,7 +12375,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 489,
+                                            ["alt"] = 492,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 5.5555555555556,
@@ -12391,8 +12391,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 164503.75985035,
-                                            ["y"] = 106628.08145812,
+                                            ["x"] = 163440.65349574,
+                                            ["y"] = 108331.6515686,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12414,8 +12414,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "SA-11 Buk SR 9S18M1",
                                         ["unitId"] = 413,
-                                        ["x"] = 164503.75985035,
-                                        ["y"] = 106628.08145812,
+                                        ["x"] = 163440.65349574,
+                                        ["y"] = 108331.6515686,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -12425,8 +12425,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "SA-11 Buk CC 9S470M1",
                                         ["unitId"] = 414,
-                                        ["x"] = 164511.45410538,
-                                        ["y"] = 106600.38914367,
+                                        ["x"] = 163464.47026805,
+                                        ["y"] = 108292.38993453,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -12436,8 +12436,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 415,
-                                        ["x"] = 164570.69066785,
-                                        ["y"] = 106617.76172855,
+                                        ["x"] = 163507.58431324,
+                                        ["y"] = 108321.33183903,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -12447,8 +12447,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 416,
-                                        ["x"] = 164443.31572002,
-                                        ["y"] = 106618.35142738,
+                                        ["x"] = 163380.20936541,
+                                        ["y"] = 108321.92153786,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -12458,13 +12458,13 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 417,
-                                        ["x"] = 164492.55557253,
-                                        ["y"] = 106614.81323439,
+                                        ["x"] = 163430.63771406,
+                                        ["y"] = 108307.31606129,
                                     }, -- end of [5]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 164503.75985035,
-                                ["y"] = 106628.08145812,
+                                ["x"] = 163440.65349574,
+                                ["y"] = 108331.6515686,
                             }, -- end of [78]
                             [79] =
                             {
@@ -12480,7 +12480,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 349,
+                                            ["alt"] = 357,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 5.5555555555556,
@@ -12496,8 +12496,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 218173.8522278,
-                                            ["y"] = 191842.44947816,
+                                            ["x"] = 218135.89753999,
+                                            ["y"] = 192069.52764244,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12519,8 +12519,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 418,
-                                        ["x"] = 218173.8522278,
-                                        ["y"] = 191842.44947816,
+                                        ["x"] = 218135.89753999,
+                                        ["y"] = 192069.52764244,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -12530,8 +12530,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 419,
-                                        ["x"] = 218180.30843001,
-                                        ["y"] = 191843.18333818,
+                                        ["x"] = 218142.3537422,
+                                        ["y"] = 192070.26150246,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -12541,8 +12541,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 420,
-                                        ["x"] = 218187.95009395,
-                                        ["y"] = 191842.54653286,
+                                        ["x"] = 218149.99540614,
+                                        ["y"] = 192069.62469714,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -12552,8 +12552,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Grad-URAL",
                                         ["unitId"] = 421,
-                                        ["x"] = 218268.71850181,
-                                        ["y"] = 191806.87124961,
+                                        ["x"] = 218230.763814,
+                                        ["y"] = 192033.94941389,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -12563,8 +12563,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Grad-URAL",
                                         ["unitId"] = 422,
-                                        ["x"] = 218263.12442172,
-                                        ["y"] = 191803.84112289,
+                                        ["x"] = 218225.16973391,
+                                        ["y"] = 192030.91928717,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -12574,8 +12574,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Grad-URAL",
                                         ["unitId"] = 423,
-                                        ["x"] = 218156.58980433,
-                                        ["y"] = 191712.98502757,
+                                        ["x"] = 218118.63511652,
+                                        ["y"] = 191940.06319185,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -12585,8 +12585,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Grad-URAL",
                                         ["unitId"] = 424,
-                                        ["x"] = 218157.06998667,
-                                        ["y"] = 191709.90719471,
+                                        ["x"] = 218119.11529886,
+                                        ["y"] = 191936.98535899,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -12596,8 +12596,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 425,
-                                        ["x"] = 218269.88393516,
-                                        ["y"] = 191798.94630281,
+                                        ["x"] = 218231.92924735,
+                                        ["y"] = 192026.02446709,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -12607,13 +12607,13 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 426,
-                                        ["x"] = 218163.59641344,
-                                        ["y"] = 191703.84694128,
+                                        ["x"] = 218125.64172563,
+                                        ["y"] = 191930.92510556,
                                     }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 218173.8522278,
-                                ["y"] = 191842.44947816,
+                                ["x"] = 218135.89753999,
+                                ["y"] = 192069.52764244,
                             }, -- end of [79]
                             [80] =
                             {
@@ -12629,7 +12629,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 673,
+                                            ["alt"] = 668,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 5.5555555555556,
@@ -12645,8 +12645,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 211052.82260242,
-                                            ["y"] = 149330.07343147,
+                                            ["x"] = 210071.99750339,
+                                            ["y"] = 149100.16699579,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12668,8 +12668,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 427,
-                                        ["x"] = 211052.82260242,
-                                        ["y"] = 149330.07343147,
+                                        ["x"] = 210071.99750339,
+                                        ["y"] = 149100.16699579,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -12679,8 +12679,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 428,
-                                        ["x"] = 211059.27880463,
-                                        ["y"] = 149330.80729149,
+                                        ["x"] = 210078.4537056,
+                                        ["y"] = 149100.90085581,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -12690,8 +12690,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-375 PBU",
                                         ["unitId"] = 429,
-                                        ["x"] = 211066.92046857,
-                                        ["y"] = 149330.17048616,
+                                        ["x"] = 210086.09536954,
+                                        ["y"] = 149100.26405048,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -12701,8 +12701,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Grad-URAL",
                                         ["unitId"] = 430,
-                                        ["x"] = 211147.68887643,
-                                        ["y"] = 149294.49520292,
+                                        ["x"] = 210166.8637774,
+                                        ["y"] = 149064.58876724,
                                     }, -- end of [4]
                                     [5] =
                                     {
@@ -12712,8 +12712,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Grad-URAL",
                                         ["unitId"] = 431,
-                                        ["x"] = 211142.09479634,
-                                        ["y"] = 149291.4650762,
+                                        ["x"] = 210161.26969731,
+                                        ["y"] = 149061.55864052,
                                     }, -- end of [5]
                                     [6] =
                                     {
@@ -12723,8 +12723,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Grad-URAL",
                                         ["unitId"] = 432,
-                                        ["x"] = 211035.56017895,
-                                        ["y"] = 149200.60898088,
+                                        ["x"] = 210054.73507992,
+                                        ["y"] = 148970.7025452,
                                     }, -- end of [6]
                                     [7] =
                                     {
@@ -12734,8 +12734,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Grad-URAL",
                                         ["unitId"] = 433,
-                                        ["x"] = 211036.04036129,
-                                        ["y"] = 149197.53114802,
+                                        ["x"] = 210055.21526226,
+                                        ["y"] = 148967.62471234,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -12745,8 +12745,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 434,
-                                        ["x"] = 211148.85430978,
-                                        ["y"] = 149286.57025612,
+                                        ["x"] = 210168.02921075,
+                                        ["y"] = 149056.66382044,
                                     }, -- end of [8]
                                     [9] =
                                     {
@@ -12756,19 +12756,19 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "Ural-4320T",
                                         ["unitId"] = 435,
-                                        ["x"] = 211042.56678806,
-                                        ["y"] = 149191.47089458,
+                                        ["x"] = 210061.74168903,
+                                        ["y"] = 148961.5644589,
                                     }, -- end of [9]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 211052.82260242,
-                                ["y"] = 149330.07343147,
+                                ["x"] = 210071.99750339,
+                                ["y"] = 149100.16699579,
                             }, -- end of [80]
                             [81] =
                             {
                                 ["groupId"] = 109,
                                 ["hidden"] = false,
-                                ["name"] = "1ST_SBORKA_10th",
+                                ["name"] = "FIRSTSBORKA_10th",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -12778,7 +12778,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 803,
+                                            ["alt"] = 524,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -12794,8 +12794,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 167288.8621,
-                                            ["y"] = 123170.47403406,
+                                            ["x"] = 166798.43534074,
+                                            ["y"] = 110474.91656879,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12814,24 +12814,24 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 0,
-                                        ["name"] = "1ST_SBORKA_10th",
+                                        ["name"] = "FIRSTSBORKA_10th",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Dog Ear radar",
                                         ["unitId"] = 445,
-                                        ["x"] = 167288.8621,
-                                        ["y"] = 123170.47403406,
+                                        ["x"] = 166798.43534074,
+                                        ["y"] = 110474.91656879,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 167288.8621,
-                                ["y"] = 123170.47403406,
+                                ["x"] = 166798.43534074,
+                                ["y"] = 110474.91656879,
                             }, -- end of [81]
                             [82] =
                             {
                                 ["groupId"] = 110,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_9",
+                                ["name"] = "FIRSTAD_1ST_SA15_9",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -12841,7 +12841,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 449,
+                                            ["alt"] = 516,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -12857,8 +12857,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 167454.36620759,
-                                            ["y"] = 122774.92370777,
+                                            ["x"] = 163676.79533481,
+                                            ["y"] = 104316.19116134,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12889,25 +12889,25 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_9",
+                                        ["heading"] = 4.8520153205442,
+                                        ["name"] = "FIRSTAD_1ST_SA15_9",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 446,
-                                        ["x"] = 167454.36620759,
-                                        ["y"] = 122774.92370777,
+                                        ["x"] = 163676.79533481,
+                                        ["y"] = 104316.19116134,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 167454.36620759,
-                                ["y"] = 122774.92370777,
+                                ["x"] = 163676.79533481,
+                                ["y"] = 104316.19116134,
                             }, -- end of [82]
                             [83] =
                             {
                                 ["groupId"] = 111,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_11",
+                                ["name"] = "FIRSTAD_1ST_SA15_11",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -12917,7 +12917,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 449,
+                                            ["alt"] = 482,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -12933,8 +12933,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 167684.11028214,
-                                            ["y"] = 123021.89858791,
+                                            ["x"] = 161860.78775977,
+                                            ["y"] = 107497.61796573,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -12965,25 +12965,25 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_11",
+                                        ["heading"] = 3.2288591161895,
+                                        ["name"] = "FIRSTAD_1ST_SA15_11",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 447,
-                                        ["x"] = 167684.11028214,
-                                        ["y"] = 123021.89858791,
+                                        ["x"] = 161860.78775977,
+                                        ["y"] = 107497.61796573,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 167684.11028214,
-                                ["y"] = 123021.89858791,
+                                ["x"] = 161860.78775977,
+                                ["y"] = 107497.61796573,
                             }, -- end of [83]
                             [84] =
                             {
                                 ["groupId"] = 112,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_10",
+                                ["name"] = "FIRSTAD_1ST_SA15_10",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -12993,7 +12993,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 451,
+                                            ["alt"] = 522,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -13009,8 +13009,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 167678.36668028,
-                                            ["y"] = 122924.25735623,
+                                            ["x"] = 166629.55427454,
+                                            ["y"] = 110242.26320022,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -13041,25 +13041,25 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_10",
+                                        ["heading"] = 5.0614548307836,
+                                        ["name"] = "FIRSTAD_1ST_SA15_10",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 448,
-                                        ["x"] = 167678.36668028,
-                                        ["y"] = 122924.25735623,
+                                        ["x"] = 166629.55427454,
+                                        ["y"] = 110242.26320022,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 167678.36668028,
-                                ["y"] = 122924.25735623,
+                                ["x"] = 166629.55427454,
+                                ["y"] = 110242.26320022,
                             }, -- end of [84]
                             [85] =
                             {
                                 ["groupId"] = 113,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA15_12",
+                                ["name"] = "FIRSTAD_1ST_SA15_12",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -13069,7 +13069,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 448,
+                                            ["alt"] = 481,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -13085,8 +13085,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 167850.67473619,
-                                            ["y"] = 123199.95024569,
+                                            ["x"] = 164614.76479712,
+                                            ["y"] = 108157.50833811,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -13117,19 +13117,19 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 1.1333817655693,
-                                        ["name"] = "AD_1ST_SA15_12",
+                                        ["heading"] = 0,
+                                        ["name"] = "FIRSTAD_1ST_SA15_12",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 449,
-                                        ["x"] = 167850.67473619,
-                                        ["y"] = 123199.95024569,
+                                        ["x"] = 164614.76479712,
+                                        ["y"] = 108157.50833811,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 167850.67473619,
-                                ["y"] = 123199.95024569,
+                                ["x"] = 164614.76479712,
+                                ["y"] = 108157.50833811,
                             }, -- end of [85]
                             [86] =
                             {
@@ -13145,7 +13145,7 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "Off Road",
-                                            ["alt"] = 447,
+                                            ["alt"] = 522,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
                                             ["speed"] = 0,
@@ -13161,8 +13161,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 167006.50880359,
-                                            ["y"] = 123168.01259703,
+                                            ["x"] = 166630.00073875,
+                                            ["y"] = 110298.94414136,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] =
@@ -13180,14 +13180,14 @@ mission =
                                 {
                                     [1] =
                                     {
-                                        ["heading"] = 0,
+                                        ["heading"] = 5.3058009260628,
                                         ["name"] = "1ST_AD_SA15_BN_LOG_10th",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 450,
-                                        ["x"] = 167006.50880359,
-                                        ["y"] = 123168.01259703,
+                                        ["x"] = 166630.00073875,
+                                        ["y"] = 110298.94414136,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -13197,8 +13197,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 451,
-                                        ["x"] = 166910.08768349,
-                                        ["y"] = 122736.64305139,
+                                        ["x"] = 161940.29735199,
+                                        ["y"] = 107544.55445057,
                                     }, -- end of [2]
                                     [3] =
                                     {
@@ -13208,8 +13208,8 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 452,
-                                        ["x"] = 166903.54838952,
-                                        ["y"] = 123288.13308011,
+                                        ["x"] = 163611.73562436,
+                                        ["y"] = 104358.15297814,
                                     }, -- end of [3]
                                     [4] =
                                     {
@@ -13219,13 +13219,13 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "GAZ-66",
                                         ["unitId"] = 453,
-                                        ["x"] = 167344.52324024,
-                                        ["y"] = 123546.2729526,
+                                        ["x"] = 164579.03607135,
+                                        ["y"] = 108220.24226281,
                                     }, -- end of [4]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 167006.50880359,
-                                ["y"] = 123168.01259703,
+                                ["x"] = 166630.00073875,
+                                ["y"] = 110298.94414136,
                             }, -- end of [86]
                             [87] =
                             {
@@ -13380,7 +13380,7 @@ mission =
                             {
                                 ["groupId"] = 116,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_9",
+                                ["name"] = "FIRSTAD_1ST_SA8_9",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -13439,7 +13439,7 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_9",
+                                        ["name"] = "FIRSTAD_1ST_SA8_9",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
@@ -13456,7 +13456,7 @@ mission =
                             {
                                 ["groupId"] = 117,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_12",
+                                ["name"] = "FIRSTAD_1ST_SA8_12",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -13515,7 +13515,7 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_12",
+                                        ["name"] = "FIRSTAD_1ST_SA8_12",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
@@ -13532,7 +13532,7 @@ mission =
                             {
                                 ["groupId"] = 118,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_11",
+                                ["name"] = "FIRSTAD_1ST_SA8_11",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -13591,7 +13591,7 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_11",
+                                        ["name"] = "FIRSTAD_1ST_SA8_11",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
@@ -13608,7 +13608,7 @@ mission =
                             {
                                 ["groupId"] = 119,
                                 ["hidden"] = false,
-                                ["name"] = "AD_1ST_SA8_10",
+                                ["name"] = "FIRSTAD_1ST_SA8_10",
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -13667,7 +13667,7 @@ mission =
                                     [1] =
                                     {
                                         ["heading"] = 5.1661745859032,
-                                        ["name"] = "AD_1ST_SA8_10",
+                                        ["name"] = "FIRSTAD_1ST_SA8_10",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
                                         ["type"] = "Osa 9A33 ln",
@@ -17084,12 +17084,12 @@ mission =
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 74971,
+    ["currentKey"] = 82599,
     ["date"] =
     {
-        ["Day"] = 21,
-        ["Month"] = 6,
-        ["Year"] = 2016,
+        ["Day"] = 29,
+        ["Month"] = 8,
+        ["Year"] = 2011,
     }, -- end of ["date"]
     ["descriptionBlueTask"] = "DictKey_descriptionBlueTask_3",
     ["descriptionNeutralsTask"] = "DictKey_descriptionNeutralsTask_4",
@@ -17701,9 +17701,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 12316.874958685,
-        ["centerY"] = 59947.164062892,
-        ["zoom"] = 490681.22853017,
+        ["centerX"] = 174534.64147884,
+        ["centerY"] = 98221.767504384,
+        ["zoom"] = 699575.36055889,
     }, -- end of ["map"]
     ["maxDictId"] = 26,
     ["pictureFileNameB"] =
@@ -17759,7 +17759,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 28800,
+    ["start_time"] = 37200,
     ["theatre"] = "Syria",
     ["trig"] =
     {
@@ -18167,7 +18167,7 @@ mission =
             ["thickness"] = 0,
             ["visibility"] = 0,
         }, -- end of ["fog"]
-        ["groundTurbulence"] = 0,
+        ["groundTurbulence"] = 1.8288,
         ["modifiedTime"] = false,
         ["name"] = "Winter, clean sky",
         ["qnh"] = 760,
@@ -18184,18 +18184,18 @@ mission =
         {
             ["at2000"] =
             {
-                ["dir"] = 0,
-                ["speed"] = 0,
+                ["dir"] = 188,
+                ["speed"] = 2.0616,
             }, -- end of ["at2000"]
             ["at8000"] =
             {
-                ["dir"] = 0,
-                ["speed"] = 0,
+                ["dir"] = 198,
+                ["speed"] = 2.0616,
             }, -- end of ["at8000"]
             ["atGround"] =
             {
-                ["dir"] = 0,
-                ["speed"] = 0,
+                ["dir"] = 217,
+                ["speed"] = 2.0616,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
     }, -- end of ["weather"]
