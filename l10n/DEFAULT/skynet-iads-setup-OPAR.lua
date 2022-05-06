@@ -141,9 +141,6 @@ redIADS:addCommandCenter(commandCenter)
 
 
 
-
-
-
 redIADS:addRadioMenu()
 
 --activate the IADS
