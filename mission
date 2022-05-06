@@ -16320,6 +16320,661 @@ mission =
                             }, -- end of [11]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
+                    ["ship"] =
+                    {
+                        ["group"] =
+                        {
+                            [1] =
+                            {
+                                ["groupId"] = 131,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_SYR_REZKY_1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -12885.081073779,
+                                            ["y"] = -3521.6200600675,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 4.4505895925855,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_SYR_REZKY_1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "REZKY",
+                                        ["unitId"] = 480,
+                                        ["x"] = -12885.081073779,
+                                        ["y"] = -3521.6200600675,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -12885.081073779,
+                                ["y"] = -3521.6200600675,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["groupId"] = 132,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_SYR_REZKY_1-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -13062.460601209,
+                                            ["y"] = -3448.6473090975,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 4.4505895925855,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_SYR_REZKY_1-1-1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "REZKY",
+                                        ["unitId"] = 481,
+                                        ["x"] = -13062.460601209,
+                                        ["y"] = -3448.6473090975,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -13062.460601209,
+                                ["y"] = -3448.6473090975,
+                            }, -- end of [2]
+                            [3] =
+                            {
+                                ["groupId"] = 133,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_SYR_REZKY_1-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -12994.998277444,
+                                            ["y"] = -3204.1100737217,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 4.4505895925855,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_SYR_REZKY_1-2-1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "REZKY",
+                                        ["unitId"] = 482,
+                                        ["x"] = -12994.998277444,
+                                        ["y"] = -3204.1100737217,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -12994.998277444,
+                                ["y"] = -3204.1100737217,
+                            }, -- end of [3]
+                            [4] =
+                            {
+                                ["groupId"] = 134,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_SYR_MOLNIYA",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 54714.762549097,
+                                            ["y"] = -10688.616398795,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.57595865315813,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_SYR_REZKY_1-3-1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MOLNIYA",
+                                        ["unitId"] = 483,
+                                        ["x"] = 54714.762549097,
+                                        ["y"] = -10688.616398795,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 54714.762549097,
+                                ["y"] = -10688.616398795,
+                            }, -- end of [4]
+                            [5] =
+                            {
+                                ["groupId"] = 135,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_RUS_NEUSTRASHIMY",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -12389.954557746,
+                                            ["y"] = -3621.2673534902,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 4.4505895925855,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_RUS_NEUSTRASHIMY",
+                                        ["skill"] = "Average",
+                                        ["type"] = "NEUSTRASH",
+                                        ["unitId"] = 484,
+                                        ["x"] = -12389.954557746,
+                                        ["y"] = -3621.2673534902,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -12389.954557746,
+                                ["y"] = -3621.2673534902,
+                            }, -- end of [5]
+                            [6] =
+                            {
+                                ["groupId"] = 136,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_SYR_MOLNIYA-1",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 54789.978505242,
+                                            ["y"] = -10639.54107003,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.57595865315813,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_SYR_MOLNIYA-1-1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MOLNIYA",
+                                        ["unitId"] = 485,
+                                        ["x"] = 54789.978505242,
+                                        ["y"] = -10639.54107003,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 54789.978505242,
+                                ["y"] = -10639.54107003,
+                            }, -- end of [6]
+                            [7] =
+                            {
+                                ["groupId"] = 137,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_SYR_MOLNIYA-2",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 54992.631336391,
+                                            ["y"] = -10508.41247643,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.57595865315813,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_SYR_MOLNIYA-2-1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MOLNIYA",
+                                        ["unitId"] = 486,
+                                        ["x"] = 54992.631336391,
+                                        ["y"] = -10508.41247643,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 54992.631336391,
+                                ["y"] = -10508.41247643,
+                            }, -- end of [7]
+                            [8] =
+                            {
+                                ["groupId"] = 138,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_SYR_MOLNIYA-3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 55085.904240134,
+                                            ["y"] = -10513.981007997,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.57595865315813,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_SYR_MOLNIYA-3-1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MOLNIYA",
+                                        ["unitId"] = 487,
+                                        ["x"] = 55085.904240134,
+                                        ["y"] = -10513.981007997,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 55085.904240134,
+                                ["y"] = -10513.981007997,
+                            }, -- end of [8]
+                            [9] =
+                            {
+                                ["groupId"] = 139,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_SYR_MOLNIYA-4",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 55074.535154852,
+                                            ["y"] = -10480.337796448,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 0.57595865315813,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_SYR_MOLNIYA-4-1",
+                                        ["skill"] = "Average",
+                                        ["type"] = "MOLNIYA",
+                                        ["unitId"] = 488,
+                                        ["x"] = 55074.535154852,
+                                        ["y"] = -10480.337796448,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 55074.535154852,
+                                ["y"] = -10480.337796448,
+                            }, -- end of [9]
+                            [10] =
+                            {
+                                ["groupId"] = 140,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_RUS_KILO",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -12343.675419943,
+                                            ["y"] = -3465.0523982185,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 4.4331363000656,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_RUS_KILO",
+                                        ["skill"] = "Average",
+                                        ["type"] = "IMPROVED_KILO",
+                                        ["unitId"] = 489,
+                                        ["x"] = -12343.675419943,
+                                        ["y"] = -3465.0523982185,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -12343.675419943,
+                                ["y"] = -3465.0523982185,
+                            }, -- end of [10]
+                            [11] =
+                            {
+                                ["groupId"] = 141,
+                                ["hidden"] = false,
+                                ["name"] = "NAV_RUS_GRISHA",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -12316.825026469,
+                                            ["y"] = -3369.546496855,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["frequency"] = 127500000,
+                                        ["heading"] = 4.4505895925855,
+                                        ["modulation"] = 0,
+                                        ["name"] = "NAV_RUS_GRISHA",
+                                        ["skill"] = "Average",
+                                        ["type"] = "ALBATROS",
+                                        ["unitId"] = 490,
+                                        ["x"] = -12316.825026469,
+                                        ["y"] = -3369.546496855,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -12316.825026469,
+                                ["y"] = -3369.546496855,
+                            }, -- end of [11]
+                        }, -- end of ["group"]
+                    }, -- end of ["ship"]
                 }, -- end of [2]
             }, -- end of ["country"]
             ["name"] = "red",
@@ -16429,7 +17084,7 @@ mission =
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 68723,
+    ["currentKey"] = 74971,
     ["date"] =
     {
         ["Day"] = 21,
@@ -17046,11 +17701,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 90349.71295988,
-        ["centerY"] = 65083.379089521,
-        ["zoom"] = 1467955.0833459,
+        ["centerX"] = 12316.874958685,
+        ["centerY"] = 59947.164062892,
+        ["zoom"] = 490681.22853017,
     }, -- end of ["map"]
-    ["maxDictId"] = 25,
+    ["maxDictId"] = 26,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -17111,10 +17766,9 @@ mission =
         ["actions"] =
         {
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_22\"));",
-            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_6\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_7\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_8\")); mission.trig.func[2]=nil;",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_6\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_7\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_8\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\")); mission.trig.func[2]=nil;",
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_23\")); mission.trig.func[3]=nil;",
             [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_24\")); mission.trig.func[4]=nil;",
-            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_25\")); mission.trig.func[5]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
@@ -17122,7 +17776,6 @@ mission =
             [2] = "return(c_time_after(2) )",
             [3] = "return(c_time_after(4) )",
             [4] = "return(c_time_after(6) )",
-            [5] = "return(c_time_after(8) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -17139,14 +17792,12 @@ mission =
             [2] = true,
             [3] = true,
             [4] = true,
-            [5] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
             [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
             [3] = "if mission.trig.conditions[3]() then mission.trig.actions[3]() end",
             [4] = "if mission.trig.conditions[4]() then mission.trig.actions[4]() end",
-            [5] = "if mission.trig.conditions[5]() then mission.trig.actions[5]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
@@ -17418,6 +18069,11 @@ mission =
                     ["file"] = "ResKey_Action_8",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [3]
+                [4] =
+                {
+                    ["file"] = "ResKey_Action_26",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [4]
             }, -- end of ["actions"]
             ["colorItem"] = "0x808080ff",
             ["comment"] = "Skynet",
@@ -17487,31 +18143,6 @@ mission =
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [4]
-        [5] =
-        {
-            ["actions"] =
-            {
-                [1] =
-                {
-                    ["file"] = "ResKey_Action_25",
-                    ["predicate"] = "a_do_script_file",
-                }, -- end of [1]
-            }, -- end of ["actions"]
-            ["comment"] = "Skynet 1st Corps",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerOnce",
-            ["rules"] =
-            {
-                [1] =
-                {
-                    ["coalitionlist"] = "red",
-                    ["predicate"] = "c_time_after",
-                    ["seconds"] = 8,
-                    ["unitType"] = "ALL",
-                    ["zone"] = 90,
-                }, -- end of [1]
-            }, -- end of ["rules"]
-        }, -- end of [5]
     }, -- end of ["trigrules"]
     ["version"] = 20,
     ["weather"] =
