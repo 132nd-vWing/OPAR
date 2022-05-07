@@ -15,8 +15,6 @@ commandCenter = StaticObject.getByName('SECONDCORPSCOMMANDCENTER')
 redIADS:addCommandCenter(commandCenter)
 
 
-redIADS:addRadioMenu()
-
 --activate the IADS
 redIADS:activate()
 
