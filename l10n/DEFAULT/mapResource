@@ -7,4 +7,5 @@ mapResource =
     ["ResKey_Action_23"] = "OPAR_Airboss.lua",
     ["ResKey_Action_24"] = "OPAR_RedAir.lua",
     ["ResKey_Action_26"] = "skynet-iads-setup-OPAR_1st_corps.lua",
+    ["ResKey_Action_27"] = "skynet-iads-setup-OPAR_2st_corps.lua",
 } -- end of mapResource
