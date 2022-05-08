@@ -1530,6 +1530,81 @@ navigation =
 			},
 			["sub_type"] = 0,
 		},
+		["BP1"] = 
+		{
+			["type"] = 0,
+			["name"] = "BP1",
+			["callsign"] = "BP1",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.2728787365589,
+				["latitude"] = 36.1115257266624,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["BP2"] = 
+		{
+			["type"] = 0,
+			["name"] = "BP2",
+			["callsign"] = "BP2",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.4519378339669,
+				["latitude"] = 36.0835615663294,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["BP3"] = 
+		{
+			["type"] = 0,
+			["name"] = "BP3",
+			["callsign"] = "BP3",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.3453618441779,
+				["latitude"] = 35.969614076787,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["SA-11-2"] = 
+		{
+			["type"] = 0,
+			["name"] = "SA-11-2",
+			["callsign"] = "SA-11-2",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.307929421825,
+				["latitude"] = 35.8256653088859,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
+		["SA-11-1"] = 
+		{
+			["type"] = 0,
+			["name"] = "SA-11-1",
+			["callsign"] = "SA-11-1",
+			["class"] = "ABRIS_Waypoint",
+			["position"] = 
+			{
+				["longitude"] = 36.7266819499176,
+				["latitude"] = 36.2048095127673,
+				["course"] = 0,
+				["height"] = 0,
+			},
+			["sub_type"] = 0,
+		},
 		["DEIR_EZ-ZOR"] = 
 		{
 			["band"] = 1176999936,
