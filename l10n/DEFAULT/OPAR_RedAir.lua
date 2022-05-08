@@ -6,13 +6,13 @@ local Redair_Debugging = false  --change to false to silence the messages
 -- at missions start there is a 50% chance that one or two CAP will be launched, one per the table below.
 -- You can comment out any entry in the table below if you dont want to launch CAP from it.
 airfield_Cap_table = {
---"Jirah",
+"Jirah",
 --"Tabqa",
---"Abu al-Duhur",
+"Abu al-Duhur",
 --"Hama",
 --"Tiyas",
-"Shayrat",
-"Sayqal",
+--"Shayrat",
+--"Sayqal",
 --"An Nasiriyah",
 --"Al-Dumayr",
 --"Khalkhalah",
@@ -22,9 +22,9 @@ airfield_Cap_table = {
 airfield_GCI_table = {
 --"Jirah",
 --"Tiyas",
-"Shayrat",
-"Sayqal",
---"Tabqa",
+--"Shayrat",
+--"Sayqal",
+"Tabqa",
 --"Abu al-Duhur",
 --"Hama",
 --"An Nasiriyah",
