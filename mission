@@ -2062,10 +2062,11 @@ mission =
                             {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
-                                ["groupId"] = 384,
+                                ["groupId"] = 386,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "00 TEST AC",
+                                ["name"] = "00 TEST",
+                                ["radioSet"] = false,
                                 ["route"] =
                                 {
                                     ["points"] =
@@ -2074,12 +2075,495 @@ mission =
                                         {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["action"] = "From Parking Area",
-                                            ["airdromeId"] = 16,
-                                            ["alt"] = 49,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 138.88888888889,
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                        [1] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] =
+                                                            {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] =
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 17,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 18,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 19,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 21,
+                                                                        ["noTargetTypes"] =
+                                                                        {
+                                                                            [1] = "Fighters",
+                                                                            [2] = "Multirole fighters",
+                                                                            [3] = "Bombers",
+                                                                            [4] = "Helicopters",
+                                                                            [5] = "Infantry",
+                                                                            [6] = "Fortifications",
+                                                                            [7] = "Tanks",
+                                                                            [8] = "IFV",
+                                                                            [9] = "APC",
+                                                                            [10] = "Artillery",
+                                                                            [11] = "Unarmed vehicles",
+                                                                            [12] = "AAA",
+                                                                            [13] = "SR SAM",
+                                                                            [14] = "MR SAM",
+                                                                            [15] = "LR SAM",
+                                                                            [16] = "Aircraft Carriers",
+                                                                            [17] = "Cruisers",
+                                                                            [18] = "Destroyers",
+                                                                            [19] = "Frigates",
+                                                                            [20] = "Corvettes",
+                                                                            [21] = "Light armed ships",
+                                                                            [22] = "Unarmed ships",
+                                                                            [23] = "Submarines",
+                                                                            [24] = "Cruise missiles",
+                                                                            [25] = "Antiship Missiles",
+                                                                            [26] = "AA Missiles",
+                                                                            [27] = "AG Missiles",
+                                                                            [28] = "SA Missiles",
+                                                                        }, -- end of ["noTargetTypes"]
+                                                                        ["targetTypes"] =
+                                                                        {
+                                                                        }, -- end of ["targetTypes"]
+                                                                        ["value"] = "none;",
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                        [6] =
+                                                        {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 6,
+                                                            ["params"] =
+                                                            {
+                                                                ["action"] =
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["groupId"] = 26,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [6]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 138106.95187166,
+                                            ["y"] = 376727.27272727,
+                                        }, -- end of [1]
+                                        [2] =
+                                        {
+                                            ["ETA"] = 671.84311468189,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 75818.181818182,
+                                            ["y"] = 241967.9144385,
+                                        }, -- end of [2]
+                                        [3] =
+                                        {
+                                            ["ETA"] = 956.42570966948,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 116545.45454545,
+                                            ["y"] = 194053.47593583,
+                                        }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 1452.6201176905,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 226149.73262032,
+                                            ["y"] = 191058.82352941,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 1634.0572632917,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 216566.84491979,
+                                            ["y"] = 152128.34224599,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 1947.1680446669,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 164459.89304813,
+                                            ["y"] = 106609.62566845,
+                                        }, -- end of [6]
+                                        [7] =
+                                        {
+                                            ["ETA"] = 2227.3015268222,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 109957.21925134,
+                                            ["y"] = 77262.032085561,
+                                        }, -- end of [7]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["AddPropAircraft"] =
+                                        {
+                                            ["HelmetMountedDevice"] = 1,
+                                            ["LAU3ROF"] = 0,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["Radio"] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 305,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["channels"] =
+                                                {
+                                                    [1] = 127,
+                                                    [2] = 135,
+                                                    [3] = 136,
+                                                    [4] = 127,
+                                                    [5] = 125,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 139,
+                                                    [13] = 140,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] =
+                                                {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] =
+                                        {
+                                            [1] = 6,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Ford11",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = -2.0037676413309,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "00 TEST",
+                                        ["onboard_num"] = "013",
+                                        ["payload"] =
+                                        {
+                                            ["ammo_type"] = 5,
+                                            ["chaff"] = 60,
+                                            ["flare"] = 60,
+                                            ["fuel"] = 3249,
+                                            ["gun"] = 100,
+                                            ["pylons"] =
+                                            {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 2.0037676413309,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 220.97222222222,
+                                        ["type"] = "F-16C_50",
+                                        ["unitId"] = 1439,
+                                        ["x"] = 138106.95187166,
+                                        ["y"] = 376727.27272727,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 138106.95187166,
+                                ["y"] = 376727.27272727,
+                            }, -- end of [6]
+                            [7] =
+                            {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 388,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "00 TEST-1",
+                                ["radioSet"] = false,
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -2236,19 +2720,19 @@ mission =
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
-                                            ["type"] = "TakeOffParking",
-                                            ["x"] = 220419.0625,
-                                            ["y"] = -36585.29296875,
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 118342.2459893,
+                                            ["y"] = -92235.294117647,
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 1321.9232133708,
+                                            ["ETA"] = 757.45338118979,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 687.9336,
+                                            ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 138.88888888889,
+                                            ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -2261,18 +2745,18 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 210496.89329378,
-                                            ["y"] = 146746.84944047,
+                                            ["x"] = 108759.35828877,
+                                            ["y"] = 74866.310160428,
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 2066.2898201102,
+                                            ["ETA"] = 1275.8116711171,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 352.9584,
+                                            ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 138.88888888889,
+                                            ["speed"] = 220.97222222222,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -2285,9 +2769,105 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 115173.73959929,
-                                            ["y"] = 186769.33950967,
+                                            ["x"] = 118941.17647059,
+                                            ["y"] = 185668.44919786,
                                         }, -- end of [3]
+                                        [4] =
+                                        {
+                                            ["ETA"] = 1677.5396024001,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 165058.82352941,
+                                            ["y"] = 106010.69518717,
+                                        }, -- end of [4]
+                                        [5] =
+                                        {
+                                            ["ETA"] = 1984.7884741256,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 215967.9144385,
+                                            ["y"] = 150930.48128342,
+                                        }, -- end of [5]
+                                        [6] =
+                                        {
+                                            ["ETA"] = 2172.4358292373,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 223754.01069519,
+                                            ["y"] = 191657.7540107,
+                                        }, -- end of [6]
+                                        [7] =
+                                        {
+                                            ["ETA"] = 3341.6415065937,
+                                            ["ETA_locked"] = false,
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 43475.935828877,
+                                            ["y"] = 6588.2352941177,
+                                        }, -- end of [7]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -2410,7 +2990,7 @@ mission =
                                                 }, -- end of ["modulations"]
                                             }, -- end of [2]
                                         }, -- end of ["Radio"]
-                                        ["alt"] = 49,
+                                        ["alt"] = 6096,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] =
                                         {
@@ -2419,12 +2999,10 @@ mission =
                                             [3] = 1,
                                             ["name"] = "Dodge11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0,
+                                        ["heading"] = 1.628081253324,
                                         ["livery_id"] = "default",
-                                        ["name"] = "Aerial-1-1",
+                                        ["name"] = "00 TEST-1-1",
                                         ["onboard_num"] = "011",
-                                        ["parking"] = "46",
-                                        ["parking_id"] = "116",
                                         ["payload"] =
                                         {
                                             ["ammo_type"] = 5,
@@ -2436,18 +3014,18 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.6248648515507,
+                                        ["psi"] = -1.628081253324,
                                         ["skill"] = "Client",
-                                        ["speed"] = 138.88888888889,
+                                        ["speed"] = 220.97222222222,
                                         ["type"] = "F-16C_50",
-                                        ["unitId"] = 1435,
-                                        ["x"] = 220419.0625,
-                                        ["y"] = -36585.29296875,
+                                        ["unitId"] = 1441,
+                                        ["x"] = 118342.2459893,
+                                        ["y"] = -92235.294117647,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 220419.0625,
-                                ["y"] = -36585.29296875,
-                            }, -- end of [6]
+                                ["x"] = 118342.2459893,
+                                ["y"] = -92235.294117647,
+                            }, -- end of [7]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] =
@@ -22823,7 +23401,9 @@ mission =
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 201,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "RUS_AC_TU_22",
@@ -23010,7 +23590,9 @@ mission =
                                 ["communication"] = true,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 339,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "RUS_AC_TRANSPORT-1",
                                 ["radioSet"] = false,
@@ -24290,7 +24872,7 @@ mission =
                                         }, -- end of [6]
                                         [7] =
                                         {
-                                            ["ETA"] = 1707.4432032206,
+                                            ["ETA"] = 1680.2320597047,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -24309,12 +24891,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 198832.56638716,
-                                            ["y"] = 73689.457569597,
+                                            ["x"] = 198196.93138301,
+                                            ["y"] = 80130.22429334,
                                         }, -- end of [7]
                                         [8] =
                                         {
-                                            ["ETA"] = 2014.5075807978,
+                                            ["ETA"] = 2003.5182149363,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -24333,8 +24915,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 131911.4083835,
-                                            ["y"] = 62942.733723541,
+                                            ["x"] = 133482.4041354,
+                                            ["y"] = 73774.333224377,
                                         }, -- end of [8]
                                         [9] =
                                         {
@@ -24386,7 +24968,7 @@ mission =
                                         }, -- end of [10]
                                         [11] =
                                         {
-                                            ["ETA"] = 2383.0304546719,
+                                            ["ETA"] = 2525.282288753,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -24405,12 +24987,12 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 58680.795949999,
-                                            ["y"] = -24555.231271096,
+                                            ["x"] = 61834.17753982,
+                                            ["y"] = -9718.9630906274,
                                         }, -- end of [11]
                                         [12] =
                                         {
-                                            ["ETA"] = 2835.0645953651,
+                                            ["ETA"] = 3005.4554804235,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 2000,
@@ -24429,8 +25011,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -37126.217030233,
-                                            ["y"] = 3701.2149534889,
+                                            ["x"] = -44193.641656052,
+                                            ["y"] = -5674.3051376513,
                                         }, -- end of [12]
                                         [13] =
                                         {
@@ -25869,7 +26451,7 @@ mission =
                                         }, -- end of [2]
                                         [3] =
                                         {
-                                            ["ETA"] = 2850.7916628543,
+                                            ["ETA"] = 2600.1622773697,
                                             ["ETA_locked"] = false,
                                             ["action"] = "LandingReFuAr",
                                             ["airdromeId"] = 26,
@@ -33807,7 +34389,9 @@ mission =
                             [53] =
                             {
                                 ["groupId"] = 77,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTSBORKA_12th",
                                 ["route"] =
                                 {
@@ -33870,7 +34454,9 @@ mission =
                             [54] =
                             {
                                 ["groupId"] = 78,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_1",
                                 ["route"] =
                                 {
@@ -33946,7 +34532,9 @@ mission =
                             [55] =
                             {
                                 ["groupId"] = 79,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_2",
                                 ["route"] =
                                 {
@@ -34022,7 +34610,9 @@ mission =
                             [56] =
                             {
                                 ["groupId"] = 80,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_3",
                                 ["route"] =
                                 {
@@ -34098,7 +34688,9 @@ mission =
                             [57] =
                             {
                                 ["groupId"] = 81,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_4",
                                 ["route"] =
                                 {
@@ -34270,7 +34862,9 @@ mission =
                             [59] =
                             {
                                 ["groupId"] = 84,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTSBORKA_11th",
                                 ["route"] =
                                 {
@@ -34333,7 +34927,9 @@ mission =
                             [60] =
                             {
                                 ["groupId"] = 85,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_5",
                                 ["route"] =
                                 {
@@ -34409,7 +35005,9 @@ mission =
                             [61] =
                             {
                                 ["groupId"] = 86,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_6",
                                 ["route"] =
                                 {
@@ -34485,7 +35083,9 @@ mission =
                             [62] =
                             {
                                 ["groupId"] = 87,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_7",
                                 ["route"] =
                                 {
@@ -34561,7 +35161,9 @@ mission =
                             [63] =
                             {
                                 ["groupId"] = 88,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_8",
                                 ["route"] =
                                 {
@@ -34733,7 +35335,9 @@ mission =
                             [65] =
                             {
                                 ["groupId"] = 90,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRST_SA6BN",
                                 ["route"] =
                                 {
@@ -35182,7 +35786,9 @@ mission =
                             [68] =
                             {
                                 ["groupId"] = 96,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_1",
                                 ["route"] =
                                 {
@@ -35258,7 +35864,9 @@ mission =
                             [69] =
                             {
                                 ["groupId"] = 97,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_3",
                                 ["route"] =
                                 {
@@ -35334,7 +35942,9 @@ mission =
                             [70] =
                             {
                                 ["groupId"] = 98,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_4",
                                 ["route"] =
                                 {
@@ -35410,7 +36020,9 @@ mission =
                             [71] =
                             {
                                 ["groupId"] = 99,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_2",
                                 ["route"] =
                                 {
@@ -35486,7 +36098,9 @@ mission =
                             [72] =
                             {
                                 ["groupId"] = 100,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_5",
                                 ["route"] =
                                 {
@@ -35562,7 +36176,9 @@ mission =
                             [73] =
                             {
                                 ["groupId"] = 101,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_6",
                                 ["route"] =
                                 {
@@ -35638,7 +36254,9 @@ mission =
                             [74] =
                             {
                                 ["groupId"] = 102,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_7",
                                 ["route"] =
                                 {
@@ -35714,7 +36332,9 @@ mission =
                             [75] =
                             {
                                 ["groupId"] = 103,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_8",
                                 ["route"] =
                                 {
@@ -35790,7 +36410,9 @@ mission =
                             [76] =
                             {
                                 ["groupId"] = 104,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRST_SA11_Batt1",
                                 ["route"] =
                                 {
@@ -35895,7 +36517,9 @@ mission =
                             [77] =
                             {
                                 ["groupId"] = 105,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRST_SA11_Batt2",
                                 ["route"] =
                                 {
@@ -36356,7 +36980,9 @@ mission =
                             [80] =
                             {
                                 ["groupId"] = 109,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTSBORKA_10th",
                                 ["route"] =
                                 {
@@ -36419,7 +37045,9 @@ mission =
                             [81] =
                             {
                                 ["groupId"] = 110,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_9",
                                 ["route"] =
                                 {
@@ -36495,7 +37123,9 @@ mission =
                             [82] =
                             {
                                 ["groupId"] = 111,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_11",
                                 ["route"] =
                                 {
@@ -36571,7 +37201,9 @@ mission =
                             [83] =
                             {
                                 ["groupId"] = 112,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_10",
                                 ["route"] =
                                 {
@@ -36647,7 +37279,9 @@ mission =
                             [84] =
                             {
                                 ["groupId"] = 113,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA15_12",
                                 ["route"] =
                                 {
@@ -36981,7 +37615,9 @@ mission =
                             [87] =
                             {
                                 ["groupId"] = 116,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_9",
                                 ["route"] =
                                 {
@@ -37057,7 +37693,9 @@ mission =
                             [88] =
                             {
                                 ["groupId"] = 117,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_12",
                                 ["route"] =
                                 {
@@ -37133,7 +37771,9 @@ mission =
                             [89] =
                             {
                                 ["groupId"] = 118,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_11",
                                 ["route"] =
                                 {
@@ -37209,7 +37849,9 @@ mission =
                             [90] =
                             {
                                 ["groupId"] = 119,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "FIRSTAD_1ST_SA8_10",
                                 ["route"] =
                                 {
@@ -37285,7 +37927,9 @@ mission =
                             [91] =
                             {
                                 ["groupId"] = 202,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDSBORKA_21st",
                                 ["route"] =
                                 {
@@ -37444,7 +38088,9 @@ mission =
                             [93] =
                             {
                                 ["groupId"] = 205,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA15_1",
                                 ["route"] =
                                 {
@@ -37520,7 +38166,9 @@ mission =
                             [94] =
                             {
                                 ["groupId"] = 207,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA15_2",
                                 ["route"] =
                                 {
@@ -37596,7 +38244,9 @@ mission =
                             [95] =
                             {
                                 ["groupId"] = 208,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA15_4",
                                 ["route"] =
                                 {
@@ -37672,7 +38322,9 @@ mission =
                             [96] =
                             {
                                 ["groupId"] = 209,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA15_3",
                                 ["route"] =
                                 {
@@ -37748,7 +38400,9 @@ mission =
                             [97] =
                             {
                                 ["groupId"] = 210,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA8_1",
                                 ["route"] =
                                 {
@@ -37824,7 +38478,9 @@ mission =
                             [98] =
                             {
                                 ["groupId"] = 211,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA8_2",
                                 ["route"] =
                                 {
@@ -37900,7 +38556,9 @@ mission =
                             [99] =
                             {
                                 ["groupId"] = 212,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA8_3",
                                 ["route"] =
                                 {
@@ -37976,7 +38634,9 @@ mission =
                             [100] =
                             {
                                 ["groupId"] = 213,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA8_4",
                                 ["route"] =
                                 {
@@ -38214,7 +38874,9 @@ mission =
                             [102] =
                             {
                                 ["groupId"] = 215,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDSBORKA_22nd",
                                 ["route"] =
                                 {
@@ -38522,7 +39184,9 @@ mission =
                             [105] =
                             {
                                 ["groupId"] = 218,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA8_5",
                                 ["route"] =
                                 {
@@ -38598,7 +39262,9 @@ mission =
                             [106] =
                             {
                                 ["groupId"] = 219,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA8_6",
                                 ["route"] =
                                 {
@@ -38674,7 +39340,9 @@ mission =
                             [107] =
                             {
                                 ["groupId"] = 220,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA8_7",
                                 ["route"] =
                                 {
@@ -38750,7 +39418,9 @@ mission =
                             [108] =
                             {
                                 ["groupId"] = 221,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA8_8",
                                 ["route"] =
                                 {
@@ -38826,7 +39496,9 @@ mission =
                             [109] =
                             {
                                 ["groupId"] = 222,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA15_5",
                                 ["route"] =
                                 {
@@ -38902,7 +39574,9 @@ mission =
                             [110] =
                             {
                                 ["groupId"] = 223,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA15_6",
                                 ["route"] =
                                 {
@@ -38978,7 +39652,9 @@ mission =
                             [111] =
                             {
                                 ["groupId"] = 224,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA15_7",
                                 ["route"] =
                                 {
@@ -39054,7 +39730,9 @@ mission =
                             [112] =
                             {
                                 ["groupId"] = 225,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SECONDAD_2ND_SA15_8",
                                 ["route"] =
                                 {
@@ -41344,7 +42022,9 @@ mission =
                             [126] =
                             {
                                 ["groupId"] = 300,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "1st_12th_DIV_AD_PLT_1",
                                 ["route"] =
                                 {
@@ -41863,7 +42543,9 @@ mission =
                             [129] =
                             {
                                 ["groupId"] = 303,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "1st_12th_DIV_AD_PLT_2",
                                 ["route"] =
                                 {
@@ -42283,7 +42965,9 @@ mission =
                             [132] =
                             {
                                 ["groupId"] = 313,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "1st_10th_DIV_AD_PLT_1",
                                 ["route"] =
                                 {
@@ -42379,7 +43063,9 @@ mission =
                             [133] =
                             {
                                 ["groupId"] = 314,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "1st_10th_DIV_AD_PLT_2",
                                 ["route"] =
                                 {
@@ -43805,7 +44491,9 @@ mission =
                             [141] =
                             {
                                 ["groupId"] = 323,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "1st_12th_DIV_AD_PLT_3",
                                 ["route"] =
                                 {
@@ -43901,7 +44589,9 @@ mission =
                             [142] =
                             {
                                 ["groupId"] = 324,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "1st_12th_DIV_AD_PLT_4",
                                 ["route"] =
                                 {
@@ -44365,7 +45055,9 @@ mission =
                             [145] =
                             {
                                 ["groupId"] = 336,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "RUS_SA10_BASSEL_AL_ASSAD",
                                 ["route"] =
                                 {
@@ -45104,14 +45796,14 @@ mission =
                                     }, -- end of [6]
                                     [7] =
                                     {
-                                        ["heading"] = 0.44387617438566,
+                                        ["heading"] = 5.8119464091411,
                                         ["name"] = "2nd_22nd_DIV_BTR_COY_3-7",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 1266,
-                                        ["x"] = 81121.019929835,
-                                        ["y"] = 38248.417151819,
+                                        ["x"] = 81341.793526717,
+                                        ["y"] = 38508.238602882,
                                     }, -- end of [7]
                                     [8] =
                                     {
@@ -45121,19 +45813,19 @@ mission =
                                         ["skill"] = "Average",
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 1267,
-                                        ["x"] = 81126.50779939,
-                                        ["y"] = 38396.589629808,
+                                        ["x"] = 81340.206572369,
+                                        ["y"] = 38577.747203343,
                                     }, -- end of [8]
                                     [9] =
                                     {
-                                        ["heading"] = 0.44387617438566,
+                                        ["heading"] = 4.1713369122664,
                                         ["name"] = "2nd_22nd_DIV_BTR_COY_3-9",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 1268,
-                                        ["x"] = 81142.971408055,
-                                        ["y"] = 38347.198803812,
+                                        ["x"] = 81303.071840616,
+                                        ["y"] = 38521.410323974,
                                     }, -- end of [9]
                                     [10] =
                                     {
@@ -45314,7 +46006,9 @@ mission =
                             [150] =
                             {
                                 ["groupId"] = 360,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "2ND_22nd_DIV_AD_PLT",
                                 ["route"] =
                                 {
@@ -46967,7 +47661,9 @@ mission =
                             [160] =
                             {
                                 ["groupId"] = 371,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "2nd_21st_DIV_AD_PLT_1",
                                 ["route"] =
                                 {
@@ -47063,7 +47759,9 @@ mission =
                             [161] =
                             {
                                 ["groupId"] = 372,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "2nd_21st_DIV_AD_PLT_2",
                                 ["route"] =
                                 {
@@ -47159,7 +47857,9 @@ mission =
                             [162] =
                             {
                                 ["groupId"] = 373,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "2nd_21st_DIV_AD_PLT_3",
                                 ["route"] =
                                 {
@@ -47255,7 +47955,9 @@ mission =
                             [163] =
                             {
                                 ["groupId"] = 374,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "2nd_21st_DIV_AD_PLT_4",
                                 ["route"] =
                                 {
@@ -47811,14 +48513,14 @@ mission =
                                     }, -- end of [5]
                                     [6] =
                                     {
-                                        ["heading"] = 0.82726845838051,
+                                        ["heading"] = 2.2514747350727,
                                         ["name"] = "2nd_21st_DIV_log_fuel_COY_2-6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
                                         ["type"] = "ATMZ-5",
                                         ["unitId"] = 1419,
-                                        ["x"] = 112339.47352057,
-                                        ["y"] = 75828.850385697,
+                                        ["x"] = 113290.15964001,
+                                        ["y"] = 76313.929070823,
                                     }, -- end of [6]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
@@ -47941,6 +48643,104 @@ mission =
                                 ["x"] = 109807.48510798,
                                 ["y"] = 74823.948586275,
                             }, -- end of [168]
+                            [169] =
+                            {
+                                ["groupId"] = 385,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
+                                ["name"] = "1st_10th_DIV_AD_PLT_3",
+                                ["route"] =
+                                {
+                                    ["points"] =
+                                    {
+                                        [1] =
+                                        {
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 575,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] =
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] =
+                                                {
+                                                    ["tasks"] =
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 170233.26361831,
+                                            ["y"] = 101543.68057834,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] =
+                                    {
+                                        [1] =
+                                        {
+                                            [1] =
+                                            {
+                                                ["x"] = 164121.99543492,
+                                                ["y"] = 106518.82556844,
+                                            }, -- end of [1]
+                                            [2] =
+                                            {
+                                                ["x"] = 164143.38649009,
+                                                ["y"] = 106510.63324944,
+                                            }, -- end of [2]
+                                        }, -- end of [1]
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] =
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] =
+                                {
+                                    [1] =
+                                    {
+                                        ["heading"] = 5.9174380059169,
+                                        ["name"] = "1st_10th_DIV_AD_PLT_3-1",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Average",
+                                        ["type"] = "2S6 Tunguska",
+                                        ["unitId"] = 1436,
+                                        ["x"] = 170233.26361831,
+                                        ["y"] = 101543.68057834,
+                                    }, -- end of [1]
+                                    [2] =
+                                    {
+                                        ["heading"] = 4.1713369122664,
+                                        ["name"] = "1st_10th_DIV_AD_PLT_3-2",
+                                        ["playerCanDrive"] = true,
+                                        ["skill"] = "Excellent",
+                                        ["type"] = "2S6 Tunguska",
+                                        ["unitId"] = 1437,
+                                        ["x"] = 157581.61468867,
+                                        ["y"] = 101275.70648145,
+                                    }, -- end of [2]
+                                    [3] =
+                                    {
+                                        ["heading"] = 3.1415926535898,
+                                        ["name"] = "1st_10th_DIV_AD_PLT_3-3",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["type"] = "GAZ-66",
+                                        ["unitId"] = 1438,
+                                        ["x"] = 170226.39041336,
+                                        ["y"] = 101541.59406969,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = 170233.26361831,
+                                ["y"] = 101543.68057834,
+                            }, -- end of [169]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [1]
@@ -48113,8 +48913,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 293125.64975004,
-                                            ["y"] = 297289.52748094,
+                                            ["x"] = 280054.69219594,
+                                            ["y"] = 262504.95775487,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -48140,7 +48940,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "Syria (2)",
+                                        ["livery_id"] = "Syria (1)",
                                         ["name"] = "Cap_Hama",
                                         ["onboard_num"] = "011",
                                         ["payload"] =
@@ -48170,7 +48970,7 @@ mission =
                                                 }, -- end of [4]
                                                 [5] =
                                                 {
-                                                    ["CLSID"] = "{R-60 2R}",
+                                                    ["CLSID"] = "{R-3S}",
                                                 }, -- end of [5]
                                                 [6] =
                                                 {
@@ -48183,17 +48983,17 @@ mission =
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 299,
-                                        ["x"] = 293125.64975004,
-                                        ["y"] = 297289.52748094,
+                                        ["x"] = 280054.69219594,
+                                        ["y"] = 262504.95775487,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 293125.64975004,
-                                ["y"] = 297289.52748094,
+                                ["x"] = 280054.69219594,
+                                ["y"] = 262504.95775487,
                             }, -- end of [1]
                             [2] =
                             {
                                 ["communication"] = true,
-                                ["frequency"] = 124,
+                                ["frequency"] = 251,
                                 ["groupId"] = 61,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -48212,7 +49012,7 @@ mission =
                                             ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 220.97222222222,
+                                            ["speed"] = 277.5,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -48225,16 +49025,19 @@ mission =
                                                         {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "EngageTargets",
-                                                            ["key"] = "CAP",
+                                                            ["id"] = "WrappedAction",
                                                             ["number"] = 1,
                                                             ["params"] =
                                                             {
-                                                                ["priority"] = 0,
-                                                                ["targetTypes"] =
+                                                                ["action"] =
                                                                 {
-                                                                    [1] = "Air",
-                                                                }, -- end of ["targetTypes"]
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 17,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] =
@@ -48250,8 +49053,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["name"] = 17,
-                                                                        ["value"] = true,
+                                                                        ["name"] = 18,
+                                                                        ["value"] = 4,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -48269,8 +49072,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["name"] = 18,
-                                                                        ["value"] = 4,
+                                                                        ["name"] = 19,
+                                                                        ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -48281,25 +49084,6 @@ mission =
                                                             ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
                                                             ["number"] = 4,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "Option",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["name"] = 19,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [4]
-                                                        [5] =
-                                                        {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 5,
                                                             ["params"] =
                                                             {
                                                                 ["action"] =
@@ -48346,19 +49130,19 @@ mission =
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [5]
+                                                        }, -- end of [4]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 275920.42988733,
-                                            ["y"] = 348243.44784358,
+                                            ["x"] = 281684.36881112,
+                                            ["y"] = 274116.40363807,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "CAP",
+                                ["task"] = "Intercept",
                                 ["tasks"] =
                                 {
                                 }, -- end of ["tasks"]
@@ -48378,60 +49162,51 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "Syria (2)",
+                                        ["livery_id"] = "Syrian Air Force",
                                         ["name"] = "Cap_An Nasiriyah",
                                         ["onboard_num"] = "010",
                                         ["payload"] =
                                         {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["flare"] = 40,
-                                            ["fuel"] = 2280,
+                                            ["chaff"] = 64,
+                                            ["flare"] = 64,
+                                            ["fuel"] = "15245",
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
                                                 [1] =
                                                 {
-                                                    ["CLSID"] = "{R-60M 2L}",
+                                                    ["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
                                                 }, -- end of [1]
                                                 [2] =
                                                 {
-                                                    ["CLSID"] = "{R-3R}",
+                                                    ["CLSID"] = "{4EDBA993-2E34-444C-95FB-549300BF7CAF}",
                                                 }, -- end of [2]
                                                 [3] =
                                                 {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                    ["CLSID"] = "{4EDBA993-2E34-444C-95FB-549300BF7CAF}",
                                                 }, -- end of [3]
                                                 [4] =
                                                 {
-                                                    ["CLSID"] = "{R-3R}",
+                                                    ["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
                                                 }, -- end of [4]
-                                                [5] =
-                                                {
-                                                    ["CLSID"] = "{R-60 2R}",
-                                                }, -- end of [5]
-                                                [6] =
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 0,
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 220.97222222222,
-                                        ["type"] = "MiG-21Bis",
+                                        ["speed"] = 277.5,
+                                        ["type"] = "MiG-25PD",
                                         ["unitId"] = 300,
-                                        ["x"] = 275920.42988733,
-                                        ["y"] = 348243.44784358,
+                                        ["x"] = 281684.36881112,
+                                        ["y"] = 274116.40363807,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 275920.42988733,
-                                ["y"] = 348243.44784358,
+                                ["x"] = 281684.36881112,
+                                ["y"] = 274116.40363807,
                             }, -- end of [2]
                             [3] =
                             {
                                 ["communication"] = true,
-                                ["frequency"] = 124,
+                                ["frequency"] = 251,
                                 ["groupId"] = 62,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -48450,7 +49225,7 @@ mission =
                                             ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 220.97222222222,
+                                            ["speed"] = 277.5,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -48463,16 +49238,19 @@ mission =
                                                         {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "EngageTargets",
-                                                            ["key"] = "CAP",
+                                                            ["id"] = "WrappedAction",
                                                             ["number"] = 1,
                                                             ["params"] =
                                                             {
-                                                                ["priority"] = 0,
-                                                                ["targetTypes"] =
+                                                                ["action"] =
                                                                 {
-                                                                    [1] = "Air",
-                                                                }, -- end of ["targetTypes"]
+                                                                    ["id"] = "Option",
+                                                                    ["params"] =
+                                                                    {
+                                                                        ["name"] = 17,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] =
@@ -48488,8 +49266,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["name"] = 17,
-                                                                        ["value"] = true,
+                                                                        ["name"] = 18,
+                                                                        ["value"] = 4,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -48507,8 +49285,8 @@ mission =
                                                                     ["id"] = "Option",
                                                                     ["params"] =
                                                                     {
-                                                                        ["name"] = 18,
-                                                                        ["value"] = 4,
+                                                                        ["name"] = 19,
+                                                                        ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -48519,25 +49297,6 @@ mission =
                                                             ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
                                                             ["number"] = 4,
-                                                            ["params"] =
-                                                            {
-                                                                ["action"] =
-                                                                {
-                                                                    ["id"] = "Option",
-                                                                    ["params"] =
-                                                                    {
-                                                                        ["name"] = 19,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [4]
-                                                        [5] =
-                                                        {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 5,
                                                             ["params"] =
                                                             {
                                                                 ["action"] =
@@ -48584,19 +49343,20 @@ mission =
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [5]
+                                                        }, -- end of [4]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 277243.9083383,
-                                            ["y"] = 314494.74734365,
+                                            ["x"] = 268239.53673583,
+                                            ["y"] = 259856.73325519,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "CAP",
+                                ["task"] = "Intercept",
+                                ["taskSelected"] = true,
                                 ["tasks"] =
                                 {
                                 }, -- end of ["tasks"]
@@ -48616,55 +49376,46 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "Syria (2)",
+                                        ["livery_id"] = "Syrian Air Force",
                                         ["name"] = "Cap_Tabqa",
                                         ["onboard_num"] = "012",
                                         ["payload"] =
                                         {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["flare"] = 40,
-                                            ["fuel"] = 2280,
+                                            ["chaff"] = 64,
+                                            ["flare"] = 64,
+                                            ["fuel"] = "15245",
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
                                                 [1] =
                                                 {
-                                                    ["CLSID"] = "{R-60M 2L}",
+                                                    ["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
                                                 }, -- end of [1]
                                                 [2] =
                                                 {
-                                                    ["CLSID"] = "{R-3R}",
+                                                    ["CLSID"] = "{4EDBA993-2E34-444C-95FB-549300BF7CAF}",
                                                 }, -- end of [2]
                                                 [3] =
                                                 {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                    ["CLSID"] = "{4EDBA993-2E34-444C-95FB-549300BF7CAF}",
                                                 }, -- end of [3]
                                                 [4] =
                                                 {
-                                                    ["CLSID"] = "{R-3R}",
+                                                    ["CLSID"] = "{5F26DBC2-FB43-4153-92DE-6BBCE26CB0FF}",
                                                 }, -- end of [4]
-                                                [5] =
-                                                {
-                                                    ["CLSID"] = "{R-60 2R}",
-                                                }, -- end of [5]
-                                                [6] =
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 0,
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 220.97222222222,
-                                        ["type"] = "MiG-21Bis",
+                                        ["speed"] = 277.5,
+                                        ["type"] = "MiG-25PD",
                                         ["unitId"] = 301,
-                                        ["x"] = 277243.9083383,
-                                        ["y"] = 314494.74734365,
+                                        ["x"] = 268239.53673583,
+                                        ["y"] = 259856.73325519,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 277243.9083383,
-                                ["y"] = 314494.74734365,
+                                ["x"] = 268239.53673583,
+                                ["y"] = 259856.73325519,
                             }, -- end of [3]
                             [4] =
                             {
@@ -48827,8 +49578,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 292794.78013729,
-                                            ["y"] = 314825.61695639,
+                                            ["x"] = 272157.24794746,
+                                            ["y"] = 268269.91229885,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -48854,7 +49605,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "Syria (2)",
+                                        ["livery_id"] = "syria (2)",
                                         ["name"] = "Cap_Abu al-Duhur",
                                         ["onboard_num"] = "013",
                                         ["payload"] =
@@ -48884,7 +49635,7 @@ mission =
                                                 }, -- end of [4]
                                                 [5] =
                                                 {
-                                                    ["CLSID"] = "{R-60 2R}",
+                                                    ["CLSID"] = "{R-3S}",
                                                 }, -- end of [5]
                                                 [6] =
                                                 {
@@ -48897,12 +49648,12 @@ mission =
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 302,
-                                        ["x"] = 292794.78013729,
-                                        ["y"] = 314825.61695639,
+                                        ["x"] = 272157.24794746,
+                                        ["y"] = 268269.91229885,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 292794.78013729,
-                                ["y"] = 314825.61695639,
+                                ["x"] = 272157.24794746,
+                                ["y"] = 268269.91229885,
                             }, -- end of [4]
                             [5] =
                             {
@@ -49065,8 +49816,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 280552.60446575,
-                                            ["y"] = 328060.40146617,
+                                            ["x"] = 289093.8642507,
+                                            ["y"] = 294204.10601317,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -49092,55 +49843,58 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "Syria (2)",
+                                        ["livery_id"] = "SaAF",
                                         ["name"] = "Cap_Khalkhalah",
                                         ["onboard_num"] = "014",
                                         ["payload"] =
                                         {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["flare"] = 40,
-                                            ["fuel"] = 2280,
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3376",
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
                                                 [1] =
                                                 {
-                                                    ["CLSID"] = "{R-60M 2L}",
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
                                                 }, -- end of [1]
                                                 [2] =
                                                 {
-                                                    ["CLSID"] = "{R-3R}",
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
                                                 }, -- end of [2]
                                                 [3] =
                                                 {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
                                                 }, -- end of [3]
                                                 [4] =
                                                 {
-                                                    ["CLSID"] = "{R-3R}",
+                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
                                                 }, -- end of [4]
                                                 [5] =
                                                 {
-                                                    ["CLSID"] = "{R-60 2R}",
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
                                                 }, -- end of [5]
                                                 [6] =
                                                 {
-                                                    ["CLSID"] = "{ASO-2}",
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
                                                 }, -- end of [6]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 0,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
-                                        ["type"] = "MiG-21Bis",
+                                        ["type"] = "MiG-29A",
                                         ["unitId"] = 303,
-                                        ["x"] = 280552.60446575,
-                                        ["y"] = 328060.40146617,
+                                        ["x"] = 289093.8642507,
+                                        ["y"] = 294204.10601317,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 280552.60446575,
-                                ["y"] = 328060.40146617,
+                                ["x"] = 289093.8642507,
+                                ["y"] = 294204.10601317,
                             }, -- end of [5]
                             [6] =
                             {
@@ -49303,8 +50057,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 278236.51717654,
-                                            ["y"] = 298943.87554466,
+                                            ["x"] = 274554.53361968,
+                                            ["y"] = 259856.73325519,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -49330,55 +50084,58 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "Syria (2)",
+                                        ["livery_id"] = "SaAF",
                                         ["name"] = "Cap_Jirah",
                                         ["onboard_num"] = "015",
                                         ["payload"] =
                                         {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["flare"] = 40,
-                                            ["fuel"] = 2280,
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3376",
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
                                                 [1] =
                                                 {
-                                                    ["CLSID"] = "{R-60M 2L}",
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
                                                 }, -- end of [1]
                                                 [2] =
                                                 {
-                                                    ["CLSID"] = "{R-3R}",
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
                                                 }, -- end of [2]
                                                 [3] =
                                                 {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
                                                 }, -- end of [3]
                                                 [4] =
                                                 {
-                                                    ["CLSID"] = "{R-3R}",
+                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
                                                 }, -- end of [4]
                                                 [5] =
                                                 {
-                                                    ["CLSID"] = "{R-60 2R}",
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
                                                 }, -- end of [5]
                                                 [6] =
                                                 {
-                                                    ["CLSID"] = "{ASO-2}",
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
                                                 }, -- end of [6]
+                                                [7] =
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 0,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
-                                        ["type"] = "MiG-21Bis",
+                                        ["type"] = "MiG-29A",
                                         ["unitId"] = 304,
-                                        ["x"] = 278236.51717654,
-                                        ["y"] = 298943.87554466,
+                                        ["x"] = 274554.53361968,
+                                        ["y"] = 259856.73325519,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 278236.51717654,
-                                ["y"] = 298943.87554466,
+                                ["x"] = 274554.53361968,
+                                ["y"] = 259856.73325519,
                             }, -- end of [6]
                             [7] =
                             {
@@ -49541,8 +50298,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 293456.51936278,
-                                            ["y"] = 347250.83900535,
+                                            ["x"] = 289358.49888043,
+                                            ["y"] = 286794.33638051,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -49568,7 +50325,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "Syria (2)",
+                                        ["livery_id"] = "syria (2)",
                                         ["name"] = "Cap_Al-Dumayr",
                                         ["onboard_num"] = "016",
                                         ["payload"] =
@@ -49598,7 +50355,7 @@ mission =
                                                 }, -- end of [4]
                                                 [5] =
                                                 {
-                                                    ["CLSID"] = "{R-60 2R}",
+                                                    ["CLSID"] = "{R-3S}",
                                                 }, -- end of [5]
                                                 [6] =
                                                 {
@@ -49611,12 +50368,12 @@ mission =
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 305,
-                                        ["x"] = 293456.51936278,
-                                        ["y"] = 347250.83900535,
+                                        ["x"] = 289358.49888043,
+                                        ["y"] = 286794.33638051,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 293456.51936278,
-                                ["y"] = 347250.83900535,
+                                ["x"] = 289358.49888043,
+                                ["y"] = 286794.33638051,
                             }, -- end of [7]
                             [8] =
                             {
@@ -49779,8 +50536,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 293787.38897552,
-                                            ["y"] = 332692.57604459,
+                                            ["x"] = 289226.18156557,
+                                            ["y"] = 290499.22119684,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -49806,7 +50563,7 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "Syria (2)",
+                                        ["livery_id"] = "Syria (1)",
                                         ["name"] = "Cap_Marj Ruhayyil",
                                         ["onboard_num"] = "017",
                                         ["payload"] =
@@ -49836,7 +50593,7 @@ mission =
                                                 }, -- end of [4]
                                                 [5] =
                                                 {
-                                                    ["CLSID"] = "{R-60 2R}",
+                                                    ["CLSID"] = "{R-3S}",
                                                 }, -- end of [5]
                                                 [6] =
                                                 {
@@ -49849,12 +50606,12 @@ mission =
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 306,
-                                        ["x"] = 293787.38897552,
-                                        ["y"] = 332692.57604459,
+                                        ["x"] = 289226.18156557,
+                                        ["y"] = 290499.22119684,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 293787.38897552,
-                                ["y"] = 332692.57604459,
+                                ["x"] = 289226.18156557,
+                                ["y"] = 290499.22119684,
                             }, -- end of [8]
                             [9] =
                             {
@@ -50017,8 +50774,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 241840.85977465,
-                                            ["y"] = 336001.27217204,
+                                            ["x"] = 290020.08545478,
+                                            ["y"] = 360098.12881794,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -50090,17 +50847,17 @@ mission =
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29A",
                                         ["unitId"] = 473,
-                                        ["x"] = 241840.85977465,
-                                        ["y"] = 336001.27217204,
+                                        ["x"] = 290020.08545478,
+                                        ["y"] = 360098.12881794,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 241840.85977465,
-                                ["y"] = 336001.27217204,
+                                ["x"] = 290020.08545478,
+                                ["y"] = 360098.12881794,
                             }, -- end of [9]
                             [10] =
                             {
                                 ["communication"] = true,
-                                ["frequency"] = 124,
+                                ["frequency"] = 251,
                                 ["groupId"] = 125,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -50119,7 +50876,7 @@ mission =
                                             ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 220.97222222222,
+                                            ["speed"] = 210.69444444444,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -50258,8 +51015,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 242833.46861289,
-                                            ["y"] = 323759.09650049,
+                                            ["x"] = 255405.83339123,
+                                            ["y"] = 263319.79606246,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -50285,58 +51042,50 @@ mission =
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0,
-                                        ["livery_id"] = "SaAF",
+                                        ["livery_id"] = "SAAF",
                                         ["name"] = "Cap_Shayrat",
                                         ["onboard_num"] = "099",
                                         ["payload"] =
                                         {
-                                            ["chaff"] = 30,
-                                            ["flare"] = 30,
-                                            ["fuel"] = "3376",
+                                            ["chaff"] = 60,
+                                            ["flare"] = 60,
+                                            ["fuel"] = "3800",
                                             ["gun"] = 100,
                                             ["pylons"] =
                                             {
-                                                [1] =
-                                                {
-                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
-                                                }, -- end of [1]
                                                 [2] =
                                                 {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                    ["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
                                                 }, -- end of [2]
                                                 [3] =
                                                 {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                    ["CLSID"] = "{B0DBC591-0F52-4F7D-AD7B-51E67725FB81}",
                                                 }, -- end of [3]
                                                 [4] =
                                                 {
-                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
+                                                    ["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
                                                 }, -- end of [4]
                                                 [5] =
                                                 {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                    ["CLSID"] = "{275A2855-4A79-4B2D-B082-91EA2ADF4691}",
                                                 }, -- end of [5]
                                                 [6] =
                                                 {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                    ["CLSID"] = "{CCF898C9-5BC7-49A4-9D1E-C3ED3D5166A1}",
                                                 }, -- end of [6]
-                                                [7] =
-                                                {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 0,
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 220.97222222222,
-                                        ["type"] = "MiG-29A",
+                                        ["speed"] = 210.69444444444,
+                                        ["type"] = "MiG-23MLD",
                                         ["unitId"] = 474,
-                                        ["x"] = 242833.46861289,
-                                        ["y"] = 323759.09650049,
+                                        ["x"] = 255405.83339123,
+                                        ["y"] = 263319.79606246,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 242833.46861289,
-                                ["y"] = 323759.09650049,
+                                ["x"] = 255405.83339123,
+                                ["y"] = 263319.79606246,
                             }, -- end of [10]
                             [11] =
                             {
@@ -50499,8 +51248,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 243826.07745112,
-                                            ["y"] = 309531.70315248,
+                                            ["x"] = 261720.83027508,
+                                            ["y"] = 261486.40987037,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -50572,12 +51321,12 @@ mission =
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29A",
                                         ["unitId"] = 475,
-                                        ["x"] = 243826.07745112,
-                                        ["y"] = 309531.70315248,
+                                        ["x"] = 261720.83027508,
+                                        ["y"] = 261486.40987037,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 243826.07745112,
-                                ["y"] = 309531.70315248,
+                                ["x"] = 261720.83027508,
+                                ["y"] = 261486.40987037,
                             }, -- end of [11]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -54589,7 +55338,9 @@ mission =
                             [5] =
                             {
                                 ["groupId"] = 186,
-                                ["hidden"] = false,
+                                ["hidden"] = true,
+                                ["hiddenOnMFD"] = true,
+                                ["hiddenOnPlanner"] = true,
                                 ["name"] = "SYR_COASTALDEFENSEBN1",
                                 ["route"] =
                                 {
@@ -55227,7 +55978,7 @@ mission =
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 356514,
+    ["currentKey"] = 373551,
     ["date"] =
     {
         ["Day"] = 29,
@@ -55801,7 +56552,7 @@ mission =
         ["easyCommunication"] = false,
         ["easyFlight"] = false,
         ["easyRadar"] = false,
-        ["externalViews"] = true,
+        ["externalViews"] = false,
         ["fuel"] = false,
         ["geffect"] = "realistic",
         ["immortal"] = false,
@@ -55831,6 +56582,7 @@ mission =
             }, -- end of ["forward_observer"]
             ["instructor"] =
             {
+                ["red"] = "TN_BhvD0ExD:1ctn4jX0y37f-IoDhG9DXRsLlY8feurD5_8XD8-7BKI",
             }, -- end of ["instructor"]
             ["observer"] =
             {
@@ -55852,7 +56604,7 @@ mission =
             }, -- end of ["forward_observer"]
             ["instructor"] =
             {
-                ["blue"] = 1,
+                ["blue"] = 0,
                 ["neutrals"] = 0,
                 ["red"] = 1,
             }, -- end of ["instructor"]
@@ -55866,9 +56618,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 59436.329880583,
-        ["centerY"] = 18263.473383606,
-        ["zoom"] = 1671281.7149815,
+        ["centerX"] = 126485.62896775,
+        ["centerY"] = 102305.42046303,
+        ["zoom"] = 1175297.8931617,
     }, -- end of ["map"]
     ["maxDictId"] = 27,
     ["pictureFileNameB"] =
@@ -55935,8 +56687,8 @@ mission =
             [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_6\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_7\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_8\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_27\")); mission.trig.func[2]=nil;",
             [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_23\")); mission.trig.func[3]=nil;",
             [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_24\")); mission.trig.func[4]=nil;",
-            [5] = "a_group_off(115);a_group_off(107);a_group_off(106);a_group_off(94);a_group_off(95);a_group_off(173);a_group_off(174);a_group_off(175);a_group_off(177);a_group_off(259);a_group_off(260);a_group_off(261);a_group_off(262);a_group_off(288);a_group_off(305);a_group_off(309);a_group_off(313);a_group_off(314);a_group_off(292);a_group_off(293);a_group_off(294);a_group_off(295);a_group_off(297);a_group_off(315);a_group_off(316);a_group_off(300);a_group_off(303);a_group_off(323);a_group_off(324);a_group_off(318);a_group_off(317);a_group_off(299);a_group_off(301);a_group_off(302);a_group_off(320);a_group_off(321);a_group_off(322);a_group_off(325);a_group_off(326); mission.trig.func[5]=nil;",
-            [6] = "a_group_off(214);a_group_off(217);a_group_off(226);a_group_off(242);a_group_off(258); mission.trig.func[6]=nil;",
+            [5] = "a_group_off(115);a_group_off(107);a_group_off(106);a_group_off(94);a_group_off(95);a_group_off(173);a_group_off(174);a_group_off(175);a_group_off(177);a_group_off(259);a_group_off(260);a_group_off(261);a_group_off(262);a_group_off(288);a_group_off(305);a_group_off(309);a_group_off(313);a_group_off(314);a_group_off(385);a_group_off(292);a_group_off(293);a_group_off(294);a_group_off(295);a_group_off(297);a_group_off(315);a_group_off(316);a_group_off(300);a_group_off(303);a_group_off(323);a_group_off(324);a_group_off(318);a_group_off(317);a_group_off(299);a_group_off(301);a_group_off(302);a_group_off(320);a_group_off(321);a_group_off(322);a_group_off(325);a_group_off(326); mission.trig.func[5]=nil;",
+            [6] = "a_group_off(214);a_group_off(217);a_group_off(226);a_group_off(242);a_group_off(258);a_group_off(360);a_group_off(359);a_group_off(371);a_group_off(372);a_group_off(374);a_group_off(373);a_group_off(369);a_group_off(370);a_group_off(363);a_group_off(364);a_group_off(365);a_group_off(367);a_group_off(366);a_group_off(368);a_group_off(375);a_group_off(376);a_group_off(381);a_group_off(377);a_group_off(378);a_group_off(354);a_group_off(355);a_group_off(356);a_group_off(361); mission.trig.func[6]=nil;",
             [7] = "a_group_off(134);a_group_off(136);a_group_off(137);a_group_off(132);a_group_off(133); mission.trig.func[7]=nil;",
             [8] = "a_group_off(135);a_group_off(140);a_group_off(141); mission.trig.func[8]=nil;",
             [9] = "a_group_off(336); mission.trig.func[9]=nil;",
@@ -56038,8 +56790,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 3000,
                 ["type"] = 0,
-                ["x"] = 191194.7378031,
-                ["y"] = 265854.72035285,
+                ["x"] = 197261.72473256,
+                ["y"] = 318435.27374154,
                 ["zoneId"] = 85,
             }, -- end of [1]
             [2] =
@@ -56058,8 +56810,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 3000,
                 ["type"] = 0,
-                ["x"] = 191348.33315178,
-                ["y"] = 295717.85579905,
+                ["x"] = 197341.3371007,
+                ["y"] = 301466.19932492,
                 ["zoneId"] = 86,
             }, -- end of [2]
             [3] =
@@ -56118,8 +56870,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 3000,
                 ["type"] = 0,
-                ["x"] = 217809.82247161,
-                ["y"] = 318290.2472455,
+                ["x"] = 194746.87759586,
+                ["y"] = 293543.59810194,
                 ["zoneId"] = 89,
             }, -- end of [5]
             [6] =
@@ -56138,8 +56890,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 3000,
                 ["type"] = 0,
-                ["x"] = 191902.67311511,
-                ["y"] = 280278.18328386,
+                ["x"] = 91577.913599216,
+                ["y"] = 85340.81917844,
                 ["zoneId"] = 90,
             }, -- end of [6]
             [7] =
@@ -56158,8 +56910,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 3000,
                 ["type"] = 0,
-                ["x"] = 188784.72311991,
-                ["y"] = 312272.28483583,
+                ["x"] = 162508.78697984,
+                ["y"] = 189742.57038738,
                 ["zoneId"] = 91,
             }, -- end of [7]
             [8] =
@@ -56198,8 +56950,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 3000,
                 ["type"] = 0,
-                ["x"] = 138960.39670545,
-                ["y"] = 174871.05402576,
+                ["x"] = 170340.77109978,
+                ["y"] = 301353.17530904,
                 ["zoneId"] = 177,
             }, -- end of [9]
             [10] =
@@ -56218,8 +56970,8 @@ mission =
                 }, -- end of ["properties"]
                 ["radius"] = 3000,
                 ["type"] = 0,
-                ["x"] = 140628.61092618,
-                ["y"] = 196312.54656222,
+                ["x"] = 196985.20167519,
+                ["y"] = 309826.24781519,
                 ["zoneId"] = 178,
             }, -- end of [10]
             [11] =
@@ -56498,109 +57250,114 @@ mission =
                 }, -- end of [18]
                 [19] =
                 {
-                    ["group"] = 292,
+                    ["group"] = 385,
                     ["predicate"] = "a_group_off",
                 }, -- end of [19]
                 [20] =
                 {
-                    ["group"] = 293,
+                    ["group"] = 292,
                     ["predicate"] = "a_group_off",
                 }, -- end of [20]
                 [21] =
                 {
-                    ["group"] = 294,
+                    ["group"] = 293,
                     ["predicate"] = "a_group_off",
                 }, -- end of [21]
                 [22] =
                 {
-                    ["group"] = 295,
+                    ["group"] = 294,
                     ["predicate"] = "a_group_off",
                 }, -- end of [22]
                 [23] =
                 {
-                    ["group"] = 297,
+                    ["group"] = 295,
                     ["predicate"] = "a_group_off",
                 }, -- end of [23]
                 [24] =
                 {
-                    ["group"] = 315,
+                    ["group"] = 297,
                     ["predicate"] = "a_group_off",
                 }, -- end of [24]
                 [25] =
                 {
-                    ["group"] = 316,
+                    ["group"] = 315,
                     ["predicate"] = "a_group_off",
                 }, -- end of [25]
                 [26] =
                 {
-                    ["group"] = 300,
+                    ["group"] = 316,
                     ["predicate"] = "a_group_off",
                 }, -- end of [26]
                 [27] =
                 {
-                    ["group"] = 303,
+                    ["group"] = 300,
                     ["predicate"] = "a_group_off",
                 }, -- end of [27]
                 [28] =
                 {
-                    ["group"] = 323,
+                    ["group"] = 303,
                     ["predicate"] = "a_group_off",
                 }, -- end of [28]
                 [29] =
                 {
-                    ["group"] = 324,
+                    ["group"] = 323,
                     ["predicate"] = "a_group_off",
                 }, -- end of [29]
                 [30] =
                 {
-                    ["group"] = 318,
+                    ["group"] = 324,
                     ["predicate"] = "a_group_off",
                 }, -- end of [30]
                 [31] =
                 {
-                    ["group"] = 317,
+                    ["group"] = 318,
                     ["predicate"] = "a_group_off",
                 }, -- end of [31]
                 [32] =
                 {
-                    ["group"] = 299,
+                    ["group"] = 317,
                     ["predicate"] = "a_group_off",
                 }, -- end of [32]
                 [33] =
                 {
-                    ["group"] = 301,
+                    ["group"] = 299,
                     ["predicate"] = "a_group_off",
                 }, -- end of [33]
                 [34] =
                 {
-                    ["group"] = 302,
+                    ["group"] = 301,
                     ["predicate"] = "a_group_off",
                 }, -- end of [34]
                 [35] =
                 {
-                    ["group"] = 320,
+                    ["group"] = 302,
                     ["predicate"] = "a_group_off",
                 }, -- end of [35]
                 [36] =
                 {
-                    ["group"] = 321,
+                    ["group"] = 320,
                     ["predicate"] = "a_group_off",
                 }, -- end of [36]
                 [37] =
                 {
-                    ["group"] = 322,
+                    ["group"] = 321,
                     ["predicate"] = "a_group_off",
                 }, -- end of [37]
                 [38] =
                 {
-                    ["group"] = 325,
+                    ["group"] = 322,
                     ["predicate"] = "a_group_off",
                 }, -- end of [38]
                 [39] =
                 {
-                    ["group"] = 326,
+                    ["group"] = 325,
                     ["predicate"] = "a_group_off",
                 }, -- end of [39]
+                [40] =
+                {
+                    ["group"] = 326,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [40]
             }, -- end of ["actions"]
             ["colorItem"] = "0x804000ff",
             ["comment"] = "AI OFF 1st Corps",
@@ -56647,6 +57404,121 @@ mission =
                     ["group"] = 258,
                     ["predicate"] = "a_group_off",
                 }, -- end of [5]
+                [6] =
+                {
+                    ["group"] = 360,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [6]
+                [7] =
+                {
+                    ["group"] = 359,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [7]
+                [8] =
+                {
+                    ["group"] = 371,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [8]
+                [9] =
+                {
+                    ["group"] = 372,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [9]
+                [10] =
+                {
+                    ["group"] = 374,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [10]
+                [11] =
+                {
+                    ["group"] = 373,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [11]
+                [12] =
+                {
+                    ["group"] = 369,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [12]
+                [13] =
+                {
+                    ["group"] = 370,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [13]
+                [14] =
+                {
+                    ["group"] = 363,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [14]
+                [15] =
+                {
+                    ["group"] = 364,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [15]
+                [16] =
+                {
+                    ["group"] = 365,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [16]
+                [17] =
+                {
+                    ["group"] = 367,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [17]
+                [18] =
+                {
+                    ["group"] = 366,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [18]
+                [19] =
+                {
+                    ["group"] = 368,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [19]
+                [20] =
+                {
+                    ["group"] = 375,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [20]
+                [21] =
+                {
+                    ["group"] = 376,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [21]
+                [22] =
+                {
+                    ["group"] = 381,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [22]
+                [23] =
+                {
+                    ["group"] = 377,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [23]
+                [24] =
+                {
+                    ["group"] = 378,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [24]
+                [25] =
+                {
+                    ["group"] = 354,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [25]
+                [26] =
+                {
+                    ["group"] = 355,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [26]
+                [27] =
+                {
+                    ["group"] = 356,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [27]
+                [28] =
+                {
+                    ["group"] = 361,
+                    ["predicate"] = "a_group_off",
+                }, -- end of [28]
             }, -- end of ["actions"]
             ["colorItem"] = "0x804000ff",
             ["comment"] = "AI OFF 2nd Corps",
