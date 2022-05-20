@@ -55978,7 +55978,7 @@ mission =
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 376939,
+    ["currentKey"] = 485342,
     ["date"] =
     {
         ["Day"] = 29,
@@ -56618,11 +56618,11 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 185469.81910173,
-        ["centerY"] = 197040.08887172,
-        ["zoom"] = 694001.65293305,
+        ["centerX"] = 188196.25416682,
+        ["centerY"] = 199796.2668648,
+        ["zoom"] = 763401.81822635,
     }, -- end of ["map"]
-    ["maxDictId"] = 27,
+    ["maxDictId"] = 62,
     ["pictureFileNameB"] =
     {
     }, -- end of ["pictureFileNameB"]
@@ -56683,41 +56683,45 @@ mission =
     {
         ["actions"] =
         {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_22\"));",
-            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_6\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_7\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_8\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_26\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_27\")); mission.trig.func[2]=nil;",
-            [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_23\")); mission.trig.func[3]=nil;",
-            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_24\")); mission.trig.func[4]=nil;",
-            [5] = "a_group_off(115);a_group_off(107);a_group_off(106);a_group_off(94);a_group_off(95);a_group_off(173);a_group_off(174);a_group_off(175);a_group_off(177);a_group_off(259);a_group_off(260);a_group_off(261);a_group_off(262);a_group_off(288);a_group_off(305);a_group_off(309);a_group_off(313);a_group_off(314);a_group_off(385);a_group_off(292);a_group_off(293);a_group_off(294);a_group_off(295);a_group_off(297);a_group_off(315);a_group_off(316);a_group_off(300);a_group_off(303);a_group_off(323);a_group_off(324);a_group_off(318);a_group_off(317);a_group_off(299);a_group_off(301);a_group_off(302);a_group_off(320);a_group_off(321);a_group_off(322);a_group_off(325);a_group_off(326); mission.trig.func[5]=nil;",
-            [6] = "a_group_off(214);a_group_off(217);a_group_off(226);a_group_off(242);a_group_off(258);a_group_off(360);a_group_off(359);a_group_off(371);a_group_off(372);a_group_off(374);a_group_off(373);a_group_off(369);a_group_off(370);a_group_off(363);a_group_off(364);a_group_off(365);a_group_off(367);a_group_off(366);a_group_off(368);a_group_off(375);a_group_off(376);a_group_off(381);a_group_off(377);a_group_off(378);a_group_off(354);a_group_off(355);a_group_off(356);a_group_off(361); mission.trig.func[6]=nil;",
-            [7] = "a_group_off(134);a_group_off(136);a_group_off(137);a_group_off(132);a_group_off(133); mission.trig.func[7]=nil;",
-            [8] = "a_group_off(135);a_group_off(140);a_group_off(141); mission.trig.func[8]=nil;",
-            [9] = "a_group_off(336); mission.trig.func[9]=nil;",
-            [10] = "a_activate_group(198); mission.trig.func[10]=nil;",
-            [11] = "a_deactivate_group(198); mission.trig.func[11]=nil;",
-            [12] = "a_activate_group(200); mission.trig.func[12]=nil;",
-            [13] = "a_deactivate_group(200); mission.trig.func[13]=nil;",
-            [14] = "a_activate_group(201); mission.trig.func[14]=nil;",
-            [15] = "a_deactivate_group(201); mission.trig.func[15]=nil;",
-            [16] = "a_ai_task(353, 1); mission.trig.func[16]=nil;",
+            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_58\"));",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_30\"));",
+            [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_38\")); mission.trig.func[3]=nil;",
+            [4] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_33\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_34\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_35\")); mission.trig.func[4]=nil;",
+            [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_23\")); mission.trig.func[5]=nil;",
+            [6] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_62\")); mission.trig.func[6]=nil;",
+            [7] = "a_group_off(115);a_group_off(107);a_group_off(106);a_group_off(94);a_group_off(95);a_group_off(173);a_group_off(174);a_group_off(175);a_group_off(177);a_group_off(259);a_group_off(260);a_group_off(261);a_group_off(262);a_group_off(288);a_group_off(305);a_group_off(309);a_group_off(313);a_group_off(314);a_group_off(385);a_group_off(292);a_group_off(293);a_group_off(294);a_group_off(295);a_group_off(297);a_group_off(315);a_group_off(316);a_group_off(300);a_group_off(303);a_group_off(323);a_group_off(324);a_group_off(318);a_group_off(317);a_group_off(299);a_group_off(301);a_group_off(302);a_group_off(320);a_group_off(321);a_group_off(322);a_group_off(325);a_group_off(326); mission.trig.func[7]=nil;",
+            [8] = "a_group_off(214);a_group_off(217);a_group_off(226);a_group_off(242);a_group_off(258);a_group_off(360);a_group_off(359);a_group_off(371);a_group_off(372);a_group_off(374);a_group_off(373);a_group_off(369);a_group_off(370);a_group_off(363);a_group_off(364);a_group_off(365);a_group_off(367);a_group_off(366);a_group_off(368);a_group_off(375);a_group_off(376);a_group_off(381);a_group_off(377);a_group_off(378);a_group_off(354);a_group_off(355);a_group_off(356);a_group_off(361); mission.trig.func[8]=nil;",
+            [9] = "a_group_off(134);a_group_off(136);a_group_off(137);a_group_off(132);a_group_off(133); mission.trig.func[9]=nil;",
+            [10] = "a_group_off(135);a_group_off(140);a_group_off(141); mission.trig.func[10]=nil;",
+            [11] = "a_group_off(336); mission.trig.func[11]=nil;",
+            [12] = "a_activate_group(198); mission.trig.func[12]=nil;",
+            [13] = "a_deactivate_group(198); mission.trig.func[13]=nil;",
+            [14] = "a_activate_group(200); mission.trig.func[14]=nil;",
+            [15] = "a_deactivate_group(200); mission.trig.func[15]=nil;",
+            [16] = "a_activate_group(201); mission.trig.func[16]=nil;",
+            [17] = "a_deactivate_group(201); mission.trig.func[17]=nil;",
+            [18] = "a_ai_task(353, 1); mission.trig.func[18]=nil;",
         }, -- end of ["actions"]
         ["conditions"] =
         {
             [1] = "return(true)",
-            [2] = "return(c_time_after(2) )",
-            [3] = "return(c_time_after(4) )",
-            [4] = "return(c_time_after(6) )",
-            [5] = "return(c_time_after(10) )",
-            [6] = "return(c_time_after(11) )",
-            [7] = "return(c_time_after(11) )",
-            [8] = "return(c_time_after(12) )",
-            [9] = "return(c_time_after(13) )",
-            [10] = "return(c_time_after(3100) )",
-            [11] = "return(c_part_of_group_in_zone(198, 264) )",
-            [12] = "return(c_time_after(3900) )",
-            [13] = "return(c_part_of_group_in_zone(200, 264) )",
-            [14] = "return(c_time_after(4000) )",
-            [15] = "return(c_part_of_group_in_zone(201, 264) )",
+            [2] = "return(true)",
+            [3] = "return(c_time_after(1) )",
+            [4] = "return(c_time_after(5) )",
+            [5] = "return(c_time_after(60000) )",
+            [6] = "return(c_time_after(7) )",
+            [7] = "return(c_time_after(10) )",
+            [8] = "return(c_time_after(11) )",
+            [9] = "return(c_time_after(11) )",
+            [10] = "return(c_time_after(12) )",
+            [11] = "return(c_time_after(13) )",
+            [12] = "return(c_time_after(3100) )",
+            [13] = "return(c_part_of_group_in_zone(198, 264) )",
+            [14] = "return(c_time_after(3900) )",
+            [15] = "return(c_part_of_group_in_zone(200, 264) )",
             [16] = "return(c_time_after(4000) )",
+            [17] = "return(c_part_of_group_in_zone(201, 264) )",
+            [18] = "return(c_time_after(4000) )",
         }, -- end of ["conditions"]
         ["custom"] =
         {
@@ -56746,10 +56750,11 @@ mission =
             [14] = true,
             [15] = true,
             [16] = true,
+            [17] = true,
+            [18] = true,
         }, -- end of ["flag"]
         ["func"] =
         {
-            [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
             [3] = "if mission.trig.conditions[3]() then mission.trig.actions[3]() end",
             [4] = "if mission.trig.conditions[4]() then mission.trig.actions[4]() end",
             [5] = "if mission.trig.conditions[5]() then mission.trig.actions[5]() end",
@@ -56764,10 +56769,13 @@ mission =
             [14] = "if mission.trig.conditions[14]() then mission.trig.actions[14]() end",
             [15] = "if mission.trig.conditions[15]() then mission.trig.actions[15]() end",
             [16] = "if mission.trig.conditions[16]() then mission.trig.actions[16]() end",
+            [17] = "if mission.trig.conditions[17]() then mission.trig.actions[17]() end",
+            [18] = "if mission.trig.conditions[18]() then mission.trig.actions[18]() end",
         }, -- end of ["func"]
         ["funcStartup"] =
         {
             [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
+            [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
         }, -- end of ["funcStartup"]
     }, -- end of ["trig"]
     ["triggers"] =
@@ -57044,7 +57052,7 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_22",
+                    ["file"] = "ResKey_Action_58",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
@@ -57062,29 +57070,63 @@ mission =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_6",
+                    ["file"] = "ResKey_Action_30",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x808080ff",
+            ["comment"] = "MIST",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerStart",
+            ["rules"] =
+            {
+            }, -- end of ["rules"]
+        }, -- end of [2]
+        [3] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_38",
+                    ["predicate"] = "a_do_script_file",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x808080ff",
+            ["comment"] = "Skynet_compiled",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] =
+            {
+                [1] =
+                {
+                    ["coalitionlist"] = "red",
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 1,
+                    ["unitType"] = "ALL",
+                    ["zone"] = "",
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [3]
+        [4] =
+        {
+            ["actions"] =
+            {
+                [1] =
+                {
+                    ["file"] = "ResKey_Action_33",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
                 [2] =
                 {
-                    ["file"] = "ResKey_Action_7",
+                    ["file"] = "ResKey_Action_34",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [2]
                 [3] =
                 {
-                    ["file"] = "ResKey_Action_8",
+                    ["file"] = "ResKey_Action_35",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [3]
-                [4] =
-                {
-                    ["file"] = "ResKey_Action_26",
-                    ["predicate"] = "a_do_script_file",
-                }, -- end of [4]
-                [5] =
-                {
-                    ["file"] = "ResKey_Action_27",
-                    ["predicate"] = "a_do_script_file",
-                }, -- end of [5]
             }, -- end of ["actions"]
             ["colorItem"] = "0x808080ff",
             ["comment"] = "Skynet",
@@ -57096,13 +57138,13 @@ mission =
                 {
                     ["coalitionlist"] = "red",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 2,
+                    ["seconds"] = 5,
                     ["unitType"] = "ALL",
                     ["zone"] = "",
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [2]
-        [3] =
+        }, -- end of [4]
+        [5] =
         {
             ["actions"] =
             {
@@ -57122,19 +57164,19 @@ mission =
                 {
                     ["coalitionlist"] = "red",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 4,
+                    ["seconds"] = 60000,
                     ["unitType"] = "ALL",
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [3]
-        [4] =
+        }, -- end of [5]
+        [6] =
         {
             ["actions"] =
             {
                 [1] =
                 {
-                    ["file"] = "ResKey_Action_24",
+                    ["file"] = "ResKey_Action_62",
                     ["predicate"] = "a_do_script_file",
                 }, -- end of [1]
             }, -- end of ["actions"]
@@ -57148,13 +57190,13 @@ mission =
                 {
                     ["coalitionlist"] = "red",
                     ["predicate"] = "c_time_after",
-                    ["seconds"] = 6,
+                    ["seconds"] = 7,
                     ["unitType"] = "ALL",
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [4]
-        [5] =
+        }, -- end of [6]
+        [7] =
         {
             ["actions"] =
             {
@@ -57374,8 +57416,8 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [5]
-        [6] =
+        }, -- end of [7]
+        [8] =
         {
             ["actions"] =
             {
@@ -57535,8 +57577,8 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [6]
-        [7] =
+        }, -- end of [8]
+        [9] =
         {
             ["actions"] =
             {
@@ -57581,8 +57623,8 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [7]
-        [8] =
+        }, -- end of [9]
+        [10] =
         {
             ["actions"] =
             {
@@ -57617,8 +57659,8 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [8]
-        [9] =
+        }, -- end of [10]
+        [11] =
         {
             ["actions"] =
             {
@@ -57643,8 +57685,8 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [9]
-        [10] =
+        }, -- end of [11]
+        [12] =
         {
             ["actions"] =
             {
@@ -57668,8 +57710,8 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [10]
-        [11] =
+        }, -- end of [12]
+        [13] =
         {
             ["actions"] =
             {
@@ -57694,8 +57736,8 @@ mission =
                     ["zone"] = 264,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [11]
-        [12] =
+        }, -- end of [13]
+        [14] =
         {
             ["actions"] =
             {
@@ -57719,8 +57761,8 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [12]
-        [13] =
+        }, -- end of [14]
+        [15] =
         {
             ["actions"] =
             {
@@ -57745,8 +57787,8 @@ mission =
                     ["zone"] = 264,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [13]
-        [14] =
+        }, -- end of [15]
+        [16] =
         {
             ["actions"] =
             {
@@ -57770,8 +57812,8 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [14]
-        [15] =
+        }, -- end of [16]
+        [17] =
         {
             ["actions"] =
             {
@@ -57796,8 +57838,8 @@ mission =
                     ["zone"] = 264,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [15]
-        [16] =
+        }, -- end of [17]
+        [18] =
         {
             ["actions"] =
             {
@@ -57825,7 +57867,7 @@ mission =
                     ["zone"] = 90,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [16]
+        }, -- end of [18]
     }, -- end of ["trigrules"]
     ["version"] = 20,
     ["weather"] =
