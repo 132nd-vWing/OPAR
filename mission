@@ -4743,7 +4743,7 @@ mission =
                                         }, -- end of [1]
                                         [2] =
                                         {
-                                            ["ETA"] = 5646.8465161604,
+                                            ["ETA"] = 5646.8465161609,
                                             ["ETA_locked"] = false,
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
@@ -25384,6 +25384,102 @@ mission =
                     ["x"] = 258307.94419562,
                     ["y"] = 169194.610364,
                 }, -- end of [26]
+                [27] =
+                {
+                    ["callsignStr"] = "AR701",
+                    ["comment"] = "",
+                    ["id"] = 964,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = 249835.63412191,
+                    ["y"] = -12824.344723081,
+                }, -- end of [27]
+                [28] =
+                {
+                    ["callsignStr"] = "AR702",
+                    ["comment"] = "",
+                    ["id"] = 965,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = -8123.8600076618,
+                    ["y"] = -97913.864781105,
+                }, -- end of [28]
+                [29] =
+                {
+                    ["callsignStr"] = "AR703",
+                    ["comment"] = "",
+                    ["id"] = 966,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = 150495.36506187,
+                    ["y"] = -121146.30896162,
+                }, -- end of [29]
+                [30] =
+                {
+                    ["callsignStr"] = "AR801",
+                    ["comment"] = "",
+                    ["id"] = 967,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = 158695.37301702,
+                    ["y"] = -98309.585733054,
+                }, -- end of [30]
+                [31] =
+                {
+                    ["callsignStr"] = "AR802",
+                    ["comment"] = "",
+                    ["id"] = 968,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = 28882.498640654,
+                    ["y"] = -96356.089550039,
+                }, -- end of [31]
+                [32] =
+                {
+                    ["callsignStr"] = "AR803",
+                    ["comment"] = "",
+                    ["id"] = 969,
+                    ["properties"] =
+                    {
+                        ["angle"] = 0,
+                        ["scale"] = 0,
+                        ["steer"] = 2,
+                        ["vangle"] = 0,
+                        ["vnav"] = 1,
+                    }, -- end of ["properties"]
+                    ["x"] = 264249.83420817,
+                    ["y"] = -1937.0894863467,
+                }, -- end of [32]
             }, -- end of ["nav_points"]
         }, -- end of ["blue"]
         ["neutrals"] =
@@ -25946,8 +26042,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = 210138.859375,
-                                            ["y"] = 146877.125,
+                                            ["x"] = 210070.890625,
+                                            ["y"] = 147113.21875,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -25969,8 +26065,8 @@ mission =
                                         ["livery_id"] = "SAA MI-24",
                                         ["name"] = "1st_161st AHS_MI24-5",
                                         ["onboard_num"] = "016",
-                                        ["parking"] = "10",
-                                        ["parking_id"] = "07",
+                                        ["parking"] = 6,
+                                        ["parking_id"] = "01",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 0,
@@ -26002,8 +26098,8 @@ mission =
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Mi-24V",
                                         ["unitId"] = 1103,
-                                        ["x"] = 210138.859375,
-                                        ["y"] = 146877.125,
+                                        ["x"] = 210070.890625,
+                                        ["y"] = 147113.21875,
                                     }, -- end of [1]
                                     [2] =
                                     {
@@ -26014,8 +26110,8 @@ mission =
                                         ["livery_id"] = "SAA MI-24",
                                         ["name"] = "1st_161st AHS_MI24-6",
                                         ["onboard_num"] = "017",
-                                        ["parking"] = "12",
-                                        ["parking_id"] = "08",
+                                        ["parking"] = 5,
+                                        ["parking_id"] = "03",
                                         ["payload"] =
                                         {
                                             ["chaff"] = 0,
@@ -26031,12 +26127,12 @@ mission =
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "Mi-24V",
                                         ["unitId"] = 1104,
-                                        ["x"] = 210150.109375,
-                                        ["y"] = 146837.703125,
+                                        ["x"] = 210094.03125,
+                                        ["y"] = 147035.328125,
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["x"] = 210138.859375,
-                                ["y"] = 146877.125,
+                                ["x"] = 210070.890625,
+                                ["y"] = 147113.21875,
                             }, -- end of [2]
                             [3] =
                             {
@@ -26424,8 +26520,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = 210296.46374489,
-                                            ["y"] = 146564.50362964,
+                                            ["x"] = 210307.09536683,
+                                            ["y"] = 146501.41546286,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -26471,12 +26567,12 @@ mission =
                                         ["speed"] = 46.25,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 1114,
-                                        ["x"] = 210296.46374489,
-                                        ["y"] = 146564.50362964,
+                                        ["x"] = 210307.09536683,
+                                        ["y"] = 146501.41546286,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 210296.46374489,
-                                ["y"] = 146564.50362964,
+                                ["x"] = 210307.09536683,
+                                ["y"] = 146501.41546286,
                             }, -- end of [7]
                             [8] =
                             {
@@ -26496,10 +26592,10 @@ mission =
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["action"] = "From Ground Area",
-                                            ["alt"] = 719.60505972156,
+                                            ["alt"] = 687,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 46.25,
+                                            ["speed"] = 55.555555555556,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -26512,8 +26608,8 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffGround",
-                                            ["x"] = 218995.38668385,
-                                            ["y"] = 190054.8241814,
+                                            ["x"] = 210170.53800433,
+                                            ["y"] = 146757.89047005,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -26535,11 +26631,11 @@ mission =
                                             ["GunnersAISkill"] = 90,
                                             ["NS430allow"] = true,
                                         }, -- end of ["AddPropAircraft"]
-                                        ["alt"] = 719.60505972156,
+                                        ["alt"] = 687,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 111,
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 2.3038346126325,
+                                        ["heading"] = 0.26179938779915,
                                         ["livery_id"] = "Syria - Standard",
                                         ["name"] = "1st_162nd_THS_MI26-6-1",
                                         ["onboard_num"] = "023",
@@ -26553,18 +26649,18 @@ mission =
                                             {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -2.3038346126325,
+                                        ["psi"] = -0.26179938779915,
                                         ["ropeLength"] = 15,
                                         ["skill"] = "High",
-                                        ["speed"] = 46.25,
+                                        ["speed"] = 55.555555555556,
                                         ["type"] = "Mi-8MT",
                                         ["unitId"] = 1115,
-                                        ["x"] = 218995.38668385,
-                                        ["y"] = 190054.8241814,
+                                        ["x"] = 210170.53800433,
+                                        ["y"] = 146757.89047005,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 218995.38668385,
-                                ["y"] = 190054.8241814,
+                                ["x"] = 210170.53800433,
+                                ["y"] = 146757.89047005,
                             }, -- end of [8]
                         }, -- end of ["group"]
                     }, -- end of ["helicopter"]
@@ -51019,7 +51115,7 @@ mission =
                                             ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 277.5,
+                                            ["speed"] = 187.29997330486,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -51200,7 +51296,7 @@ mission =
                                         }, -- end of ["payload"]
                                         ["psi"] = 0,
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 277.5,
+                                        ["speed"] = 187.29997330486,
                                         ["type"] = "MiG-25PD",
                                         ["unitId"] = 300,
                                         ["x"] = 281684.36881112,
@@ -51446,7 +51542,7 @@ mission =
                                             ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
                                             ["formation_template"] = "",
-                                            ["speed"] = 220.97222222222,
+                                            ["speed"] = 187.29997330486,
                                             ["speed_locked"] = true,
                                             ["task"] =
                                             {
@@ -51652,7 +51748,7 @@ mission =
                                         }, -- end of ["payload"]
                                         ["psi"] = 0,
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 220.97222222222,
+                                        ["speed"] = 187.29997330486,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 302,
                                         ["x"] = 271673.33435089,
@@ -57985,17 +58081,272 @@ mission =
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 533258,
+    ["currentKey"] = 564139,
     ["date"] =
     {
-        ["Day"] = 29,
-        ["Month"] = 8,
+        ["Day"] = 1,
+        ["Month"] = 9,
         ["Year"] = 2011,
     }, -- end of ["date"]
     ["descriptionBlueTask"] = "DictKey_descriptionBlueTask_3",
     ["descriptionNeutralsTask"] = "DictKey_descriptionNeutralsTask_4",
     ["descriptionRedTask"] = "DictKey_descriptionRedTask_2",
     ["descriptionText"] = "DictKey_descriptionText_1",
+    ["drawings"] =
+    {
+        ["layers"] =
+        {
+            [1] =
+            {
+                ["name"] = "Red",
+                ["objects"] =
+                {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [1]
+            [2] =
+            {
+                ["name"] = "Blue",
+                ["objects"] =
+                {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [2]
+            [3] =
+            {
+                ["name"] = "Neutral",
+                ["objects"] =
+                {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [3]
+            [4] =
+            {
+                ["name"] = "Common",
+                ["objects"] =
+                {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [4]
+            [5] =
+            {
+                ["name"] = "Author",
+                ["objects"] =
+                {
+                    [1] =
+                    {
+                        ["closed"] = false,
+                        ["colorString"] = "0x800080ff",
+                        ["layerName"] = "Author",
+                        ["lineMode"] = "segments",
+                        ["mapX"] = 264304.12423298,
+                        ["mapY"] = -1919.8836494669,
+                        ["name"] = "AR803",
+                        ["points"] =
+                        {
+                            [1] =
+                            {
+                                ["x"] = 0,
+                                ["y"] = 0,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["x"] = 1930.8116521275,
+                                ["y"] = 1287.207768085,
+                            }, -- end of [2]
+                            [3] =
+                            {
+                                ["x"] = 41962.973239572,
+                                ["y"] = 35784.375952764,
+                            }, -- end of [3]
+                        }, -- end of ["points"]
+                        ["primitiveType"] = "Line",
+                        ["style"] = "solid",
+                        ["thickness"] = 4,
+                        ["visible"] = true,
+                    }, -- end of [1]
+                    [2] =
+                    {
+                        ["closed"] = false,
+                        ["colorString"] = "0x800080ff",
+                        ["layerName"] = "Author",
+                        ["lineMode"] = "segments",
+                        ["mapX"] = 249629.95567681,
+                        ["mapY"] = -12861.14967819,
+                        ["name"] = "AR701",
+                        ["points"] =
+                        {
+                            [1] =
+                            {
+                                ["x"] = 0,
+                                ["y"] = 0,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["x"] = 41319.369355529,
+                                ["y"] = 37071.583720849,
+                            }, -- end of [2]
+                        }, -- end of ["points"]
+                        ["primitiveType"] = "Line",
+                        ["style"] = "solid",
+                        ["thickness"] = 4,
+                        ["visible"] = true,
+                    }, -- end of [2]
+                    [3] =
+                    {
+                        ["closed"] = false,
+                        ["colorString"] = "0x800080ff",
+                        ["layerName"] = "Author",
+                        ["lineMode"] = "segments",
+                        ["mapX"] = -8710.2188644185,
+                        ["mapY"] = -97384.772576216,
+                        ["name"] = "AR702",
+                        ["points"] =
+                        {
+                            [1] =
+                            {
+                                ["x"] = 0,
+                                ["y"] = 0,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["x"] = 55979.582205516,
+                                ["y"] = -1207.5096410769,
+                            }, -- end of [2]
+                        }, -- end of ["points"]
+                        ["primitiveType"] = "Line",
+                        ["style"] = "solid",
+                        ["thickness"] = 4,
+                        ["visible"] = true,
+                    }, -- end of [3]
+                    [4] =
+                    {
+                        ["closed"] = false,
+                        ["colorString"] = "0x800080ff",
+                        ["layerName"] = "Author",
+                        ["lineMode"] = "segments",
+                        ["mapX"] = 28852.078005433,
+                        ["mapY"] = -96388.208798613,
+                        ["name"] = "AR802",
+                        ["points"] =
+                        {
+                            [1] =
+                            {
+                                ["x"] = 0,
+                                ["y"] = 0,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["x"] = 54520.198803353,
+                                ["y"] = 528.68071566887,
+                            }, -- end of [2]
+                        }, -- end of ["points"]
+                        ["primitiveType"] = "Line",
+                        ["style"] = "solid",
+                        ["thickness"] = 4,
+                        ["visible"] = true,
+                    }, -- end of [4]
+                    [5] =
+                    {
+                        ["closed"] = false,
+                        ["colorString"] = "0x800080ff",
+                        ["layerName"] = "Author",
+                        ["lineMode"] = "segments",
+                        ["mapX"] = 150376.31600883,
+                        ["mapY"] = -121138.78334973,
+                        ["name"] = "AR703",
+                        ["points"] =
+                        {
+                            [1] =
+                            {
+                                ["x"] = 0,
+                                ["y"] = 0,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["x"] = 42520.615874197,
+                                ["y"] = 36246.620173526,
+                            }, -- end of [2]
+                        }, -- end of ["points"]
+                        ["primitiveType"] = "Line",
+                        ["style"] = "solid",
+                        ["thickness"] = 4,
+                        ["visible"] = true,
+                    }, -- end of [5]
+                    [6] =
+                    {
+                        ["closed"] = false,
+                        ["colorString"] = "0x800080ff",
+                        ["layerName"] = "Author",
+                        ["lineMode"] = "segments",
+                        ["mapX"] = 158600.37054063,
+                        ["mapY"] = -98376.392843005,
+                        ["name"] = "AR801",
+                        ["points"] =
+                        {
+                            [1] =
+                            {
+                                ["x"] = 0,
+                                ["y"] = 0,
+                            }, -- end of [1]
+                            [2] =
+                            {
+                                ["x"] = 41866.726733056,
+                                ["y"] = 36326.984202804,
+                            }, -- end of [2]
+                        }, -- end of ["points"]
+                        ["primitiveType"] = "Line",
+                        ["style"] = "solid",
+                        ["thickness"] = 4,
+                        ["visible"] = true,
+                    }, -- end of [6]
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [5]
+        }, -- end of ["layers"]
+        ["options"] =
+        {
+            ["hiddenOnF10Map"] =
+            {
+                ["ArtilleryCommander"] =
+                {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["ArtilleryCommander"]
+                ["ForwardObserver"] =
+                {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["ForwardObserver"]
+                ["Instructor"] =
+                {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["Instructor"]
+                ["Observer"] =
+                {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["Observer"]
+                ["Pilot"] =
+                {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["Pilot"]
+                ["Spectrator"] =
+                {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["Spectrator"]
+            }, -- end of ["hiddenOnF10Map"]
+        }, -- end of ["options"]
+    }, -- end of ["drawings"]
     ["failures"] =
     {
         ["A11_CLOCK_FAILURE"] =
@@ -64935,9 +65286,9 @@ mission =
     }, -- end of ["groundControl"]
     ["map"] =
     {
-        ["centerX"] = 146852.72512708,
-        ["centerY"] = 44255.472856089,
-        ["zoom"] = 56507.091312378,
+        ["centerX"] = 176917.62173272,
+        ["centerY"] = 175099.81517344,
+        ["zoom"] = 689919.6756819,
     }, -- end of ["map"]
     ["maxDictId"] = 62,
     ["pictureFileNameB"] =
@@ -64994,7 +65345,7 @@ mission =
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_5",
-    ["start_time"] = 54000,
+    ["start_time"] = 46800,
     ["theatre"] = "Syria",
     ["trig"] =
     {
@@ -66195,7 +66546,7 @@ mission =
             ["base"] = 2500,
             ["density"] = 0,
             ["iprecptns"] = 0,
-            ["preset"] = "Preset2",
+            ["preset"] = "Preset1",
             ["thickness"] = 200,
         }, -- end of ["clouds"]
         ["cyclones"] =
