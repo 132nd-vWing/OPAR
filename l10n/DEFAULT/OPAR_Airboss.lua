@@ -39,11 +39,12 @@ Lincoln:SetMPWireCorrection(15)
 
 -- Recovery Cycles
 -- start time, stop time, case X , heading offset (for case 3), u-turn, wind over deck
-local window1=Lincoln:AddRecoveryWindow( "15:40", "16:00", 1, nil, true, 25)
-local window1=Lincoln:AddRecoveryWindow( "16:40", "17:00", 1, nil, true, 25)
-local window2=Lincoln:AddRecoveryWindow( "17:40", "18:00", 1, nil, true, 25)
-local window3=Lincoln:AddRecoveryWindow( "18:40", "19:00", 1, nil, true, 25)
-local window3=Lincoln:AddRecoveryWindow( "19:40", "20:00", 1, nil, true, 25)
+local window1=Lincoln:AddRecoveryWindow( "14:30", "14:45", 1, nil, true, 25)
+local window1=Lincoln:AddRecoveryWindow( "15:30", "15:45", 1, nil, true, 25)
+local window1=Lincoln:AddRecoveryWindow( "16:30", "16:45", 1, nil, true, 25)
+local window2=Lincoln:AddRecoveryWindow( "17:30", "17:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "18:30", "18:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "19:30", "19:45", 1, nil, true, 25)
 
 
 
