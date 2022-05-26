@@ -3,7 +3,6 @@ do
 redIADS = SkynetIADS:create('FIRSTCORPS')
 
 --add SA6 BN
-
 redIADS:addSAMSitesByPrefix('FIRST_SA6BN')
 
 --add SA11 BN
