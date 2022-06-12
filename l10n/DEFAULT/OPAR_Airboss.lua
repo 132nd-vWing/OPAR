@@ -45,6 +45,12 @@ local window1=Lincoln:AddRecoveryWindow( "16:30", "16:45", 1, nil, true, 25)
 local window2=Lincoln:AddRecoveryWindow( "17:30", "17:45", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "18:30", "18:45", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "19:30", "19:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "20:30", "20:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "21:30", "21:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "22:30", "22:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "23:30", "23:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "00:30", "00:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "01:30", "01:45", 1, nil, true, 25)
 
 
 
