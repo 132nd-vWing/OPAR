@@ -39,6 +39,20 @@ Lincoln:SetMPWireCorrection(15)
 
 -- Recovery Cycles
 -- start time, stop time, case X , heading offset (for case 3), u-turn, wind over deck
+local window3=Lincoln:AddRecoveryWindow( "00:30", "00:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "01:30", "01:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "02:30", "02:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "03:30", "03:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "04:30", "04:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "05:30", "05:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "06:30", "06:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "07:30", "07:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "08:30", "08:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "09:30", "09:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "10:30", "10:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "11:30", "11:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "12:30", "12:45", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "13:30", "13:45", 1, nil, true, 25)
 local window1=Lincoln:AddRecoveryWindow( "14:30", "14:45", 1, nil, true, 25)
 local window1=Lincoln:AddRecoveryWindow( "15:30", "15:45", 1, nil, true, 25)
 local window1=Lincoln:AddRecoveryWindow( "16:30", "16:45", 1, nil, true, 25)
@@ -49,10 +63,6 @@ local window3=Lincoln:AddRecoveryWindow( "20:30", "20:45", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "21:30", "21:45", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "22:30", "22:45", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "23:30", "23:45", 1, nil, true, 25)
-local window3=Lincoln:AddRecoveryWindow( "00:30", "00:45", 1, nil, true, 25)
-local window3=Lincoln:AddRecoveryWindow( "01:30", "01:45", 1, nil, true, 25)
-
-
 
 -- Set folder of airboss sound files within miz file.
 Lincoln:SetSoundfilesFolder("Airboss Soundfiles/")
