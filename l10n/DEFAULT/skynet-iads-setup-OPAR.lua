@@ -20,7 +20,7 @@ redIADS:addCommandCenter(commandCenter)
 local connectionNodeEW = StaticObject.getByName('SCC_WEST')
 redIADS:getEarlyWarningRadarByUnitName('EWR_W_1-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
-----add a power source and a connection node for this EW radar:
+----add a power source and a connection node for this EW radar :
 local connectionNodeEW = StaticObject.getByName('SCC_WEST')
 redIADS:getEarlyWarningRadarByUnitName('EWR_W_2-1'):addPowerSource(powerSource):addConnectionNode(connectionNodeEW)
 
