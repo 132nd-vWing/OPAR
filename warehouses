@@ -2285,44 +2285,6 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [2043]
-        [307] = 
-        {
-            ["gasoline"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["gasoline"]
-            ["unlimitedMunitions"] = true,
-            ["methanol_mixture"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["methanol_mixture"]
-            ["OperatingLevel_Air"] = 10,
-            ["diesel"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["diesel"]
-            ["speed"] = 16.666666,
-            ["size"] = 100,
-            ["periodicity"] = 30,
-            ["suppliers"] = 
-            {
-            }, -- end of ["suppliers"]
-            ["coalition"] = "blue",
-            ["jet_fuel"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["jet_fuel"]
-            ["OperatingLevel_Eqp"] = 10,
-            ["unlimitedFuel"] = true,
-            ["aircrafts"] = 
-            {
-            }, -- end of ["aircrafts"]
-            ["weapons"] = 
-            {
-            }, -- end of ["weapons"]
-            ["OperatingLevel_Fuel"] = 10,
-            ["unlimitedAircrafts"] = true,
-        }, -- end of [307]
         [1985] = 
         {
             ["gasoline"] = 
@@ -4885,6 +4847,7 @@ warehouses =
                             [9] = "Air",
                             [10] = "Planes",
                             [11] = "Battle airplanes",
+                            [12] = "Battle airplanes",
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 100,
                     }, -- end of ["Mirage-F1EE"]
@@ -11276,6 +11239,17 @@ warehouses =
                     }, -- end of ["wsType"]
                     ["initialAmount"] = 100,
                 }, -- end of [559]
+                [560] = 
+                {
+                    ["wsType"] = 
+                    {
+                        [1] = 4,
+                        [2] = 8,
+                        [3] = 11,
+                        [4] = 398,
+                    }, -- end of ["wsType"]
+                    ["initialAmount"] = 100,
+                }, -- end of [560]
             }, -- end of ["weapons"]
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = false,
@@ -11318,5 +11292,43 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [484]
+        [307] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "blue",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [307]
     }, -- end of ["warehouses"]
 } -- end of warehouses
