@@ -21,6 +21,8 @@ iadsDebug.earlyWarningRadarStatusEnvOutput = true
 iadsDebug.commandCenterStatusEnvOutput = true
 ---end remove debug ---
 
+
+
 --add all units with unit name beginning with 'EWR' to the IADS:
 redIADS:addEarlyWarningRadarsByPrefix('EWR')
 
