@@ -89,8 +89,8 @@ redIADS:getEarlyWarningRadarByUnitName('EWR_E_3-1'):addConnectionNode(connection
 
 -- POINT DEFENCE SECTOR WEST
 -- SA-2 Al Qusair
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_1')
-redIADS:getSAMSiteByGroupName('IADS_W_SA2_1'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_1')
+--redIADS:getSAMSiteByGroupName('IADS_W_SA2_1'):addPointDefence(sa15)
 
 -- SA-2 Al Duhur
 --local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_3')
@@ -99,8 +99,8 @@ redIADS:getSAMSiteByGroupName('IADS_W_SA2_1'):addPointDefence(sa15)
 --redIADS:getSAMSiteByGroupName('IADS_W_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100)
 
 -- SA-6 Hama
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_2')
-redIADS:getSAMSiteByGroupName('IADS_W_SA6_1'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_2')
+--redIADS:getSAMSiteByGroupName('IADS_W_SA6_1'):addPointDefence(sa15)
 
 
 
@@ -117,23 +117,23 @@ redIADS:getSAMSiteByGroupName('IADS_W_SA6_1'):addPointDefence(sa15)
 
 -- POINT DEFENCE SECTOR EAST
 -- SA-2 Tabqua airfield
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_1')
-redIADS:getSAMSiteByGroupName('IADS_E_SA2_1'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_1')
+--redIADS:getSAMSiteByGroupName('IADS_E_SA2_1'):addPointDefence(sa15)
 
 -- SA-2 Jirah Airfield
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_2')
-redIADS:getSAMSiteByGroupName('IADS_E_SA2_2'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_2')
+--redIADS:getSAMSiteByGroupName('IADS_E_SA2_2'):addPointDefence(sa15)
 
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_5')
-redIADS:getSAMSiteByGroupName('IADS_E_SA2_2'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_5')
+--redIADS:getSAMSiteByGroupName('IADS_E_SA2_2'):addPointDefence(sa15)
 
 -- SA-6 TABQA Airfield
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_3')
-redIADS:getSAMSiteByGroupName('IADS_E_SA6_1'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_3')
+--redIADS:getSAMSiteByGroupName('IADS_E_SA6_1'):addPointDefence(sa15)
 
 -- SA-6 KUWEIRES airfield (MOVED TO ALEPPO for D3.1)
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_4')
-redIADS:getSAMSiteByGroupName('IADS_E_SA6_2'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_E_SA15_PD_4')
+--redIADS:getSAMSiteByGroupName('IADS_E_SA6_2'):addPointDefence(sa15)
 
 -- GO active at 60%
 --redIADS:getSAMSiteByGroupName('IADS_E_SA2_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
