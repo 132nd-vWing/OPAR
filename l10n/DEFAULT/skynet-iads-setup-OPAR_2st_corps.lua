@@ -3,8 +3,6 @@ do
 redIADS = SkynetIADS:create('SECONDCORPS')
 
 
-
-
 --add all units with unit name beginning with 'EWR' to the IADS:
 redIADS:addEarlyWarningRadarsByPrefix('SECONDSBORKA')
 
