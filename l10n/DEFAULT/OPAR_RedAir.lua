@@ -118,6 +118,6 @@ for i,_gci_airfield in ipairs(airfield_GCI_table) do
   A2ADispatcher:SetSquadronGrouping(_gci_airfield,pickNumber())
   A2ADispatcher:SetSquadronTakeoffFromParkingHot( _gci_airfield )
   A2ADispatcher:SetSquadronLandingAtEngineShutdown( _gci_airfield )
-  A2ADispatcher:SetSquadronGci(_gci_airfield,2100,2700) -- NECK: Day 600, 1200  Night 2100, 2700
+  A2ADispatcher:SetSquadronGci(_gci_airfield,600,1200) -- NECK: Day 600, 1200  Night 2100, 2700
   env.info(_gci_airfield.." has QRF enabled")
 end
