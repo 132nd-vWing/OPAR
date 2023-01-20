@@ -18,7 +18,7 @@ airfield_Cap_table = {
 --"Khalkhalah",
 --"Marj Ruhayyil"
 }
--- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want.
+-- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want..
 airfield_GCI_table = {
 --"Jirah",
 "Tiyas",
