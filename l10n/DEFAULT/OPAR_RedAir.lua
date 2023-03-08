@@ -68,7 +68,7 @@ A2ADispatcher:SetBorderZone( CCCPBorderZone )
 A2ADispatcher:SetDisengageRadius( 460000 )--important to stop caps drifting 460km is 250nm, and covers coast from Shiraz to a bit east of Abbas
 A2ADispatcher:SetEngageRadius(200000) --everything inside 200km from the aircraft is handled by the CAP
 A2ADispatcher:SetTacticalDisplay( Redair_Debugging )
-A2ADispatcher:SetDefaultCapTimeInterval( 900, 1200 ) --between 15mins and 20mins  NECK: DAY 900, 1200  NIGHT: 1700,1900
+A2ADispatcher:SetDefaultCapTimeInterval( 900, 1201 ) --between 15mins and 20mins  NECK: DAY 900, 1200  NIGHT: 1700,1900
 A2ADispatcher:SetDefaultFuelThreshold( 0.3 ) -- % including tanks before heading to refuel. Note refuel is on INTERNAL max only for AI.
 
 
