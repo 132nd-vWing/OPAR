@@ -4894,7 +4894,7 @@ warehouses =
                         [3] = 36,
                         [4] = 86,
                     }, -- end of ["wsType"]
-                    ["initialAmount"] = 3,
+                    ["initialAmount"] = 18,
                 }, -- end of [390]
                 [391] = 
                 {
@@ -22410,7 +22410,7 @@ warehouses =
                         [3] = 36,
                         [4] = 86,
                     }, -- end of ["wsType"]
-                    ["initialAmount"] = 3,
+                    ["initialAmount"] = 18,
                 }, -- end of [390]
                 [391] = 
                 {
