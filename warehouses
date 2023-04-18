@@ -14567,6 +14567,82 @@ warehouses =
     }, -- end of ["airports"]
     ["warehouses"] = 
     {
+        [3451] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [3451]
+        [3459] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [3459]
         [1985] = 
         {
             ["gasoline"] = 
@@ -15159,24 +15235,27 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["MiG-23MLD"]
-                    ["Su-30"] = 
+                    ["F/A-18C"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
                             [3] = 1,
-                            [4] = 13,
+                            [4] = 53,
                             [5] = "Multirole fighters",
-                            [6] = "All",
-                            [7] = "NonAndLightArmoredUnits",
-                            [8] = "NonArmoredUnits",
-                            [9] = "Air",
-                            [10] = "Planes",
-                            [11] = "Battle airplanes",
+                            [6] = "Refuelable",
+                            [7] = "Datalink",
+                            [8] = "Link16",
+                            [9] = "All",
+                            [10] = "NonAndLightArmoredUnits",
+                            [11] = "NonArmoredUnits",
+                            [12] = "Air",
+                            [13] = "Planes",
+                            [14] = "Battle airplanes",
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
-                    }, -- end of ["Su-30"]
+                    }, -- end of ["F/A-18C"]
                     ["Mirage-F1CR"] = 
                     {
                         ["wsType"] = 
@@ -15476,35 +15555,15 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["Bf-109K-4"]
-                    ["KC-135"] = 
+                    ["MosquitoFBMkVI"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
-                            [3] = 5,
-                            [4] = 60,
-                            [5] = "Tankers",
-                            [6] = "Refuelable",
-                            [7] = "All",
-                            [8] = "NonAndLightArmoredUnits",
-                            [9] = "NonArmoredUnits",
-                            [10] = "Air",
-                            [11] = "Planes",
-                            [12] = "Air",
-                            [13] = "Planes",
-                        }, -- end of ["wsType"]
-                        ["initialAmount"] = 0,
-                    }, -- end of ["KC-135"]
-                    ["MiG-25PD"] = 
-                    {
-                        ["wsType"] = 
-                        {
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 3,
-                            [4] = 24,
-                            [5] = "Interceptors",
+                            [3] = 4,
+                            [4] = 297,
+                            [5] = "Battleplanes",
                             [6] = "All",
                             [7] = "NonAndLightArmoredUnits",
                             [8] = "NonArmoredUnits",
@@ -15513,7 +15572,25 @@ warehouses =
                             [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
-                    }, -- end of ["MiG-25PD"]
+                    }, -- end of ["MosquitoFBMkVI"]
+                    ["Mirage-F1BQ"] = 
+                    {
+                        ["wsType"] = 
+                        {
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                            [4] = 323,
+                            [5] = "Multirole fighters",
+                            [6] = "All",
+                            [7] = "NonAndLightArmoredUnits",
+                            [8] = "NonArmoredUnits",
+                            [9] = "Air",
+                            [10] = "Planes",
+                            [11] = "Battle airplanes",
+                        }, -- end of ["wsType"]
+                        ["initialAmount"] = 100,
+                    }, -- end of ["Mirage-F1BQ"]
                     ["B_727"] = 
                     {
                         ["wsType"] = 
@@ -16370,6 +16447,26 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["Su-24M"]
+                    ["KC-135"] = 
+                    {
+                        ["wsType"] = 
+                        {
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 5,
+                            [4] = 60,
+                            [5] = "Tankers",
+                            [6] = "Refuelable",
+                            [7] = "All",
+                            [8] = "NonAndLightArmoredUnits",
+                            [9] = "NonArmoredUnits",
+                            [10] = "Air",
+                            [11] = "Planes",
+                            [12] = "Air",
+                            [13] = "Planes",
+                        }, -- end of ["wsType"]
+                        ["initialAmount"] = 0,
+                    }, -- end of ["KC-135"]
                     ["Yak-52"] = 
                     {
                         ["wsType"] = 
@@ -16428,24 +16525,27 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["FA-18C_hornet"]
-                    ["Mirage-F1ED"] = 
+                    ["Tornado GR4"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
                             [3] = 1,
-                            [4] = 323,
-                            [5] = "Multirole fighters",
-                            [6] = "All",
-                            [7] = "NonAndLightArmoredUnits",
-                            [8] = "NonArmoredUnits",
-                            [9] = "Air",
-                            [10] = "Planes",
-                            [11] = "Battle airplanes",
+                            [4] = 10,
+                            [5] = "Bombers",
+                            [6] = "Datalink",
+                            [7] = "Link16",
+                            [8] = "Refuelable",
+                            [9] = "All",
+                            [10] = "NonAndLightArmoredUnits",
+                            [11] = "NonArmoredUnits",
+                            [12] = "Air",
+                            [13] = "Planes",
+                            [14] = "Battle airplanes",
                         }, -- end of ["wsType"]
-                        ["initialAmount"] = 100,
-                    }, -- end of ["Mirage-F1ED"]
+                        ["initialAmount"] = 0,
+                    }, -- end of ["Tornado GR4"]
                     ["IL-76MD"] = 
                     {
                         ["wsType"] = 
@@ -16517,36 +16617,15 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 100,
                     }, -- end of ["Mirage-F1CK"]
-                    ["Tornado GR4"] = 
+                    ["F-5E"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
                             [3] = 1,
-                            [4] = 10,
-                            [5] = "Bombers",
-                            [6] = "Datalink",
-                            [7] = "Link16",
-                            [8] = "Refuelable",
-                            [9] = "All",
-                            [10] = "NonAndLightArmoredUnits",
-                            [11] = "NonArmoredUnits",
-                            [12] = "Air",
-                            [13] = "Planes",
-                            [14] = "Battle airplanes",
-                        }, -- end of ["wsType"]
-                        ["initialAmount"] = 0,
-                    }, -- end of ["Tornado GR4"]
-                    ["P-47D-30"] = 
-                    {
-                        ["wsType"] = 
-                        {
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                            [4] = 260,
-                            [5] = "Battleplanes",
+                            [4] = 46,
+                            [5] = "Fighters",
                             [6] = "All",
                             [7] = "NonAndLightArmoredUnits",
                             [8] = "NonArmoredUnits",
@@ -16555,7 +16634,24 @@ warehouses =
                             [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
-                    }, -- end of ["P-47D-30"]
+                    }, -- end of ["F-5E"]
+                    ["A_330"] = 
+                    {
+                        ["wsType"] = 
+                        {
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 5,
+                            [4] = 302,
+                            [5] = "Transports",
+                            [6] = "All",
+                            [7] = "NonAndLightArmoredUnits",
+                            [8] = "NonArmoredUnits",
+                            [9] = "Air",
+                            [10] = "Planes",
+                        }, -- end of ["wsType"]
+                        ["initialAmount"] = 0,
+                    }, -- end of ["A_330"]
                     ["MiG-27K"] = 
                     {
                         ["wsType"] = 
@@ -16613,15 +16709,15 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 100,
                     }, -- end of ["Mirage-F1B"]
-                    ["F-5E"] = 
+                    ["TF-51D"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
                             [3] = 1,
-                            [4] = 46,
-                            [5] = "Fighters",
+                            [4] = 65,
+                            [5] = "Battleplanes",
                             [6] = "All",
                             [7] = "NonAndLightArmoredUnits",
                             [8] = "NonArmoredUnits",
@@ -16629,8 +16725,8 @@ warehouses =
                             [10] = "Planes",
                             [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
-                        ["initialAmount"] = 0,
-                    }, -- end of ["F-5E"]
+                        ["initialAmount"] = 100,
+                    }, -- end of ["TF-51D"]
                     ["P-51D"] = 
                     {
                         ["wsType"] = 
@@ -16927,15 +17023,15 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["SpitfireLFMkIX"]
-                    ["MiG-15bis"] = 
+                    ["Su-30"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
                             [3] = 1,
-                            [4] = 286,
-                            [5] = "Battleplanes",
+                            [4] = 13,
+                            [5] = "Multirole fighters",
                             [6] = "All",
                             [7] = "NonAndLightArmoredUnits",
                             [8] = "NonArmoredUnits",
@@ -16944,7 +17040,7 @@ warehouses =
                             [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
-                    }, -- end of ["MiG-15bis"]
+                    }, -- end of ["Su-30"]
                     ["B-1B"] = 
                     {
                         ["wsType"] = 
@@ -16967,27 +17063,24 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["B-1B"]
-                    ["F/A-18C"] = 
+                    ["MiG-15bis"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
                             [3] = 1,
-                            [4] = 53,
-                            [5] = "Multirole fighters",
-                            [6] = "Refuelable",
-                            [7] = "Datalink",
-                            [8] = "Link16",
-                            [9] = "All",
-                            [10] = "NonAndLightArmoredUnits",
-                            [11] = "NonArmoredUnits",
-                            [12] = "Air",
-                            [13] = "Planes",
-                            [14] = "Battle airplanes",
+                            [4] = 286,
+                            [5] = "Battleplanes",
+                            [6] = "All",
+                            [7] = "NonAndLightArmoredUnits",
+                            [8] = "NonArmoredUnits",
+                            [9] = "Air",
+                            [10] = "Planes",
+                            [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
-                    }, -- end of ["F/A-18C"]
+                    }, -- end of ["MiG-15bis"]
                     ["F-15E"] = 
                     {
                         ["wsType"] = 
@@ -17009,24 +17102,6 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["F-15E"]
-                    ["F-5E-3"] = 
-                    {
-                        ["wsType"] = 
-                        {
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                            [4] = 276,
-                            [5] = "Fighters",
-                            [6] = "All",
-                            [7] = "NonAndLightArmoredUnits",
-                            [8] = "NonArmoredUnits",
-                            [9] = "Air",
-                            [10] = "Planes",
-                            [11] = "Battle airplanes",
-                        }, -- end of ["wsType"]
-                        ["initialAmount"] = 0,
-                    }, -- end of ["F-5E-3"]
                     ["A-10A"] = 
                     {
                         ["wsType"] = 
@@ -17046,15 +17121,15 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["A-10A"]
-                    ["Mirage-F1BE"] = 
+                    ["F-5E-3"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
                             [3] = 1,
-                            [4] = 323,
-                            [5] = "Multirole fighters",
+                            [4] = 276,
+                            [5] = "Fighters",
                             [6] = "All",
                             [7] = "NonAndLightArmoredUnits",
                             [8] = "NonArmoredUnits",
@@ -17062,8 +17137,26 @@ warehouses =
                             [10] = "Planes",
                             [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
-                        ["initialAmount"] = 100,
-                    }, -- end of ["Mirage-F1BE"]
+                        ["initialAmount"] = 0,
+                    }, -- end of ["F-5E-3"]
+                    ["MiG-25PD"] = 
+                    {
+                        ["wsType"] = 
+                        {
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 3,
+                            [4] = 24,
+                            [5] = "Interceptors",
+                            [6] = "All",
+                            [7] = "NonAndLightArmoredUnits",
+                            [8] = "NonArmoredUnits",
+                            [9] = "Air",
+                            [10] = "Planes",
+                            [11] = "Battle airplanes",
+                        }, -- end of ["wsType"]
+                        ["initialAmount"] = 0,
+                    }, -- end of ["MiG-25PD"]
                     ["AJS37"] = 
                     {
                         ["wsType"] = 
@@ -17171,24 +17264,6 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 100,
                     }, -- end of ["Mirage-F1EE"]
-                    ["P-47D-40"] = 
-                    {
-                        ["wsType"] = 
-                        {
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                            [4] = 262,
-                            [5] = "Battleplanes",
-                            [6] = "All",
-                            [7] = "NonAndLightArmoredUnits",
-                            [8] = "NonArmoredUnits",
-                            [9] = "Air",
-                            [10] = "Planes",
-                            [11] = "Battle airplanes",
-                        }, -- end of ["wsType"]
-                        ["initialAmount"] = 0,
-                    }, -- end of ["P-47D-40"]
                     ["Mirage-F1C-200"] = 
                     {
                         ["wsType"] = 
@@ -17208,6 +17283,24 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 100,
                     }, -- end of ["Mirage-F1C-200"]
+                    ["P-47D-40"] = 
+                    {
+                        ["wsType"] = 
+                        {
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                            [4] = 262,
+                            [5] = "Battleplanes",
+                            [6] = "All",
+                            [7] = "NonAndLightArmoredUnits",
+                            [8] = "NonArmoredUnits",
+                            [9] = "Air",
+                            [10] = "Planes",
+                            [11] = "Battle airplanes",
+                        }, -- end of ["wsType"]
+                        ["initialAmount"] = 0,
+                    }, -- end of ["P-47D-40"]
                     ["Mirage-F1JA"] = 
                     {
                         ["wsType"] = 
@@ -17246,24 +17339,6 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["Tu-95MS"]
-                    ["Mirage-F1BQ"] = 
-                    {
-                        ["wsType"] = 
-                        {
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                            [4] = 323,
-                            [5] = "Multirole fighters",
-                            [6] = "All",
-                            [7] = "NonAndLightArmoredUnits",
-                            [8] = "NonArmoredUnits",
-                            [9] = "Air",
-                            [10] = "Planes",
-                            [11] = "Battle airplanes",
-                        }, -- end of ["wsType"]
-                        ["initialAmount"] = 100,
-                    }, -- end of ["Mirage-F1BQ"]
                     ["Mirage-F1DDA"] = 
                     {
                         ["wsType"] = 
@@ -17282,6 +17357,23 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 100,
                     }, -- end of ["Mirage-F1DDA"]
+                    ["RQ-1A Predator"] = 
+                    {
+                        ["wsType"] = 
+                        {
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 6,
+                            [4] = 55,
+                            [5] = "UAVs",
+                            [6] = "All",
+                            [7] = "NonAndLightArmoredUnits",
+                            [8] = "NonArmoredUnits",
+                            [9] = "Air",
+                            [10] = "Planes",
+                        }, -- end of ["wsType"]
+                        ["initialAmount"] = 0,
+                    }, -- end of ["RQ-1A Predator"]
                     ["A-50"] = 
                     {
                         ["wsType"] = 
@@ -17300,23 +17392,24 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["A-50"]
-                    ["RQ-1A Predator"] = 
+                    ["P-47D-30"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
-                            [3] = 6,
-                            [4] = 55,
-                            [5] = "UAVs",
+                            [3] = 1,
+                            [4] = 260,
+                            [5] = "Battleplanes",
                             [6] = "All",
                             [7] = "NonAndLightArmoredUnits",
                             [8] = "NonArmoredUnits",
                             [9] = "Air",
                             [10] = "Planes",
+                            [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
-                    }, -- end of ["RQ-1A Predator"]
+                    }, -- end of ["P-47D-30"]
                     ["Mirage-F1CZ"] = 
                     {
                         ["wsType"] = 
@@ -17373,15 +17466,15 @@ warehouses =
                         }, -- end of ["wsType"]
                         ["initialAmount"] = 0,
                     }, -- end of ["Su-34"]
-                    ["MosquitoFBMkVI"] = 
+                    ["Mirage-F1ED"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
-                            [3] = 4,
-                            [4] = 297,
-                            [5] = "Battleplanes",
+                            [3] = 1,
+                            [4] = 323,
+                            [5] = "Multirole fighters",
                             [6] = "All",
                             [7] = "NonAndLightArmoredUnits",
                             [8] = "NonArmoredUnits",
@@ -17389,25 +17482,26 @@ warehouses =
                             [10] = "Planes",
                             [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
-                        ["initialAmount"] = 0,
-                    }, -- end of ["MosquitoFBMkVI"]
-                    ["A_330"] = 
+                        ["initialAmount"] = 100,
+                    }, -- end of ["Mirage-F1ED"]
+                    ["Mirage-F1BE"] = 
                     {
                         ["wsType"] = 
                         {
                             [1] = 1,
                             [2] = 1,
-                            [3] = 5,
-                            [4] = 302,
-                            [5] = "Transports",
+                            [3] = 1,
+                            [4] = 323,
+                            [5] = "Multirole fighters",
                             [6] = "All",
                             [7] = "NonAndLightArmoredUnits",
                             [8] = "NonArmoredUnits",
                             [9] = "Air",
                             [10] = "Planes",
+                            [11] = "Battle airplanes",
                         }, -- end of ["wsType"]
-                        ["initialAmount"] = 0,
-                    }, -- end of ["A_330"]
+                        ["initialAmount"] = 100,
+                    }, -- end of ["Mirage-F1BE"]
                 }, -- end of ["planes"]
             }, -- end of ["aircrafts"]
             ["weapons"] = 
@@ -23576,6 +23670,44 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = false,
         }, -- end of [1985]
+        [3460] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [3460]
         [2260] = 
         {
             ["gasoline"] = 
@@ -23614,6 +23746,158 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [2260]
+        [3461] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [3461]
+        [484] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [484]
+        [3462] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [3462]
+        [2333] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "neutrals",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [2333]
         [2043] = 
         {
             ["gasoline"] = 
@@ -23652,44 +23936,6 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [2043]
-        [3291] = 
-        {
-            ["gasoline"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["gasoline"]
-            ["unlimitedMunitions"] = true,
-            ["methanol_mixture"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["methanol_mixture"]
-            ["OperatingLevel_Air"] = 10,
-            ["diesel"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["diesel"]
-            ["speed"] = 16.666666,
-            ["size"] = 100,
-            ["periodicity"] = 30,
-            ["suppliers"] = 
-            {
-            }, -- end of ["suppliers"]
-            ["coalition"] = "red",
-            ["jet_fuel"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["jet_fuel"]
-            ["OperatingLevel_Eqp"] = 10,
-            ["unlimitedFuel"] = true,
-            ["aircrafts"] = 
-            {
-            }, -- end of ["aircrafts"]
-            ["weapons"] = 
-            {
-            }, -- end of ["weapons"]
-            ["OperatingLevel_Fuel"] = 10,
-            ["unlimitedAircrafts"] = true,
-        }, -- end of [3291]
         [2657] = 
         {
             ["gasoline"] = 
@@ -23728,7 +23974,7 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [2657]
-        [3292] = 
+        [3449] = 
         {
             ["gasoline"] = 
             {
@@ -23765,7 +24011,121 @@ warehouses =
             }, -- end of ["weapons"]
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
-        }, -- end of [3292]
+        }, -- end of [3449]
+        [3457] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [3457]
+        [3450] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [3450]
+        [3458] = 
+        {
+            ["gasoline"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["gasoline"]
+            ["unlimitedMunitions"] = true,
+            ["methanol_mixture"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["methanol_mixture"]
+            ["OperatingLevel_Air"] = 10,
+            ["diesel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["diesel"]
+            ["speed"] = 16.666666,
+            ["size"] = 100,
+            ["periodicity"] = 30,
+            ["suppliers"] = 
+            {
+            }, -- end of ["suppliers"]
+            ["coalition"] = "red",
+            ["jet_fuel"] = 
+            {
+                ["InitFuel"] = 100,
+            }, -- end of ["jet_fuel"]
+            ["OperatingLevel_Eqp"] = 10,
+            ["unlimitedFuel"] = true,
+            ["aircrafts"] = 
+            {
+            }, -- end of ["aircrafts"]
+            ["weapons"] = 
+            {
+            }, -- end of ["weapons"]
+            ["OperatingLevel_Fuel"] = 10,
+            ["unlimitedAircrafts"] = true,
+        }, -- end of [3458]
         [307] = 
         {
             ["gasoline"] = 
@@ -29964,81 +30324,5 @@ warehouses =
             ["OperatingLevel_Fuel"] = 10,
             ["unlimitedAircrafts"] = true,
         }, -- end of [307]
-        [484] = 
-        {
-            ["gasoline"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["gasoline"]
-            ["unlimitedMunitions"] = true,
-            ["methanol_mixture"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["methanol_mixture"]
-            ["OperatingLevel_Air"] = 10,
-            ["diesel"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["diesel"]
-            ["speed"] = 16.666666,
-            ["size"] = 100,
-            ["periodicity"] = 30,
-            ["suppliers"] = 
-            {
-            }, -- end of ["suppliers"]
-            ["coalition"] = "red",
-            ["jet_fuel"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["jet_fuel"]
-            ["OperatingLevel_Eqp"] = 10,
-            ["unlimitedFuel"] = true,
-            ["aircrafts"] = 
-            {
-            }, -- end of ["aircrafts"]
-            ["weapons"] = 
-            {
-            }, -- end of ["weapons"]
-            ["OperatingLevel_Fuel"] = 10,
-            ["unlimitedAircrafts"] = true,
-        }, -- end of [484]
-        [2333] = 
-        {
-            ["gasoline"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["gasoline"]
-            ["unlimitedMunitions"] = true,
-            ["methanol_mixture"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["methanol_mixture"]
-            ["OperatingLevel_Air"] = 10,
-            ["diesel"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["diesel"]
-            ["speed"] = 16.666666,
-            ["size"] = 100,
-            ["periodicity"] = 30,
-            ["suppliers"] = 
-            {
-            }, -- end of ["suppliers"]
-            ["coalition"] = "neutrals",
-            ["jet_fuel"] = 
-            {
-                ["InitFuel"] = 100,
-            }, -- end of ["jet_fuel"]
-            ["OperatingLevel_Eqp"] = 10,
-            ["unlimitedFuel"] = true,
-            ["aircrafts"] = 
-            {
-            }, -- end of ["aircrafts"]
-            ["weapons"] = 
-            {
-            }, -- end of ["weapons"]
-            ["OperatingLevel_Fuel"] = 10,
-            ["unlimitedAircrafts"] = true,
-        }, -- end of [2333]
     }, -- end of ["warehouses"]
 } -- end of warehouses
