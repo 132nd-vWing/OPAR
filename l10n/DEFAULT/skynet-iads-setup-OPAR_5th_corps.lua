@@ -15,6 +15,15 @@ redIADS:addSAMSitesByPrefix('FIFTHAD')
 commandCenter = StaticObject.getByName('FIFTHCORPSCOMMANDCENTER')
 redIADS:addCommandCenter(commandCenter)
 
+-- GO active at 70%
+redIADS:getSAMSiteByGroupName('FIFTHAD_SA11_BATT_1'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
+
+-- GO active at 70%
+redIADS:getSAMSiteByGroupName('FIFTHAD_SA6'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
+
+-- GO active at 70%
+redIADS:getSAMSiteByGroupName('FIFTHAD_SA11_BATT_2'):setEngagementZone(SkynetIADSAbstractRadarElement.GO_LIVE_WHEN_IN_SEARCH_RANGE):setGoLiveRangeInPercent(70)
+
 
 --activate the IADS
 redIADS:activate()
