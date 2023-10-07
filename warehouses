@@ -700,7 +700,7 @@ warehouses =
                         [3] = 43,
                         [4] = 1700,
                     }, -- end of ["wsType"]
-                    ["initialAmount"] = 0,
+                    ["initialAmount"] = 1000,
                 }, -- end of [26]
                 [27] = 
                 {
