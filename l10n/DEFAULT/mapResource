@@ -9,4 +9,5 @@ mapResource =
     ["ResKey_Action_58"] = "Moose.lua",
     ["ResKey_Action_62"] = "OPAR_RedAir.lua",
     ["ResKey_Action_70"] = "skynet-iads-setup-OPAR_5th_corps.lua",
+    ["ResKey_Action_73"] = "skynet-iads-setup-OPAR_6th_corps.lua",
 } -- end of mapResource
