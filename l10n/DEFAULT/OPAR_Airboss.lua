@@ -39,7 +39,6 @@ Lincoln:SetMPWireCorrection(15)
 
 -- Recovery Cycles
 -- start time, stop time, case X , heading offset (for case 3), u-turn, wind over deck
-local window3=Lincoln:AddRecoveryWindow( "23:59", "00:10", 1, nil, true, 25)--Added for D11.2 per MCC request
 local window3=Lincoln:AddRecoveryWindow( "00:30", "00:59", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "01:30", "01:59", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "02:30", "02:59", 1, nil, true, 25)
@@ -63,7 +62,7 @@ local window3=Lincoln:AddRecoveryWindow( "19:30", "19:59", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "20:30", "20:59", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "21:30", "21:59", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "22:30", "22:59", 1, nil, true, 25)
-local window3=Lincoln:AddRecoveryWindow( "23:30", "23:59", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "23:30", "00:10", 1, nil, true, 25)
 
 -- Set folder of airboss sound files within miz file.
 Lincoln:SetSoundfilesFolder("Airboss Soundfiles/")
