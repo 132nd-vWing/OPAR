@@ -62,7 +62,7 @@ local window3=Lincoln:AddRecoveryWindow( "19:30", "19:59", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "20:30", "20:59", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "21:30", "21:59", 1, nil, true, 25)
 local window3=Lincoln:AddRecoveryWindow( "22:30", "22:59", 1, nil, true, 25)
-local window3=Lincoln:AddRecoveryWindow( "23:30", "00:10", 1, nil, true, 25)
+local window3=Lincoln:AddRecoveryWindow( "23:30", "23:59", 1, nil, true, 25)
 
 -- Set folder of airboss sound files within miz file.
 Lincoln:SetSoundfilesFolder("Airboss Soundfiles/")
