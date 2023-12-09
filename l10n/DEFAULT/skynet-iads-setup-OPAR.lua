@@ -80,8 +80,8 @@ redIADS:getEarlyWarningRadarByUnitName('EWR_E_3-1'):addConnectionNode(connection
 --redIADS:getSAMSiteByGroupName('IADS_W_SA2_2'):addPointDefence(sa15):setHARMDetectionChance(100)
 
 -- SA-6 Hama
-local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_2')
-redIADS:getSAMSiteByGroupName('IADS_W_SA6_1'):addPointDefence(sa15)
+--local sa15 = redIADS:getSAMSiteByGroupName('IADS_W_SA15_PD_2')
+--redIADS:getSAMSiteByGroupName('IADS_W_SA6_1'):addPointDefence(sa15)
 
 
 

@@ -21,8 +21,8 @@ airfield_Cap_table = {
 -- these are the airfields that will launch QRF fighters upon detection by Skynet. you can comment out as many as you want..
 airfield_GCI_table = {
 --"Jirah",
---"Tiyas",
-"Shayrat",
+"Tiyas",
+--"Shayrat",
 --"Sayqal",
 --"Tabqa",
 --"Abu al-Duhur",
